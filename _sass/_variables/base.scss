@@ -20,8 +20,8 @@ $black-dim    : #333;
 $black-deep   : #222;
 $red          : #ff2a2a;
 $blue-bright  : #87daff;
-$blue         : #0684bd;
-$blue-deep    : #262a30;
+$blue         : #457ebd;
+$blue-deep    : #346192;
 $orange       : #fc6423;
 
 
@@ -34,7 +34,7 @@ $orange       : #fc6423;
 $text-color                   : $black-light;
 
 // Global link color.
-$link-color                   : $black-light;
+$link-color                   : $blue;
 $link-hover-color             : $black-deep;
 $link-decoration-color        : $grey-light;
 $link-decoration-hover-color  : $black-deep;
@@ -221,7 +221,7 @@ $head-bg                        : transparent;
 $site-meta-text-align           : center;
 $brand-color                    : white;
 $brand-hover-color              : white;
-$brand-bg                       : $black-deep;
+$brand-bg                       : $blue-deep;
 
 $logo-font-size                 : 20px;
 $logo-font-size                 : if(type-of(jekyll-config('font.logo.size')) == 'number', jekyll-config('font.logo.size') + px, $logo-font-size);

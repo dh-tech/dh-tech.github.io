@@ -1,0 +1,22 @@
+<section id="posts" class="posts-collapse">
+  <span class="archive-move-on"></span>
+
+  {% for ws in site.workshops %}
+
+
+    {% comment %} Show year {% endcomment %}
+    {% assign post_year = ws.date | date: '%Y' %}
+    {% if post_year != year or index0_modulo_paginate == 0 and index0_modulo_paginate %}
+      {% assign year = post_year %}
+      <div class="collection-title" {% if route %}route="{{ route }}"{% endif %}>
+        <h2 class="archive-year motion-element" id="archive-year-{{ year }}">{{ year }}</h2>
+      </div>
+    {% endif %}
+    {% comment %} endshow {% endcomment %}
+
+    {% include _macro/ws-collapse.html %}
+
+  {% endfor %}
+
+</section>
+

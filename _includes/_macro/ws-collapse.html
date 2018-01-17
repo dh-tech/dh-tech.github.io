@@ -1,0 +1,20 @@
+{% comment %} post-collapse(post) {% endcomment %}
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article" {% if route %}route="{{ route }}"{% endif %}>
+    <header class="post-header">
+
+      <{% if site.seo %}h3{% else %}h2{% endif %} class="post-title">
+          <a class="post-title-link" href="{{ ws.url | relative_url }}" itemprop="url">
+            <span itemprop="name">{{ ws.title | default: __.post.untitled }}</span>
+          </a>
+      </{% if site.seo %}h3{% else %}h2{% endif %}>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="{{ ws.date | date_to_xmlschema }}"
+              content="{{ ws.date | date: site.date_format }}" >
+          {{ ws.date | date: '%m-%d' }}
+        </time>
+      </div>
+
+    </header>
+  </article>

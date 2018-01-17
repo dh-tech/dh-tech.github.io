@@ -21,9 +21,9 @@ permalink: pretty
 # Pagination
 paginate: 10
 #paginate_path: "/page:num/"
-#archive:
-  #paginate: 10
-  #paginate_path: "/page:num/"
+archive:
+  paginate: 10
+  paginate_path: "/page:num/"
 #category:
   #paginate: 10
   #paginate_path: "/page:num/"
@@ -120,6 +120,7 @@ menu:
   #categories: /categories/
   about: /about/
   #archives: /archives/
+  workshops: /workshops/
   #tags: /tags/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
@@ -141,9 +142,14 @@ menu_icons:
   archives: archive
   sitemap: sitemap
   commonweal: heartbeat
+  workshops: rocket
 
+# ---------------------------------------------------------------
+# Collections
+# ---------------------------------------------------------------
 
-
+collections:
+- workshops
 
 # ---------------------------------------------------------------
 # Scheme Settings

@@ -15,6 +15,28 @@
   &:hover { color: $brand-hover-color; }
 }
 
+.announcement {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  color: #505050;
+  background-color: #f9f9f9;
+  border: solid 1px #bbb;
+  border-radius: 5px;
+}
+
+.announcement p {
+  margin: 0px;
+}
+
+.announcement .post-title {
+  font-size: 22px;
+  margin: 10px 0 10px;
+  text-align: center;
+  word-break: break-word;
+  font-weight: $posts-expand-title-font-weight;
+}
+
 .logo {
   display: inline-block;
   margin-right: 5px;

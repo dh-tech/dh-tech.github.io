@@ -1,7 +1,7 @@
 {% case page.layout %}
 {% when 'post' %}
   {% capture script_extra %}{% include _scripts/pages/post-details.html %}{% endcapture %}
-{% when 'archive' %}
+{% when 'archive' or 'workshoplist' %}
   {% capture script_extra %}
     {% if site.use_motion %}
       <script type="text/javascript" id="motion.page.archive">

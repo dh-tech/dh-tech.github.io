@@ -7,6 +7,8 @@
   {% capture page_class %}page-post-detail{% endcapture %}
 {% when 'archive' %}
   {% capture page_class %}page-archive{% endcapture %}
+{% when 'workshoplist' %}
+    {% capture page_class %}page-archive{% endcapture %}
 {% when 'schedule' %}
   {% capture page_class %}page-post-detail page-calendar{% endcapture %}
 {% endcase %}

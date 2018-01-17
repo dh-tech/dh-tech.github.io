@@ -35,6 +35,12 @@
                 <a href="{{ post.zoom }}">{{ __.workshop.zoom }}</a>
               </span>
             {% endif %}
+            {% if post.slides %}
+              <span class="post-meta-divider">|</span>
+              <span class="post-time">
+                <a href="{{ post.slides | absolute_url }}">{{ __.workshop.slides }}</a>
+              </span>
+            {% endif %}
             {% if post.recording %}
               <span class="post-meta-divider">|</span>
               <span class="post-time">

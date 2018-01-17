@@ -1,5 +1,7 @@
 ---
 layout: page
+title: About DHTech
+description: Who We Are, what We Do...
 ---
 
 The goal of DHTech is to support the development and reuse of software in the Digital Humanities
@@ -16,4 +18,3 @@ and project managers got together to develop an infrastructure for collaboration
 The result was the establishment of DHTech.
 
 Logo design by Johannes Biermann and Alexander Steckel.
-

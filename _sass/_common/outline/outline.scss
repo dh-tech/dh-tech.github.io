@@ -17,7 +17,7 @@ html, body { height: 100%; }
 // --------------------------------------------------
 .header-inner {
   margin: 0 auto;
-  padding: 100px 0 70px;
+  padding: 50px 0 20px;
   width: $content-desktop;
 
   @include desktop-large() {

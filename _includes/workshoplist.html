@@ -1,5 +1,10 @@
+<div id="posts" class="posts-expand">
+{% include _partials/page-header.html %}
+</div>
+
 <section id="posts" class="posts-collapse">
   <span class="archive-move-on"></span>
+  <span class="archive-page-counter">See our announcements for the next workshop!</span>
 
   {% for ws in site.workshops %}
 
@@ -18,4 +23,3 @@
   {% endfor %}
 
 </section>
-

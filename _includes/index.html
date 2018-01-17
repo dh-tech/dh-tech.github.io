@@ -1,11 +1,27 @@
+Established at DH 2017 Montreal, DHTech aims to support the development and reuse of software in the Digital Humanities by providing a community to exchange knowledge, share expertise, and foster collaboration among Digital Humanities software projects. <a href="{{ site.baseurl }}{% link about.md %}">Read more...</a>
+
 {% assign posts = site.posts %}
 {% if site.paginate > 0 %}{% assign posts = paginator.posts %}{% endif %}
 
-<section id="posts" class="posts-expand">
-  {% for post in posts %}
-    {% assign is_index = true %}
-    {% include _macro/post.html %}
-  {% endfor %}
-</section>
+<div class="announcement" style="display: block; margin-top: 20px;">
+    {% assign post = site.posts.first %}
+    <header class="post-header"><a href="{{ post.url }}"><h2 class="post-title">{{ post.title }}</h2></a></header>
+    <div class="post-time" style="text-align: right;">
+    {% if site.post_meta.created_at %}
+      <span class="post-meta-item-icon">
+        <i class="fa fa-calendar-o"></i>
+      </span>
+      {% if site.post_meta.item_text %}
+        <span class="post-meta-item-text">{{ __.post.posted }}</span>
+      {% endif %}
+      <time title="{{ __.post.created }}" itemprop="dateCreated datePublished" datetime="{{ post.date | date_to_xmlschema }}">
+        {{ post.date | date: site.date_format }}
+      </time>
+    {% endif %}
+    </div>
 
-{% include _partials/pagination.html %}
+    {{ post.excerpt }}
+    <p>
+      <a href="{{ post.url }}">Read more...</a>
+    </p>
+</div>

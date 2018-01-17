@@ -118,7 +118,7 @@ index_with_subtitle: false
 menu:
   home: /
   #categories: /categories/
-  #about: /about/
+  about: /about/
   #archives: /archives/
   #tags: /tags/
   #sitemap: /sitemap.xml
@@ -345,7 +345,7 @@ post_copyright:
 #   image: url-of-image   - Images's url
 custom_logo:
   enabled: true
-  image: 'DH-Tech.png'
+  image: '/DH-Tech.png'
 
 
 # Code Highlight theme

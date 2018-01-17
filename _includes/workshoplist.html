@@ -3,10 +3,9 @@
 
   {% for ws in site.workshops %}
 
-
     {% comment %} Show year {% endcomment %}
     {% assign post_year = ws.date | date: '%Y' %}
-    {% if post_year != year or index0_modulo_paginate == 0 and index0_modulo_paginate %}
+    {% if post_year != year %}
       {% assign year = post_year %}
       <div class="collection-title" {% if route %}route="{{ route }}"{% endif %}>
         <h2 class="archive-year motion-element" id="archive-year-{{ year }}">{{ year }}</h2>

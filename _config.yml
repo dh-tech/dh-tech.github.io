@@ -57,6 +57,12 @@ defaults:
     values:
       layout: "post"
       comments: true
+  - scope:
+      path: ""
+      type: "workshops"
+    values:
+      layout: "workshop"
+
 
 # Atom feed
 feed:
@@ -86,7 +92,7 @@ keywords: "Jekyll, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2017
 
 # icon between year and author @Footer
 authoricon: heart
@@ -119,7 +125,7 @@ menu:
   home: /
   #categories: /categories/
   about: /about/
-  #archives: /archives/
+  archives: /archives/
   workshops: /workshops/
   #tags: /tags/
   #sitemap: /sitemap.xml
@@ -149,7 +155,8 @@ menu_icons:
 # ---------------------------------------------------------------
 
 collections:
-- workshops
+  workshops:
+    output: true
 
 # ---------------------------------------------------------------
 # Scheme Settings
@@ -238,7 +245,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-#avatar:
+avatar: '/DH-Tech.png'
 
 
 # Table Of Contents in the Sidebar
@@ -269,7 +276,7 @@ sidebar:
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle.
-  display: post
+  display: hide
   #display: always
   #display: hide
   #display: remove
@@ -335,8 +342,8 @@ post_wordcount:
 # Declare license on posts
 post_copyright:
   enable: false
-  license: CC BY-NC-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  license: "CC BY 4.0"
+  license_url: https://creativecommons.org/licenses/by/4.0/
 
 
 

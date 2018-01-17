@@ -90,3 +90,10 @@ symbol:
   comma: ', '
   period: '. '
   colon: ':'
+
+workshop:
+  date: 'Date:'
+  updated: 'Updated:'
+  zoom: 'Zoom link'
+  recording: 'Recording'
+

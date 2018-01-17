@@ -1,5 +1,5 @@
 ---
-layout: layout
+layout: page
 ---
 
 The goal of DHTech is to support the development and reuse of software in the Digital Humanities

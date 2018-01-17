@@ -1,4 +1,4 @@
 ---
-title: workshops
-layout: workshops
+title: Workshop overview
+layout: workshoplist
 ---

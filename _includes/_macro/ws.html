@@ -1,0 +1,70 @@
+{% comment %} post {% endcomment %}
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="{{ post.url | absolute_url }}">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="{{ site.author }}">
+      <meta itemprop="description" content="{{ site.signature }}">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="{{ site.title }}">
+    </span>
+
+    {% unless headlessPost %}
+      <header class="post-header">
+
+        <div class="post-meta">
+          <span class="post-time">
+            {% if site.post_meta.created_at %}
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              {% if site.post_meta.item_text %}
+                <span class="post-meta-item-text">{{ __.workshop.date }}</span>
+              {% endif %}
+              <time title="{{ __.post.created }}" itemprop="dateCreated datePublished" datetime="{{ post.date | date_to_xmlschema }}">
+                {{ post.date | date: site.date_format }}
+              </time>
+            {% endif %}
+
+            {% if post.zoom %}
+              <span class="post-meta-divider">|</span>
+              <span class="post-time">
+                <a href="{{ post.zoom }}">{{ __.workshop.zoom }}</a>
+              </span>
+            {% endif %}
+            {% if post.recording %}
+              <span class="post-meta-divider">|</span>
+              <span class="post-time">
+                <a href="{{ post.recording }}">{{ __.workshop.recording }}</a>
+              </span>
+            {% endif %}
+          </span>
+
+
+
+
+
+          {% unless site.excerpt_description and is_index %}
+            {% if site.description %}
+                <div class="post-description">
+                    {{ post.description }}
+                </div>
+            {% endif %}
+          {% endunless %}
+
+        </div>
+      </header>
+    {% endunless %}
+
+    <div class="post-body" itemprop="articleBody">
+
+      {{ post.content }}
+    </div>
+
+    <footer class="post-footer">
+
+    </footer>
+  </article>

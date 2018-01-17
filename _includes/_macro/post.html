@@ -99,7 +99,7 @@
                 <span class="post-meta-item-text">{{ __.post.in }}</span>
               {% endif %}
               {% for cat in post.categories %}
-                {% assign cat_url_encode = cat | uri_encode %}
+                {% assign cat_url_encode = cat | url_encode | replace: '+', '%20' %}
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
                   <a href="{{ '/category/#/' | relative_url | append: cat_url_encode }}" itemprop="url" rel="index">
                     <span itemprop="name">{{ cat }}</span>
@@ -321,6 +321,18 @@
 
     <div>
       {% unless is_index %}
+        {% include _macro/wechat-subscriber.html %}
+      {% endunless %}
+    </div>
+
+    <div>
+      {% unless is_index %}
+        {% include _macro/reward.html %}
+      {% endunless %}
+    </div>
+
+    <div>
+      {% unless is_index %}
         {% include _macro/post-copyright.html %}
       {% endunless %}
     </div>
@@ -329,7 +341,7 @@
       {% if post.tags and post.tags.size != 0 and is_index == nil or is_index == false %}
         <div class="post-tags">
           {% for tag in post.tags %}
-            {% assign tag_url_encode = tag | uri_encode %}
+            {% assign tag_url_encode = tag | url_encode | replace: '+', '%20' %}
             <a href="{{ '/tag/#/' | relative_url | append: tag_url_encode }}" rel="tag"># {{ tag }}</a>
           {% endfor %}
         </div>
@@ -371,7 +383,7 @@
 
       {% unless is_index %}
       {% if post.previous or post.next %}
-        <div class="post-nav">
+        <div class="post-nav" id="post-nav-id">
           <div class="post-nav-next post-nav-item">
             {% if post.next %}
               <a href="{{ post.next.url | relative_url }}" rel="next" title="{{ post.next.title }}">

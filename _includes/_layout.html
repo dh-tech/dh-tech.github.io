@@ -13,6 +13,7 @@
 <head>
   {% include _partials/head.html %}
   <title>{{ title }}</title>
+  {% include _third-party/analytics/index.html %}
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="{{ page.lang | default: page.language | default: site.language }}">
@@ -35,6 +36,8 @@
           <div id="content" class="content">
             {{ content }}
           </div>
+          {% include _third-party/duoshuo-hot-articles.html %}
+          {% include _partials/comments.html %}
         </div>
         {% if site.sidebar.display != 'remove' %}
           {{ sidebar }}
@@ -45,6 +48,7 @@
     <footer id="footer" class="footer">
       <div class="footer-inner">
         {% include _partials/footer.html %}
+        {% include _third-party/analytics/busuanzi-counter.html %}
         {{ footer }}
       </div>
     </footer>
@@ -70,8 +74,10 @@
 
   {% include _scripts/boostrap.html %}
 
+  {% include _third-party/comments/index.html %}
   {% include _third-party/search/index.html %}
   {% include _third-party/analytics/lean-analytics.html %}
+  {% include _third-party/seo/baidu-push.html %}
   {% include _third-party/rating.html %}
   {% include _third-party/mathjax.html %}
   {% include _third-party/scroll-cookie.html %}

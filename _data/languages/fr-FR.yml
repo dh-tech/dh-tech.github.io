@@ -1,35 +1,29 @@
 title:
   archive: Archive
-  category: Category
+  category: Catégorie
   tag: Tag
-  schedule: Schedule
 
 author: Author
 
 menu:
-  home: Home
+  home: Accueil
   archives: Archives
   categories: Categories
   tags: Tags
-  about: About
-  search: Search
-  schedule: Schedule
-  sitemap: Sitemap
-  commonweal: Commonweal 404
+  about: A propos
+  search: recherche
 
 sidebar:
-  overview: Overview
-  toc: Table of Contents
+  overview: Ensemble
+  toc: Table Des Matières
 
 post:
-  created: Post created
-  modified: Post modified
   sticky: Sticky
-  posted: Posted on
+  posted: Posté le
+  modified: Updated at
   in: In
-  more: more
-  read_more: Read more
-  untitled: Untitled
+  read_more: Lire la suite
+  untitled: Non titré
   toc_empty: This post does not have a Table of Contents
   visitors: Visitors
   wordcount: Words count in article
@@ -42,47 +36,44 @@ post:
       <a href="%s" rel="external nofollow" target="_blank">%s</a> unless stating additionally.'
 
 page:
-  totally: Totally
+  totally: Total
   tags: tags
 
 footer:
   powered: "Powered by %s"
-  theme: Theme
+  theme: Thème
 
 counter:
   tag_cloud:
-    zero: No tags
-    one: 1 tag in total
-    other: "%d tags in total"
+    zero: Aucun tags
+    one: 1 tag au total
+    other: "%d tags au total"
 
   categories:
-    zero: No categories
-    one: 1 category in total
-    other: "%d categories in total"
+    zero: Aucun categories
+    one: 1 category au total
+    other: "%d categories au total"
 
   archive_posts:
-    zero: No posts.
-    one: 1 post.
-    other: "%d posts in total."
+    zero: Aucun article.
+    one: 1 article.
+    other: "%d articles au total."
 
 state:
-  posts: posts
+  posts: articles
   pages: pages
   tags: tags
   categories: categories
 
-search:
-  placeholder: Searching...
-
 cheers:
   um: Um..
   ok: OK
-  nice: Nice
-  good: Good
-  great: Great
+  nice: Jolie
+  good: Bien
+  great: Super
   excellent: Excellent
 
-keep_on: Keep on posting.
+keep_on: Et ca ne fait que commencer.
 
 symbol:
   comma: ', '

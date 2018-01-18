@@ -130,6 +130,8 @@ menu:
   #tags: /tags/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
+  github: https://github.com/dh-tech
+  confluence: https://diging.atlassian.net/wiki/spaces/DH2017
 
 
 # Enable/Disable menu icons.
@@ -149,6 +151,8 @@ menu_icons:
   sitemap: sitemap
   commonweal: heartbeat
   workshops: rocket
+  github: github
+  confluence: pencil-square-o
 
 # ---------------------------------------------------------------
 # Collections

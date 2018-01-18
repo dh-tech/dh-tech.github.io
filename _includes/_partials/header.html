@@ -44,7 +44,11 @@
         {% assign path = name_path[1] %}
         {% assign itemName = name | downcase %}
         <li class="menu-item menu-item-{{ itemName }}">
-          <a href="{{ path | relative_url }}" rel="section">
+          {% if path contains '://' %}
+            <a href="{{ path }}" rel="section">
+          {% else %}
+            <a href="{{ path | relative_url }}" rel="section">
+          {% endif %}
             {% if site.menu_icons.enable %}
               <i class="menu-item-icon fa fa-fw fa-{{site.menu_icons[itemName] | default: 'question-circle' | downcase }}"></i> <br />
             {% endif %}

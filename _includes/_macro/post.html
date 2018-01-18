@@ -319,6 +319,13 @@
       {% endif  %}
     </div>
 
+    {% if post.author %}
+      <div style="text-align: right">
+        {{ post.author }}
+      </div>
+      {% endif %}
+
+
     <div>
       {% unless is_index %}
         {% include _macro/wechat-subscriber.html %}

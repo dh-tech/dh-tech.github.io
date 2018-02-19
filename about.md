@@ -10,6 +10,7 @@ Anyone involved in Digital Humanities tools and services development and mainten
 
 If you would like to become part of DHTech, you can join our Slack channel and our [GitHub organization](http://github.com/dh-tech)
 by filling out [this form](https://docs.google.com/forms/d/e/1FAIpQLSeAe1MlCPOCVlY7YsJUcLv1_tDBtEOBNJ2vhCe6aWcvAl-ehQ/viewform).
+To subscribe to the low-volume announcement mailing list, go to the [DH-Tech Announce mailing list](https://listserv.gwdg.de/mailman/listinfo/dh-tech-announce) interface.
 
 The development of software specifically designed for the Digital Humanities has become more and more important
 as Digital Humanities projects become increasingly computationally sophisticated.

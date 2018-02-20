@@ -125,13 +125,14 @@ menu:
   home: /
   #categories: /categories/
   about: /about/
+  join: /join/
   #archives: /archives/
   workshops: /workshops/
   #tags: /tags/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
   github: https://github.com/dh-tech
-  confluence: https://diging.atlassian.net/wiki/spaces/DH2017
+  #confluence: https://diging.atlassian.net/wiki/spaces/DH2017
 
 
 # Enable/Disable menu icons.
@@ -144,6 +145,7 @@ menu_icons:
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
   about: user
+  join: sign-in
   categories: th
   schedule: calendar
   tags: tags

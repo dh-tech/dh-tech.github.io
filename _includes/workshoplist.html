@@ -6,7 +6,8 @@
   <span class="archive-move-on"></span>
   <span class="archive-page-counter">See our announcements for the next workshop!</span>
 
-  {% for ws in site.workshops %}
+  {% assign workshops = site.workshops | sort: 'date' | reverse %}
+  {% for ws in workshops %}
 
     {% comment %} Show year {% endcomment %}
     {% assign post_year = ws.date | date: '%Y' %}

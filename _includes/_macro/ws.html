@@ -47,6 +47,12 @@
                 <a href="{{ post.recording }}">{{ __.workshop.recording }}</a>
               </span>
             {% endif %}
+            {% if post.blogpost %}
+              <span class="post-meta-divider">|</span>
+              <span class="post-time">
+                <a href="{{ post.blogpost }}">{{ __.workshop.blogpost }}</a>
+              </span>
+            {% endif %}
           </span>
 
 

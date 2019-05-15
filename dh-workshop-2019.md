@@ -52,10 +52,14 @@ If you are interested in briefly introducing a DH-related software development i
 <h3>Bibliography</h3>
 <p>
 <b>de-RSE (2018)</b>. Digital Humanities im deutschsprachigen Raum gründen AG DH-RSE. https://www.de-rse.org/blog/2018/03/01/digital-humanities-im-deutschsprachigen-raum-gruenden-rse-ag.html (accessed 9 January 2019).
-DH-RSE (2018). Research Software Engineering in den Digital Humanities (DH-RSE). https://dh-rse.github.io/ (accessed 5 January 5 2019).
+</p>
+<p>
+ <b>DH-RSE (2018)</b>. Research Software Engineering in den Digital Humanities (DH-RSE). https://dh-rse.github.io/ (accessed 5 January 5 2019).
  </p>
  <p>
 <b>DHTech (2017)</b>. DHTech. https://dh-tech.github.io/ (accessed 5 January 2019).
-RSE (2019). Research Software Engineer Association. https://rse.ac.uk/ (accessed 9 January 2019).
+</p>
+<p>
+ <b>RSE (2019)</b>. Research Software Engineer Association. https://rse.ac.uk/ (accessed 9 January 2019).
  </p>
 

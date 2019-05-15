@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Workshop at DH2019
+date: 2019-05-10T10:00
 ---
 
 <h1>DH2019 Pre-confrence Workshop: I’m the one building the tool!</h1>
@@ -51,15 +52,15 @@ If you are interested in briefly introducing a DH-related software development i
 
 <h3>Bibliography</h3>
 <p>
-<b>de-RSE (2018)</b>. Digital Humanities im deutschsprachigen Raum gründen AG DH-RSE. https://www.de-rse.org/blog/2018/03/01/digital-humanities-im-deutschsprachigen-raum-gruenden-rse-ag.html (accessed 9 January 2019).
+<b>de-RSE (2018)</b>. Digital Humanities im deutschsprachigen Raum gründen AG DH-RSE. <a href="https://www.de-rse.org/blog/2018/03/01/digital-humanities-im-deutschsprachigen-raum-gruenden-rse-ag.html">https://www.de-rse.org/blog/2018/03/01/digital-humanities-im-deutschsprachigen-raum-gruenden-rse-ag.html</a> (accessed 9 January 2019).
 </p>
 <p>
- <b>DH-RSE (2018)</b>. Research Software Engineering in den Digital Humanities (DH-RSE). https://dh-rse.github.io/ (accessed 5 January 5 2019).
+ <b>DH-RSE (2018)</b>. Research Software Engineering in den Digital Humanities (DH-RSE). <a href="https://dh-rse.github.io/">https://dh-rse.github.io/</a> (accessed 5 January 5 2019).
  </p>
  <p>
-<b>DHTech (2017)</b>. DHTech. https://dh-tech.github.io/ (accessed 5 January 2019).
+ <b>DHTech (2017)</b>. DHTech. <a href="https://dh-tech.github.io/">https://dh-tech.github.io/</a> (accessed 5 January 2019).
 </p>
 <p>
- <b>RSE (2019)</b>. Research Software Engineer Association. https://rse.ac.uk/ (accessed 9 January 2019).
+ <b>RSE (2019)</b>. Research Software Engineer Association. <a href="https://rse.ac.uk/">https://rse.ac.uk/</a> (accessed 9 January 2019).
  </p>
 

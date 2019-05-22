@@ -4,7 +4,7 @@ title: Workshop at DH2019
 date: 2019-05-10T10:00
 ---
 
-<h1>DH2019 Pre-confrence Workshop: I’m the one building the tool!</h1>
+<h1>DH2019 Pre-conference Workshop: I’m the one building the tool!</h1>
 <p></p>
 <p>
 When: <i>Monday, July 8, 2019, 9am - 1pm</i><br>

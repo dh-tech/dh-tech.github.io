@@ -6,7 +6,7 @@ date: 2019-07-26T10:00
 ---
 
 <p>
-At the DH 2019 conference, a group of people that identify themselves broadly as Digital Humanities Research Software Engineers came together for a workshop. This white paper is the outcome of this workshop. It aims to draw attention to some of the issues we observe and experience and invite anyone who is interested to join us.
+At the DH 2019 conference, a group of people that identify themselves broadly as Digital Humanities Research Software Engineers came together for a <a href="/dh-workshop-2019">workshop</a>. This white paper is the outcome of this workshop. It aims to draw attention to some of the issues we observe and experience and invite anyone who is interested to join us.
 </p>
 
 <h1>Who are we?</h1>

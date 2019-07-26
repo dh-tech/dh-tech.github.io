@@ -51,7 +51,12 @@
                 <a class="post-title-link" href="{{ post.url | relative_url }}" itemprop="url">
                 {{ post.title | default: __.post.untitled }}
               </a>
-            {% else %}{{ post.title }}{% endif %}
+            {% else %}
+              {{ post.title }}
+              {% unless post.subtitle == nil %}
+              <br><small style="color: #868585;">{{ post.subtitle }}</small>
+              {% endunless %}
+            {% endif %}
           {% endif %}
         </{% if site.seo %}h2{% else %}h1{% endif %}>
         {% endunless %}

@@ -1,8 +1,0 @@
----
-title: Front end Development using Vue
-date: '2019-05-20, 8AM MST/5PM CEST'
-recording: 'https://repository.de.dariah.eu/1.0/dhcrud/21.11113/0000-000C-20A1-9/data'
----
-
-A brief overview of front end component based development with Vue Js, Vue router and Axios.
-Covering topics from project setup to the basics of composing a UI with components.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Plans for an ADHO SIG
-date: 2019-09-14T10:00
+date: 2019-11-15T10:00
 tag: announcement
 ---
 

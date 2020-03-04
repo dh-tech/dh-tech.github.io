@@ -17,9 +17,9 @@ Moreover, to ensure sustainability and maintainability, CESSDA ERIC requires the
 
 ### Center for Digital Humanities at Princeton University
 
-Next, Rebecca and Nick from the Center for Digital Humanities at Princeton University talked about their deployment/publishing workflow of Python/Django apps and Python packages. Their code is hosted on GibHub and unit tests are executed using Travis CI. They use Pa11y CI to find accessibility issues early in the development process. Their applications are manually deployed using Ansible, which is integrated with their Slack workspace and alerts them of running deployments. They also have a couple of Python packages that are published on PyPI.
+Next, Rebecca and Nick from the [Center for Digital Humanities at Princeton University](https://cdh.princeton.edu/) talked about their deployment/publishing workflow of Python/Django apps and Python packages. Their [code is hosted on GibHub](https://github.com/Princeton-CDH) and unit tests are executed using [Travis CI](https://travis-ci.org/). They use [Pa11y CI](https://github.com/pa11y/pa11y-ci) to check for accessibility issues as they develop. Their applications are manually deployed using [Ansible](https://www.ansible.com/), which they have integrated with their Slack workspace to alert them of running deployments. They also have a [few Python packages that are published on PyPI](https://pypi.org/user/cdhdevteam/).
 
-To ensure code quality, they use CodeFactor, which even provides them with a measurement of technical debt! They have local development environments plus staging and production environments.
+To ensure code quality, they use [CodeFactor](https://www.codefactor.io/), which even provides them with a measurement of technical debt! They have local development environments plus staging and production environments.
 
 ### Max Planck Institute for the History of Science
 

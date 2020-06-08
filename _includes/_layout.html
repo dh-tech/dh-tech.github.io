@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 {% include _blocks/title.html %}
 {% include _blocks/page_class.html %}
 {% include _blocks/sidebar.html %}
@@ -16,7 +16,7 @@
   {% include _third-party/analytics/index.html %}
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="{{ page.lang | default: page.language | default: site.language }}">
+<body class="body">
 
   {% assign container_class = "container " %}
   {% if site.sidebar.position %}
@@ -26,8 +26,8 @@
   <div class="{{ container_class }} {{ page_class }} ">
     <div class="headband"></div>
 
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"> {% include _partials/header.html %} </div>
+    <header id="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div> {% include _partials/header.html %} </div>
     </header>
 
     <main id="main" class="main">

@@ -1,49 +1,63 @@
-Established at DH 2017 Montreal, DHTech is an international grass-roots community of Digital Humanities software engineers.
-<a href="{{ site.baseurl }}{% link about.md %}">Find out more...</a>
-
-
-{% assign posts = site.posts %}
-{% if site.paginate > 0 %}{% assign posts = paginator.posts %}{% endif %}
-
-<div class="announcement" style="display: block; margin-top: 20px;">
-    {% assign post = site.posts.first %}
-    <header class="post-header"><a href="{{ post.url }}"><h2 class="post-title">{{ post.title }}</h2></a></header>
-    <div class="post-time" style="text-align: right;">
-    {% if site.post_meta.created_at %}
-      <span class="post-meta-item-icon">
-        <i class="fa fa-calendar-o"></i>
-      </span>
-      {% if site.post_meta.item_text %}
-        <span class="post-meta-item-text">{{ __.post.posted }}</span>
-      {% endif %}
-      <time title="{{ __.post.created }}" itemprop="dateCreated datePublished" datetime="{{ post.date | date_to_xmlschema }}">
-        {{ post.date | date: site.date_format }}
-      </time>
-    {% endif %}
+<div class="homepage">
+  <div class="left-section">
+    <div class="intro">
+      <div class="line"></div>
+      <i class="fa fa-quote-left"></i>
+      <p class="intro-para"><em>Established at DH 2017 Montreal, DHTech is an international grass-roots community of Digital Humanities software engineers.</em><i class="fa fa-quote-right"></i></p>
     </div>
 
-    {{ post.excerpt }}
-    <p>
-      <a href="{{ post.url }}">Read more...</a>
-    </p>
-</div>
+    <div class="blog">
+      <h1 class="section-header" style="text-align: left ">Blog</h1>
+    </div>
+  </div>
 
-<div class="announcement" style="display: block; margin-top: 20px;">
+  <div class="right-section">
 
-  <header class="post-header"><a href="/announcement"><h2 class="post-title">Plans for an ADHO SIG</h2></a></header>
+    <h1 class="section-header">What's new?</h1>
+    {% assign posts = site.posts %}
+    {% if site.paginate > 0 %}{% assign posts = paginator.posts %}{% endif %}
 
-  Members of the DHtech group are planning to propose a Special Interest Group (SIG) to the Alliance of Digital Humanities Organizations (ADHO) that focuses on the technical side of DH such as tool development and maintenance.
+    <div class="announcement" style="display: block; margin-top: 20px;">
+        {% assign post = site.posts.first %}
+        <header class="post-header"><a href="{{ post.url }}"><h2 class="post-title">{{ post.title }}</h2></a></header>
+        <div class="post-time" style="text-align: right;">
+        {% if site.post_meta.created_at %}
+          <span class="post-meta-item-icon">
+            <i class="fa fa-calendar-o"></i>
+          </span>
+          {% if site.post_meta.item_text %}
+            <span class="post-meta-item-text">{{ __.post.posted }}</span>
+          {% endif %}
+          <time title="{{ __.post.created }}" itemprop="dateCreated datePublished" datetime="{{ post.date | date_to_xmlschema }}">
+            {{ post.date | date: site.date_format }}
+          </time>
+        {% endif %}
+        </div>
 
-  <p>
-    <a href="/announcement">Read more...</a>
-  </p>
+        {{ post.excerpt }}
+        <p>
+          <a href="{{ post.url }}">Read more...</a>
+        </p>
+    </div>
 
-</div>
+    <div class="announcement" style="display: block; margin-top: 20px;">
 
-<div class="announcement" style="display: block; margin-top: 20px;">
-  <header class="post-header"><a href="/dhrse-whitepaper"><h2 class="post-title">The DH RSE Workshop White Paper</h2></a></header>
-  At the DH 2019 conference, a group of people that identify themselves broadly as Digital Humanities Research Software Engineers came together for a workshop. This white paper is the outcome of this workshop. It aims to draw attention to some of the issues we observe and experience and invite anyone who is interested to join us.
-  <p>
-    <a href="/dhrse-whitepaper">Read more...</a>
-  </p>
+      <header class="post-header"><a href="/announcement"><h2 class="post-title">Plans for an ADHO SIG</h2></a></header>
+
+      Members of the DHtech group are planning to propose a Special Interest Group (SIG) to the Alliance of Digital Humanities Organizations (ADHO) that focuses on the technical side of DH such as tool development and maintenance.
+
+      <p>
+        <a href="/announcement">Read more...</a>
+      </p>
+
+    </div>
+
+    <div class="announcement" style="display: block; margin-top: 20px;">
+      <header class="post-header"><a href="/dhrse-whitepaper"><h2 class="post-title">The DH RSE Workshop White Paper</h2></a></header>
+      At the DH 2019 conference, a group of people that identify themselves broadly as Digital Humanities Research Software Engineers came together for a workshop. This white paper is the outcome of this workshop. It aims to draw attention to some of the issues we observe and experience and invite anyone who is interested to join us.
+      <p>
+        <a href="/dhrse-whitepaper">Read more...</a>
+      </p>
+    </div>
+  </div>
 </div>

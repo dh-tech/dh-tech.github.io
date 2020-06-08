@@ -17,15 +17,6 @@
 {% endif %}
 
 
-{% if site.han %}
-  {% assign Han_uri = site.vendors._internal | append: '/Han/dist/han.min.css?v=3.3' | relative_url %}
-  {% if site.vendors.Han %}
-    {% assign Han_uri = site.vendors.Han %}
-  {% endif %}
-  <link rel="stylesheet" media="all" href="{{ Han_uri }}">
-{% endif %}
-
-
 {% comment %} #238, Disable Baidu tranformation {% endcomment %}
 <meta http-equiv="Cache-Control" content="no-transform" />
 <meta http-equiv="Cache-Control" content="no-siteapp" />
@@ -51,14 +42,6 @@
 {% endif %}
 
 
-{% if site.fancybox %}
-  {% assign fancybox_css_uri = site.vendors._internal | append: '/fancybox/source/jquery.fancybox.css?v=2.1.5' | relative_url %}
-  {% if site.vendors.fancybox_css %}
-    {% assign fancybox_css_uri = site.vendors.fancybox_css %}
-  {% endif %}
-  <link href="{{ fancybox_css_uri }}" rel="stylesheet" type="text/css" />
-{% endif %}
-
 {% include _partials/head/external-fonts.html %}
 
 {% assign font_awesome_uri = site.vendors._internal | append: '/font-awesome/css/font-awesome.min.css?v=4.6.2' | relative_url %}
@@ -67,7 +50,7 @@
 {% endif %}
 <link href="{{ font_awesome_uri }}" rel="stylesheet" type="text/css" />
 
-<link href="{{ site.css | relative_url }}/main.css?v={{ site.version }}" rel="stylesheet" type="text/css" />
+<link href="/assets/css/main.css" rel="stylesheet" type="text/css" />
 
 {% if page.keywords %}
   <meta name="keywords" content="{{ page.keywords }}" />

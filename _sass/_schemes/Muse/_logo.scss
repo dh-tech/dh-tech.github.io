@@ -1,12 +1,12 @@
 .custom-logo {
-  .site-meta-headline { text-align: center; }
+  .site-meta-headline { }
 
   .brand { background: none; }
 
   .site-title {
-    margin: 10px auto 0;
     font-size: 24px;
-    color: $black-deep;
+    color: $headings;
+    font-family: $font-secondary;
     a { border: none; }
   }
 
@@ -14,8 +14,5 @@
 }
 
 .custom-logo-image {
-  margin: 0 auto;
-  padding: 5px;
-  max-width: 150px;
-  background: white;
+  width: 50px;
 }

@@ -23,6 +23,8 @@ $blue-bright  : #87daff;
 $blue         : #0684bd;
 $blue-deep    : #262a30;
 $orange       : #fc6423;
+$headings     : #333333;
+$primary-color: rgba(242,58,41,0.8);
 
 
 
@@ -62,10 +64,11 @@ $selection-color              : white;
 }
 
 // Font families.
-$font-family-chinese      : "PingFang SC", "Microsoft YaHei";
+$font-primary      : "Open Sans", sans-serif;
+$font-secondary    : "Abril Fatface", cursive;
 
-$font-family-base         : $font-family-chinese, sans-serif;
-$font-family-base         : if(get_font_family('global'), (get_font_family('global'), $font-family-chinese, sans-serif), $font-family-base);
+$font-family-base         : $font-primary, sans-serif;
+$font-family-base         : if(get_font_family('global'), (get_font_family('global'), $font-primary, sans-serif), $font-family-base);
 
 $font-family-logo         : $font-family-base;
 $font-family-logo         : if(get_font_family('logo'), (get_font_family('logo'), $font-family-base), $font-family-logo);
@@ -76,10 +79,11 @@ $font-family-headings     : if(get_font_family('headings'), (get_font_family('he
 $font-family-posts        : $font-family-base;
 $font-family-posts        : if(get_font_family('posts'), (get_font_family('posts'), $font-family-base), $font-family-posts);
 
-$font-family-monospace    : consolas, Menlo, $font-family-chinese, monospace;
-$font-family-monospace    : if(get_font_family('codes'), (get_font_family('codes'), consolas, Menlo, $font-family-chinese, monospace), $font-family-monospace);
+$font-family-monospace    : consolas, Menlo, $font-primary, monospace;
+$font-family-monospace    : if(get_font_family('codes'), (get_font_family('codes'), consolas, Menlo, $font-family-primary, monospace), $font-family-monospace);
 
 $font-family-icons        : 'FontAwesome';
+
 
 
 // Font Weight

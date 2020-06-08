@@ -1,17 +1,15 @@
 .site-meta {
-  margin: 0;
-  text-align: $site-meta-text-align;
+  display: flex;
+  align-items: center;
+
 
   @include mobile() { text-align: center; }
 }
 
 .brand {
-  position: relative;
-  display: inline-block;
-  padding: 0 40px;
-  color: $brand-color;
-  background: $brand-bg;
-  border-bottom: none;
+  font-family: $font-secondary;
+  color: $headings;
+  padding: 0 15px;
   &:hover { color: $brand-hover-color; }
 }
 

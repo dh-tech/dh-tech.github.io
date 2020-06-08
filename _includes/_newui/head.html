@@ -1,0 +1,13 @@
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+{% assign font_awesome_uri = site.vendors._internal | append: '/font-awesome/css/font-awesome.min.css?v=4.6.2' | relative_url %}
+{% if site.vendors.fontawesome %}
+  {% assign font_awesome_uri = site.vendors.fontawesome %}
+{% endif %}
+<link href="{{ font_awesome_uri }}" rel="stylesheet" type="text/css" />
+
+<link href="/assets/css/homepage.css" rel="stylesheet" type="text/css" />
+
+<link rel="shortcut icon" href="#" />

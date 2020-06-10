@@ -122,16 +122,16 @@ index_with_subtitle: false
 
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
-  home: /
+  Home: /
   #categories: /categories/
-  about: /about/
-  join: /join/
+  About: /about/
+  Workshops: /workshops/
+  #join: /join/
   #archives: /archives/
-  workshops: /workshops/
   #tags: /tags/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
-  github: https://github.com/dh-tech
+  #github: https://github.com/dh-tech
   #confluence: https://diging.atlassian.net/wiki/spaces/DH2017
 
 

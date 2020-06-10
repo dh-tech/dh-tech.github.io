@@ -6,10 +6,37 @@
 	<h1 class="logo-title">DH Tech</h1>
 </div>
 
-<div>
-	<ul>
-		
+<div class="logo-link">
+	{% if site.menu %}
+    <ul id="menu" class="menu">
+      {% for name_path in site.menu %}
+        {% assign name = name_path[0] %}
+        {% assign path = name_path[1] %}
+        {% assign itemName = name | downcase %}
+        <li class="nav-link">
+          {% if path contains '://' %}
+            <a class="link" id="link_{{name}}" href="{{ path }}" rel="section">{{ itemName }}</a>
+            
+          {% else %}
+            <a class="link" id="link_{{name}}" href="{{ path | relative_url }}" rel="section">{{ itemName }}</a>
+     
+          {% endif %}
+          <div style="display: none" id="underline_{{ name }}" class="underline"></div>
+        </li>
+      {% endfor %}
 	</ul>
-	<a href="#"><button class="primary-btn">Join us</button></a>
+    {% endif %}
+
+	<a href="/join"><button class="primary-btn">Join us</button></a>
 	<a href="https://github.com/dh-tech"><button class="link-btn"><i class="fa fa-github"></i></button></a>
 </div>
+
+<script>
+//# sourceURL=nav.js
+function setNavigation(link_id) {
+	    $("#link_" + link_id).removeClass("link");
+	    $("#link_" + link_id).addClass('active');
+	    $("#underline_" + link_id).show();
+	}
+
+</script>

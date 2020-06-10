@@ -7,7 +7,7 @@
 
 p {
 	font-family: var(--font-primary);
-	color: #ccc;
+	color: rgba(51,51,51,0.8);
 }
 
 .body {
@@ -35,6 +35,37 @@ p {
 	margin-left: 15px;
 }
 
+.nav-link {
+	display: inline-block;
+	margin-right: 25px;
+}
+
+.link {
+	text-decoration: none;
+    color: #aaa;
+    font-weight: 600;
+}
+
+.link:hover {
+	text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.active {
+	text-decoration: none;
+    color: var(--headings);
+    font-weight: 600;
+}
+
+.underline {
+	height: 4px;
+    background: var(--primary-color);
+    position: relative;
+    left: 10px;
+}
+
+
 .primary-btn {
 	border: 2px solid var(--primary-color);
 	border-radius: 5px;
@@ -43,6 +74,7 @@ p {
 	font-weight: 600;
 	padding: 5px 10px;
 	font-family: var(--font-primary);
+	margin-right: 15px;
 }
 
 .primary-btn:hover {
@@ -76,11 +108,12 @@ p {
 .left-section {
 	width: 60%;
 	border-right: 2px solid #ccc;
+	padding-right: 40px;
 }
 
 .right-section {
 	width: 40%;
-	margin-left: 25px;
+	margin-left: 40px;
 }
 .intro {
 	display: flex;
@@ -123,4 +156,103 @@ p {
 .blog {
 	margin-top: 60px;
 	
+}
+
+.blog-grid {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 25px;
+}
+
+.announcement {
+	background-color: white;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+.post {
+	margin-bottom: 15px; 
+}
+
+.post-title {
+	font-size: 16px;
+	margin: 0 0 10px 0;
+	color: var(--headings);
+}
+
+a.read-more {
+    color: var(--primary-color);
+    text-decoration: none;
+    float: right;
+    font-weight: 600;
+}
+
+a.read-more:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.h-line {
+    width: 100%;
+    height: 0.5px;
+    background: #ccc;
+    margin: 20px 0;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 60px;
+	color: #ccc;
+	font-size: 16px;
+	font-weight: 500px;
+}
+
+.card {
+    background: white;
+    border-radius: 5px;
+    padding: 20px;
+    overflow: hidden;
+    height: fit-content;
+    margin-bottom: 25px;
+}
+
+.card-min {
+    background: white;
+    border-radius: 5px;
+    padding: 20px;
+    overflow: hidden;
+    width: 14rem; 
+    height: fit-content;
+    margin-bottom: 25px;
+}
+
+.bg-image {
+    background: #ccc;
+    position: relative;
+    margin: -20px -20px 20px -20px;
+    height: 150px;
+}
+
+.bg-image-min {
+    background: #ccc;
+    position: relative;
+    margin: -20px -20px 20px -20px;
+    height: 100px;
+}
+
+.hashtag {
+    background: white;
+    width: auto;
+    display: inline-block;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+}
+
+#hashtag {
+	margin: 0;
+	color: var(--primary-color);
+	font-size: 14px;
+	font-weight: 600;
 }

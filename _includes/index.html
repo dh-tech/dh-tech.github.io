@@ -64,9 +64,8 @@ $(function() {
         
         <p>{{ item.date }}</p>
         <p>{{ item.description }}</p>
-        <img src="{{ item.img }}">
 
-        <a class="read-more" href="{{ post.url }}">Read more <i class="fa fa-chevron-right"></i></a>
+        <a class="read-more" href="{{ item.url }}">Read more <i class="fa fa-chevron-right"></i></a>
         <div class="h-line"></div>
       </div>
       {% endfor %}

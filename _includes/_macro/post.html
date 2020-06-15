@@ -28,41 +28,11 @@
 
         {% comment %} % Not to show title for quote posts that do not have a title {% endcomment %}
         {% unless is_index and post.type == 'quote' and post.title == nil %}
-          <{% if site.seo %}h2{% else %}h1{% endif %} class="post-title" itemprop="name headline">
-          {% comment %} Link posts {% endcomment %}
-          {% if post.link %}
-              {% if post.sticky > 0 %}
-                {{ post.sticky }}
-                <span class="post-sticky-flag" title="{{ __.post.sticky }}">
-                  <i class="fa fa-thumb-tack"></i>
-                </span>
-              {% endif %}
-              <a class="post-title-link post-title-link-external" target="_blank" href="{{ post.link }}" itemprop="url">
-                {% if post.title %}{{ post.title }}{% else %}{{  post.link }}{% endif %}
-                <i class="fa fa-external-link"></i>
-              </a>
-            {% else %}
-            {% if is_index %}
-                {% if post.sticky > 0 %}
-                  <span class="post-sticky-flag" title="{{ __.post.sticky }}">
-                    <i class="fa fa-thumb-tack"></i>
-                  </span>
-                {% endif %}
-                <a class="post-title-link" href="{{ post.url | relative_url }}" itemprop="url">
-                {{ post.title | default: __.post.untitled }}
-              </a>
-            {% else %}
-              {{ post.title }}
-              {% unless post.subtitle == nil %}
-              <br><small style="color: #868585;">{{ post.subtitle }}</small>
-              {% endunless %}
-            {% endif %}
-          {% endif %}
-        </{% if site.seo %}h2{% else %}h1{% endif %}>
+             
         {% endunless %}
 
-        <div class="post-meta">
-          <span class="post-time">
+        <div style="text-align: center; margin-bottom: 20px;">
+          <span>
             {% if site.post_meta.created_at %}
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
@@ -90,6 +60,14 @@
                 {{ post.updated | date: site.date_format }}
               </time>
             {% endif %}
+          
+
+            {% if post.author %}
+              <div>
+                @{{ post.author }}
+              </div>
+            {% endif %}
+
           </span>
 
           {% if post.categories and post.categories.size > 0 and site.post_meta.categories %}
@@ -324,13 +302,6 @@
       {% endif  %}
     </div>
 
-    {% if post.author %}
-      <div style="text-align: right">
-        @{{ post.author }}
-      </div>
-      {% endif %}
-
-
     <div>
       {% unless is_index %}
         {% include _macro/wechat-subscriber.html %}
@@ -395,21 +366,21 @@
 
       {% unless is_index %}
       {% if post.previous or post.next %}
-        <div class="post-nav" id="post-nav-id">
-          <div class="post-nav-next post-nav-item">
+        <div class="post-nav" style="margin: 40px 0">
+          <div style="float: right">
             {% if post.next %}
               <a href="{{ post.next.url | relative_url }}" rel="next" title="{{ post.next.title }}">
-                <i class="fa fa-chevron-left"></i> {{ post.next.title }}
+                Next post <i class="fa fa-chevron-right"></i> 
               </a>
             {% endif %}
           </div>
 
           <span class="post-nav-divider"></span>
 
-          <div class="post-nav-prev post-nav-item">
+          <div style="float: left">
             {% if post.previous %}
               <a href="{{ post.previous.url | relative_url }}" rel="prev" title="{{ post.previous.title }}">
-                {{ post.previous.title }} <i class="fa fa-chevron-right"></i>
+                <i class="fa fa-chevron-left"></i> Previous post 
               </a>
             {% endif %}
           </div>

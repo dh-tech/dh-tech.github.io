@@ -1,5 +1,39 @@
+<script>
+
+$(document).ready(function() {
+  $("#close").hide();
+});
+
+$(function() {
+  setNavigation("Workshops")
+})
+
+function openNav() {
+  $("#open").hide();
+  $("#close").show();
+  document.getElementById("mySidenav").style.width = "400px";
+  document.getElementById("main").style.marginLeft = "400px";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  $("#close").hide();
+  $("#open").show();
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+
+</script>
+
+<div id="mySidenav" class="sidenav">
+  {% include workshoplist.html%}
+</div>
+
 <div id="posts" class="posts-expand">
-{% include _partials/page-header.html %}
+  <span id="open" onclick="openNav()"><i class="fa fa-expand"></i></span>
+  <span id="close" onclick="closeNav()"><i class="fa fa-compress"></i></span>
+  <div class="underline" style="width: 10%; left:0; margin: auto"></div>
+  {% include _partials/page-header.html %}
   {% comment %} tagcloud page support {% endcomment %}
   {% if page.type == "tags" %}
     <div class="tag-cloud">

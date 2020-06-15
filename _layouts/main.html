@@ -7,14 +7,18 @@
 </head>
 
 <body class="body">
+	<div class="wrapper">
+		<nav class="navbar">
+			{% include _newui/header.html %}
+		</nav>
+		
+		<main id="main" class="main">
 
-	<nav class="navbar">
-		{% include _newui/header.html %}
-	</nav>
-	
-	<main id="main" class="main">
-       {% include index.html %}
-    </main>
+	    	{{ content }}
+			
+	    </main>
+	    <div class="push">
+	</div>
 
     <footer class="footer">
     		<p>Powered by &nbsp;<a class="read-more" href="https://jekyllrb.com/"> Jekyll</a></p>

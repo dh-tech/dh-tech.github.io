@@ -126,6 +126,7 @@ menu:
   #categories: /categories/
   About: /about/
   Workshops: /workshops/
+  Blog: /blog
   #join: /join/
   #archives: /archives/
   #tags: /tags/
@@ -162,7 +163,11 @@ menu_icons:
 
 collections:
   workshops:
-    output: true
+      output: true
+      permalink: /workshops/:path/
+  blog:
+      output: true
+      permalink: /blog/:path/
 
 # ---------------------------------------------------------------
 # Scheme Settings

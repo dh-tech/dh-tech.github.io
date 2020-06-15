@@ -1,7 +1,6 @@
 ---
-layout: page
+layout: about
 title: Join DHTech
-description: »Technology in Digital Humanities«
 ---
 
 DHTech is an international grass-roots community of Digital Humanities software engineers.

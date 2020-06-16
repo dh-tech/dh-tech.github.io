@@ -217,7 +217,7 @@ p {
 }
 
 .post-title {
-	font-size: 16px;
+	font-size: 18px;
 	margin: 0 0 10px 0;
 	color: var(--headings);
 }
@@ -244,7 +244,7 @@ a.read-more:hover {
 .footer {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 60px;
+	margin-top: 40px;
 	color: #ccc;
 	font-size: 16px;
 	font-weight: 500px;
@@ -363,7 +363,7 @@ a.read-more:hover {
 .posts-expand {
     background: white;
     padding: 30px;
-    margin: 60px auto;
+    margin: 30px auto;
     width: 80%;
 }
 
@@ -407,4 +407,32 @@ a.read-more:hover {
 	font-size: 25px;
 	cursor: pointer;
 	color: var(--primary-color);
+}
+
+.grid-blog {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.article-time {
+	float: left;
+	margin:0;
+	font-size: 14px;
+	color: #ccc;
+}
+
+.first-article {
+	background: #ccc;
+    height: 85%;
+    width: 300px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.bottom-fixed {
+	position: absolute;
+	bottom: 0;
+	margin: 20px;
 }

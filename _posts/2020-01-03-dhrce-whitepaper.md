@@ -1,8 +1,8 @@
 ---
 layout: about
-title: DH Research Software Engineers - For We Are Many
-subtitle: The DH RSE Workshop White Paper by DHTech
-date: 2019-07-26T10:00
+title: The DH RSE Workshop White Paper by DHTech
+date: 2020-03-01T10:00
+excerpt: This white paper aims to draw attention to some of the issues we observe, and invite anyone who is interested to join us.
 ---
 
 <p>

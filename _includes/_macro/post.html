@@ -24,7 +24,7 @@
     </span>
 
     {% unless headlessPost %}
-      <header class="post-header">
+      <header style="margin-bottom: 40px">
 
         {% comment %} % Not to show title for quote posts that do not have a title {% endcomment %}
         {% unless is_index and post.type == 'quote' and post.title == nil %}
@@ -321,14 +321,6 @@
     </div>
 
     <footer class="post-footer">
-      {% if post.tags and post.tags.size != 0 and is_index == nil or is_index == false %}
-        <div class="post-tags">
-          {% for tag in post.tags %}
-            {% assign tag_url_encode = tag | url_encode | replace: '+', '%20' %}
-            <a href="{{ '/tag/#/' | relative_url | append: tag_url_encode }}" rel="tag"># {{ tag }}</a>
-          {% endfor %}
-        </div>
-      {% endif %}
 
       {% unless is_index %}
       {% if site.vkontakte_api.enable and site.vkontakte_api.like %}

@@ -4,6 +4,7 @@ title: About DHTech
 description: The international grass-roots community of Digital Humanities software engineers.
 ---
 
+
 The goal of DHTech is to support the development and reuse of software in the Digital Humanities
 by providing a community to exchange knowledge, share expertise, and foster collaboration among Digital Humanities software projects.
 Anyone involved in Digital Humanities tools and services development and maintenance is welcome to join.

@@ -15,37 +15,38 @@ $(function() {
     <div class="blog">
       <h1 class="section-header" style="text-align: left ">Blog</h1>
       <div class="blog-grid">
-        {% for item in site.data.maxblog %}
+        {% assign blog = site.blog | sort: 'date' | reverse %}
+        {% assign item = blog.first %}
         <div class="card" style="width: 14rem;">
           <div class="bg-image">
-            <img style="position: absolute;" src="#">
+            <img style="position: absolute;" src="{{ item.img }}">
             <div class="hashtag">
-              <p id="hashtag">{{ item.hashtag }}</p>
+              <p id="hashtag">{{ item.tag }}</p>
             </div>
           </div>
           <div class="card-body">
             <h5 class="post-title">{{ item.title }}</h5>
-            <p class="card-text">{{ item.description }}</p>
+            <p class="card-text">{{ item.excerpt }}</p>
             <a href="{{ item.url }}" class="read-more">Read more <i class="fa fa-chevron-right"></i></a>
           </div>
-
         </div>
-        {% endfor %}
-
+        
         <div>
-          {% for item in site.data.minblog %}
+          {% for article in blog %}
+          {% if article != item %}
           <div class="card-min">
             <div class="bg-image-min">
               <img style="position: absolute;" src="#">
               <div class="hashtag">
-                <p id="hashtag">{{ item.hashtag }}</p>
+                <p id="hashtag">{{ article.hashtag }}</p>
               </div>
             </div>
             <div class="card-body">
-              <h5 class="post-title">{{ item.title }}</h5>
-              <a href="{{ item.url }}" class="read-more">Read more <i class="fa fa-chevron-right"></i></a>
+              <h5 class="post-title">{{ article.title }}</h5>
+              <a href="{{ article.url }}" class="read-more">Read more <i class="fa fa-chevron-right"></i></a>
             </div>
           </div>
+          {% endif %}
           {% endfor %}
         </div>
 
@@ -58,12 +59,12 @@ $(function() {
     <h1 class="section-header">What's new?</h1>
 
     <div class="announcement">
-      {% for item in site.data.announcements %}
+      {% for item in site.posts limit:3 %}
       <div class="post">
-        <h2 class="post-title">{{ item.post-title }}</h2>
+        <h2 class="post-title">{{ item.title }}</h2>
         
-        <p>{{ item.date }}</p>
-        <p>{{ item.description }}</p>
+        <p>{{ item.date | date: site.date_format }}</p>
+        <p>{{ item.excerpt }}</p>
 
         <a class="read-more" href="{{ item.url }}">Read more <i class="fa fa-chevron-right"></i></a>
         <div class="h-line"></div>

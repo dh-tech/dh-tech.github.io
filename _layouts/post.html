@@ -3,4 +3,12 @@ layout: main
 ---
 
 {% assign __ = site.data.languages[site.language] %}
-{% include post.html %}
+
+<div id="posts" class="posts-expand">
+  {% assign post = page %}
+  <div class="underline" style="width: 10%; left:0; margin: auto"></div>
+  {% include _partials/page-header.html %}
+  <div class="posts-expand">
+    {% include _macro/post.html %}
+  </div>
+</div>

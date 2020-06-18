@@ -1,5 +1,4 @@
 ---
-layout: about
 title: The DH RSE Workshop White Paper by DHTech
 date: 2020-03-01T10:00
 excerpt: This white paper aims to draw attention to some of the issues we observe, and invite anyone who is interested to join us.

@@ -19,7 +19,7 @@ $(function() {
         {% assign item = blog.first %}
         <div class="card" style="width: 14rem;">
           <div class="bg-image">
-            <img style="position: absolute;" src="{{ item.img }}">
+            <img style="position: absolute; max-width: 100%" src="{{ item.img }}">
             <div class="hashtag">
               <p id="hashtag">{{ item.tag }}</p>
             </div>
@@ -36,7 +36,7 @@ $(function() {
           {% if article != item %}
           <div class="card-min">
             <div class="bg-image-min">
-              <img style="position: absolute;" src="{{ article.img }}">
+              <img style="position: absolute; max-width: 100%" src="{{ article.img }}">
               <div class="hashtag">
                 <p id="hashtag">{{ article.tag }}</p>
               </div>

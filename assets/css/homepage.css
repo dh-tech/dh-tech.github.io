@@ -144,7 +144,7 @@ p {
 
 .homepage {
 	display: flex;
-	margin-top: 60px;
+	margin-top: 20px;
 }
 
 .left-section {
@@ -270,10 +270,11 @@ a.read-more:hover {
 }
 
 .bg-image {
+	position: relative;
     background: #ccc;
-    position: relative;
     margin: -20px -20px 20px -20px;
     height: 150px;
+    overflow: hidden;
 }
 
 .bg-image-min {
@@ -389,7 +390,6 @@ a.read-more:hover {
 
 #main {
   transition: margin-left .5s;
-  padding: 20px;
 }
 
 @media screen and (max-height: 450px) {
@@ -424,7 +424,7 @@ a.read-more:hover {
 
 .first-article {
 	background: #ccc;
-    height: 85%;
+    height: 300px;
     width: 300px;
     border-radius: 5px;
     position: relative;

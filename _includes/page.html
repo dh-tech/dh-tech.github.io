@@ -11,6 +11,7 @@ $(function() {
 function openNav() {
   $("#open").hide();
   $("#close").show();
+  $("#mySidenav").css("padding", "30px");
   document.getElementById("mySidenav").style.width = "400px";
   document.getElementById("main").style.marginLeft = "400px";
 }
@@ -19,6 +20,7 @@ function openNav() {
 function closeNav() {
   $("#close").hide();
   $("#open").show();
+  $("#mySidenav").css("padding", "30px 0px");
   document.getElementById("mySidenav").style.width = "0";
   document.getElementById("main").style.marginLeft = "0";
 }
@@ -30,8 +32,8 @@ function closeNav() {
 </div>
 
 <div id="posts" class="posts-expand">
-  <span id="open" onclick="openNav()"><i class="fa fa-expand"></i></span>
-  <span id="close" onclick="closeNav()"><i class="fa fa-compress"></i></span>
+  <span id="open" onclick="openNav()"><i class="fa fa-bars"></i></span>
+  <span id="close" onclick="closeNav()"><i class="fa fa-times-circle"></i></span>
   <div class="underline" style="width: 10%; left:0; margin: auto"></div>
   {% include _partials/page-header.html %}
   {% comment %} tagcloud page support {% endcomment %}

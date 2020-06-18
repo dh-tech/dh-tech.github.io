@@ -36,9 +36,9 @@ $(function() {
           {% if article != item %}
           <div class="card-min">
             <div class="bg-image-min">
-              <img style="position: absolute;" src="#">
+              <img style="position: absolute;" src="{{ article.img }}">
               <div class="hashtag">
-                <p id="hashtag">{{ article.hashtag }}</p>
+                <p id="hashtag">{{ article.tag }}</p>
               </div>
             </div>
             <div class="card-body">

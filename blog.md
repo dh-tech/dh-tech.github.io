@@ -28,7 +28,10 @@ $(function() {
 		{% if article != first %}
 		<div class="card" style="width: 14em">
 		  <div class="bg-image">
-		    <img style="max-width: 100%;" src="{{ article.img }}">
+		    <img style="position: absolute; max-width: 100%;" src="{{ article.img }}">
+			<div class="hashtag">
+				<p id="hashtag">{{ article.tag }}</p>
+			</div>
 		  </div>
 		  <div class="card-body">
 		    <h5 class="post-title">{{ article.title }}</h5>

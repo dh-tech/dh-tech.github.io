@@ -1,12 +1,13 @@
-<div class="logo-link">
-	<a>
-	  <img style="width: 50px" src="{{ site.custom_logo.image }}"
-	       alt="{{ site.title }}"/>
-	</a>
-	<h1 class="logo-title">DH Tech</h1>
+
+<div>
+  <a class="logo-link" href="/">
+    <img style="width: 50px" src="{{ site.custom_logo.image }}" alt="{{ site.title }}"/>
+    <h1 class="logo-title">DH Tech</h1>
+  </a>
 </div>
 
-<div class="logo-link">
+
+<div class="topnav" id="myTopnav">
 	{% if site.menu %}
     <ul id="menu" class="menu">
       {% for name_path in site.menu %}
@@ -24,19 +25,83 @@
           <div style="display: none" id="underline_{{ name }}" class="underline"></div>
         </li>
       {% endfor %}
-	</ul>
+  	</ul>
     {% endif %}
 
 	<a href="/join"><button class="primary-btn">Join us</button></a>
-	<a href="https://github.com/dh-tech" target="_blank"><button class="link-btn"><i class="fa fa-github"></i></button></a>
+  <a href="https://github.com/dh-tech" target="_blank"><button class="link-btn"><i class="fa fa-github"></i></button></a>
+
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <span id="open" onclick="openNav()"><i class="fa fa-bars"></i></span>
+  </a>
+</div>
+
+<div id="mySidenav" class="sidenav">
+  
+  <span id="close" onclick="closeNav()"><i class="fa fa-times-circle"></i></span>
+  {% if site.menu %}
+    <ul class="menu">
+      {% for name_path in site.menu %}
+        {% assign name = name_path[0] %}
+        {% assign path = name_path[1] %}
+        {% assign itemName = name | downcase %}
+        <li class="nav-link">
+          {% if path contains '://' %}
+            <a class="link" id="link_{{name}}" href="{{ path }}" rel="section">{{ itemName }}</a>
+            
+          {% else %}
+            <a class="link" id="link_{{name}}" href="{{ path | relative_url }}" rel="section">{{ itemName }}</a>
+     
+          {% endif %}
+          <div style="display: none" id="underline_{{ name }}" class="underline"></div>
+        </li>
+      {% endfor %}
+  	</ul>
+    {% endif %}
+
+	<a href="/join" style="margin: 20px;"><button class="primary-btn">Join us</button></a>
+  <a href="https://github.com/dh-tech" target="_blank" style="margin: 20px;"><button class="link-btn"><i class="fa fa-github"></i></button></a>
+
 </div>
 
 <script>
+
+$(document).ready(function() {
+  $("#close").hide();
+});
+
 //# sourceURL=nav.js
+
 function setNavigation(link_id) {
-	    $("#link_" + link_id).removeClass("link");
-	    $("#link_" + link_id).addClass('active');
-	    $("#underline_" + link_id).show();
-	}
+  $("#link_" + link_id).removeClass("link");
+  $("#link_" + link_id).addClass('active');
+  $("#underline_" + link_id).show();
+}
+
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+function openNav() {
+  $("#open").hide();
+  $("#close").show();
+  $("#mySidenav").css("padding", "30px");
+  document.getElementById("mySidenav").style.width = "100px";
+  document.getElementById("main").style.marginLeft = "100px";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  $("#close").hide();
+  $("#open").show();
+  $("#mySidenav").css("padding", "30px 0px");
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
 
 </script>

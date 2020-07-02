@@ -68,6 +68,12 @@
               </div>
             {% endif %}
 
+            {% if post.tag %}
+              <div id="hashtag">
+                {{ post.tag }}
+              </div>
+            {% endif %} 
+
           </span>
 
           {% if post.categories and post.categories.size > 0 and site.post_meta.categories %}

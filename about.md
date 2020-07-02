@@ -5,17 +5,17 @@ description: The international grass-roots community of Digital Humanities softw
 ---
 
 
-The goal of DHTech is to support the development and reuse of software in the Digital Humanities
+<p>The goal of DHTech is to support the development and reuse of software in the Digital Humanities
 by providing a community to exchange knowledge, share expertise, and foster collaboration among Digital Humanities software projects.
-Anyone involved in Digital Humanities tools and services development and maintenance is welcome to join.
+Anyone involved in Digital Humanities tools and services development and maintenance is welcome to join.</p>
 
-If you would like to become part of DHTech, [join us now](join.md).
+<p>If you would like to become part of DHTech, <a href="/join">join us now.</a></p>
 
-The development of software specifically designed for the Digital Humanities has become more and more important
+<p>The development of software specifically designed for the Digital Humanities has become more and more important
 as Digital Humanities projects become increasingly computationally sophisticated.
 At the Digital Humanities Conference 2017 in Montreal, a group of software developers, scholars with programming expertise,
 and project managers got together to develop an infrastructure for collaboration and cooperation in regards to tool development.
-The result was the establishment of DHTech.
+The result was the establishment of DHTech.</p>
 
-Logo design by Johannes Biermann and Alexander Steckel.
+<p>Logo design by Johannes Biermann and Alexander Steckel.</p>
 

@@ -1,8 +1,8 @@
 :root {
 	--headings: #333;
 	--primary-color: rgba(242,58,41,0.8);
-	--font-primary: "Open Sans", sans-serif;
-	--font-secondary: "Abril Fatface", cursive;
+	--font-primary: 'Noto Sans TC', sans-serif;
+	--font-secondary: 'Noto Serif', serif;
 }
 
 html, body {
@@ -42,7 +42,7 @@ h3 {
 
 p {
 	font-family: var(--font-primary);
-	color: rgba(51,51,51,0.8);
+	color: rgba(46, 46, 46, 0.8);
 	margin: 30px 0px;
 }
 
@@ -61,6 +61,11 @@ p {
 
 .logo-link {
 	display: flex;
+	align-items: center;
+}
+
+.dropdown {
+	display: none;
 	align-items: center;
 }
 
@@ -247,7 +252,7 @@ a.read-more:hover {
 	justify-content: space-between;
 	margin-top: 40px;
 	color: #ccc;
-	font-size: 16px;
+	font-size: 12px;
 	font-weight: 500px;
 }
 
@@ -437,4 +442,61 @@ a.read-more:hover {
 	position: absolute;
 	bottom: 0;
 	margin: 20px;
+}
+
+.topnav {
+	display: inherit;
+	align-items: center;
+}
+
+.topnav .icon {
+	display: none;
+}
+
+@media screen and (max-width: 1200px) {
+	.homepage {
+		display: block;
+	}
+
+	.left-section {
+		width: 100%;
+		border: none;
+		padding: 0;
+	}
+
+	.right-section {
+		width: 100%;
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 900px) {
+  .topnav a {
+	  display: none;
+	}
+  .topnav a.icon {
+    float: right;
+	display: block;
+	font-size: 24px;
+  }
+  .nav-link {
+	  display: table;
+	  margin: 25px;
+  }
+
+  #menu {
+	  display: none;
+  }
+
+  .menu {
+	  margin-top: 40px;
+	  padding: 0;
+  }
+
+}
+
+@media screen and (max-width: 700px) {
+	.blog-grid {
+		grid-template-columns: auto;
+	}
 }

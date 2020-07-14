@@ -1,9 +1,12 @@
+
 <script>
   //# sourceURL=index.js
 $(function() {
   setNavigation("Home")
 })
+
 </script>
+
 <div class="homepage">
   <div class="left-section">
     <div class="intro">
@@ -14,47 +17,34 @@ $(function() {
 
     <div class="blog">
       <h1 class="section-header" style="text-align: left ">Blog</h1>
-      <div class="blog-grid">
+      <div class="grid-blog" style="grid-template-columns: auto;">
         {% assign blog = site.blog | sort: 'date' | reverse %}
-        {% assign item = blog.first %}
-        <div class="card" style="width: 14rem;">
-          <div class="bg-image">
-            <img style="position: absolute; max-width: 100%" src="{{ item.img }}">
-            <div class="hashtag">
-              <p id="hashtag">{{ item.tag }}</p>
-            </div>
-          </div>
-          <div class="card-body">
-            <h5 class="post-title">{{ item.title }}</h5>
-            <p class="card-text">{{ item.excerpt }}</p>
-            <a href="{{ item.url }}" class="read-more">Read more <i class="fa fa-chevron-right"></i></a>
-          </div>
-        </div>
-        
-        <div>
-          {% for article in blog %}
-          {% if article != item %}
-          <div class="card-min">
-            <div class="bg-image-min">
-              <img style="position: absolute; max-width: 100%" src="{{ article.img }}">
-              <div class="hashtag">
-                <p id="hashtag">{{ article.tag }}</p>
-              </div>
+        {% for item in blog %}
+          {% if forloop.index > 2 %}
+            {% break %}
+          {% endif %}
+          <div class="card">
+            <div class="bg-image">
+              <img style="position: absolute; max-width: 100%;" src="{{ item.img }}">
             </div>
             <div class="card-body">
-              <h5 class="post-title">{{ article.title }}</h5>
-              <a href="{{ article.url }}" class="read-more">Read more <i class="fa fa-chevron-right"></i></a>
+              <a href="{{ item.url }}" class="read-more"><h5 class="post-title">{{ item.title }}</h5></a>
+              <p class="card-text">{{ item.excerpt }}</p>
+              <p class="article-time">{{ item.date | date: site.date_format }}</p>
+              <a href="/blog" onclick="filter('{{ item.tag }}')">#{{ item.tag }}</a>
             </div>
           </div>
-          {% endif %}
-          {% endfor %}
-        </div>
-
+        {% endfor %}
       </div>
     </div>
   </div>
 
   <div class="right-section">
+
+    <div id="search_div" class="search">
+        <input type="text" id="search_box" class="searchTerm" placeholder="What are you looking for?">
+        <button data-href="{{site.baseurl}}/search_page" id="search_button" class="searchButton"><i class="fa fa-search"></i></button>
+    </div>
 
     <h1 class="section-header">What's new?</h1>
 

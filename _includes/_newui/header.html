@@ -31,16 +31,13 @@
 	<a href="/join"><button class="primary-btn">Join us</button></a>
   <a href="https://github.com/dh-tech" target="_blank"><button class="link-btn"><i class="fa fa-github"></i></button></a>
 
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <span id="open" onclick="openNav()"><i class="fa fa-bars"></i></span>
-  </a>
+  <button id="sidemenu" type="button" onclick="openNav()"><i class="fa fa-bars" style="font-size: 16px"></i></button>
 </div>
 
-<div id="mySidenav" class="sidenav">
-  
-  <span id="close" onclick="closeNav()"><i class="fa fa-times-circle"></i></span>
+<div id="mySidemenu" class="sidemenu">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa fa-times-circle" style="font-size: 16px"></i></a>
   {% if site.menu %}
-    <ul class="menu">
+    <ul id="menu2" class="menu2">
       {% for name_path in site.menu %}
         {% assign name = name_path[0] %}
         {% assign path = name_path[1] %}
@@ -58,19 +55,16 @@
       {% endfor %}
   	</ul>
     {% endif %}
-
-	<a href="/join" style="margin: 20px;"><button class="primary-btn">Join us</button></a>
-  <a href="https://github.com/dh-tech" target="_blank" style="margin: 20px;"><button class="link-btn"><i class="fa fa-github"></i></button></a>
-
+    <a href="/join"><button class="primary-btn">Join us</button></a>
+    <a href="https://github.com/dh-tech" target="_blank"><button class="link-btn"><i class="fa fa-github"></i></button></a>
 </div>
+    
+
 
 <script>
 
 $(document).ready(function() {
-  $("#close").hide();
 });
-
-//# sourceURL=nav.js
 
 function setNavigation(link_id) {
   $("#link_" + link_id).removeClass("link");
@@ -88,20 +82,13 @@ function myFunction() {
 }
 
 function openNav() {
-  $("#open").hide();
-  $("#close").show();
-  $("#mySidenav").css("padding", "30px");
-  document.getElementById("mySidenav").style.width = "100px";
-  document.getElementById("main").style.marginLeft = "100px";
+  $("#mySidemenu").css("padding", "25px");
+  document.getElementById("mySidemenu").style.width = "200px";
 }
 
-/* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+/* Set the width of the side navigation to 0 */
 function closeNav() {
-  $("#close").hide();
-  $("#open").show();
-  $("#mySidenav").css("padding", "30px 0px");
-  document.getElementById("mySidenav").style.width = "0";
-  document.getElementById("main").style.marginLeft = "0";
+  $("#mySidemenu").css("padding", "0px");
+  document.getElementById("mySidemenu").style.width = "0";
 }
-
 </script>

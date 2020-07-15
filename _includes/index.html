@@ -31,7 +31,7 @@ $(function() {
               <a href="{{ item.url }}" class="read-more"><h5 class="post-title">{{ item.title }}</h5></a>
               <p class="card-text">{{ item.excerpt }}</p>
               <p class="article-time">{{ item.date | date: site.date_format }}</p>
-              <a href="/blog" onclick="filter('{{ item.tag }}')">#{{ item.tag }}</a>
+              <a href="/blog"><p id="hashtag">#{{ item.tag }}</p></a>
             </div>
           </div>
         {% endfor %}

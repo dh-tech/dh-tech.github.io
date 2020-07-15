@@ -2,11 +2,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-{% assign font_awesome_uri = site.vendors._internal | append: '/font-awesome/css/font-awesome.min.css?v=4.6.2' | relative_url %}
-{% if site.vendors.fontawesome %}
-  {% assign font_awesome_uri = site.vendors.fontawesome %}
-{% endif %}
-<link href="{{ font_awesome_uri }}" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 
 <link href="/assets/css/homepage.css" rel="stylesheet" type="text/css" />
 
@@ -22,4 +18,6 @@
 <script src="{{site.baseurl}}/assets/js/search-index.js"></script>
 <script src="{{site.baseurl}}/assets/js/searchfunction.js"></script>
 <script src="{{site.baseurl}}/assets/js/scrolltop.js"></script>
-<script src="{{site.baseurl}}/assets/js/tagfilter.js"></script>
+
+<script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>

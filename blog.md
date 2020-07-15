@@ -5,6 +5,25 @@ layout: main
 <script>
   //# sourceURL=index.js
 
+$(document).ready(function() {
+	$(".grid-blog").hide();
+	$("#main-grid").show();
+
+});
+
+function filter(tag) {
+	console.log(tag);
+	$("#main-grid").hide();
+	$(".grid-blog").hide();
+	$("#" +tag).show();
+	
+}
+
+function initial() {
+	$(".grid-blog").hide();
+	$("#main-grid").show();
+}
+
 $(function() {
   setNavigation("Blog")
 })
@@ -13,6 +32,7 @@ $(function() {
 
 <div style="margin-top: 20px">
 	<a id="button"><i class="fa fa-caret-up"></i></a>
+	<button onclick="location.href='{{ site.baseurl }}/admin/index'" class="primary-btn" style="float: right; margin: 0"><i class="fa fa-edit"></i>&nbsp;Compose</button>
 	<h2 class="section-header">DH Tech Blog</h2>
 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 	{% assign blog = site.blog | group_by: 'tag' %}

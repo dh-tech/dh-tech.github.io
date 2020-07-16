@@ -19,6 +19,7 @@ collections:
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "img", widget: "image", required: false}
+      - {label: "Body Images", name: "body-img", widget: "image", required: false, allow_multiple: true}
       - {label: "Excerpt", name: "excerpt", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
@@ -32,6 +33,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}      
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+      - {label: "Body Images", name: "body-img", widget: "image", required: false, allow_multiple: true}
       - {label: "Excerpt", name: "excerpt", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "workshops" # Used in routes, e.g., /admin/collections/blog
@@ -44,6 +46,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+      - {label: "Body Images", name: "body-img", widget: "image", required: false, allow_multiple: true}
       - {label: "Recordings URL", name: "recording", widget: "string", required: false}
       - {label: "Audio URL", name: "audio", widget: "string", required: false}
       - {label: "Slides URL", name: "slides", widget: "string", required: false}

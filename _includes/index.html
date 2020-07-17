@@ -20,7 +20,7 @@ $(function() {
       <div class="grid-blog" style="grid-template-columns: auto;">
         {% assign blog = site.blog | sort: 'date' | reverse %}
         {% for item in blog %}
-          {% if forloop.index > 2 %}
+          {% if forloop.index > 3 %}
             {% break %}
           {% endif %}
           <div class="card">

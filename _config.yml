@@ -18,21 +18,6 @@ url:
 baseurl:
 permalink: pretty
 
-# Pagination
-# paginate: 10
-#paginate_path: "/page:num/"
-# archive:
-#   paginate: 10
-#   paginate_path: "/page:num/"
-#category:
-  #paginate: 10
-  #paginate_path: "/page:num/"
-#tag:
-  #paginate: 10
-  #paginate_path: "/page:num/"
-# blog:
-#   paginate: 6
-#   paginate-path: "/blog/page:num"
 
 # Handling Reading
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "README_en.md"]

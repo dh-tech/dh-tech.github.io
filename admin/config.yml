@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: adhvikmadhav/dh-tech.github.io
+  repo: jdamerow/dh-tech.github.io
 
 publish_mode: editorial_workflow
 

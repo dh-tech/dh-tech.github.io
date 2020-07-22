@@ -599,3 +599,8 @@ a.read-more:hover {
 	outline: none;
   }
   
+  #search {
+	position: absolute;
+    top: 85px;
+    right: 10%;
+  }

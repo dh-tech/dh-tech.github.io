@@ -45,7 +45,7 @@ function show_results(catalog){
 	}
 
 	term = vars['query'];
-
+    term = term.split('#/')[0];
     $('#searchterm').html(term);
     console.log(term);
 

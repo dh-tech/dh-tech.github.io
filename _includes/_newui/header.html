@@ -29,9 +29,16 @@
     {% endif %}
 
 	<a href="/join"><button class="primary-btn">Join us</button></a>
-  <a href="https://github.com/dh-tech" target="_blank"><button class="link-btn"><i class="fa fa-github"></i></button></a>
+  <button class="link-btn" onclick="searchTab()"><i id="icon" class="fa fa-search"></i></button>
 
   <button id="sidemenu" type="button" onclick="openNav()"><i class="fa fa-bars" style="font-size: 16px"></i></button>
+</div>
+
+<div id="search" style="display: none">
+  <div id="search_div" class="search">
+    <input type="text" id="search_box" class="searchTerm" placeholder="What are you looking for?">
+    <button data-href="{{site.baseurl}}/search_page" id="search_button" class="searchButton"><i class="fa fa-search"></i></button>
+  </div>
 </div>
 
 <div id="mySidemenu" class="sidemenu">
@@ -56,7 +63,7 @@
   	</ul>
     {% endif %}
     <a href="/join"><button class="primary-btn">Join us</button></a>
-    <a href="https://github.com/dh-tech" target="_blank"><button class="link-btn"><i class="fa fa-github"></i></button></a>
+    <button class="link-btn" onclick="searchTab()"><i class="fa fa-search"></i></button>
 </div>
     
 
@@ -65,6 +72,19 @@
 
 $(document).ready(function() {
 });
+
+function searchTab() {
+  if($("#search").css('display')==='none') {
+    $("#search").css("display","block");
+    $("#icon").removeClass("fa-search");
+    $("#icon").addClass("fa-times");
+  }
+  else {
+    $("#search").css("display","none");
+    $("#icon").removeClass("fa-times");
+    $("#icon").addClass("fa-search");
+  }
+}
 
 function setNavigation(link_id) {
   $("#link_" + link_id).removeClass("link");

@@ -25,13 +25,13 @@ $(function() {
           {% endif %}
           <div class="card">
             <div class="bg-image">
-              <img class="bg-image-inner" src="{{site.baseurl}}{{ item.img }}">
+              <img class="bg-image-inner" src="{{site.baseurl}}/{{ item.img }}">
             </div>
             <div class="card-body">
-              <a href="{{ item.url }}" class="read-more"><h5 class="post-title">{{ item.title }}</h5></a>
+              <a href="{{ site.baseurl }}/{{ item.url }}" class="read-more"><h5 class="post-title">{{ item.title }}</h5></a>
               <p class="card-text">{{ item.excerpt }}</p>
               <p class="article-time">{{ item.date | date: site.date_format }}</p>
-              <a href="{{site.baseurl}}blog"><p id="hashtag">#{{ item.tag }}</p></a>
+              <a href="{{site.baseurl}}/blog"><p id="hashtag">#{{ item.tag }}</p></a>
             </div>
           </div>
         {% endfor %}

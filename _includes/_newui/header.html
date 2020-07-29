@@ -1,7 +1,7 @@
 
 <div>
   <a class="logo-link" href="/">
-    <img style="width: 50px" src="{{ site.custom_logo.image }}" alt="{{ site.title }}"/>
+    <img style="width: 50px" src="{{ site.baseurl }}{{ site.custom_logo.image }}" alt="{{ site.title }}"/>
     <h1 class="logo-title">DH Tech</h1>
   </a>
 </div>
@@ -28,7 +28,7 @@
   	</ul>
     {% endif %}
 
-	<a href="/join"><button class="primary-btn">Join us</button></a>
+	<a href="{{site.baseurl}}join"><button class="primary-btn">Join us</button></a>
   <button class="link-btn" onclick="searchTab()"><i id="icon" class="fa fa-search"></i></button>
 
   <button id="sidemenu" type="button" onclick="openNav()"><i class="fa fa-bars" style="font-size: 16px"></i></button>
@@ -37,7 +37,7 @@
 <div id="search" style="display: none">
   <div id="search_div" class="search">
     <input type="text" id="search_box" class="searchTerm" placeholder="What are you looking for?">
-    <button data-href="{{site.baseurl}}/search_page" id="search_button" class="searchButton"><i class="fa fa-search"></i></button>
+    <button data-href="{{site.baseurl}}search_page" id="search_button" class="searchButton"><i class="fa fa-search"></i></button>
   </div>
 </div>
 
@@ -62,7 +62,7 @@
       {% endfor %}
   	</ul>
     {% endif %}
-    <a href="/join"><button class="primary-btn">Join us</button></a>
+    <a href="{{site.baseurl}}join"><button class="primary-btn">Join us</button></a>
     <button class="link-btn" onclick="searchTab()"><i class="fa fa-search"></i></button>
 </div>
     

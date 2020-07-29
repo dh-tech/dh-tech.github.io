@@ -114,9 +114,9 @@ index_with_subtitle: false
 menu:
   Home: /
   #categories: /categories/
-  About: /about/
-  Workshops: /workshops/
-  Blog: /blog
+  About: about/
+  Workshops: workshops/
+  Blog: blog/
   #join: /join/
   #archives: /archives/
   #tags: /tags/
@@ -359,7 +359,7 @@ post_copyright:
 #   image: url-of-image   - Images's url
 custom_logo:
   enabled: true
-  image: '/DH-Tech.png'
+  image: 'DH-Tech.png'
 
 
 # Code Highlight theme

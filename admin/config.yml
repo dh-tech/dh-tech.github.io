@@ -1,6 +1,8 @@
 backend:
   name: github
   repo: jdamerow/dh-tech.github.io
+  site_domain: youthful-nightingale-053fba.netlify.com
+
 
 publish_mode: editorial_workflow
 
@@ -30,7 +32,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}      
+      - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
       - {label: "Body Images", name: "body-img", widget: "image", required: false, allow_multiple: true}

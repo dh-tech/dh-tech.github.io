@@ -47,10 +47,10 @@ $(function() {
 		{% for article in hashtags.items %}
 			<div class="card">
 				<div class="bg-image">
-					<img class="bg-image-inner" src="{{site.baseurl}}{{ article.img }}">
+					<img class="bg-image-inner" src="{{site.baseurl}}/{{ article.img }}">
 				</div>
 				<div class="card-body">
-					<a href="{{ article.url }}" class="read-more"><h5 class="post-title">{{ article.title }}</h5></a>
+					<a href="{{ site.baseurl }}/{{ article.url }}" class="read-more"><h5 class="post-title">{{ article.title }}</h5></a>
 					<p class="card-text">{{ article.excerpt }}</p>
 					<p class="article-time">{{ article.date | date: site.date_format }}</p>
 					<p id="hashtag">#{{ article.tag }}</p>
@@ -67,10 +67,10 @@ $(function() {
 			{% endif %}
 			<div class="card">
 				<div class="bg-image">
-					<img class="bg-image-inner" src="{{site.baseurl}}{{ article.img }}">
+					<img class="bg-image-inner" src="{{site.baseurl}}/{{ article.img }}">
 				</div>
 				<div class="card-body">
-					<a href="{{ article.url }}" class="read-more"><h5 class="post-title">{{ article.title }}</h5></a>
+					<a href="{{ site.baseurl }}/{{ article.url }}" class="read-more"><h5 class="post-title">{{ article.title }}</h5></a>
 					<p class="card-text">{{ article.excerpt }}</p>
 					<p class="article-time">{{ article.date | date: site.date_format }}</p>
 					<p id="hashtag">#{{ article.tag }}</p>

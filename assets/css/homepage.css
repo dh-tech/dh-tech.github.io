@@ -264,6 +264,11 @@ a.read-more:hover {
     width: 80%;
 }
 
+.card-author {
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+
 @media only screen and (max-width: 600px) {
 	.card {
 	    background: white;

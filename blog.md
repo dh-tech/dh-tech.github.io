@@ -34,7 +34,10 @@ $(function() {
 	<a id="button"><i class="fa fa-caret-up"></i></a>
 	<button onclick="location.href='{{ site.baseurl }}/admin/index'" class="primary-btn" style="float: right; margin: 0"><i class="fa fa-edit"></i>&nbsp;Compose</button>
 	<h2 class="section-header">DH Tech Blog</h2>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	<p>This is the DHTech blog. There are two types of blog posts: ADayInTheLifeOf and 2Simple2Mention. ADayInTheLifeOf aims to give the reader an idea of what a day in the work life of a DH techie looks like. It can be anything the author wants to share about their job. 2Simple2Mention provides a space to live for all these technical problems that we sometimes need a lot of time to fix but that turn out to be super simple. We don't write them down because we think it's so simple we will remember, and spend the same amount of time on them again the next time (or someone else is).</p>
+  <p>
+  Want to contribute a blog post? Yes please! Get in touch with us on Slack!
+  </p>
 	{% assign blog = site.blog | group_by: 'tag' %}
 	<div class="filter">
 		<button class="filter-btn" onclick="initial()" style="margin-right: 25px">View all</button>
@@ -51,7 +54,8 @@ $(function() {
 				</div>
 				<div class="card-body">
 					<a href="{{ site.baseurl }}{{ article.url }}" class="read-more"><h5 class="post-title">{{ article.title }}</h5></a>
-					<p class="card-text">{{ article.excerpt }}</p>
+          {% if item.author %}<p class="card-author">by {{item.author}}</p>{% endif %}
+          <p class="card-text">{{ article.excerpt }}</p>
 					<p class="article-time">{{ article.date | date: site.date_format }}</p>
 					<p id="hashtag">#{{ article.tag }}</p>
 				</div>
@@ -71,7 +75,8 @@ $(function() {
 				</div>
 				<div class="card-body">
 					<a href="{{ site.baseurl }}{{ article.url }}" class="read-more"><h5 class="post-title">{{ article.title }}</h5></a>
-					<p class="card-text">{{ article.excerpt }}</p>
+          {% if item.author %}<p class="card-author">by {{item.author}}</p>{% endif %}
+          <p class="card-text">{{ article.excerpt }}</p>
 					<p class="article-time">{{ article.date | date: site.date_format }}</p>
 					<p id="hashtag">#{{ article.tag }}</p>
 				</div>

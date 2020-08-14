@@ -29,6 +29,7 @@ $(function() {
             </div>
             <div class="card-body">
               <a href="{{ site.baseurl }}{{ item.url }}" class="read-more"><h5 class="post-title">{{ item.title }}</h5></a>
+              {% if item.author %}<p class="card-author">by {{item.author}}</p>{% endif %}
               <p class="card-text">{{ item.excerpt }}</p>
               <p class="card-article-time">{{ item.date | date: site.date_format }}</p>
               <p class="card-hashtag"><a href="{{site.baseurl}}/blog">#{{ item.tag }}</a></p>

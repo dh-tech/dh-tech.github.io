@@ -16,7 +16,7 @@ function filter(tag) {
 	$("#main-grid").hide();
 	$(".grid-blog").hide();
 	$("#" +tag).show();
-	
+
 }
 
 function initial() {
@@ -50,7 +50,7 @@ $(function() {
 					<img class="bg-image-inner" src="{{site.baseurl}}/{{ article.img }}">
 				</div>
 				<div class="card-body">
-					<a href="{{ site.baseurl }}/{{ article.url }}" class="read-more"><h5 class="post-title">{{ article.title }}</h5></a>
+					<a href="{{ site.baseurl }}{{ article.url }}" class="read-more"><h5 class="post-title">{{ article.title }}</h5></a>
 					<p class="card-text">{{ article.excerpt }}</p>
 					<p class="article-time">{{ article.date | date: site.date_format }}</p>
 					<p id="hashtag">#{{ article.tag }}</p>
@@ -70,14 +70,12 @@ $(function() {
 					<img class="bg-image-inner" src="{{site.baseurl}}/{{ article.img }}">
 				</div>
 				<div class="card-body">
-					<a href="{{ site.baseurl }}/{{ article.url }}" class="read-more"><h5 class="post-title">{{ article.title }}</h5></a>
+					<a href="{{ site.baseurl }}{{ article.url }}" class="read-more"><h5 class="post-title">{{ article.title }}</h5></a>
 					<p class="card-text">{{ article.excerpt }}</p>
 					<p class="article-time">{{ article.date | date: site.date_format }}</p>
 					<p id="hashtag">#{{ article.tag }}</p>
 				</div>
 			</div>
 		{% endfor %}
-	</div> 
+	</div>
 </div>
-
- 

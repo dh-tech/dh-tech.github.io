@@ -1,6 +1,7 @@
 ---
 title: 'Deployment, Release, and Packaging Workflows'
 date: '2020-02-27, 10AM EDT / 4PM CEST'
+excerpt: "On February 27, 2020, a total of 11 DHTech members met for a webinar on the topic of deployment, release, and packaging workflows. Several people described the workflows and tools they employ at their organizations followed by a lively (and interesting) discussion of questions and answers."
 ---
 
 ## Webinar Summary

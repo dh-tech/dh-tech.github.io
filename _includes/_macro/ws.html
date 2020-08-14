@@ -14,43 +14,39 @@
 
     {% unless headlessPost %}
       <header class="post-header">
-
-        <div class="post-meta">
+        <div style="text-align: center">
           <span class="post-time">
             {% if site.post_meta.created_at %}
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
-              {% if site.post_meta.item_text %}
-                <span class="post-meta-item-text">{{ __.workshop.date }}</span>
-              {% endif %}
               <time title="{{ __.post.created }}" itemprop="dateCreated datePublished" datetime="{{ post.date | date_to_xmlschema }}">
                 {{ post.date | date: site.date_format }}
               </time>
             {% endif %}
 
             {% if post.zoom %}
-              <span class="post-meta-divider">|</span>
+              <span class="post-meta-divider">  |  </span>
               <span class="post-time">
-                <a href="{{ post.zoom }}">{{ __.workshop.zoom }}</a>
+                <a href="{{ post.zoom }}"><button class="primary-btn"><i class="fa fa-play-circle"></i>&nbsp;{{ __.workshop.zoom }}</button></a>
               </span>
             {% endif %}
             {% if post.slides %}
               <span class="post-meta-divider">|</span>
               <span class="post-time">
-                <a href="{{ post.slides | absolute_url }}">{{ __.workshop.slides }}</a>
+                <a href="{{ post.slides | absolute_url }}"><button class="primary-btn"><i class="fa fa-file"></i>&nbsp;{{ __.workshop.slides }}</button></a>
               </span>
             {% endif %}
             {% if post.recording %}
               <span class="post-meta-divider">|</span>
               <span class="post-time">
-                <a href="{{ post.recording }}">{{ __.workshop.recording }}</a>
+                <a href="{{ post.recording }}"><button class="primary-btn"><i class="fa fa-play-circle"></i>&nbsp;{{ __.workshop.recording }}</button></a>
               </span>
             {% endif %}
             {% if post.audio %}
               <span class="post-meta-divider">|</span>
               <span class="post-time">
-                <a href="{{ post.audio }}">{{ __.workshop.audio }}</a>
+                <a href="{{ post.audio }}"><button class="primary-btn"><i class="fa fa-headphones"></i>&nbsp;{{ __.workshop.audio }}</button></a>
             {% endif %}
             {% if post.blogpost %}
               <span class="post-meta-divider">|</span>
@@ -76,7 +72,7 @@
       </header>
     {% endunless %}
 
-    <div class="post-body" itemprop="articleBody">
+    <div class="post-body" style="margin-top: 40px">
 
       {{ post.content }}
     </div>

@@ -1,49 +1,60 @@
-Established at DH 2017 Montreal, DHTech is an international grass-roots community of Digital Humanities software engineers.
-<a href="{{ site.baseurl }}{% link about.md %}">Find out more...</a>
 
+<script>
+  //# sourceURL=index.js
+$(function() {
+  setNavigation("Home")
+})
 
-{% assign posts = site.posts %}
-{% if site.paginate > 0 %}{% assign posts = paginator.posts %}{% endif %}
+</script>
 
-<div class="announcement" style="display: block; margin-top: 20px;">
-    {% assign post = site.posts.first %}
-    <header class="post-header"><a href="{{ post.url }}"><h2 class="post-title">{{ post.title }}</h2></a></header>
-    <div class="post-time" style="text-align: right;">
-    {% if site.post_meta.created_at %}
-      <span class="post-meta-item-icon">
-        <i class="fa fa-calendar-o"></i>
-      </span>
-      {% if site.post_meta.item_text %}
-        <span class="post-meta-item-text">{{ __.post.posted }}</span>
-      {% endif %}
-      <time title="{{ __.post.created }}" itemprop="dateCreated datePublished" datetime="{{ post.date | date_to_xmlschema }}">
-        {{ post.date | date: site.date_format }}
-      </time>
-    {% endif %}
+<div class="homepage">
+  <div class="left-section">
+    <div class="intro">
+      <div class="line"></div>
+      <i class="fa fa-quote-left"></i>
+      <p class="intro-para"><em>Established at DH 2017 Montreal, DHTech is an international grass-roots community of Digital Humanities software engineers.</em><i class="fa fa-quote-right"></i></p>
     </div>
 
-    {{ post.excerpt }}
-    <p>
-      <a href="{{ post.url }}">Read more...</a>
-    </p>
-</div>
+    <div class="blog">
+      <h1 class="section-header" style="text-align: left ">Blog</h1>
+      <div class="grid-blog" style="grid-template-columns: auto;">
+        {% assign blog = site.blog | sort: 'date' | reverse %}
+        {% for item in blog %}
+          {% if forloop.index > 3 %}
+            {% break %}
+          {% endif %}
+          <div class="card">
+            <div class="bg-image">
+              <img class="bg-image-inner" src="{{site.baseurl}}/{{ item.img }}">
+            </div>
+            <div class="card-body">
+              <a href="{{ site.baseurl }}/{{ item.url }}" class="read-more"><h5 class="post-title">{{ item.title }}</h5></a>
+              <p class="card-text">{{ item.excerpt }}</p>
+              <p class="article-time">{{ item.date | date: site.date_format }}</p>
+              <a href="{{site.baseurl}}/blog"><p id="hashtag">#{{ item.tag }}</p></a>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
 
-<div class="announcement" style="display: block; margin-top: 20px;">
+  <div class="right-section">
 
-  <header class="post-header"><a href="/announcement"><h2 class="post-title">Plans for an ADHO SIG</h2></a></header>
+    <h1 class="section-header">What's new?</h1>
 
-  Members of the DHtech group are planning to propose a Special Interest Group (SIG) to the Alliance of Digital Humanities Organizations (ADHO) that focuses on the technical side of DH such as tool development and maintenance.
+    <div class="announcement">
+      {% for item in site.posts limit:3 %}
+      <div class="post">
+        <h2 class="post-title">{{ item.title }}</h2>
+        
+        <p>{{ item.date | date: site.date_format }}</p>
+        <p>{{ item.excerpt }}</p>
 
-  <p>
-    <a href="/announcement">Read more...</a>
-  </p>
-
-</div>
-
-<div class="announcement" style="display: block; margin-top: 20px;">
-  <header class="post-header"><a href="/dhrse-whitepaper"><h2 class="post-title">The DH RSE Workshop White Paper</h2></a></header>
-  At the DH 2019 conference, a group of people that identify themselves broadly as Digital Humanities Research Software Engineers came together for a workshop. This white paper is the outcome of this workshop. It aims to draw attention to some of the issues we observe and experience and invite anyone who is interested to join us.
-  <p>
-    <a href="/dhrse-whitepaper">Read more...</a>
-  </p>
+        <a class="read-more" href="{{ site.baseurl }}/{{ item.url }}">Read more <i class="fa fa-chevron-right"></i></a>
+        <div class="h-line"></div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
 </div>

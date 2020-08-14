@@ -14,22 +14,10 @@ date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url:
-baseurl:
+url: http://jdamerow.github.io
+baseurl: /dh-tech.github.io
 permalink: pretty
 
-# Pagination
-paginate: 10
-#paginate_path: "/page:num/"
-archive:
-  paginate: 10
-  paginate_path: "/page:num/"
-#category:
-  #paginate: 10
-  #paginate_path: "/page:num/"
-#tag:
-  #paginate: 10
-  #paginate_path: "/page:num/"
 
 # Handling Reading
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "README_en.md"]
@@ -70,11 +58,13 @@ feed:
 
 # Plugins
 ## Docs: https://help.github.com/articles/configuring-jekyll-plugins/
+plugins_dir: ./_plugins
 plugins:
 # jemoji conficts with toc in some no-ascii post
 # - jemoji
  - jekyll-sitemap
  - jekyll-feed
+
 
 # ---------------------------------------------------------------
 # Site Information Settings
@@ -122,16 +112,17 @@ index_with_subtitle: false
 
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
-  home: /
+  Home: /
   #categories: /categories/
-  about: /about/
-  join: /join/
+  About: about/
+  Workshops: workshops/
+  Blog: blog/
+  #join: /join/
   #archives: /archives/
-  workshops: /workshops/
   #tags: /tags/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
-  github: https://github.com/dh-tech
+  #github: https://github.com/dh-tech
   #confluence: https://diging.atlassian.net/wiki/spaces/DH2017
 
 
@@ -162,7 +153,11 @@ menu_icons:
 
 collections:
   workshops:
-    output: true
+      output: true
+      permalink: /workshops/:path/
+  blog:
+      output: true
+      permalink: /blog/:path/
 
 # ---------------------------------------------------------------
 # Scheme Settings
@@ -364,7 +359,7 @@ post_copyright:
 #   image: url-of-image   - Images's url
 custom_logo:
   enabled: true
-  image: '/DH-Tech.png'
+  image: 'DH-Tech.png'
 
 
 # Code Highlight theme
@@ -558,7 +553,7 @@ calendar:
 
 # Algolia Search
 algolia_search:
-  enable: false
+  enable: true
   hits:
     per_page: 10
   labels:

@@ -1,9 +1,9 @@
 <header class="post-header">
 
-	<{% if site.seo %}h2{% else %}h1{% endif %} class="post-title" itemprop="name headline">{{ page.title }}</{% if site.seo %}h2{% else %}h1{% endif %}>
+	<{% if site.seo %}h2{% else %}h1{% endif %} class="section-header" style="text-align: center" itemprop="name headline">{{ page.title }}</{% if site.seo %}h2{% else %}h1{% endif %}>
 
 {% if page.description %}
-	<div class="post-meta">
+	<div style="width: 80%; margin:auto; text-align: center;">
 		<div class="post-description">{{ page.description }}</div>
 	</div>
 {% endif %}

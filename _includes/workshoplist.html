@@ -1,26 +1,53 @@
-<div id="posts" class="posts-expand">
-{% include _partials/page-header.html %}
-</div>
+<script>
+  //# sourceURL=index.js
+$(function() {
+  setNavigation("Workshops")
+})
+
+</script>
+
+<a id="button"><i class="fa fa-caret-up"></i></a>
+
+<h2 class="section-header">Workshops overview</h2>
+{% if page.description %}
+  <div class="post-meta">
+    <div class="post-description">{{ page.description }}</div>
+  </div>
+{% endif %}
+
+<button onclick="location.href='{{ site.baseurl }}/admin/index'" class="primary-btn" style="float: right; margin: 0"><i class="fa fa-edit"></i>&nbsp;Compose</button>
 
 <section id="posts" class="posts-collapse">
   <span class="archive-move-on"></span>
-  <span class="archive-page-counter">See our announcements for the next workshop!</span>
+  <p>See our <a href="/">announcements</a> for the next workshop!</p>
 
   {% assign workshops = site.workshops | sort: 'date' | reverse %}
-  {% for ws in workshops %}
+  
+    
+      <div class="timeline">
+        {% for ws in workshops %}
+        {% assign post_year = ws.date | date: '%Y' %}
+        {% if post_year != year %}
+        {% if year %}
+        </div></div>
+        {% endif %}
+            {% assign year = post_year %}
+        <div class="container right">
+          
+          <div class="content">
 
-    {% comment %} Show year {% endcomment %}
-    {% assign post_year = ws.date | date: '%Y' %}
-    {% if post_year != year %}
-      {% assign year = post_year %}
-      <div class="collection-title" {% if route %}route="{{ route }}"{% endif %}>
-        <h2 class="archive-year motion-element" id="archive-year-{{ year }}">{{ year }}</h2>
+            
+            <h2 class="section-header" style="font-size: 24px">{{ year }}</h2>
+            
+            {% endif %}       
+            {% include _macro/ws-collapse.html %}
+
+          
+        {% endfor %}
+        </div>
+        </div>
       </div>
-    {% endif %}
-    {% comment %} endshow {% endcomment %}
-
-    {% include _macro/ws-collapse.html %}
-
-  {% endfor %}
+      
+    
 
 </section>

@@ -1,6 +1,6 @@
 
 <div>
-  <a class="logo-link" href="{{ site.baseurl }}">
+  <a class="logo-link" href="{{ site.baseurl }}/">
     <img style="width: 50px" src="{{ site.baseurl }}/{{ site.custom_logo.image }}" alt="{{ site.title }}"/>
     <h1 class="logo-title">DH Tech</h1>
   </a>
@@ -17,10 +17,10 @@
         <li class="nav-link">
           {% if path contains '://' %}
             <a class="link" id="link_{{name}}" href="{{ path }}" rel="section">{{ itemName }}</a>
-            
+
           {% else %}
             <a class="link" id="link_{{name}}" href="{{ path | relative_url }}" rel="section">{{ itemName }}</a>
-     
+
           {% endif %}
           <div style="display: none" id="underline_{{ name }}" class="underline"></div>
         </li>
@@ -52,10 +52,10 @@
         <li class="nav-link">
           {% if path contains '://' %}
             <a class="link" id="link_{{name}}" href="{{ path }}" rel="section">{{ itemName }}</a>
-            
+
           {% else %}
             <a class="link" id="link_{{name}}" href="{{ path | relative_url }}" rel="section">{{ itemName }}</a>
-     
+
           {% endif %}
           <div style="display: none" id="underline_{{ name }}" class="underline"></div>
         </li>
@@ -65,7 +65,7 @@
     <a href="{{site.baseurl}}/join"><button class="primary-btn">Join us</button></a>
     <button class="link-btn" onclick="searchTab()"><i class="fa fa-search"></i></button>
 </div>
-    
+
 
 
 <script>

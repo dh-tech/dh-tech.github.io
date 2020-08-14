@@ -44,10 +44,10 @@ $(function() {
     <h1 class="section-header">What's new?</h1>
 
     <div class="announcement">
-      {% for item in site.posts limit:3 %}
+      {% for item in site.posts limit:1 %}
       <div class="post">
         <h2 class="post-title">{{ item.title }}</h2>
-        
+
         <p>{{ item.date | date: site.date_format }}</p>
         <p>{{ item.excerpt }}</p>
 
@@ -55,6 +55,22 @@ $(function() {
         <div class="h-line"></div>
       </div>
       {% endfor %}
+      <div class="post">
+        <h2 class="post-title">Plans for an ADHO SIG</h2>
+
+        <p>2019-11-15</p>
+        <p>Special Interest Group that focuses on the technical side of DH such as tool development and maintenance.</p>
+
+        <a class="read-more" href="{{ site.baseurl }}/adho-sig">Read more <i class="fa fa-chevron-right"></i></a>
+        <div class="h-line"></div>
+      </div>
+      <div class="post">
+        <h2 class="post-title">The DH RSE Workshop White Paper by DHTech</h2>
+
+        <p>This white paper aims to draw attention to some of the issues we observe, and invite anyone who is interested to join us.</p>
+
+        <a class="read-more" href="{{ site.baseurl }}/dhrse-whitepaper">Read more <i class="fa fa-chevron-right"></i></a>
+      </div>
     </div>
   </div>
 </div>

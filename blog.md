@@ -12,7 +12,6 @@ $(document).ready(function() {
 });
 
 function filter(tag) {
-	console.log(tag);
 	$("#main-grid").hide();
 	$(".grid-blog").hide();
 	$("#" +tag).show();
@@ -54,10 +53,10 @@ $(function() {
 				</div>
 				<div class="card-body">
 					<a href="{{ site.baseurl }}{{ article.url }}" class="read-more"><h5 class="post-title">{{ article.title }}</h5></a>
-          {% if item.author %}<p class="card-author">by {{item.author}}</p>{% endif %}
+          {% if article.author %}<p class="card-author">by {{article.author}}</p>{% endif %}
           <p class="card-text">{{ article.excerpt }}</p>
-					<p class="article-time">{{ article.date | date: site.date_format }}</p>
-					<p id="hashtag">#{{ article.tag }}</p>
+          <p class="card-article-time">{{ article.date | date: site.date_format }}</p>
+          <p class="card-hashtag">#{{ article.tag }}</p>
 				</div>
 			</div>
 		{% endfor %}
@@ -75,10 +74,10 @@ $(function() {
 				</div>
 				<div class="card-body">
 					<a href="{{ site.baseurl }}{{ article.url }}" class="read-more"><h5 class="post-title">{{ article.title }}</h5></a>
-          {% if item.author %}<p class="card-author">by {{item.author}}</p>{% endif %}
+          {% if article.author %}<p class="card-author">by {{article.author}}</p>{% endif %}
           <p class="card-text">{{ article.excerpt }}</p>
-					<p class="article-time">{{ article.date | date: site.date_format }}</p>
-					<p id="hashtag">#{{ article.tag }}</p>
+          <p class="card-article-time">{{ article.date | date: site.date_format }}</p>
+          <p class="card-hashtag">#{{ article.tag }}</p>
 				</div>
 			</div>
 		{% endfor %}

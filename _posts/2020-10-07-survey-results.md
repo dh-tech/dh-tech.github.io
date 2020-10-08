@@ -198,7 +198,7 @@ Notes about the survey:
 <img src="assets/images/survey/Q06-TopicsEnjoyMost.png" width="700px" title="Regarding the following topics, what do you enjoy the most?" >
 
 ---
-### Question 7: Regarding the following topics, what do you like to improve?
+### Question 7: Regarding the following topics, in which ones would you like to improve your knowledge?
 ---
 
 **Possible Answers:**
@@ -227,7 +227,7 @@ Notes about the survey:
 - Server infrastructure setup/maintenance: 10
 - Software engineering: 5
 
-<img src="assets/images/survey/Q07-TopicsLikeToImprove.png" width="700px" title="Regarding the following topics, what do you like to improve?" >
+<img src="assets/images/survey/Q07-TopicsLikeToImprove.png" width="700px" title="Regarding the following topics, in which ones would you like to improve your knowledge?" >
 
 ---
 ### Question 8: What is the highest degree you have?

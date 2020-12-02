@@ -210,7 +210,7 @@
             <p class="text-muted">{{ post.excerpt }}</p>
             {% if post.img %}
             <center style="margin-bottom: 20px;">
-              <img src="{{site.baseurl}}{{ post.img }}" style="max-width: 80%;">
+              <img src="{{site.baseurl}}/{{ post.img }}" style="max-width: 80%;">
               {% if post.img-credits %}
               <br><small style="padding-top: 10px; font-family: var(--font-primary); color: rgba(46, 46, 46, 0.8);">Image credits: {{ post.img-credits }}</small>
               {% endif %}
@@ -223,7 +223,7 @@
         <p class="text-muted">{{ post.excerpt }}</p>
         {% if post.img %}
           <center style="margin-bottom: 20px;">
-            <img src="{{site.baseurl}}{{ post.img }}" style="max-width: 80%;">
+            <img src="{{site.baseurl}}/{{ post.img }}" style="max-width: 80%;">
             {% if post.img-credits %}
             <br><small style="padding-top: 10px; font-family: var(--font-primary); color: rgba(46, 46, 46, 0.8);">Image credits: {{ post.img-credits }}</small>
             {% endif %}

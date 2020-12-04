@@ -1,14 +1,13 @@
 ---
 layout: post
-title: DH RSE Survey Results Discussion - Part 1
+title: DH RSE Survey Discussion - Part 1
 date: 2020-12-03T14:49:31.815Z
 author: Julia Damerow, Malte Vogl, Robert Casties
-excerpt: "This blog post looks at the first half of questions from the DH RSE
-  Survey and discusses what the results might mean for people doing technical
-  work in the digital humanities. A second blog post that takes a closer look at
-  the demographic questions of the survey will follow. "
+excerpt: This blog post looks at the first half of questions from the [DH RSE
+  Survey](https://dh-tech.github.io/survey-results-2020) and discusses what the
+  results might mean for people doing technical work in the digital humanities.
 ---
-This blog post looks at the first half of questions from the [DH RSE Survey](https://dh-tech.github.io/survey-results-2020) and discusses what the results might mean for people doing technical work in the digital humanities. A second blog post that takes a closer look at the demographic questions of the survey will follow. A total of 66 people responded to the survey.
+A second blog post that takes a closer look at the demographic questions of the survey will follow. A total of 66 people responded to the survey.
 
 ## Self-classification
 

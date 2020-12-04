@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DH RSE Survey Results Discussion - Part 1
+title: DH RSE Survey Discussion - Part 1
 date: 2020-12-03T14:49:31.815Z
 author: Julia Damerow, Malte Vogl, Robert Casties
 excerpt: "This blog post looks at the first half of questions from the DH RSE

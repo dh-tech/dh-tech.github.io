@@ -33,7 +33,7 @@ $(function() {
 	<a id="button"><i class="fa fa-caret-up"></i></a>
 	<button onclick="location.href='{{ site.baseurl }}/admin/index'" class="primary-btn" style="float: right; margin: 0"><i class="fa fa-edit"></i>&nbsp;Compose</button>
 	<h2 class="section-header">DH Tech Blog</h2>
-	<p>This is the DHTech blog. There are two types of blog posts: ADayInTheLifeOf and 2Simple2Mention. ADayInTheLifeOf aims to give the reader an idea of what a day in the work life of a DH techie looks like. It can be anything the author wants to share about their job. 2Simple2Mention provides a space to live for all these technical problems that we sometimes need a lot of time to fix but that turn out to be super simple. We don't write them down because we think it's so simple we will remember, and spend the same amount of time on them again the next time (or someone else is).</p>
+	<p>This is the DHTech blog. There are three types of blog posts: ADayInTheLifeOf, 2Simple2Mention, and WhatsHappening. ADayInTheLifeOf aims to give the reader an idea of what a day in the work life of a DH techie looks like. It can be anything the author wants to share about their job. 2Simple2Mention provides a space to live for all these technical problems that we sometimes need a lot of time to fix but that turn out to be super simple. We don't write them down because we think it's so simple we will remember, and spend the same amount of time on them again the next time (or someone else is). WhatsHappening reports on current events in the DHTech space. Enjoy reading!</p>
   <p>
   Want to contribute a blog post? Yes please! Get in touch with us on Slack!
   </p>

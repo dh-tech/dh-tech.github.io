@@ -51,13 +51,10 @@ $(function() {
 <div class="grid-blog" id="main-grid">
 	{% assign blog = site.posts | sort: 'date' | reverse %}
 	{% for article in blog %}
-		{% while forloop.index %}
+		{% if forloop.index > 25 %}
 			{% break %}
 		{% endif %}
 		<div class="card">
-			<div class="bg-image">
-				<img class="bg-image-inner" src="{{site.baseurl}}/{{ article.img }}">
-			</div>
 			<div class="card-body">
 				<a href="{{ site.baseurl }}{{ article.url }}" class="read-more"><h5 class="post-title">{{ article.title }}</h5></a>
 	  {% if article.author %}<p class="card-author">by {{article.author}}</p>{% endif %}

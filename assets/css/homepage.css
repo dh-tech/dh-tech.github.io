@@ -502,6 +502,13 @@ a.read-more:hover {
 	grid-gap: 30px;
 }
 
+.grid-news{
+    margin-top: 40px;
+    display: grid;
+	grid-template-columns: 100%;
+	grid-gap: 30px;
+}
+
 .article-time {
 	float: left;
 	margin:0;

@@ -6,20 +6,20 @@ layout: main
   //# sourceURL=index.js
 
 $(document).ready(function() {
-	$(".grid-blog").hide();
+	$(".grid-news").hide();
 	$("#main-grid").show();
 
 });
 
 function filter(tag) {
 	$("#main-grid").hide();
-	$(".grid-blog").hide();
+	$(".grid-news").hide();
 	$("#" +tag).show();
 
 }
 
 function initial() {
-	$(".grid-blog").hide();
+	$(".grid-news").hide();
 	$("#main-grid").show();
 }
 
@@ -30,7 +30,7 @@ $(function() {
 </script>
 
 <h2 class="section-header">News</h2>
-{% for articles in posts %}
+<!-- {% for articles in posts %}
 <div class="grid-blog" id="{{ hashtags.name }}">
 	{% for article in hashtags.items %}
 		<div class="card">
@@ -47,21 +47,23 @@ $(function() {
 		</div>
 	{% endfor %}
 </div>
-{% endfor %}
-<div class="grid-blog" id="main-grid">
+{% endfor %} -->
+
+
+<div class="grid-news" id="main-grid">
 	{% assign blog = site.posts | sort: 'date' | reverse %}
 	{% for article in blog %}
-		{% if forloop.index > 25 %}
-			{% break %}
-		{% endif %}
-		<div class="card">
+		<!-- {% if forloop.index > 25 %}
+			{% break %} -->
+		<!-- {% endif %} -->
+		<!-- <div class="card"> -->
 			<div class="card-body">
-				<a href="{{ site.baseurl }}{{ article.url }}" class="read-more"><h5 class="post-title">{{ article.title }}</h5></a>
+	  <a href="{{ site.baseurl }}{{ article.url }}" class="read-more"><h5 class="post-title">{{ article.title }}</h5></a>
 	  {% if article.author %}<p class="card-author">by {{article.author}}</p>{% endif %}
 	  <p class="card-text">{{ article.excerpt }}</p>
 	  <p class="card-article-time">{{ article.date | date: site.date_format }}</p>
 			</div>
-		</div>
+		<!-- </div> -->
 	{% endfor %}
 </div>
 

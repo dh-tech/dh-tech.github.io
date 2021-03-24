@@ -115,6 +115,7 @@ menu:
   Home: /
   #categories: /categories/
   About: about/
+  News: news/
   Workshops: workshops/
   Blog: blog/
   #join: /join/
@@ -158,6 +159,9 @@ collections:
   blog:
       output: true
       permalink: /blog/:path/
+  news:
+      output: true
+      permalink: /news/:path/
 
 # ---------------------------------------------------------------
 # Scheme Settings

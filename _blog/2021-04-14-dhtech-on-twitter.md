@@ -4,7 +4,7 @@ title: DHtech on Twitter
 tag: WhatsHappening
 author: DHtech
 date: 2021-04-14T14:57:53.632Z
-img: /assets/images/uploads/blured_bird.jpg
+img: assets/images/uploads/blured_bird.jpg
 img-credits: "@Lorem Picsum"
 excerpt: DHtech is now tweeting @dhtech_group
 ---

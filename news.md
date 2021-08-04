@@ -24,7 +24,7 @@ function initial() {
 }
 
 $(function() {
-  setNavigation("news")
+  setNavigation("News")
 })
 
 </script>

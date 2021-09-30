@@ -20,8 +20,8 @@ On the more policy oriented side, attendees discussed the need to clarifying the
 
 ## Upcoming opportunities
 
-The next DHTech meetup will take place in mid November and revolve around projects, both in their initial phase as well as matured, that have to work with fuzzy or uncertain dates. 
+The **next DHTech meetup** will take place in mid November and revolve around projects, both in their initial phase as well as matured, that have to work with fuzzy or uncertain dates. 
 
-If you are interested in the mentoring program, either as mentee or mentor, feel free to fill the short [mentorship interest poll](https://forms.gle/ZG3QpEo2QU4XvCYu5). 
+If you are interested in the **mentoring program**, either as mentee or mentor, feel free to fill the short [mentorship interest poll](https://forms.gle/ZG3QpEo2QU4XvCYu5). 
 
-The next meeting of the community code review initiative will take place on 20th of October. Please [join the DHTech Slack](https://dh-tech.github.io/join/#/) for more information.
+The next meeting of the **community code review initiative** will take place on 20th of October. Please [join the DHTech Slack](https://dh-tech.github.io/join/#/) for more information.

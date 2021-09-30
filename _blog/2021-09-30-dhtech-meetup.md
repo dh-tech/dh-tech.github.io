@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DHtech Meetup
+title: First DHtech Meetup as an ADHO SIG
 tag: WhatsHappening
 author: DHtech
 date: 2021-09-30T14:14:11.524Z

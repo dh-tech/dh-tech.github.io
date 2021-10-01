@@ -4,14 +4,22 @@ title: ADHO Special Interest Group
 description: Steering Committee and Governance
 ---
 
-<ul>
-    <li>Robert Casties</li>
-    <li>Julia Damerow</li>
-    <li>Rebecca Sutton Koeser</li>
-    <li>Albert Meroño</li>
-    <li>Malte Vogl</li>
-    <li>Itay Zandbank</li>
-</ul>
+## Steering Committee
+
+* [Robert Casties](https://www.mpiwg-berlin.mpg.de/users/casties)<br/>
+  Research Scholar, Research-IT at the Max Planck Institute for the History of Science
+* [Julia Damerow](https://diging.asu.edu/people/index.html)<br/>
+  Lead Scientific Software Engineer, Digital Innovation Group and School of Complex Adaptive Systems at Arizona State University
+* [Rebecca Sutton Koeser](https://cdh.princeton.edu/people/rebecca-sutton-koeser/)<br/>
+  Lead Developer, Center for Digital Humanities at Princeton
+* [Albert Meroño](https://albertmeronyo.org/)<br/>
+  Lecturer (Assistant Professor) at King's College London
+* [Jeffrey R. Tharsen](http://www.tharsen.net/)<br/>
+  Computational Scientist for the Digital Humanities and Lecturer in Digital Studies, University of Chicago
+* [Malte Vogl](https://www.mpiwg-berlin.mpg.de/users/mvogl)<br/>
+  Research Software Engineer, ModelSEN project at the Max-Planck-Institute for the History of Science, Berlin
+* [Itay Zandbank](http://www.researchsoftware.co.il/)<br/>
+  CEO of the Research Software Company
 
 
 ## Governance

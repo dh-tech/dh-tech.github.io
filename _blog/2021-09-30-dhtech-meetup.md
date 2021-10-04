@@ -4,7 +4,7 @@ title: First DHtech Meetup as an ADHO SIG
 tag: WhatsHappening
 author: DHtech
 date: 2021-09-30T14:14:11.524Z
-img: /assets/images/uploads/meetup.jpg
+img: assets/images/uploads/meetup.jpg
 img-credits: https://picsum.photos
 excerpt: "The first DHTech Meetup as a SIG took place on 29th of
   September.  Members of the initial steering committee introduced themselves

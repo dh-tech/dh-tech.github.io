@@ -4,7 +4,7 @@ title: Greatly imporved DH link list
 tag: "#WHATSHAPPENING"
 author: DHTech
 date: 2021-12-21T11:48:21.503Z
-img: /assets/images/uploads/awesomelist.jpg
+img: assets/images/uploads/awesomelist.jpg
 img-credits: " https://picsum.photos"
 excerpt: "Thanks to Moritz Maehr, DHTech now has a vastly improved list of
   curated DH related links.  Have a look at them and consider adding your own

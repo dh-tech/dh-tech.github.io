@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Greatly imporved DH link list
+title: Greatly improved DH link list
 tag: "#WHATSHAPPENING"
 author: DHTech
 date: 2021-12-21T11:48:21.503Z

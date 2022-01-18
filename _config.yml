@@ -15,7 +15,7 @@ date_format: '%Y-%m-%d'
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
 url: http://dh-tech.github.io
-baseurl: 
+baseurl:
 permalink: pretty
 
 
@@ -119,6 +119,7 @@ menu:
   Workshops: workshops/
   Blog: blog/
   SIG: SIG/
+  Working Groups: working-groups/
   #join: /join/
   #archives: /archives/
   #tags: /tags/

@@ -19,13 +19,13 @@
         {% assign itemName = name | downcase %}
         <li class="nav-link">
           {% if path contains '://' %}
-            <a class="link" id="link_{{name}}" href="{{ path }}" rel="section">{{ itemName }}</a>
+            <a class="link" id="link_{{name | replace: ' ', '-'}}" href="{{ path }}" rel="section">{{ itemName }}</a>
 
           {% else %}
-            <a class="link" id="link_{{name}}" href="{{ path | relative_url }}" rel="section">{{ itemName }}</a>
+            <a class="link" id="link_{{name | replace: ' ', '-'}}" href="{{ path | relative_url }}" rel="section">{{ itemName }}</a>
 
           {% endif %}
-          <div style="display: none" id="underline_{{ name }}" class="underline"></div>
+          <div style="display: none" id="underline_{{ name | replace: ' ', '-'}}" class="underline"></div>
         </li>
       {% endfor %}
   	</ul>

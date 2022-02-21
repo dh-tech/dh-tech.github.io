@@ -1,7 +1,7 @@
 ---
-title: Workshop overview
+title: Meetup Overview
 layout: main
-description: Past DHTech Virtual Workshops
+description: Past DHTech Meetups
 ---
 
 {% include workshoplist.html %}

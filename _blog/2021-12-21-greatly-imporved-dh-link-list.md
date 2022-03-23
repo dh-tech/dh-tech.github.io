@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Greatly improved DH link list
-tag: "WHATSHAPPENING"
+tag: "WhatsHappening"
 author: DHTech
 date: 2021-12-21T11:48:21.503Z
 img: assets/images/uploads/awesomelist.jpg

@@ -4,7 +4,7 @@ title: A Code Review Process for DH
 tag: WHATSHAPPENING
 author: Julia Damerow
 date: 2022-03-23T15:32:21.298Z
-img: https://i.picsum.photos/id/0/5616/3744.jpg?hmac=3GAAioiQziMGEtLbfrdbcoenXoWAW-zlyEAMkfEdBzQ
+img: /assets/images/uploads/codereview.jpeg
 excerpt: The Code Review Working Group of DHTech is starting the alpha phase of
   implementing a code review process for the digital humanities. For the initial
   round of reviews, we are looking for people willing to submit code for review

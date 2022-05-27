@@ -21,6 +21,11 @@ description: Steering Committee and Governance
 * [Itay Zandbank](http://www.researchsoftware.co.il/)<br/>
   CEO of the Research Software Company
 
+## Repository Maintainers
+
+* [awesome-dhtools](https://dh-tech.github.io/awesome-dhtools/): Moritz Mähr and Diego Siqueira
+
+
 
 ## Governance
 

@@ -23,7 +23,7 @@ description: Steering Committee and Governance
 
 ## Repository Maintainers
 
-* [awesome-dhtools](https://dh-tech.github.io/awesome-dhtools/): [Moritz Mähr](https://github.com/maehr) and [Diego Siqueira](https://github.com/diegosiqueir4)
+* [awesome-dhtools](https://dh-tech.github.io/awesome-digital-humanities/): [Moritz Mähr](https://github.com/maehr) and [Diego Siqueira](https://github.com/diegosiqueir4)
 
 
 

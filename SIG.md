@@ -7,19 +7,18 @@ description: Steering Committee and Governance
 ## Steering Committee
 
 * [Robert Casties](https://www.mpiwg-berlin.mpg.de/users/casties)<br/>
-  Research Scholar, Research-IT at the Max Planck Institute for the History of Science
+  Research Scholar, Research-IT, Max Planck Institute for the History of Science
+* [Cole Crawford](https://digitalhumanities.fas.harvard.edu/person/cole-crawford/)<br/>
+  Software Engineer, Arts and Humanities Research Computing, Harvard University
 * [Julia Damerow](https://diging.asu.edu/people/index.html)<br/>
-  Lead Scientific Software Engineer, Digital Innovation Group and School of Complex Adaptive Systems at Arizona State University
+  Lead Scientific Software Engineer, Digital Innovation Group and School of Complex Adaptive Systems, Arizona State University
 * [Rebecca Sutton Koeser](https://cdh.princeton.edu/people/rebecca-sutton-koeser/)<br/>
-  Lead Developer, Center for Digital Humanities at Princeton
-* [Albert Meroño](https://albertmeronyo.org/)<br/>
-  Lecturer (Assistant Professor) at King's College London
+  Lead Developer, Center for Digital Humanities, Princeton
 * [Jeffrey R. Tharsen](http://www.tharsen.net/)<br/>
   Computational Scientist for the Digital Humanities and Lecturer in Digital Studies, University of Chicago
 * [Malte Vogl](https://www.mpiwg-berlin.mpg.de/users/mvogl)<br/>
-  Research Software Engineer, ModelSEN project at the Max-Planck-Institute for the History of Science, Berlin
-* [Itay Zandbank](http://www.researchsoftware.co.il/)<br/>
-  CEO of the Research Software Company
+  Research Software Engineer, ModelSEN project, Max-Planck-Institute for the History of Science, Berlin
+
 
 ## Repository Maintainers
 

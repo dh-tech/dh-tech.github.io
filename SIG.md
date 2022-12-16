@@ -9,7 +9,7 @@ description: Steering Committee and Governance
 * [Robert Casties](https://www.mpiwg-berlin.mpg.de/users/casties)<br/>
   Research Scholar, Research-IT, Max Planck Institute for the History of Science
 * [Cole Crawford](https://digitalhumanities.fas.harvard.edu/person/cole-crawford/)<br/>
-  Software Engineer, Humanities Research Computing, Harvard University
+  Software Engineer, Arts and Humanities Research Computing, Harvard University
 * [Julia Damerow](https://diging.asu.edu/people/index.html)<br/>
   Lead Scientific Software Engineer, Digital Innovation Group and School of Complex Adaptive Systems, Arizona State University
 * [Rebecca Sutton Koeser](https://cdh.princeton.edu/people/rebecca-sutton-koeser/)<br/>

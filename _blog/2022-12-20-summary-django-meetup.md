@@ -29,16 +29,15 @@ Rebecca Sutton Koeser (Lead Developer at the Center for Digital Humanities at Pr
 
 <p>
 <img src="/assets/images/posts/geniza_document_history.png" width="100%">
-<br>
-<span style="font-size:11px; font-style:italic">Screenshot of the Django Admin history for a document in the Princeton Geniza Project showing entries for record creation before the current database existed, scripted import into the database, and edits since then.</span></p>
+
+<figcaption style="font-size:11px; font-style:italic">Screenshot of the Django Admin history for a document in the Princeton Geniza Project showing entries for record creation before the current database existed, scripted import into the database, and edits since then.</figcaption></p>
 
 
 In parallel with this use of log entries, there’s a small Django application ([django-adminlogentries](https://github.com/ataylor32/django-adminlogentries)) that you can install to easily view log entries in the Django Admin interface, which can be really helpful to see what work has been done recently, what changes were made by which person, reporting on activity in the database, etc.
 
 <p>
 <img src="/assets/images/posts/django_admin_logentry_list.png" width="100%">
-<br>
-<span style="font-size:11px; font-style:italic">Screenshot of the Django Admin log entry list view on the Princeton Geniza Project.</span></p>
+<figcaption style="font-size:11px; font-style:italic">Screenshot of the Django Admin log entry list view on the Princeton Geniza Project.</figcaption></p>
 
 Julia Damerow (Lead Scientific Software Engineer, Arizona State University) asked if this is versioning or just logging. One of the projects she works on uses [django-simple-history](https://django-simple-history.readthedocs.io/en/latest/) for versioning. It keeps track of the changes done to objects and allows you to roll back to previous versions. Julia was curious if Django’s built-in logging mechanism could be used for this kind of versioning as well. It looks like, however, the logging mechanism is not a true replacement for django-simple-history (at least not without additional work). 
 
@@ -53,15 +52,13 @@ Ryan Heuser (Research Software Engineer, also at Princeton with Rebecca), shared
 
 <p>
 <img src="/assets/images/posts/wordquery.png" width="100%">
-<br>
-<span style="font-size:11px; font-style:italic">Using Django models in Jupyter.</span></p>
+<figcaption style="font-size:11px; font-style:italic">Using Django models in Jupyter.</figcaption></p>
 
 Ryan showed a solution he found that lets [Django play nice with Jupyter](https://gist.github.com/EtsuNDmA/dd8949061783bf593706559374c8f635) so you can access querysets and models in a notebook. This way you get all the structure and native field types from the models. You can define arbitrary methods and attach them to existing objects to give them new behaviors, e.g. taking a [Princeton Prosody Archive HathiObject](https://github.com/Princeton-CDH/ppa-django/blob/7d4d08e1a995fa097dd35b551551ccde423464f2/ppa/archive/hathi.py#L241) and adding a method to get the full text. This behavior might not be needed for the web interface but it is powerful for analytical work. 
 
 <p>
 <img src="/assets/images/posts/wordquery-plot.png" width="100%">
-<br>
-<span style="font-size:11px; font-style:italic">Plotting Wordqueries</span></p>
+<figcaption style="font-size:11px; font-style:italic">Plotting Wordqueries</figcaption></p>
 
 
 Similarly, this kind of notebook integration allows you to graph data quickly in cases when you don’t want to build a web interface or a view necessarily, but simply want to see the data in a Jupyter notebook. In the notebook Ryan presented, he experimented with ways to store token counts in Django and quickly get statistics for any word across the texts. Ryan’s conclusion was that it is cool for experimenting in real time, but it’s kind of fragile. How can it be made more stable? What if I wanted to use it in Colab? This little Django hack might not work, and it’s also a lot to expect someone else to insert this weird async unsafe configuration. 

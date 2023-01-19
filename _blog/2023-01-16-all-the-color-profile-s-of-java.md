@@ -4,7 +4,7 @@ title: All the color(profile)s of Java
 tag: ADayInTheLifeOf
 author: Robert Casties
 date: 2023-01-16T16:04:14.270Z
-img: https://webkit.org/blog-files/color-gamut/Webkit-logo-P3.png
+img: assets/images/posts/Webkit-logo-P3.png
 img-credits: Wide color gamut sample image. Should show an outline of the Webkit
   browser logo in hues of red if you have a browser and display capable of
   displaying the DCI-P3 color space. (from

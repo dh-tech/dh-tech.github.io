@@ -1,5 +1,4 @@
 ---
-layout: about
 title: About DHTech
 description: The international grass-roots community of Digital Humanities software engineers.
 ---

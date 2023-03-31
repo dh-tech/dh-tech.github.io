@@ -18,5 +18,11 @@ menu:
   - name: working groups
     pageRef: /working-groups
 
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true   # allow raw html in content
+
 theme:
   - "github.com/chipzoller/hugo-clarity"

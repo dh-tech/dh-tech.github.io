@@ -18,7 +18,6 @@ menu:
   - name: working groups
     pageRef: /working-groups
 
-
 markup:
   goldmark:
     renderer:
@@ -26,3 +25,11 @@ markup:
 
 theme:
   - "github.com/chipzoller/hugo-clarity"
+
+# clarity-specific configuration
+
+mainSections:
+  - blog
+  - news
+  - workshops
+

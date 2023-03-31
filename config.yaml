@@ -1,0 +1,10 @@
+baseURL: http://dh-tech.github.io
+disablePathToLower: true
+languageCode: en-us
+title: DHTech
+
+# include each section in the main menu by default for now
+sectionPagesMenu: main
+
+theme:
+  - "github.com/chipzoller/hugo-clarity"

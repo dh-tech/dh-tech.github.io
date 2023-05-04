@@ -58,8 +58,10 @@ $(function() {
       {% for item in site.posts limit:1 %}
       <div class="post">
         <h2 class="post-title">{{ item.title }}</h2>
-
         <p>{{ item.date | date: site.date_format }}</p>
+        {% if item.img %}
+        <img width="150px" style="float:left; padding-right:5px;" src="{{site.baseurl}}{{ item.img }}">
+        {% endif %}
         <p>{{ item.excerpt }}</p>
 
         <a class="read-more" href="{{ site.baseurl }}{{ item.url }}">Read more <i class="fa fa-chevron-right"></i></a>

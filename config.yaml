@@ -33,3 +33,5 @@ mainSections:
   - news
   - workshops
 
+permalinks:
+  news: /:year/:month/:day/:slug/

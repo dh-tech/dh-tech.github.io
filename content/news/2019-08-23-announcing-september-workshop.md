@@ -1,6 +1,6 @@
 ---
 title:  "How to train your new developers?"
-date: 2019-08-23T8:00
+date: 2019-08-23T8:00:00
 author: jdamerow
 excerpt: On September 9, 2019 Itay Zandbank will talk about how his company trains new developers followed by a group discussion.
 ---

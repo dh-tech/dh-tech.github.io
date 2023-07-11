@@ -1,6 +1,6 @@
 ---
 title:  "Upcoming DHTech Virtual Workshop"
-date: 2019-02-28T10:00
+date: 2019-02-28T10:00:00
 author: jdamerow
 category: announcement
 ---

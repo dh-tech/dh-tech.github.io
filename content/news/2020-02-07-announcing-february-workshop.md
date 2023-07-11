@@ -1,6 +1,6 @@
 ---
 title:  "DHTech February Webinar: Deployment, Release, and Packaging Workflows"
-date: 2020-02-07F6:00
+date: 2020-02-07T6:00:00
 author: jdamerow
 published: true
 excerpt: On Thu, Feb. 27, 10am ET/4pm CET, we will be talking about how different projects manage their deployment, release, and packaging workflows. We will be discussing the different ways code can be release and deployed and everything that surrounds that topic.

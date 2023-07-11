@@ -1,6 +1,6 @@
 ---
 title:  "Announcing the November DHTech Virtual Workshop"
-date: 2018-10-16T10:00
+date: 2018-10-16T10:00:00
 author: jdamerow
 
 ---

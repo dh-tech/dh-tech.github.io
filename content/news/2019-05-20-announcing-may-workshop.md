@@ -1,6 +1,6 @@
 ---
-title:  "Frontend development using Vue.js"
-date: 2019-04-9T10:00
+title: "Frontend development using Vue.js"
+date: 2019-04-09T10:00:00
 author: jdamerow
 excerpt: On May 20, 2019, Taylor Quinn will talk about starting a Vue.js project using the Vue CLI and Single file component basics
 ---

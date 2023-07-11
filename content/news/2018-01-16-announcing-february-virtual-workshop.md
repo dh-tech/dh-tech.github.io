@@ -1,6 +1,6 @@
 ---
 title:  "Announcing the February DHTech Virtual Workshop"
-date: 2018-01-16T09:30
+date: 2018-01-16T09:30:00
 excerpt: The next DHTech Virtual Workshop will be on February 19, 2018 at 8am MST/4pm CET. Robert Casties (MPIWG) will be talking about image servers and IIIF (International Image Interoperability Framework).
 ---
 

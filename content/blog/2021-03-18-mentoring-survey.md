@@ -1,11 +1,14 @@
 ---
 layout: post
 title: DHTech Technical Mentorship Program
-tag: WhatsHappening
+tags:
+- WhatsHappening
 author: DHTech
 date: 2021-03-18T14:45:30.939Z
-img: assets/images/uploads/code.png
-img-credits: Julia Damerow
+thumbnail: /images/uploads/code.png
+featureImage: /images/uploads/code.png
+featureImageCap: photo via Julia Damerow
+featureImageAlt: screenshot of code in a codee ditor
 permalink: mentorship-survey
 excerpt: A survey to gauge the interest of the community for a technical mentorship program.
 ---

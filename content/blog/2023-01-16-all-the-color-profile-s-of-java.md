@@ -1,14 +1,17 @@
 ---
 layout: post
 title: All the color(profile)s of Java
-tag: ADayInTheLifeOf
+tags:
+- ADayInTheLifeOf
 author: Robert Casties
 date: 2023-01-16T16:04:14.270Z
-img: assets/images/posts/Webkit-logo-P3.png
-img-credits: Wide color gamut sample image. Should show an outline of the Webkit
+thumbnail: /images/posts/Webkit-logo-P3.png
+featureImage: /images/posts/Webkit-logo-P3.png
+featureImageCap: Wide color gamut sample image. Should show an outline of the Webkit
   browser logo in hues of red if you have a browser and display capable of
   displaying the DCI-P3 color space. (from
-  https://webkit.org/blog-files/color-gamut/ )
+  <a href="https://webkit.org/blog-files/color-gamut/">Webkit blog</a>)
+featureImageAlt: 
 excerpt: How the digilib image server learned to treat images with color
   profiles correctly and how I learned more about the weird quirks of Java's
   image libraries than ever before.

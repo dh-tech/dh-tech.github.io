@@ -2,9 +2,12 @@
 layout: post
 title: DHTech on Django
 date: 2022-12-20T10:00:00
-tag: "WhatsHappening"
-img: assets/images/posts/django.jpeg
-img-credits: Photo by <a href="https://unsplash.com/it/@faisaldada?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Faisal</a> on <a href="https://unsplash.com/s/photos/django?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+tags:
+- WhatsHappening
+thumbnail: /images/posts/django.jpeg
+featureImage: /images/posts/django.jpeg
+featureImageAlt: photo of a "Pro Django" book on a desk between a computer monitor and keyboard
+featureImageCap: Photo by <a href="https://unsplash.com/it/@faisaldada?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Faisal</a> on <a href="https://unsplash.com/s/photos/django?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 author: Rebecca Sutton Koeser and Julia Damerow
 excerpt: Our December meetup was focussed on discussing the Python-based Django framework. Read our summary of the meetup!
 ---

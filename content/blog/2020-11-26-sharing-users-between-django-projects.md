@@ -1,11 +1,14 @@
 ---
 layout: post
 title: Sharing Users between Django projects
-tag: 2Simple2Mention
+tags:
+- 2Simple2Mention
 author: Malte Vogl
 date: 2020-11-26T13:18:30.939Z
-img: assets/images/uploads/picsum.jpg
-img-credits: Lorem Picsum https://picsum.photos/
+featureImage: /images/uploads/picsum.jpg
+thumbnail: /images/uploads/picsum.jpg
+featureImageCap: photo via <a href="https://picsum.photos/">Lorem Picsum</a>
+featureImageAlt: top-down photo of an open laptop computer and paper notebook on a table
 excerpt: You should never share Django user databases between projects! But
   sometimes....
 ---

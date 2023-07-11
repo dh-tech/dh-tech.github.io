@@ -3,9 +3,12 @@ layout: post
 title: DHTech Steering Committee Elections
 date: 2022-09-01T12:00:00
 author: Julia Damerow
-tag: "WhatsHappening"
-img: assets/images/vote.jpeg
-img-credits: "https://unsplash.com/photos/4V1dC_eoCwg"
+tags:
+- WhatsHappening
+thumbnail: /images/vote.jpeg
+featureImage: /images/vote.jpeg
+featureImageAlt: photo of a crowd in an auditorium with many people raising their hands
+featureImageCap: Photo by <a href="https://unsplash.com/@theunsteady5?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Edwin Andrade</a> on <a href="https://unsplash.com/photos/4V1dC_eoCwg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 excerpt: This November we are planning to hold the first official Steering Committee elections. This blog post will summarize the key responsibilities and tasks of the Steering Committee.
 permalink: 2022-sc-elections
 ---

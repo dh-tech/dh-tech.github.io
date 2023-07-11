@@ -1,11 +1,14 @@
 ---
 layout: post
 title: Awesome DHTools has new Maintainers
-tag: "WhatsHappening"
+tags:
+- WhatsHappening
 author: DHTech
 date: 2022-05-27T11:48:21.503Z
-img: assets/images/tools.jpeg
-img-credits: "https://unsplash.com/photos/NL_DF0Klepc"
+thumbnail: /images/tools.jpeg
+featureImage: /images/tools.jpeg
+featureImageAlt: a wall full of carefully organized tools including wrenches, hammers, saws
+featureImageCap: via <a href="https://unsplash.com/photos/NL_DF0Klepc">unsplash</a>
 excerpt: 'Our "Awesome DHTools" repository has two new maintainers: Moritz Mähr and Diego Siqueira!'
 ---
 

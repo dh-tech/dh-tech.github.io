@@ -35,3 +35,8 @@ mainSections:
 
 permalinks:
   news: /:year/:month/:day/:slug/
+
+params:
+  logo: "logos/logo.png"
+  subtitle: "An ADHO Special Interest Group"
+  mobileNavigation: right

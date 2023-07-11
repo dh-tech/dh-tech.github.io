@@ -1,0 +1,29 @@
+// override flex and use grid to layout title and subtitle
+
+.nav_brand 
+	&.nav_item 
+	display: grid 
+	grid-template-areas: "logo title" "logo subtitle"
+	grid-column-gap: 0.65em
+
+	img.logo 
+		max-height: 40px
+		grid-area: logo
+	.title 
+		font-size: larger
+		font-weight: bold
+		grid-area: title
+	.subtitle
+		grid-area: subtitle
+		font-size: smaller
+		font-style: italic
+
+.nav 
+	.nav_body 
+		justify-content: flex-end
+	.follow
+		flex: 0 
+
+
+
+

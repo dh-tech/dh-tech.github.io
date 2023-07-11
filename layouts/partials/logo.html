@@ -1,0 +1,19 @@
+{{/* override to show both logo and title */}}
+{{- $t := site.Title -}}
+<a href='{{ absLangURL "" }}' class="nav_brand nav_item{{ with .class }} {{ . }}{{ end }}" title="{{ $t }}">
+  {{- with .logo }}
+  <img src="{{ absURL . }}" class="logo" alt="{{ $t }}">
+  {{- end }}
+  <div class="title">{{- $t -}}</div>
+  {{- with site.Params.subtitle -}}
+  <div class="subtitle">{{- . -}}</div>
+  {{- end -}}
+  {{- if ne (strings.HasSuffix .class "center") true }}
+  <div class="nav_close">
+    <div>
+      {{- partialCached "sprite" (dict "icon" "open-menu") -}}
+      {{- partial "sprite" (dict "icon" "closeme") -}}
+    </div>
+  </div>
+  {{- end }}
+</a>

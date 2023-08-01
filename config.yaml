@@ -49,3 +49,5 @@ params:
   logo: "logos/logo.png"
   subtitle: "An ADHO Special Interest Group"
   mobileNavigation: right
+  showReadTime: false
+  showShare: false

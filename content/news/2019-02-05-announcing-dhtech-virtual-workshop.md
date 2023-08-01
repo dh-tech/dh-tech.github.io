@@ -1,7 +1,7 @@
 ---
 title: Announcing the February DHTech Virtual Workshop
 date: 2019-02-05T10:00:00
-author: jdamerow
+author: Julia Damerow
 slug: announcing-dhtech-virtual-workshop
 ---
 

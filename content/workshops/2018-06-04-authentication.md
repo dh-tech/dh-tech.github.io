@@ -1,6 +1,6 @@
 ---
 title: Authentication and Authorization
-date: '2018-06-04, 8AM MST/5PM CEST'
+date: '2018-06-04'
 recording: 'https://repository.de.dariah.eu/1.0/dhcrud/21.11113/0000-000B-D213-2/data'
 audio: 'https://repository.de.dariah.eu/1.0/dhcrud/21.11113/0000-000B-D212-3/data'
 ---

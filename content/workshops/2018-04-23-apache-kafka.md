@@ -1,6 +1,6 @@
 ---
 title: Apache Kafka and the Giles Ecosystem
-date: '2018-04-23, 8AM MST/5PM CEST'
+date: '2018-04-23'
 recording: 'https://hdl.handle.net/21.11113/0000-000B-D070-B@data'
 ---
 

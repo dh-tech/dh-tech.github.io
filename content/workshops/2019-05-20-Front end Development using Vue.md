@@ -1,6 +1,6 @@
 ---
 title: Front end Development using Vue
-date: '2019-05-20, 8AM MST/5PM CEST'
+date: '2019-05-20'
 recording: 'https://repository.de.dariah.eu/1.0/dhcrud/21.11113/0000-000C-20A1-9/data'
 ---
 

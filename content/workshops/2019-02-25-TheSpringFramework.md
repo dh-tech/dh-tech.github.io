@@ -1,6 +1,6 @@
 ---
 title: The Spring Framework
-date: '2019-02-25, 8AM MST/5PM CEST'
+date: '2019-02-25'
 recording: 'https://repository.de.dariah.eu/1.0/dhcrud/21.11113/0000-000B-D8CF-9/data'
 slides: /assets/files/springframework_slides.pdf
 ---

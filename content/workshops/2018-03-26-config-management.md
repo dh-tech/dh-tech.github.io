@@ -1,6 +1,6 @@
 ---
 title: Configuration Management
-date: '2018-03-26, 8AM MST/5PM CET'
+date: '2018-03-26'
 recording: 'https://repository.de.dariah.eu/1.0/dhcrud/21.11113/0000-000B-CB06-A'
 audio: 'https://repository.de.dariah.eu/1.0/dhcrud/21.11113/0000-000B-CB07-9'
 blogpost: https://subugoe.pages.gwdg.de/lab.sub/config-management.html

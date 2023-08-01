@@ -1,6 +1,6 @@
 ---
 title: Introduction to WordPress plugins
-date: '2018-07-09, 8AM MST/5PM CEST'
+date: '2018-07-09'
 recording: 'https://repository.de.dariah.eu/1.0/dhcrud/21.11113/0000-000B-D215-0/data'
 audio: 'https://repository.de.dariah.eu/1.0/dhcrud/21.11113/0000-000B-D216-F/data'
 ---

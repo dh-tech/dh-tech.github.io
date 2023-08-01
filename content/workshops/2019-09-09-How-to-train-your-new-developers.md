@@ -1,6 +1,6 @@
 ---
 title: How to train your new developers?
-date: '2019-09-09, 9AM EDT / 3PM CEST / 4PM IDT'
+date: '2019-09-09'
 recording: 'https://repository.de.dariah.eu/1.0/dhcrud/21.11113/0000-000C-35D8-5/data'
 ---
 

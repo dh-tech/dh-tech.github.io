@@ -3,9 +3,7 @@ layout: post
 title: Steering Committee Changes
 date: 2022-12-20T10:00:00
 author: Julia Damerow
-excerpt: ""
-permalink: sc-changes-2023
-slug: new-sc-members
+url: sc-changes-2023
 ---
 
 There are two changes in the DHTech Steering Committee for next year. First, we want to thank Itay Zandbank for sharing his expertise and supporting the efforts of DHTech by being a member of the DHTech Steering Committee the past 1.5 years! He helped to establish DHTech as an ADHO SIG and to grow the community. 

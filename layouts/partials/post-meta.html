@@ -12,7 +12,7 @@
   <span>by {{ . }}</span>
   {{- $scratch.Set "writeSeparator" true }}
   {{- end -}}
-  {{- if $showDate }}
+  {{- if and $showDate .Params.date }}
     {{- if ($scratch.Get "writeSeparator") }}&nbsp;· {{ end }}
     <span>{{ partial "sprite" (dict "icon" "calendar") }}</span>
     <span class="post_date">

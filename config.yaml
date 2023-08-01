@@ -7,16 +7,25 @@ menu:
   main:
   - name: about
     pageRef: /about
+    weight: 1
   - name: news
     pageRef: /news/
+    weight: 2
   - name: meetups
     pageRef: /workshops/
+    weight: 3
   - name: blog
     pageRef: /blog/
+    weight: 4
   - name: sig
     pageRef: /SIG
+    weight: 5
   - name: working groups
     pageRef: /working-groups
+    weight: 6
+  - name: join us
+    pageRef: /join
+    weight: 7
 
 markup:
   goldmark:

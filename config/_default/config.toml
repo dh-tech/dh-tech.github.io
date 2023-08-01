@@ -1,0 +1,6 @@
+DefaultContentLanguage = "en"
+# [languages]
+# config/_default/languages.toml
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

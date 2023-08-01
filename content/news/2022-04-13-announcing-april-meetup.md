@@ -2,7 +2,7 @@
 layout: post
 title: April DHTech Meetup
 date: 2022-04-13T12:00:00
-author: jdamerow
+author: Julia Damerow
 excerpt: On April 21, 2022 at 9am, we will be discussing software documentation (technical, API, end user, etc). Come join us!
 slug: announcing-april-meetup
 ---

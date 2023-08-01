@@ -1,7 +1,7 @@
 ---
 title:  "Announcing the July DHTech Virtual Workshop"
 date: 2018-07-02T10:00:00
-author: jdamerow
+author: Julia Damerow
 excerpt: The next DHTech Virtual Workshop will be on July 09, 2018 at 8am MST/5pm CEST. Yoann Moranville will give an introduction to WordPress plugins.
 slug: announcing-july-virtual-workshop
 ---

@@ -1,7 +1,7 @@
 ---
 title:  "DHTech January Webinar: How to build local DH RSE communities?"
 date: 2020-01-10T9:00:00
-author: jdamerow
+author: Julia Damerow
 published: true
 excerpt: On Thu, Jan. 23, 2020 at 10am ET/4pm CET, we will be discussing how to build local DH RSE communities. We will talk about questions such as how you can go about finding like-minded people at your institution or area or what methods have people successfully applied to build a DH RSE community?
 slug: announcing-january-workshop

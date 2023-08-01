@@ -6,6 +6,11 @@ This is the website for DHTech.
 
 The site is implemented with [Hugo](https://gohugo.io/) and uses the [Hugo Clarity theme](https://github.com/chipzoller/hugo-clarity).
 
+## Content management instructions
+
+To have a page show up in the "featured posts" in the sidebar, simply
+add `featured: true` to the page metadata.
+
 ## Setup instructions
 
 ### Hugo setup

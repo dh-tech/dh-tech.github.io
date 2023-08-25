@@ -117,5 +117,20 @@
     </div>
     {{- end }}
     {{- end }}
+    <div class="subscribe">
+      <h2>Subscribe via RSS</h2>
+      <ul>
+      {{/* provide an RSS link for each section */}}
+      {{- range .Site.Sections -}}
+        {{- $sectionTitle := .Title -}}
+        {{- with .OutputFormats.Get "rss" -}}
+          <li><a href="{{ .Permalink }}">{{ $sectionTitle }}</a></li>
+        {{- end -}}
+      {{- end -}}
+      {{- with .Site.Home.OutputFormats.Get "rss" -}}
+      <li><a href="{{ .Permalink }}">All site content</a></li>
+      {{- end -}}
+      </ul>
+    </div>
   </section>
 </aside>

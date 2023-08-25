@@ -1,15 +1,15 @@
 // override flex and use grid to layout title and subtitle
 
-.nav_brand 
-	&.nav_item 
-	display: grid 
+.nav_brand
+	&.nav_item
+	display: grid
 	grid-template-areas: "logo title" "logo subtitle"
 	grid-column-gap: 0.65em
 
-	img.logo 
+	img.logo
 		max-height: 40px
 		grid-area: logo
-	.title 
+	.title
 		font-size: larger
 		font-weight: bold
 		grid-area: title
@@ -18,11 +18,11 @@
 		font-size: smaller
 		font-style: italic
 
-.nav 
-	.nav_body 
+.nav
+	.nav_body
 		justify-content: flex-end
 	.follow
-		flex: 0 
+		flex: 0
 
 .post_tag.button
 	text-transform: none
@@ -33,3 +33,8 @@
 a[title="join us"]
   border: solid
   border-radius: 0.5rem
+
+
+div.subscribe
+	font-size: smaller
+	margin-top: 2em

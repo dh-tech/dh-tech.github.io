@@ -27,12 +27,12 @@
   {{/* custom: old dh-tech presentation pages have slides and recording links */}}
   {{- if $.Params.slides }}
     {{- if ($scratch.Get "writeSeparator") }}&nbsp;· {{ end }}
-    <span class="slides"><a href="{{ . }}">📄 Slides</a></span>
+    <span class="slides"><a href="{{ $.Params.slides }}">📄 Slides</a></span>
     {{- $scratch.Set "writeSeparator" true }}
   {{- end }}
   {{- if $.Params.recording }}
     {{- if ($scratch.Get "writeSeparator") }}&nbsp;· {{ end }}
-    <span class="recording"><a href="{{ . }}">▶️ Recording</a></span>
+    <span class="recording"><a href="{{ $.Params.recording }}">▶️ Recording</a></span>
     {{- $scratch.Set "writeSeparator" true }}
   {{- end }}
   {{- with .Params.tags -}}

@@ -5,12 +5,6 @@ url: survey-results-2020
 date: 2020-10-07
 ---
 
-<style>
-.responsive {
-  width: 100%;
-  height: auto;
-}
-</style>
 
 The survey was comprised of 23 questions. 66 people responded to the survey. If you have not yet responded but would like to, the survey will remain open and is available here: [https://forms.gle/qya3qE9mk24HvUXf8](https://forms.gle/qya3qE9mk24HvUXf8). We will post updates to the current results after we have received a significant number of additional responses.
 
@@ -38,7 +32,7 @@ Notes about the survey:
 - Embedded RSE: 22
 - Other: 12
 
-<img class="responsive" src="assets/images/survey/Q01-SelfClassification.png" width="600px" title="Question 1: As what would you classify yourself?" >
+{{< figure src="/images/survey/Q01-SelfClassification.png" title="Question 1: As what would you classify yourself?" >}}
 
 ---
 ### Question 2: Which programming languages do you regularly use?
@@ -76,7 +70,7 @@ Notes about the survey:
 
 Other included: C++, bash, C, Perl, Typescript,  Scala, Go, yaml, XProc 3.0, Groovy, SQL
 
-<img class="responsive" src="assets/images/survey/Q02-ProgrammingLanguages.png" title="Question 2: Which programming languages do you regularly use?" >
+{{< figure src="/images/survey/Q02-ProgrammingLanguages.png" title="Question 2: Which programming languages do you regularly use?" >}}
 
 ---
 ### Question 3: What frameworks are you regularly using?
@@ -116,7 +110,7 @@ Other included: C++, bash, C, Perl, Typescript,  Scala, Go, yaml, XProc 3.0, Gro
 
   Other included: Eclipse RCP, Apache Spark, eXistdb templating system, Wagtail, Pyramid, Docker, Sencha, Bootstrap, Streamlit, RShiny, flexdashboard, Smart GWT, Symfony
 
-<img class="responsive" src="assets/images/survey/Q03-Frameworks.png" width="600px" title="Question 3: What frameworks are you regularly using?" >
+{{< figure src="/images/survey/Q03-Frameworks.png" title="Question 3: What frameworks are you regularly using?" >}}
 
 ---
 ### Question 4: How would you classify your work?
@@ -144,7 +138,7 @@ Other included: C++, bash, C, Perl, Typescript,  Scala, Go, yaml, XProc 3.0, Gro
 
   Other included: Data Science, Analysis, Algorithm development, Machine learning, Coordination, Data Modeling, Domain specific work, Consulting
 
-<img class="responsive" src="assets/images/survey/Q04-TypeOfWork.png" width="600px" title="How would you classify your work?" >
+{{< figure src="/images/survey/Q04-TypeOfWork.png" title="How would you classify your work?" >}}
 
 ---
 ### Question 5: Regarding the following topics, what do you spend most of you time with?
@@ -176,7 +170,7 @@ Other included: C++, bash, C, Perl, Typescript,  Scala, Go, yaml, XProc 3.0, Gro
 - AI/Machine Learning: 8
 - Computer vision: 3
 
-<img class="responsive" src="assets/images/survey/Q05-TopicsMostTimeSpent.png" width="720px" title="Regarding the following topics, what do you spend most of you time with?" >
+{{< figure src="/images/survey/Q05-TopicsMostTimeSpent.png" title="Regarding the following topics, what do you spend most of you time with?" >}}
 
 ---
 ### Question 6: Regarding the following topics, what do you enjoy the most?
@@ -208,7 +202,7 @@ Other included: C++, bash, C, Perl, Typescript,  Scala, Go, yaml, XProc 3.0, Gro
 - Computer vision: 4
 - Server infrastructure setup/maintenance: 3
 
-<img class="responsive" src="assets/images/survey/Q06-TopicsEnjoyMost.png" width="700px" title="Regarding the following topics, what do you enjoy the most?" >
+{{< figure src="/images/survey/Q06-TopicsEnjoyMost.png" title="Regarding the following topics, what do you enjoy the most?" >}}
 
 ---
 ### Question 7: Regarding the following topics, in which ones would you like to improve your knowledge?
@@ -240,7 +234,7 @@ Other included: C++, bash, C, Perl, Typescript,  Scala, Go, yaml, XProc 3.0, Gro
 - Server infrastructure setup/maintenance: 10
 - Software engineering: 5
 
-<img class="responsive" src="assets/images/survey/Q07-TopicsLikeToImprove.png" width="700px" title="Regarding the following topics, in which ones would you like to improve your knowledge?" >
+{{< figure src="/images/survey/Q07-TopicsLikeToImprove.png" title="Regarding the following topics, in which ones would you like to improve your knowledge?" >}}
 
 ---
 ### Question 8: What is the highest degree you have?
@@ -262,7 +256,7 @@ Other included: C++, bash, C, Perl, Typescript,  Scala, Go, yaml, XProc 3.0, Gro
 - Magister/Diplom: 9
 - Bachelor's Degree: 5
 
-<img class="responsive" src="assets/images/survey/Q08-Degree.png" width="600px" title="What is the highest degree you have?" >
+{{< figure src="/images/survey/Q08-Degree.png" title="What is the highest degree you have?" >}}
 
 ---
 ### Question 9: In what field is your highest degree?
@@ -282,7 +276,7 @@ Other included: C++, bash, C, Perl, Typescript,  Scala, Go, yaml, XProc 3.0, Gro
 - Natural Sciences: 5
 - Other: 7
 
-<img class="responsive" src="assets/images/survey/Q09-DegreeField.png" width="600px" title="In what field is your highest degree?" >
+{{< figure src="/images/survey/Q09-DegreeField.png" title="In what field is your highest degree?" >}}
 
 ---
 ### Question 10: How did you get training in computer science/software engineering?
@@ -305,7 +299,7 @@ Other included: C++, bash, C, Perl, Typescript,  Scala, Go, yaml, XProc 3.0, Gro
 - Other: 4
 - Trained on job: 4
 
-<img class="responsive" src="assets/images/survey/Q10-Training.png" width="700px" title="How did you get training in computer science/software engineering?" >
+{{< figure src="/images/survey/Q10-Training.png" title="How did you get training in computer science/software engineering?" >}}
 
 ---
 ### Question 11: What type of employer do you have?
@@ -326,7 +320,7 @@ Other included: C++, bash, C, Perl, Typescript,  Scala, Go, yaml, XProc 3.0, Gro
 - Non-academic employer: 2
 - Self-employed/freelancing: 1
 
-<img class="responsive" src="assets/images/survey/Q11-TypeOfEmployer.png" width="600px" title="What type of employer do you have?" >
+{{< figure src="/images/survey/Q11-TypeOfEmployer.png" title="What type of employer do you have?" >}}
 
 ---
 ### Question 12: What's your current title?
@@ -353,7 +347,7 @@ Other included: C++, bash, C, Perl, Typescript,  Scala, Go, yaml, XProc 3.0, Gro
 - Software Developer or similar: 4
 - Librarian/Archivist: 2
 
-<img class="responsive" src="assets/images/survey/Q12-Title.png" width="700px" title="What's your current title?" >
+{{< figure src="/images/survey/Q12-Title.png" title="What's your current title?" >}}
 
 ---
 ### Question 13: Your position is...
@@ -371,7 +365,7 @@ Other included: C++, bash, C, Perl, Typescript,  Scala, Go, yaml, XProc 3.0, Gro
 - Fulltime: 56
 - Part-time: 9
 
-<img class="responsive" src="assets/images/survey/Q13-TypeOfPosition.png" width="600px" title="Your position is full-time/part-time" >
+{{< figure src="/images/survey/Q13-TypeOfPosition.png" title="Your position is full-time/part-time" >}}
 
 ---
 ### Question 14: Your current position is...
@@ -392,7 +386,7 @@ Other included: C++, bash, C, Perl, Typescript,  Scala, Go, yaml, XProc 3.0, Gro
 - Temporary (1-3 years contract): 19
 - Temporary (>3 years contract): 5
 
-<img class="responsive" src="assets/images/survey/Q14-ContractLength.png" width="600px" title="Your current position is permanent/temporary" >
+{{< figure src="/images/survey/Q14-ContractLength.png" title="Your current position is permanent/temporary" >}}
 
 ---
 ### Question 15: At your current employer...
@@ -410,7 +404,7 @@ Other included: C++, bash, C, Perl, Typescript,  Scala, Go, yaml, XProc 3.0, Gro
 - Career path exists: 18
 - Other: 3
 
-<img class="responsive" src="assets/images/survey/Q15-CareerPath.png" width="700px" title="At your current employer you have/don't have career path." >
+{{< figure src="/images/survey/Q15-CareerPath.png" title="At your current employer you have/don't have career path." >}}
 
 ---
 ### Question 16: Are you planning to keep working as an DH RSE for the foreseeable future?
@@ -428,7 +422,7 @@ Other included: C++, bash, C, Perl, Typescript,  Scala, Go, yaml, XProc 3.0, Gro
 - Don't know: 19
 - No: 4
 
-<img class="responsive" src="assets/images/survey/Q16-FuturePlans.png" width="600px" title="Are you planning to keep working as an DH RSE for the foreseeable future?" >
+{{< figure src="/images/survey/Q16-FuturePlans.png" title="Are you planning to keep working as an DH RSE for the foreseeable future?" >}}
 
 ---
 ### Question 17: How big is your development team (without student assistants)?
@@ -448,7 +442,7 @@ Other included: C++, bash, C, Perl, Typescript,  Scala, Go, yaml, XProc 3.0, Gro
 - 5-10: 4
 - more than 10: 15
 
-<img class="responsive" src="assets/images/survey/Q17-DevTeamNoSW.png" width="600px" title="How big is your development team (without student assistants)?" >
+{{< figure src="/images/survey/Q17-DevTeamNoSW.png" title="How big is your development team (without student assistants)?" >}}
 
 ---
 ### Question 18: How big is your development team (including student assistants)?
@@ -468,7 +462,7 @@ Other included: C++, bash, C, Perl, Typescript,  Scala, Go, yaml, XProc 3.0, Gro
 - 5-10: 8
 - more than 10: 17
 
-<img class="responsive" src="assets/images/survey/Q18-DevTeamWithSW.png" width="600px" title="How big is your development team (including student assistants)?" >
+{{< figure src="/images/survey/Q18-DevTeamWithSW.png" title="How big is your development team (including student assistants)?" >}}
 
 ---
 ### Question 19: In which country do you work?
@@ -495,7 +489,7 @@ free text
 - United Kingdom: 12
 - United States: 11
 
-<img class="responsive" src="assets/images/survey/Q19-Countries.png" width="700px" title="In which country do you work?" >
+{{< figure src="/images/survey/Q19-Countries.png" title="In which country do you work?" >}}
 
 ---
 ### Question 20: Do you consider yourself a member of a minority in your field?
@@ -515,4 +509,4 @@ free text
 - Don't know: 8
 - Prefer not to answer: 3
 
-<img class="responsive" src="assets/images/survey/Q20-Minorities.png" width="700px" title="Do you consider yourself a member of a minority in your field?" >
+{{< figure src="/images/survey/Q20-Minorities.png" title="Do you consider yourself a member of a minority in your field?" >}}

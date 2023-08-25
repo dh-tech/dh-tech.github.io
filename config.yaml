@@ -2,6 +2,7 @@ baseURL: http://dh-tech.github.io
 disablePathToLower: true
 languageCode: en-us
 title: DHTech
+enableRobotsTXT: true
 
 menu:
   main:

@@ -24,6 +24,17 @@
     <span class="post_time">{{ if ($scratch.Get "writeSeparator") }} · {{ end }}{{ T "reading_time" . }}</span>
     {{- $scratch.Set "writeSeparator" true }}
   {{- end }}
+  {{/* custom: old dh-tech presentation pages have slides and recording links */}}
+  {{- if $.Params.slides }}
+    {{- if ($scratch.Get "writeSeparator") }}&nbsp;· {{ end }}
+    <span class="slides"><a href="{{ . }}">📄 Slides</a></span>
+    {{- $scratch.Set "writeSeparator" true }}
+  {{- end }}
+  {{- if $.Params.recording }}
+    {{- if ($scratch.Get "writeSeparator") }}&nbsp;· {{ end }}
+    <span class="recording"><a href="{{ . }}">▶️ Recording</a></span>
+    {{- $scratch.Set "writeSeparator" true }}
+  {{- end }}
   {{- with .Params.tags -}}
     <span>
       {{- if ($scratch.Get "writeSeparator") }}&nbsp;· {{ end }}

@@ -12,7 +12,7 @@ description: Steering Committee and Governance
 * [Julia Damerow](https://diging.asu.edu/people/index.html)<br/>
   Lead Scientific Software Engineer, Digital Innovation Group and School of Complex Adaptive Systems, Arizona State University
 * [Rebecca Sutton Koeser](https://cdh.princeton.edu/people/rebecca-sutton-koeser/)<br/>
-  Lead Developer, Center for Digital Humanities, Princeton
+  Lead Research Software Engineer, Center for Digital Humanities, Princeton
 * [Jeffrey R. Tharsen](http://www.tharsen.net/)<br/>
   Computational Scientist for the Digital Humanities and Lecturer in Digital Studies, University of Chicago
 * [Malte Vogl](https://www.mpiwg-berlin.mpg.de/users/mvogl)<br/>

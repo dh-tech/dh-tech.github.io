@@ -4,6 +4,7 @@ languageCode: en-us
 title: DHTech
 enableRobotsTXT: true
 
+
 menu:
   main:
   - name: about
@@ -27,6 +28,19 @@ menu:
   - name: join us
     pageRef: /join
     weight: 7
+  social:
+    # social menu links
+    - name: github
+      type: social
+      weight: 1
+      url: https://github.com/dh-tech/
+    - name: twitter
+      weight: 2
+      url: https://twitter.com/dhtech_group/
+    - name: rss
+      weight: 3
+      url: index.xml
+
 
 markup:
   goldmark:

@@ -1,4 +1,11 @@
+## Jekyll
 _site
 .jekyll-metadata
 Gemfile.lock
 .DS_Store
+
+### Hugo ###
+# Generated files by hugo
+/public/
+/resources/_gen/
+.hugo_build.lock

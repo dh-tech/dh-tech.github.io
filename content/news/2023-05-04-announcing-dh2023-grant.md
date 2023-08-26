@@ -1,6 +1,7 @@
 ---
 layout: post
 title: DH2023 Registration Grant
+slug: announcing-dh2023-grant
 date: 2023-05-04T10:00:00
 author: Julia Damerow
 excerpt: DHTech is excited to announce a DH2023 Registration Grant.

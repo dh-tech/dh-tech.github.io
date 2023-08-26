@@ -4,11 +4,13 @@
 	&.nav_item
 	display: grid
 	grid-template-areas: "logo title" "logo subtitle"
+	grid-template-columns: 50px auto
 	grid-column-gap: 0.65em
 
 	img.logo
 		max-height: 40px
 		grid-area: logo
+		align-self: start
 	.title
 		font-size: larger
 		font-weight: bold
@@ -23,6 +25,13 @@
 		justify-content: flex-end
 	.follow
 		flex: 0
+
+// on mobile, keep menu items at the top 
+@media screen and (max-width: $mobile-menu-breakpoint) 
+	.nav .nav_body
+		justify-content: flex-start
+
+
 
 .post_tag.button
 	text-transform: none

@@ -9,11 +9,12 @@ thumbnail: /images/posts/DH2023.png
 featureImage: /images/posts/DH2023.png
 featureImageCap: <a href="https://dh2023.adho.org/">DH2023 University of Graz</a>
 author: Szemes Botond
-excerpt: 'Thanks to funding from ADHO, DHTech was able to support one DHTech member by paying for their DH2023 registration costs. Read Szemes Botond reflection of the workshop "Digital Literary Stylistics (SIG-DLS)"!'
+excerpt: "Thanks to funding from ADHO, DHTech was able to support one DHTech member by paying for their DH2023 registration costs. Read Szemes Botond reflection of the workshop \"Digital Literary Stylistics (SIG-DLS)\"!"
 ---
 
-**Thanks to funding from ADHO, DHTech was able to support one DHTech member by paying for their DH2023 registration costs. Read Szemes Botond reflection of the workshop "Digital Literary Stylistics (SIG-DLS)"!**
+*Thanks to funding from ADHO, DHTech was able to support one DHTech member by paying for their DH2023 registration costs. Read Szemes Botond reflection of the workshop "Digital Literary Stylistics (SIG-DLS)"!*
 
+<!--more-->
 
 On the opening day of the 2023 DH conference, I attended the event of the [Digital Literary Stylistics (SIG-DLS)](https://dls.hypotheses.org/dls-blog), which provides a platform for young researchers to share their projects in the field of stylistics. This area was understood in a broad sense in the event, in that not only issues of authorship attribution (although many presentations focused on the topic) but also other questions of computational stylistic were discussed.
  

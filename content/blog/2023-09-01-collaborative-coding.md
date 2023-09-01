@@ -56,3 +56,4 @@ Stay tuned for more tech tips and tricks from DHtech. Happy coding!
 ## Further reading
 - [Co-authoring Git commits](https://dev.to/cassidoo/co-authoring-git-commits-3gin)
 - [Creating a commit with multiple authors](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors)
+- [Email Privacy on GitHub: Setting Your Commit Email Address](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address#about-commit-email-addresses)

@@ -7,7 +7,7 @@ thumbnail: /images/posts/DH2023.png
 featureImage: 
 featureImageCap: DHTech August Newsletter
 featureImageAlt: 
-url: 2023-newsletter-august
+slug: august-newsletter
 tags:
     - newsletter
 ---

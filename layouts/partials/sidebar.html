@@ -18,7 +18,7 @@
       {{- end }}
       {{- if $showAuthorPhoto }}
         <div class="author_header">
-          <img src="{{ absURL $author.photo }}" alt="{{ $author.name }} photo">
+          <img src="{{ relURL $author.photo }}" alt="{{ $author.name }} photo">
           <h2>{{  $author.name }}</h2>
         </div>
       {{- else }}
@@ -29,7 +29,7 @@
       </div>
       {{- if ( ne $s.introURL false ) }}
       {{- $r := T "read_more" }}
-      <a href='{{ absLangURL (default "about/" $s.introURL) }}' class="button mt-1" role="button" title='{{ $r }}'>{{ $r }}</a>
+      <a href='{{ relLangURL (default "about/" $s.introURL) }}' class="button mt-1" role="button" title='{{ $r }}'>{{ $r }}</a>
       {{- end }}
     {{- end }}
 
@@ -50,7 +50,7 @@
       <ul>
         {{ range $related }}
         <li>
-          <a href="{{ .Permalink }}" class="nav-link" title="{{ .Title }}">{{ .Title | markdownify }}</a>
+          <a href="{{ .RelPermalink }}" class="nav-link" title="{{ .Title }}">{{ .Title | markdownify }}</a>
         </li>
         {{ end }}
       </ul>
@@ -64,7 +64,7 @@
     <ul>
       {{- range . }}
       <li>
-        <a href="{{ .Permalink }}" class="nav-link" title="{{ .Title }}">{{ .Title | markdownify }}</a>
+        <a href="{{ .RelPermalink }}" class="nav-link" title="{{ .Title }}">{{ .Title | markdownify }}</a>
       </li>
       {{- end }}
     </ul>
@@ -74,7 +74,7 @@
       {{- $recent := default 8 $s.numberOfRecentPosts }}
       {{- range first $recent ($posts | complement $featuredPosts) }}
       <li>
-        <a href="{{ .Permalink }}" class="nav-link" title="{{ .Title }}">{{ .Title | markdownify }}</a>
+        <a href="{{ .RelPermalink }}" class="nav-link" title="{{ .Title }}">{{ .Title | markdownify }}</a>
       </li>
       {{- end }}
     </ul>
@@ -87,7 +87,7 @@
         {{- $onPageTags := $.Page.Params.tags }}
         {{- $slicedTags := ($value.ByCount | first $tagsLimit) }}
         {{- range $slicedTags }}
-        <a href='{{ absLangURL $key }}/{{ (replace .Name "#" "%23") | urlize }}/' class="post_tag button button_translucent" title="{{ .Name }}">
+        <a href='{{ relLangURL $key }}/{{ (replace .Name "#" "%23") | urlize }}/' class="post_tag button button_translucent" title="{{ .Name }}">
           {{ .Name }}
           <span class="button_tally">{{ .Count }}</span>
         </a>
@@ -100,7 +100,7 @@
           <div class="tags_list">
             {{- range $value.Alphabetical }}
             {{ $tagsInfo.Add "tagsInfo" (slice .Name .Count)}}
-            <a href='{{ absLangURL $key }}/{{ (replace .Name "#" "%23") | urlize }}/' class=" post_tag button button_translucent" data-position={{ .Count }} title="{{ .Name }}">
+            <a href='{{ relLangURL $key }}/{{ (replace .Name "#" "%23") | urlize }}/' class=" post_tag button button_translucent" data-position={{ .Count }} title="{{ .Name }}">
               {{- .Name -}}
               <span class="button_tally">{{ .Count }}</span>
             </a>
@@ -124,11 +124,11 @@
       {{- range .Site.Sections -}}
         {{- $sectionTitle := .Title -}}
         {{- with .OutputFormats.Get "rss" -}}
-          <li><a href="{{ .Permalink }}">{{ $sectionTitle }}</a></li>
+          <li><a href="{{ .RelPermalink }}">{{ $sectionTitle }}</a></li>
         {{- end -}}
       {{- end -}}
       {{- with .Site.Home.OutputFormats.Get "rss" -}}
-      <li><a href="{{ .Permalink }}">All site content</a></li>
+      <li><a href="{{ .RelPermalink }}">All site content</a></li>
       {{- end -}}
       </ul>
     </div>

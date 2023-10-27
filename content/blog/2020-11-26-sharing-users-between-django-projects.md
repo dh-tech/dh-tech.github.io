@@ -9,9 +9,12 @@ featureImage: /images/uploads/picsum.jpg
 thumbnail: /images/uploads/picsum.jpg
 featureImageCap: photo via <a href="https://picsum.photos/">Lorem Picsum</a>
 featureImageAlt: top-down photo of an open laptop computer and paper notebook on a table
-excerpt: You should never share Django user databases between projects! But
+summary: You should never share Django user databases between projects! But
   sometimes....
+aliases:
+- /blog/2020-11-26-sharing-users-between-django-projects/
 ---
+
 For a small project we had two Django instances dealing with different parts of a workflow. Since the system was supposed to run on an air-gapped sub-system of the infrastructure, our usual authentification and authorization approach using OpenIDConnect was no option. 
 
 In v0.5 we simply had two user databases, one for each instance, and had to manage the users between both systems. However, even changing the password was very complicated for the admins, not even talking about the users themselves.

@@ -9,7 +9,7 @@ thumbnail: /images/vote.jpeg
 featureImage: /images/vote.jpeg
 featureImageAlt: photo of a crowd in an auditorium with many people raising their hands
 featureImageCap: Photo by <a href="https://unsplash.com/@theunsteady5?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Edwin Andrade</a> on <a href="https://unsplash.com/photos/4V1dC_eoCwg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-excerpt: This November we are planning to hold the first official Steering Committee elections. This blog post summarizes the key responsibilities and tasks of the Steering Committee.
+summary: This November we are planning to hold the first official Steering Committee elections. This blog post summarizes the key responsibilities and tasks of the Steering Committee.
 url: 2023-sc-elections
 ---
 DHTech has been an ADHO Special Interest Group since 2021. For the upcoming two-year term (2024-2025), four seats on the Steering Committee need to be filled. Any member of DHTech is eligible to nominate themselves for one of the spots. Should we have more than four nomination, there will be an election. To give people an idea of what it involves to be on the Steering Committee, this blog post will summarize the key responsibilities and tasks of the Steering Committee. We hope that this will encourage some people to nominate themselves as candidates.

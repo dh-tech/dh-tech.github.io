@@ -9,7 +9,9 @@ featureImage: /images/posts/endingprinciples.png
 featureImageCap: Screen capture from the Endings Project website.
 featureImageAlt: "The Endings Project: Building Sustainable Digital Humanities Projects."
 author: Moritz Mähr
-excerpt: "In the digital realm, ensuring the longevity of projects is crucial. The University of Victoria's \"Endings Project\" presents guidelines for digital project sustainability. These principles divide projects into five areas: Data, Documentation, Processing, Products, and Release Management, each with its own set of standards to assure sustainability."
+summary: "In the digital realm, ensuring the longevity of projects is crucial. The University of Victoria's \"Endings Project\" presents guidelines for digital project sustainability. These principles divide projects into five areas: Data, Documentation, Processing, Products, and Release Management, each with its own set of standards to assure sustainability."
+aliases:
+- /blog/2023-08-07-ending-principles/
 ---
 
 In the ever-evolving digital landscape, the concept of digital longevity

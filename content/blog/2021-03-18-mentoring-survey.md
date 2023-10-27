@@ -10,7 +10,9 @@ featureImage: /images/uploads/code.png
 featureImageCap: photo via Julia Damerow
 featureImageAlt: screenshot of code in a codee ditor
 url: mentorship-survey
-excerpt: A survey to gauge the interest of the community for a technical mentorship program.
+summary: A survey to gauge the interest of the community for a technical mentorship program.
+aliases:
+- /blog/2021-03-18-mentoring-survey/
 ---
 As a result of the [DHTech survey](https://dh-tech.github.io/survey-results-2020) it came to our attention that quite a number of people said they were working in DH as single programmers. Additionally, many people doing coding related work in DH don’t have a formal computer science degree but are self-taught or taught on the job. For RSEs in such a situation it can be challenging to get guidance and support in all phases of a project; be it the project planning phase, where knowledge of existing tools and workflows can greatly improve the reusability and long-term accessibility, or during the actual software development phase, where a simple question sometimes takes a day to answer (we have all been there!).
 

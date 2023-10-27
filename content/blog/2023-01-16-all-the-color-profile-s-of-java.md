@@ -12,9 +12,11 @@ featureImageCap: Wide color gamut sample image. Should show an outline of the We
   displaying the DCI-P3 color space. (from
   <a href="https://webkit.org/blog-files/color-gamut/">Webkit blog</a>)
 featureImageAlt: 
-excerpt: How the digilib image server learned to treat images with color
+summary: How the digilib image server learned to treat images with color
   profiles correctly and how I learned more about the weird quirks of Java's
   image libraries than ever before.
+aliases:
+- /blog/2023-01-16-all-the-color-profile-s-of-java/
 ---
 I have always been aware that the way that our [digilib](https://github.com/robcast/digilib) image server dealt with images with color profiles -- basically it did nothing -- was not perfect. But now I got a report from a project and some sample images that showed substantially washed-out colors in the image processed by digilib compared to the original image viewed in a desktop image viewer. I had to finally get digilib to do color right.
 

@@ -9,7 +9,7 @@ thumbnail: /images/uploads/meetup.jpg
 featureImage: /images/uploads/meetup.jpg
 featureImageCap: photo via <a href="https://picsum.photos">picsum photos</a>
 featureImageAlt: people chatting at a coffee shop
-excerpt: "The first DHTech Meetup as a SIG took place on 29th of
+summary: "The first DHTech Meetup as a SIG took place on 29th of
   September.  Members of the initial steering committee introduced themselves
   and shared some ongoing projects of the SIG. The attendees discussed the
   specific focus of DH software development in context to the wider RSE

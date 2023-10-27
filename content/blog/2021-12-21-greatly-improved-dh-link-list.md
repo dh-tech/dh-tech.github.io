@@ -9,7 +9,7 @@ thumbnail: /images/uploads/awesomelist.jpg
 featureImage: /images/uploads/awesomelist.jpg
 featureImageAlt: photo full of open books next to each other, some of them on top of others
 featureImageCap: image via <a href="https://picsum.photos">picsum photos</a>
-excerpt: "Thanks to Moritz Maehr, DHTech now has a vastly improved list of
+summary: "Thanks to Moritz Maehr, DHTech now has a vastly improved list of
   curated DH related links.  Have a look at them and consider adding your own
   tips for resources and tools as a pull request! "
 aliases:

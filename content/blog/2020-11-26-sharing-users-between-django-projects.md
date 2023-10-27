@@ -9,7 +9,7 @@ featureImage: /images/uploads/picsum.jpg
 thumbnail: /images/uploads/picsum.jpg
 featureImageCap: photo via <a href="https://picsum.photos/">Lorem Picsum</a>
 featureImageAlt: top-down photo of an open laptop computer and paper notebook on a table
-excerpt: You should never share Django user databases between projects! But
+summary: You should never share Django user databases between projects! But
   sometimes....
 aliases:
 - /blog/2020-11-26-sharing-users-between-django-projects/

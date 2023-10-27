@@ -8,7 +8,7 @@ date: 2021-04-14T14:57:53.632Z
 thumbnail: /images/uploads/blured_bird.jpg
 featureImage: /images/uploads/blured_bird.jpg
 featureImageCap: "via @Lorem Picsum"
-excerpt: DHtech is now tweeting @dhtech_group
+summary: DHtech is now tweeting @dhtech_group
 aliases:
 - /blog/2021-04-14-dhtech-on-twitter/
 ---

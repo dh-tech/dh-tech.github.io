@@ -12,7 +12,7 @@ featureImageCap: Wide color gamut sample image. Should show an outline of the We
   displaying the DCI-P3 color space. (from
   <a href="https://webkit.org/blog-files/color-gamut/">Webkit blog</a>)
 featureImageAlt: 
-excerpt: How the digilib image server learned to treat images with color
+summary: How the digilib image server learned to treat images with color
   profiles correctly and how I learned more about the weird quirks of Java's
   image libraries than ever before.
 aliases:

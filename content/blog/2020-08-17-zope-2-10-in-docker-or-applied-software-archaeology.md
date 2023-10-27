@@ -8,7 +8,7 @@ date: 2020-08-17T15:52:34.380Z
 thumbnail: /images/uploads/screenshot-old-zope.png
 featureImage: /images/uploads/screenshot-old-zope.png
 featureImageAlt: screenshot of Zope documentation
-excerpt: I wanted to migrate the old website on the server to a Docker image for Zope so I could use it in a docker-compose setup together with a standard PostgreSQL container. How hard could that be?
+summary: I wanted to migrate the old website on the server to a Docker image for Zope so I could use it in a docker-compose setup together with a standard PostgreSQL container. How hard could that be?
 aliases:
 - /blog/2020-08-17-zope-2-10-in-docker-or-applied-software-archaeology/ 
 ---

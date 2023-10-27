@@ -10,7 +10,7 @@ featureImage: /images/uploads/code.png
 featureImageCap: photo via Julia Damerow
 featureImageAlt: screenshot of code in a codee ditor
 url: mentorship-survey
-excerpt: A survey to gauge the interest of the community for a technical mentorship program.
+summary: A survey to gauge the interest of the community for a technical mentorship program.
 aliases:
 - /blog/2021-03-18-mentoring-survey/
 ---

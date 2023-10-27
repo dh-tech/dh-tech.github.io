@@ -8,7 +8,7 @@ date: 2022-03-23T15:32:21.298Z
 thumbnail: /images/uploads/codereview.jpeg
 featureImage: /images/uploads/codereview.jpeg
 featureImageAlt: a desk setup and ready for work with a laptop computer, paper notebook, mobile phone, and a cup of espresso
-excerpt: The Code Review Working Group of DHTech is starting the alpha phase of
+summary: The Code Review Working Group of DHTech is starting the alpha phase of
   implementing a code review process for the digital humanities. For the initial
   round of reviews, we are looking for people willing to submit code for review
   and people willing to review someone else’s code.

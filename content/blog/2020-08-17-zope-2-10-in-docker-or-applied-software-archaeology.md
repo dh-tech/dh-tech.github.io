@@ -9,6 +9,8 @@ thumbnail: /images/uploads/screenshot-old-zope.png
 featureImage: /images/uploads/screenshot-old-zope.png
 featureImageAlt: screenshot of Zope documentation
 excerpt: I wanted to migrate the old website on the server to a Docker image for Zope so I could use it in a docker-compose setup together with a standard PostgreSQL container. How hard could that be?
+aliases:
+- /blog/2020-08-17-zope-2-10-in-docker-or-applied-software-archaeology/ 
 ---
 
 During the COVID-19 lockdown in March 2020 I was in my home office and I was reading all those stories on Twitter of people who suddenly learned painting or playing the guitar and I envied them for the time and energy for something new they seemed to have. My personal work situation felt pretty much the same except for the missing commute to our institute, but I decided to use some time to look at some of our old projects on our old servers and either migrate or delete the websites and shut down the servers. This suddenly felt creative and refreshing like a spring cleaning with Marie Condo.

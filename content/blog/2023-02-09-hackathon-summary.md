@@ -10,6 +10,8 @@ featureImageAlt: angled image of code in a text editor
 featureImageCap: Photo by <a href="https://unsplash.com/@pankajpatel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pankaj Patel</a> on <a href="https://unsplash.com/photos/_SgRNwAVNKw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 author: Rebecca Sutton Koeser
 excerpt: Rebecca reflects on the first DHTech Hackathon!
+aliases:
+- /blog/2023-02-09-hackathon-summary/
 ---
 
 In November of last year, DHTech held our first hackathon. I wasn’t sure what to expect from it, but I was excited at the prospect of working on something with other members in the community and creating something together.

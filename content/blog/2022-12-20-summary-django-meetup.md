@@ -10,6 +10,8 @@ featureImageAlt: photo of a "Pro Django" book on a desk between a computer monit
 featureImageCap: Photo by <a href="https://unsplash.com/it/@faisaldada?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Faisal</a> on <a href="https://unsplash.com/s/photos/django?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 author: Rebecca Sutton Koeser and Julia Damerow
 excerpt: Our December meetup was focussed on discussing the Python-based Django framework. Read our summary of the meetup!
+aliases:
+- /blog/2022-12-20-summary-django-meetup/
 ---
 
   

@@ -10,6 +10,8 @@ date: 2020-08-14T09:33:00
 title: Simply updating the Django version ...
 tags: 
 - ADayInTheLifeOf
+aliases:
+- /blog/2020-08-14-vogl-django/
 ---
 
 Doing the sensible thing, as a first step I updated to the latest Django version, which was 3.1 at that time. Trying the debugging server of Django just gave me lots of errors. After a short search I realized, that of course also Django CMS needs to be updated, which was done in a breeze. Retrying the server, lots of new interesting errors.

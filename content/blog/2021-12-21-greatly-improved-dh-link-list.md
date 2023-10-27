@@ -12,6 +12,8 @@ featureImageCap: image via <a href="https://picsum.photos">picsum photos</a>
 excerpt: "Thanks to Moritz Maehr, DHTech now has a vastly improved list of
   curated DH related links.  Have a look at them and consider adding your own
   tips for resources and tools as a pull request! "
+aliases:
+- /blog/2021-12-21-greatly-imporved-dh-link-list/
 ---
 [Moritz Mähr](https://github.com/maehr) kindly offered to merge his external Digital History link list with our admittedly outdated awesome-dhtools list. He also included Github actions to make the list a member of the [awesome lists ecosystem](https://github.com/sindresorhus/awesome). The much improved list can now be accessed at [dh-tech.github.io/awesome-dhtools/](https://dh-tech.github.io/awesome-dhtools/)
 

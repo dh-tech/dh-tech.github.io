@@ -10,6 +10,8 @@ featureImageCap: Two Women Looking at the Code at Laptop by Christina Morillo (C
 featureImageAlt: "Two Women Looking at the Code at Laptop"
 author: Diego Siqueira
 excerpt: "In the world of coding, teamwork is essential. Whether you're building a software project or collaborating on an open-source repository, co-authoring Git commits and practicing pair programming can streamline your workflow and improve code quality."
+aliases:
+- /blog/2023-09-01-collaborative-coding/
 ---
 
 In the world of coding, teamwork is essential. Whether you're building a software project or collaborating on an open-source repository, co-authoring Git commits and practicing pair programming can streamline your workflow and improve code quality.

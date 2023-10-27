@@ -14,6 +14,8 @@ excerpt: "The first DHTech Meetup as a SIG took place on 29th of
   and shared some ongoing projects of the SIG. The attendees discussed the
   specific focus of DH software development in context to the wider RSE
   movement. "
+aliases:
+- /blog/2021-09-30-dhtech-meetup/
 ---
 The SIG activities that were discussed include the new mentorship program, which will offer a long term, low frequency partnership between members working on various DH topics; and a community code review initiative, which aims to improve the code quality of DH projects. 
 

@@ -59,7 +59,7 @@ mainSections:
 
 permalinks:
   news: /:year/:month/:day/:slug/
-  blog: /:year/:month/:day/:slug/
+  blog: /blog/:year/:month/:day/:slug/
 
 params:
   logo: "logos/logo.png"

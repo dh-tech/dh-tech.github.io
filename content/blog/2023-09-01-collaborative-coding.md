@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Collaborative Coding: Pair Programming & Co-authoring Git Commits"
+slug: collaborative-coding
 date: 2023-09-01T13:11:00Z
 tags:
 - 2Simple2Mention

@@ -30,7 +30,7 @@ In our October DHTech meetup we talked about how DHTech can support training and
 ### Latest Blog Posts
 
 Check out the latest blog posts on the DHTech website!
-- "[Reinventing the DHTech logo](/blog/2023-10-27-new-logo/)" by Rebecca Sutton Koeser about the redesign of our logo.
+- "[Reinventing the DHTech logo](/blog/2023/10/27/new-logo/)" by Rebecca Sutton Koeser about the redesign of our logo.
 - "[DHTech Participation at US-RSE Conference](/blog/2023-10-27-usrse23/)" by Cole Crawford about DHTech's involvement in the first US Research Software Engineer Conference.
 
 ### DHTech Email Address

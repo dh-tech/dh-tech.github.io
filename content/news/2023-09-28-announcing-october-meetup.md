@@ -6,7 +6,7 @@ author: DHTech
 thumbnail: /images/posts/meetup.jpeg
 featureImage: /images/posts/meetup.jpeg
 featureImageCap: Photo by <a href="https://unsplash.com/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">charlesdeluvio</a> on <a href="https://unsplash.com/photos/wn7dOzUh3Rs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
+url: DHTech-October-Meetup
 tags:
     - meetup
 ---

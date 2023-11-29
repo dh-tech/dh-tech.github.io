@@ -13,14 +13,14 @@ tags:
 DHTech is looking for digital humanities project teams in the US planning to develop software who would benefit from consulting with a Research Software Engineer (RSE) on their technical implementation plan. Teams accepted for this call will be matched with an appropriate RSE. Teams must be willing to meet with their assigned consultant at least five times over the course of five months, and plan to start the development work of the software by the end of 2025. Accepted project teams will be paid a stipend of $1500 to compensate for the required time to provide feedback on the process. 
 
 Please provide a one page description that includes:
-- a general outline of your project and the software you plan to develop.
-- how you plan to fund and staff the development work.
-- if there are any RSE groups or other software development units at your institution you have access to. 
-- the timeline of your project.
-- the composition of your team.
-- the work that has been done so far towards developing the software for your project such as any prototypes developed or technical plans drafted.
-- any specific requirements or context a consultant would need to advise on the technical implementation plan for your project.
-- expected impact or value of an external RSE consultant for your project.
+- A general outline of your project and the software you plan to develop.
+- How you plan to fund and staff the development work.
+- If there are any RSE groups or other software development units at your institution you have access to. 
+- The timeline of your project.
+- The composition of your team.
+- The work that has been done so far towards developing the software for your project such as any prototypes developed or technical plans drafted.
+- Any specific requirements or context a consultant would need to advise on the technical implementation plan for your project.
+- Expected impact or value of an external RSE consultant for your project.
 
 We are particularly interested in projects at historically underserved institutions and institutions that do not have a research software engineering group. Projects should be in the planning stage with a firm intention to start development as soon as funding allows. We are not looking for projects enhancing existing software, but projects in the early phases of planning where most design decisions are still to be decided and consultation with an RSE would be most valuable. Our goal is to match experienced research software engineers with digital humanities projects that would like to develop software but do not have the expertise available to them to plan such a project. The research software engineer will not write the software but develop a sound software implementation plan in close collaboration with the project that can be used when applying for funding. We will handle matching up research software engineers and projects. Projects must be available to meet with their assigned RSE consultant and provide any information needed to develop a technical implementation plan.
 

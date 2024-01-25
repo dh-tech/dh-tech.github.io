@@ -4,7 +4,6 @@ languageCode: en-us
 title: DHTech
 enableRobotsTXT: true
 
-
 menu:
   main:
   - name: about
@@ -67,3 +66,4 @@ params:
   mobileNavigation: right
   showReadTime: false
   showShare: false
+  ga_analytics: G-P55LD1R62C

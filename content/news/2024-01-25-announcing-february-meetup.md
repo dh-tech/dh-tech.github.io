@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DHTech February Meetup
+title: DHTech February Meetup on Agent-Based Modeling
 date: 2024-01-25T15:00:00
 author: DHTech
 thumbnail: /images/posts/meetup.jpeg

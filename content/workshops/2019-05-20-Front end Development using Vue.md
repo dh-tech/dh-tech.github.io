@@ -2,6 +2,8 @@
 title: Front end Development using Vue
 date: '2019-05-20'
 recording: 'https://repository.de.dariah.eu/1.0/dhcrud/21.11113/0000-000C-20A1-9/data'
+aliases:
+- /workshops/2019-05-20-Front-end-Development-using-Vue/
 ---
 
 On May 20, 2019, Taylor Quinn talked about starting a Vue.js project using the Vue CLI and Single file component basics.

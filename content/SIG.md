@@ -1,6 +1,7 @@
 ---
 title: ADHO Special Interest Group
 description: Steering Committee and Governance
+url: /SIG/
 ---
 
 ## Steering Committee

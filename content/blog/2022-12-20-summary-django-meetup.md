@@ -12,6 +12,7 @@ author: Rebecca Sutton Koeser and Julia Damerow
 summary: Our December meetup was focussed on discussing the Python-based Django framework. Read our summary of the meetup!
 aliases:
 - /blog/2022-12-20-summary-django-meetup/
+- /blog/2022/12/20/DHTech-on-Django/
 ---
 
   

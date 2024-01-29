@@ -26,8 +26,8 @@
 	.follow
 		flex: 0
 
-// on mobile, keep menu items at the top 
-@media screen and (max-width: $mobile-menu-breakpoint) 
+// on mobile, keep menu items at the top
+@media screen and (max-width: $mobile-menu-breakpoint)
 	.nav .nav_body
 		justify-content: flex-start
 
@@ -59,7 +59,7 @@ div.subscribe
   font-family: 'Goudy Bookletter 1911'
   font-style: normal
   font-weight: 300
-  font-display: swap  
+  font-display: swap
   src: url('/fonts/goudy_bookletter_1911/goudy_bookletter_1911.woff2') format('woff2'), url('/fonts/goudy_bookletter_1911/goudy_bookletter_1911.woff') format('woff')
 
 
@@ -68,4 +68,8 @@ figure.small
   @media screen and (min-width: $mobile-menu-breakpoint)
     width: 30%
 
-	
+// print styles
+@media print
+	// suppress header, link to top, and sidebar
+	header.nav_header, .to_top, aside.sidebar
+		display: none

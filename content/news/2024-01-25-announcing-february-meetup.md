@@ -2,6 +2,8 @@
 layout: post
 title: DHTech February Meetup on Agent-Based Modeling
 date: 2024-01-25T15:00:00
+meetup_date: 2024-02-15T15:00:00
+registration: https://asu.zoom.us/meeting/register/tZElduuprjsvEtFkc0xgDwpm5CVREJaBQDNT
 author: DHTech
 thumbnail: /images/posts/meetup.jpeg
 featureImage: /images/posts/meetup.jpeg

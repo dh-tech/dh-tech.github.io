@@ -1,7 +1,8 @@
 ---
 layout: post
-title: DHTech October Meetup
+title: DHTech October Meetup on Education and Training
 date: 2023-09-28T15:00:00
+meetup_date: 2023-10-05
 author: DHTech
 thumbnail: /images/posts/meetup.jpeg
 featureImage: /images/posts/meetup.jpeg

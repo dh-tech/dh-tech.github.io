@@ -4,6 +4,9 @@ date: 2017-12-14T19:30:00
 author: "cthiel"
 excerpt: "Established at DH 2017 Montreal, DHTech aims to support the development and reuse of software in the Digital Humanities by providing a community to exchange knowledge, share expertise, and foster collaboration among Digital Humanities software projects."
 slug: announcing-the-first-virtual-workshop
+
+tags:
+    - announcement
 ---
 
 Established at DH 2017 Montreal, DHTech aims to support the development and reuse of software in the Digital Humanities

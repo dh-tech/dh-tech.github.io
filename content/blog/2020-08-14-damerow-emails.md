@@ -13,6 +13,7 @@ tags:
 - ADayInTheLifeOf
 aliases:
 - /blog/2020-08-14-damerow-emails/
+- /blog/2020/08/14/Just-sending-email-notifications/
 ---
 
 I work as a scientific software engineer at Arizona State University (ASU). I head the [Digital Innovation Group](http://diging.asu.edu/) (or short DigInG) that develops software for historians and philosophers of science. I started this group when I was a graduate student together with another PhD student and besides a pause of about a year when I was working outside of academia after I graduated, DigInG has been a big part of my work life. Besides me, the group consists of one other software engineer and between ten to fifteen student workers. Our student workers help with software development and research related tasks such as data collection, annotation, etc.

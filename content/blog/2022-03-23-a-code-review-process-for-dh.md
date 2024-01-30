@@ -12,8 +12,10 @@ summary: The Code Review Working Group of DHTech is starting the alpha phase of
   implementing a code review process for the digital humanities. For the initial
   round of reviews, we are looking for people willing to submit code for review
   and people willing to review someone else’s code.
+slug: code-review-for-dh
 aliases:
 - /blog/2022-03-23-a-code-review-process-for-dh/
+- /blog/2022/03/23/A-Code-Review-Process-for-DH/
 ---
 The Code Review Working Group of DHTech is starting the alpha phase of implementing a code review process for the digital humanities. For the initial round of reviews, we are looking for people willing to submit code for review and people willing to review someone else’s code. If you are willing to participate, we will also ask you to complete a feedback questionnaire at the end to help us improve the process. 
 

@@ -10,8 +10,10 @@ featureImage: /images/posts/DH2023.png
 featureImageCap: <a href="https://dh2023.adho.org/">DH2023 University of Graz</a>
 author: Szemes Botond
 summary: "Thanks to funding from ADHO, DHTech was able to support one DHTech member by paying for their DH2023 registration costs. Read Szemes Botond reflection of the workshop \"Digital Literary Stylistics (SIG-DLS)\"!"
+slug: dh2023-conference-report
 aliases:
 - /blog/2023-08-29-szemes-botond-dh2023/
+- /blog/2023/08/29/Report-on-a-conference-session-DH2023-Graz/
 ---
 
 *Thanks to funding from ADHO, DHTech was able to support one DHTech member by paying for their DH2023 registration costs. Read Szemes Botond reflection of the workshop "Digital Literary Stylistics (SIG-DLS)"!*

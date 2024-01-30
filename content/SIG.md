@@ -1,6 +1,9 @@
 ---
 title: ADHO Special Interest Group
 description: Steering Committee and Governance
+url: /SIG/
+aliases:
+  - /sig/
 ---
 
 DHTech is a community of people doing technical work in the digital humanities. Since 2021, we are a [Special Interest Group (SIG)](https://adho.org/sigs/) of the [Alliance of Digital Humanities Organizations (ADHO)](https://adho.org/).

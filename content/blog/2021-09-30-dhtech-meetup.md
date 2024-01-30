@@ -16,6 +16,7 @@ summary: "The first DHTech Meetup as a SIG took place on 29th of
   movement. "
 aliases:
 - /blog/2021-09-30-dhtech-meetup/
+- /blog/2021/09/30/First-DHtech-Meetup-as-an-ADHO-SIG/
 ---
 The SIG activities that were discussed include the new mentorship program, which will offer a long term, low frequency partnership between members working on various DH topics; and a community code review initiative, which aims to improve the code quality of DH projects. 
 

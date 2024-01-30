@@ -3,20 +3,24 @@ title: ADHO Special Interest Group
 description: Steering Committee and Governance
 ---
 
+DHTech is a community of people doing technical work in the digital humanities. Since 2021, we are a [Special Interest Group (SIG)](https://adho.org/sigs/) of the [Alliance of Digital Humanities Organizations (ADHO)](https://adho.org/).
+
 ## Steering Committee
 
 * [Robert Casties](https://www.mpiwg-berlin.mpg.de/users/casties) (2021-2024)<br/>
   Research Scholar, Research-IT, Max Planck Institute for the History of Science
 * [Cole Crawford](https://digitalhumanities.fas.harvard.edu/person/cole-crawford/) (2023-2024)<br/>
-  Software Engineer, Arts and Humanities Research Computing, Harvard University
-* [Julia Damerow](https://diging.asu.edu/people/index.html) (2021-2023)<br/>
+  Senior Software Engineer, Arts and Humanities Research Computing, Harvard University
+* [Julia Damerow](https://diging.asu.edu/people/index.html) (2021-2025)<br/>
   Lead Scientific Software Engineer, Digital Innovation Group and School of Complex Adaptive Systems, Arizona State University
-* [Rebecca Sutton Koeser](https://cdh.princeton.edu/people/rebecca-sutton-koeser/) (2021-2023)<br/>
+* [Jose Angel Hernandez]() (2024-2025)<br/>
+  Florida State University
+* [Rebecca Sutton Koeser](https://cdh.princeton.edu/people/rebecca-sutton-koeser/) (2021-2025)<br/>
   Lead Research Software Engineer, Center for Digital Humanities, Princeton
-* [Jeffrey R. Tharsen](http://www.tharsen.net/) (2021-2023)<br/>
-  Computational Scientist for the Digital Humanities and Lecturer in Digital Studies, University of Chicago
+* [Jeffrey R. Tharsen](http://www.tharsen.net/) (2021-2025)<br/>
+  Associate Director of Technology and Lecturer in Digital Studies, University of Chicago
 * [Malte Vogl](https://www.mpiwg-berlin.mpg.de/users/mvogl) (2021-2024)<br/>
-  Research Software Engineer, ModelSEN project, Max-Planck-Institute for the History of Science, Berlin
+  Research Software Engineer, ModelSEN project, Max Planck Institute of Geoanthropology
 
 
 ## Former Steering Committee

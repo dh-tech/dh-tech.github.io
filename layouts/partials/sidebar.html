@@ -78,6 +78,24 @@
       </li>
       {{- end }}
     </ul>
+
+    <h2 class="mt-4">Meetups</h2>
+    <ul class="flex-column">
+      {{- range first 3 (site.Taxonomies.tags.Get "meetup") }}
+      <li>
+        <a href="{{ .RelPermalink }}" class="nav-link" title="{{ .Title }}">
+          
+          {{ if .Params.meetup_date }}
+          {{ $meetupTime := .Params.meetup_date | time }}
+          {{ if lt time.Now $meetupTime }}<b>[Upcoming]</b>{{end}}
+          {{ end}}
+          {{ .Title | markdownify }} {{ if .Params.meetup_date }} ({{ time.Format "Jan 2006" .Params.meetup_date }}){{ end }}
+        </a>
+      </li>
+      {{- end }}
+    </ul>
+    <p><a href='{{ ref . "/tags/meetup" }}'>Browse all meetups.</a></p>
+
     {{- $tagsLimit := (default 100 $s.numberOfTagsShown) }}
     {{- range $key, $value := .Site.Taxonomies }}
     {{- if gt $value 0 }}
@@ -117,23 +135,6 @@
     </div>
     {{- end }}
     {{- end }}
-
-    <h2 class="mt-4">Meetups</h2>
-    <ul class="flex-column">
-      {{- range first 5 (site.Taxonomies.tags.Get "meetup") }}
-      <li>
-        <a href="{{ .RelPermalink }}" class="nav-link" title="{{ .Title }}">
-          
-          {{ if .Params.meetup_date }}
-          {{ $meetupTime := .Params.meetup_date | time }}
-          {{ if lt time.Now $meetupTime }}<b>[Upcoming]</b>{{end}}
-          {{ end}}
-          {{ .Title | markdownify }} {{ if .Params.meetup_date }} ({{ time.Format "Jan 2006" .Params.meetup_date }}){{ end }}
-        </a>
-      </li>
-      {{- end }}
-      <li><a href='{{ ref . "/tags/meetup" }}'>All meetups...</a></li>
-    </ul>
 
     <div class="subscribe">
       <h2>Subscribe via RSS</h2>

@@ -11,6 +11,7 @@ aliases:
 tags:
     - meetup
     - recording
+---
 
 In this webinar Florian Kräutli showed how to use the [X3ML Toolkit](https://www.ics.forth.gr/isl/index_main.php?l=e&c=721) to build a [CIDOC-CRM model](http://www.cidoc-crm.org/) based on existing XML data. We can then use the same tool to convert the data to RDF and ingest it into a linked data platform. He demonstrated the [Metaphactory](https://www.metaphacts.com/produc) platform, which forms the foundation of [ResearchSpace](https://www.researchspace.org/), and can be used to navigate and visualise CIDOC-CRM compatible RDF data, as well as build custom user interfaces for other linked data applications.
 

@@ -1,8 +1,16 @@
 ---
 title: 'Community Projects Lightning Talks'
 date: '2022-02-17'
+meetup_date: 2022-02-17
 excerpt: "On February 17, 2022, members from DHTech came together to learn about some of the projects of community members."
 recording: https://drive.google.com/file/d/198evThvPZ38mlSjntyBBaD3gCOB3AHnH/view?usp=sharing
+
+slug: lightning-talks
+aliases: 
+    - /workshops/2022-02-17-lightning-talks/
+tags:
+    - meetup
+    - recording
 ---
 
 ## Webinar Summary

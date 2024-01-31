@@ -18,7 +18,20 @@
     <span class="post_date">
       {{ .Date.Format (default "Jan 2, 2006" $.Site.Params.dateFormat) -}}
     </span>
+    {{ if .Params.meetup_date }}
+    {{- if ($scratch.Get "writeSeparator") }}&nbsp;· {{ end }}
+    <span>{{ partial "sprite" (dict "icon" "calendar") }}</span>
+      <span class="post_date">
+      Meetup date: {{ time.Format "Jan 2, 2006 on 9:00 AM"  .Params.meetup_date -}}
+    </span>
+    {{ end }}
+    {{ if .Params.registration }}
+    <span>
+    {{- if ($scratch.Get "writeSeparator") }}&nbsp;· {{ end }}
+      <a class="post_tag button " href="{{.Params.registration}}">Register</a>
+    {{ end }}
     {{- $scratch.Set "writeSeparator" true }}
+    </span>
   {{- end }}
   {{- if $showReadTime }}
     <span class="post_time">{{ if ($scratch.Get "writeSeparator") }} · {{ end }}{{ T "reading_time" . }}</span>

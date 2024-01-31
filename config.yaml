@@ -12,9 +12,6 @@ menu:
   - name: news
     pageRef: /news/
     weight: 2
-  - name: meetups
-    pageRef: /workshops/
-    weight: 3
   - name: blog
     pageRef: /blog/
     weight: 4

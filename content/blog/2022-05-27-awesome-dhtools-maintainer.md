@@ -12,6 +12,7 @@ featureImageCap: via <a href="https://unsplash.com/photos/NL_DF0Klepc">unsplash<
 summary: 'Our "Awesome DHTools" repository has two new maintainers: Moritz Mähr and Diego Siqueira!'
 aliases:
 - /blog/2022-05-27-awesome-dhtools-maintainer/
+- /blog/2022/05/27/Awesome-DHTools-has-new-Maintainers/
 ---
 
 We want to thank [Moritz Mähr](https://github.com/maehr) and [Diego Siqueira](https://github.com/diegosiqueir4) for agreeing to become the official maintainers of our [Awesome DHtools repository](https://dh-tech.github.io/awesome-digital-humanities/). For the last few months they have steadily improved and added to the list. We are grateful that the list is in such capable hands!

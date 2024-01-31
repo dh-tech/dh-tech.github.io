@@ -13,6 +13,7 @@ summary: You should never share Django user databases between projects! But
   sometimes....
 aliases:
 - /blog/2020-11-26-sharing-users-between-django-projects/
+- /blog/2020/11/26/Sharing-Users-between-Django-projects/
 ---
 
 For a small project we had two Django instances dealing with different parts of a workflow. Since the system was supposed to run on an air-gapped sub-system of the infrastructure, our usual authentification and authorization approach using OpenIDConnect was no option. 

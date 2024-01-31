@@ -11,6 +11,7 @@ featureImageCap: "via @Lorem Picsum"
 summary: DHtech is now tweeting @dhtech_group
 aliases:
 - /blog/2021-04-14-dhtech-on-twitter/
+- /blog/2021/04/14/DHtech-on-Twitter/
 ---
 
 DHtech is joining the crowd on Twitter with the handle @dhtech_group. We will be using the account for announcing our activities and events. 

@@ -48,7 +48,7 @@ The DHTech Code Review Working Group has been working hard on improving their pr
 
 DHTech now has two working groups: the [Code Review Working Group](https://dhcodereview.github.io/) and the newly-formed [Education & Training Working Group](https://dh-tech.github.io/wg-education-training/). The Education & Training Working Group focuses on creating a collection of educational materials in topics such as version control, documentation practices, and packaging while highlighting DH use cases. The group meets on the second Thursday of every month 9am to 10am ET (3pm to 4pm CET). Please join the `#education-wg` channel on Slack or get in touch with Jose Hernandez ([jah22q@fsu.edu](jah22q@fsu.edu)) if you are interested in joining.
 
-We have also added some general guidelines for forming and maintaining working groups. Please check out our [working group page](working-groups/) for more information.
+We have also added some general guidelines for forming and maintaining working groups. Please check out our [working group page](/working-groups/) for more information.
 
 
 ### Latest Blog Posts

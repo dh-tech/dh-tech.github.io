@@ -21,9 +21,12 @@ menu:
   - name: working groups
     pageRef: /working-groups
     weight: 6
+  - name: job board
+    pageRef: /job-board
+    weight: 7
   - name: join us
     pageRef: /join
-    weight: 7
+    weight: 8
   social:
     # social menu links
     - name: github

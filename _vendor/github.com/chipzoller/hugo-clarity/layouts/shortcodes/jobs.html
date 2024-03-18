@@ -1,0 +1,15 @@
+<ul>
+{{ $data := index $.Site.Data.jobs }}
+{{ range $data.jobs }}
+{{ $postUntil := .post_until | time }}
+{{ if lt time.Now $postUntil }}
+<li>
+  <a href="{{.link}}"><i>{{.job_title}}</i> at {{ .organization }}</a>
+  <br>
+  {{ .description }}
+  <br>
+  Posted on: {{ time.Format "January 2, 2006" .post_date }}, closes on: {{ .closes_on }}
+</li>
+{{ end }} 
+{{ end }}
+</ul>

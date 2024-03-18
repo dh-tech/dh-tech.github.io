@@ -8,6 +8,8 @@ thumbnail: /images/posts/dh2024-mini-conf.png
 #featureImage: /images/posts/code-coffee-pic.jpeg
 tags:
     - announcement
+aliases:
+    - /2024/03/14/deadline-extention-for-dh2024-mini-conference-dh-inside-out/
 ---
 
 

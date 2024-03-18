@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deadline extention for DH2024 Mini-conference “DH Inside Out”
+title: Deadline extension for DH2024 Mini-conference “DH Inside Out”
 date: 2024-03-14T10:00:00
 author: DHTech
 summary: 'Then submission deadline for "DH Inside Out" is being extended to March 31, 2024.'

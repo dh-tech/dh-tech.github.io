@@ -25,10 +25,13 @@
       Meetup date: {{ time.Format "Jan 2, 2006 on 9:00 AM"  .Params.meetup_date -}}
     </span>
     {{ end }}
-    {{ if .Params.registration }}
-    <span>
-    {{- if ($scratch.Get "writeSeparator") }}&nbsp;· {{ end }}
+    {{ if and (.Params.registration) (.Params.meetup_date) }}
+    {{ $meetupTime := .Params.meetup_date | time }}
+      {{ if lt time.Now $meetupTime }}
+      <span>
+      {{- if ($scratch.Get "writeSeparator") }}&nbsp;· {{ end }}
       <a class="post_tag button " href="{{.Params.registration}}">Register</a>
+      {{end}}
     {{ end }}
     {{- $scratch.Set "writeSeparator" true }}
     </span>

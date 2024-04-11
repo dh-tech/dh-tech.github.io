@@ -17,7 +17,7 @@ aliases:
 ### DH2024 Mini-conference “DH Inside Out”
 
 <div style="background-color: #ffe6b5; padding: 10px; border-radius: 10px">
-The workshop program for DH2024 is now <a target="_blank" href="https://dh2024.adho.org/program/workshops/">available online</a>. We therefore decided to <b>extend the submission deadline for "DH Inside Out" on last time to April 26, 2024</b> to give people not part of DHTech a chance to sbumit. You can submit your contribution <a target="_blank" href="https://form.jotform.com/233466066208053">here</a>.
+The workshop program for DH2024 is now <a target="_blank" href="https://dh2024.adho.org/program/workshops/">available online</a>. We therefore decided to <b>extend the submission deadline for "DH Inside Out" on last time to April 26, 2024</b> to give people not part of DHTech a chance to sumbit. You can submit your contribution <a target="_blank" href="https://form.jotform.com/233466066208053">here</a>.
 </div>
 
 This year in August, [DH2024](https://dh2024.adho.org/) will be held at George Mason University in Arlington, Virginia, USA. DHTech will hold a **mini-conference at DH2024 themed “DH Inside Out”**. Typical DH conference presentations are focussed on the research with a slight nod to the technical details; we want to flip that format and dive more deeply into the technical aspects of the work, while still keeping it in context of the research and domain specifics. To that end, we invite submissions of interest to the people who work on the technical aspects of DH projects. 

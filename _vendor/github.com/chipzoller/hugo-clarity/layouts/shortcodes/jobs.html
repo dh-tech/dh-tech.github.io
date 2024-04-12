@@ -8,7 +8,8 @@
   <br>
   {{ .description }}
   <br>
-  Posted on: {{ time.Format "January 2, 2006" .post_date }}, closes on: {{ .closes_on }}
+  <b>Posted on:</b> {{ time.Format "January 2, 2006" .post_date }}<br>
+  <b>Closes on:</b> {{ .closes_on }}
 </li>
 {{ end }} 
 {{ end }}

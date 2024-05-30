@@ -12,6 +12,13 @@
 <div class="grid-inverse wrap content">
   <div>
     <ul class="posts" id="posts">
+      <li class="post_item">
+        <div class="excerpt_header post_content">
+          <div class="excerpt">{{ partial "sprite" (dict "icon" "alarm")}}<b>We have a job board now!</b> Check it out <a href="{{ relURL "job-board" }}">here</a>.</div>
+        </div>
+      </li>
+    </ul>
+    <ul class="posts" id="posts">
       {{- range (.Paginate $pages).Pages }}
         {{ partial "excerpt" . }}
       {{- end }}

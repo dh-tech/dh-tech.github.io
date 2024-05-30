@@ -1,17 +1,9 @@
 jobs:
-  - organization: Princeton University, New Jersey
-    country: United States
-    job_title: Associate Director, Research Software Engineering
-    description: The Research Software Engineering (RSE) Group, located institutionally in Princeton Research Computing but extending across campus, is hiring an Associate Director of Research Software Engineering. You will report to the Sr. Director of Research Software Engineering.
-    link: https://main-princeton.icims.com/jobs/18555/associate-director%2c-research-software-engineering/job?mobile=false&width=1110&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240
-    post_date: 2024-02-20
-    closes_on: until filled
-    post_until: 2024-03-30
-  - organization: University Glasgow, School of Humanities
-    country: United Kingdom
-    job_title: Research Associate
-    description: The successful candidate will make a leading contribution to an AHRC-funded BRAID (Bridging Responsible AI Divides) project on the topic of Responsible AI and Indigenous knowledges in libraries. 
-    link: https://www.jobs.ac.uk/job/DFX494/research-associate
-    post_date: 2024-02-20
-    closes_on: 2024-02-27
-    post_until: 2024-03-20
+  - organization: Berlin-Brandenburg Academy of Sciences and Humanities
+    country: Germany
+    job_title: Research Software Engineer
+    description: We are looking for a  Research Software Engineer (m/f/d) in the field of Digital Humanities. Preferably with experience in Machine Learning or Knowledge Graphs or great motivation familiarize yourself with these technologies.
+    link: https://www.bbaw.de/stellenangebote/stellenausschreibung-wissenschaftlicher-mitarbeiter-m-w-d-1
+    post_date: 2024-05-30
+    closes_on: 2024-06-16
+    post_until: 2024-06-16

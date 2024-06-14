@@ -8,6 +8,7 @@ thumbnail: /images/posts/dh2024-mini-conf.png
 #featureImage: /images/posts/code-coffee-pic.jpeg
 tags:
     - announcement
+    - conference
 aliases:
     - /2024/04/11/final-extension-dh-inside-out/
 ---

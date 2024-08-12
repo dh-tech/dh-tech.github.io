@@ -7,3 +7,11 @@ jobs:
     post_date: 2024-05-30
     closes_on: 2024-06-16
     post_until: 2024-06-16
+  - organization: Berlin-Brandenburg Academy of Sciences and Humanities
+    country: Germany
+    job_title: Wissenschaftlicher Mitarbeiter (m/w/d) - RSE
+    description: Research Software Engineering in the field of digital scholarly editions and AI in humanities research.
+    link: https://www.bbaw.de/stellenangebote/stellenausschreibung-wissenschaftlicher-mitarbeiter-m-w-d-1
+    post_date: 2024-08-07
+    closes_on: 2024-09-08
+    post_until: 2024-09-09

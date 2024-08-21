@@ -7,7 +7,7 @@
 <li>
   <a href="{{.link}}"><i>{{.job_title}}</i> at {{ .organization }}</a>
   <br>
-  {{ .description }}
+  {{ .description |markdownify}}
   <br>
   <b>Posted on:</b> {{ time.Format "January 2, 2006" .post_date }}<br>
   <b>Closes on:</b> {{ if findRE `[0-9]{4}-[0-9]{2}-[0-9]{2}` .closes_on }}{{ time.Format "January 2, 2006" .closes_on }}{{else }}{{.closes_on}}{{ end}}

@@ -6,7 +6,7 @@ author: Nick Laiacona
 thumbnail: /images/posts/ec-logo.png
 summary: At the DH Inside Out Workshop at DH2024, Performant Software Solutions LLC presented EditionCrafter, a tool for creating digital critical editions and archives. 
 tags:
-    - HippoChallenge
+    - DHippoChallenge
     - conference
 ---
 

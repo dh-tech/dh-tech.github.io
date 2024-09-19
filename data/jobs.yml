@@ -31,4 +31,12 @@ jobs:
     post_date: 2024-08-19
     closes_on: 2024-09-30
     post_until: 2024-10-01
+  - organization: Center for Digital Humanities at Princeton
+    country: USA
+    job_title: Research Software Engineer II
+    description: "Join the CDH RSE team, which designs and implements high-quality, sustainable software to advance research in the humanities. Work closely with faculty, student, and campus partners to translate research priorities into software needs, including analyzing data, implementing models or simulations, and developing software modules or tools. Advise Princeton scholars to recommend appropriate approaches and solutions. Contribute to research articles, presentations, and course modules. "
+    link: https://cdh.princeton.edu/opportunities/research-software-engineer-ii/
+    post_date: 2024-09-03
+    closes_on: 2024-12-31
+    post_until: 2024-12-31
 

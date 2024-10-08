@@ -2,7 +2,7 @@
 layout: post
 title: DHReSCU Receives National Endowment for the Humanities Grant to Support Research Software Projects
 date: 2024-10-07T15:00:00
-author: Julia Damerow, Cole Crawford, Rebecca Sutton Koese
+author: Julia Damerow, Cole Crawford, Rebecca Sutton Koeser
 thumbnail: /images/posts/dhrescu-hippo.jpg
 # featureImage: /images/posts/dhrescu-hippo.jpg
 

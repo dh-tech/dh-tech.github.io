@@ -1,5 +1,5 @@
 ---
-title: "Paper: Code Review in Digital Humanities"
+title: "Recently published: 'Code Review in Digital Humanities'"
 slug: 2024-paper-code-review
 date: 2024-10-31T09:00:15-04:00
 author: Julia Damerow, Rebecca Sutton Koeser, Malte Vogl 
@@ -13,7 +13,7 @@ tags:
 ---
 
 
-Based on a poster at DH2022, Julia Damerow, Rebecca Sutton Koeser, Jeffrey C. Carver, and Malte Vogl have published a paper in *Digital Scholarship in the Humanities* describing the work of the [Community Code Review Working Group](https://dhcodereview.github.io/) of DHTech. 
+Expanding on a poster presented at DH2022, Julia Damerow, Rebecca Sutton Koeser, Jeffrey C. Carver, and Malte Vogl have published a paper in *Digital Scholarship in the Humanities* describing the importance of code review for humanities research software and the work of the DHTech [Community Code Review Working Group](https://dhcodereview.github.io/) to address that need. 
 
 
 

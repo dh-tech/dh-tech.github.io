@@ -5,6 +5,8 @@ date: 2024-10-31T09:00:15-04:00
 author: Julia Damerow, Rebecca Sutton Koeser, Malte Vogl 
 thumbnail: /images/posts/code-review-cat.png
 featureImage: /images/posts/code-review-cat.png
+featureImageAlt: A cat looking at code.
+featureImageCap: Cat "Tango" reviewing code and is not amused.
 summary: "Based on a poster at DH2022, Julia Damerow, Rebecca Sutton Koeser, Jeffrey C. Carver, and Malte Vogl have published a paper in *Digital Scholarship in the Humanities* describing the work of the Community Code Review Working Group of DHTech."
 tags:
    - WhatsHappening

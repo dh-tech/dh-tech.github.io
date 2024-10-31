@@ -11,7 +11,7 @@ tags:
   - announcement
 ---
 
-![A cute hippo with a white hard hat, the logo for the dhrescu website::half-width](/images/posts/dhrescu-hippo.png)
+<img src="/images/posts/dhrescu-hippo.png" style="width: 200px; float: left; margin-right: 20px;">
 
 We are honored to announce that we have been awarded a $30,000 Chair’s Award from the National Endowment for the Humanities. This grant will create a pilot for a Digital Humanities Research Software Consulting Unit (DHReSCU). DhReSCU’s mission will be to aid early-stage digital humanities research software projects in developing a technical implementation plan.
 

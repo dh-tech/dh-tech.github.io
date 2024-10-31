@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DHTech Steering Committee Appointments 2024
+title: DHTech Steering Committee Nominations 2024
 date: 2024-10-31T12:00:00
 author: DHTech Steering Committee
 tags:

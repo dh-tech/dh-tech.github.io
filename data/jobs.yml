@@ -1,36 +1,4 @@
 jobs:
-  - organization: Berlin-Brandenburg Academy of Sciences and Humanities
-    country: Germany
-    job_title: Research Software Engineer
-    description: We are looking for a  Research Software Engineer (m/f/d) in the field of Digital Humanities. Preferably with experience in Machine Learning or Knowledge Graphs or great motivation familiarize yourself with these technologies.
-    link: https://www.bbaw.de/stellenangebote/stellenausschreibung-wissenschaftlicher-mitarbeiter-m-w-d-1
-    post_date: 2024-05-30
-    closes_on: 2024-06-16
-    post_until: 2024-06-16
-  - organization: Berlin-Brandenburg Academy of Sciences and Humanities
-    country: Germany
-    job_title: Wissenschaftlicher Mitarbeiter (m/w/d) - RSE
-    description: Research Software Engineering in the field of digital scholarly editions and AI in humanities research.
-    link: https://www.bbaw.de/stellenangebote/stellenausschreibung-wissenschaftlicher-mitarbeiter-m-w-d-1
-    post_date: 2024-08-07
-    closes_on: 2024-09-08
-    post_until: 2024-09-09
-  - organization: Max Planck Institut für Wissenschaftsgeschichte
-    country: Germany
-    job_title: Digital Humanities Scholar (m, f, d)
-    description: "-- Support the development and implementation of solutions for integrating and processing diverse data modalities in addition to textual data, such as visual, audio, and graph data, for the various digital humanities research projects across the units of the Institute.<br>-- Build and maintain relational databases and knowledge graphs.<br>-- Didactic experience and strong communication skills to cooperate with researchers and understand their research needs—around which to design data processing pipelines and develop web applications, platforms, and digital research tools that guide historians in exploring the computational possibilities of using digitized historical data."
-    link: https://www.mpg.de/22501499/digital-humanities-scholar-m-f-d
-    post_date: 2024-08-19
-    closes_on: 2024-09-30
-    post_until: 2024-10-01
-  - organization: Max Planck Institute for the History of Science
-    country: Germany
-    job_title: Head of Digital Humanities (m, f, d)
-    description: "-- Support directors and research group leaders in the conceptualization, development, and maintenance of the Institute’s digital research infrastructure.<br>--	Initiate and contribute to original digital humanities research in line with the Institute’s research agenda. <br>-- Oversee the planning, execution, and delivery of digital humanities projects in cooperation with researchers in the Institute’s multiple departments and research groups."
-    link: https://www.mpg.de/22501246/head-of-digital-humanities-m-f-x
-    post_date: 2024-08-19
-    closes_on: 2024-09-30
-    post_until: 2024-10-01
   - organization: Center for Digital Humanities at Princeton
     country: USA
     job_title: Research Software Engineer II
@@ -39,4 +7,12 @@ jobs:
     post_date: 2024-09-03
     closes_on: 2024-12-31
     post_until: 2024-12-31
+  - organization: J Paul Getty Trust
+    country: USA
+    job_title: Senior Software Developer
+    description: "Help build the next generation interface for the Getty Vocabularies (AAT, TGN, ULAN) and contribute to the development Getty's Museum Collection, Research Collections, and other research interfaces! "
+    link: https://jobs-getty.icims.com/jobs/4428/software-engineer-sr/job
+    post_date: 2024-10-15
+    closes_on: 2025-01-01
+    post_until: 2025-01-02
 

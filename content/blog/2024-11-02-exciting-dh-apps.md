@@ -8,17 +8,13 @@ thumbnail: /images/posts/DH2024.png
 featureImage: /images/posts/DH2024.png
 featureImageCap: <a href="https://dh2024.adho.org/">DH2024</a>
 author: Aleks Kaye
-summary: "Some exciting DH apps from DH2024."
+summary: "How about seeing what the Declaration of Independence would look like if you were to open it up on your desk at work or on a train during your commute? Or perhaps you are interested in learning what others thought about that gripping Japanese detective novel you just read? Two new apps presented at DH2024: Reinvention & Responsibility can help you to do just that: Jisedai Reader and Booksnake."
 slug: exciting-dh-apps
 aliases:
 - /blog/2024-11-02-exciting-dh-apps/
 - /blog/2024/11/02/exciting-dh-apps/
 ---
 
-*How about seeing what the Declaration of Independence would look like if you were to open it up on your desk at work or on a train during your commute? Or perhaps you are interested in learning what others thought about that gripping Japanese detective novel you just read? Two new apps presented at DH2024: Reinvention & Responsibility can help you to do just that: Jisedai Reader and Booksnake. 
-*
-
-<!--more-->
 
 Jisedai Reader, presented by Dr Yuta Hashimoto is an app that can be described as a social media platform for book lovers. The app encourages readers to read and share their impressions about digitised books held at the National Museum in Japan and thus participate in social reading, which can lead to deeper connection and understanding of the material they consume. Unlike the social media platforms that we are used to, however, Jisedai Reader has inbuilt features designed to counter the echo-chamber effect. There is no way to follow other readers and constantly be faced with like-minded opinions, instead being presented with comments about the read books from an array of different readers on the platform. Each reader can choose to share their reflections about the books with others or to use the platform privately. Dr Hashimoto and the Jisedai Reader team hope to release the app to the general public by the end of the year. Currently, the beta version is available for iOS only and can be found by following this link: [Jisedai Reader](https://testflight.apple.com/join/v4jUkYh8)
 

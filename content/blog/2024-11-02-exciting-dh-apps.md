@@ -4,6 +4,8 @@ title: "Coming Soon: a Couple of Exciting DH Apps" # Title of the blog post.
 date: 2024-11-02T18:45:24Z # Date of post creation.
 tags:
 - ADayInTheLifeOf
+- DHippoChallenge
+- conference
 thumbnail: /images/posts/DH2024.png
 featureImage: /images/posts/DH2024.png
 featureImageCap: <a href="https://dh2024.adho.org/">DH2024</a>

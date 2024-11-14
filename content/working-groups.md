@@ -24,5 +24,5 @@ Guides for submitting code for review or volunteering to become a reviewer are a
 
 ## Education & Training Working Group
 
-The Education & Training Working Group focuses on creating a collection of educational materials in topics such as version control, documentation practices, and packaging while highlighting DH use cases. The group meets on the second Thursday of every month 9am-10pm ET/ 3 pm- 4pm CET. Please join the `#education-wg` channel on Slack or get in touch with Jose Hernandez (jah22q@fsu.edu) if you are interested in joining.
+The [Education & Training Working Group](https://dh-tech.github.io/wg-education-training/) focuses on creating a collection of educational materials in topics such as version control, documentation practices, and packaging while highlighting DH use cases. The group meets on the second Thursday of every month 9am-10pm ET/ 3 pm- 4pm CET. Please join the `#education-wg` channel on Slack or get in touch with Jose Hernandez (jah22q@fsu.edu) if you are interested in joining.
 

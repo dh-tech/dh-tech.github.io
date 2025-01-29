@@ -23,4 +23,12 @@ jobs:
     post_date: 2024-11-01
     closes_on: Closing date for receipt of applications is 17:00 (Irish Time) on 25 November 2024. We reserve the right to re-advertise or extend the closing date for this post.
     post_until: 2025-11-30
+  - organization: Berlin Brandenburg Academy of Sciences
+    country: Germany
+    job_title: Scientist for Digital Cultural Heritage/ Digital Humanities
+    description: "Design, development and adaptation of central, digital research tools and environments for the BBAW academy projects. Use and further development in the area of ​​semantic modeling (Linked Open Data, Knowledge Graph, if necessary CIDOC-CRM) in exchange with NFDI4Objects and other initiatives in the cultural heritage sector"
+    link: https://www.bbaw.de/stellenangebote/stellenausschreibung-wissenschaftliche-n-mitarbeiter-in-m-w-d-5
+    post_date: 2025-01-29
+    closes_on: January 31, 2025
+    post_until: 2025-02-01
 

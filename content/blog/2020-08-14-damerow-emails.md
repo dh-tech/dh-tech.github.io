@@ -7,7 +7,6 @@ featureImageCap: "credit: Adhvik Madhav Yeleswarapu, Digital Innovation Group lo
 featureImageAlt: "logo for DigInG: Digital Innovation group"
 author: Julia Damerow
 url:
-published: true
 summary: "I love my job. It is very interesting and challenging, I get to learn new things all the time, and some semesters I teach, which I enjoy a lot. Some days, however, are like 2020, you just want them to end."
 tags:
 - ADayInTheLifeOf

@@ -5,7 +5,6 @@ thumbnail: /images/posts/Django_2.1_landing_page.png
 featureImageAlt: Screenshot of the landing page for a new Django 2.1 install
 featureImageCap: "Django Software Foundation, Landing page for Django 2.1"
 author: Malte Vogl
-published: true
 date: 2020-08-14T09:33:00
 title: Simply updating the Django version ...
 tags: 

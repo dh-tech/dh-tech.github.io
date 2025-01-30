@@ -3,7 +3,7 @@ layout: post
 title: International RSE Survey
 date: 2021-12-13T17:38:58.945Z
 author: Julia Damerow
-excerpt: Every two to three years, the International RSE Survey is being
+summary: Every two to three years, the International RSE Survey is being
   conducted and it is out now!
 slug: international-rse-survey  
 ---

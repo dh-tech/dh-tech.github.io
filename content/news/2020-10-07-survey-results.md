@@ -1,6 +1,6 @@
 ---
 title: DH RSE Survey Results
-excerpt: Earlier this year DHTech asked its members and people doing technical work in DH to respond to a survey to better understand the community and its needs. This posts reports on the result of that survey.
+summary: Earlier this year DHTech asked its members and people doing technical work in DH to respond to a survey to better understand the community and its needs. This posts reports on the result of that survey.
 url: survey-results-2020
 date: 2020-10-07
 ---

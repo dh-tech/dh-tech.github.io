@@ -5,7 +5,7 @@ slug: announcing-april-meetup
 date: 2023-03-30T10:00:00
 meetup_date: 2023-04-20
 author: Julia Damerow
-excerpt: In our April meetup on April 20, 9am ET/3pm CET Rebecca Sutton Koeser will talk about one of her projects.
+summary: In our April meetup on April 20, 9am ET/3pm CET Rebecca Sutton Koeser will talk about one of her projects.
 
 tags:
     - announcement

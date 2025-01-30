@@ -2,7 +2,7 @@
 title:  "Announcing the June DHTech Virtual Workshop"
 date: 2018-05-30T17:00:00
 author: Carsten Thiel
-excerpt: The next DHTech Virtual Workshop will be on June 04, 2018 at 8am MST/5pm CEST. Peter Gietz (DAASI International) will talk about Authentication and Authorization.
+summary: The next DHTech Virtual Workshop will be on June 04, 2018 at 8am MST/5pm CEST. Peter Gietz (DAASI International) will talk about Authentication and Authorization.
 slug: announcing-june-virtual-workshop
 
 tags:

@@ -3,7 +3,7 @@ title: CIDOC-CRM by Practice
 date: '2018-10-15'
 recording: 'https://repository.de.dariah.eu/1.0/dhcrud/21.11113/0000-000B-D236-B/data'
 audio: 'https://repository.de.dariah.eu/1.0/dhcrud/21.11113/0000-000B-D235-C/data'
-excerpt: "In this webinar Florian Kräutli showed how to use the [X3ML Toolkit](https://www.ics.forth.gr/isl/index_main.php?l=e&c=721) to build a [CIDOC-CRM model](link to http://www.cidoc-crm.org/) based on existing XML data."
+summary: "In this webinar Florian Kräutli showed how to use the [X3ML Toolkit](https://www.ics.forth.gr/isl/index_main.php?l=e&c=721) to build a [CIDOC-CRM model](link to http://www.cidoc-crm.org/) based on existing XML data."
 
 slug: cidoc-crm-by-practice
 aliases: 

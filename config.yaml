@@ -36,8 +36,11 @@ menu:
     - name: twitter
       weight: 2
       url: https://twitter.com/dhtech_group/
-    - name: rss
+    - name: bluesky
       weight: 3
+      url: https://bsky.app/profile/dhtech-community.bsky.social
+    - name: rss
+      weight: 4
       url: index.xml
 
 

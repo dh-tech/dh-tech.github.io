@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Workshop at DH2019
-date: 2019-05-10T10:00
+date: 2019-05-10
 ---
 
 <h1>DH2019 Pre-conference Workshop: I’m the one building the tool!</h1>

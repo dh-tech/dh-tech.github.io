@@ -1,11 +1,10 @@
 ---
-excerpt: "For a small project running on Django, I was planning to do a tiny upgrade. Just changing from Django 2 to Django 3... What could possibly go wrong!"
+summary: "For a small project running on Django, I was planning to do a tiny upgrade. Just changing from Django 2 to Django 3... What could possibly go wrong!"
 featureImage: /images/posts/Django_2.1_landing_page.png
 thumbnail: /images/posts/Django_2.1_landing_page.png
 featureImageAlt: Screenshot of the landing page for a new Django 2.1 install
 featureImageCap: "Django Software Foundation, Landing page for Django 2.1"
 author: Malte Vogl
-published: true
 date: 2020-08-14T09:33:00
 title: Simply updating the Django version ...
 tags: 

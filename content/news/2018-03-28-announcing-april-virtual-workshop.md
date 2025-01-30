@@ -2,7 +2,7 @@
 title:  "Announcing the April DHTech Virtual Workshop"
 date: 2018-04-07T17:30:00
 author: Carsten Thiel
-excerpt: The next DHTech Virtual Workshop will be on April 23, 2018 at 8am MST/5pm CET. Julia Damerow (Arizona State University) will talk about Apache Kafka and the Giles Ecosystem.
+summary: The next DHTech Virtual Workshop will be on April 23, 2018 at 8am MST/5pm CET. Julia Damerow (Arizona State University) will talk about Apache Kafka and the Giles Ecosystem.
 slug: announcing-april-virtual-workshop
 
 tags:

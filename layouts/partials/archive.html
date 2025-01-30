@@ -13,12 +13,10 @@
   <div>
     <ul class="posts" id="posts">
         <li class="post_item">
-          <div class="excerpt_header post_content">
-            <div class="excerpt">{{ partial "sprite" (dict "icon" "alarm")}}<b>We have a <a href="{{ relURL "job-board" }}">job board</a> now!</b> Do you have a job you want posted? Submit <a href="https://forms.gle/sFefwSxSCtk9N23n7">this form</a>.</div>
-          </div>
+            <div class="excerpt_header post_content">
+                <div class="excerpt">{{ partial "sprite" (dict "icon" "alarm")}}<b>We have a <a href="{{ relURL "job-board" }}">job board</a> now!</b> Do you have a job you want posted? Submit <a href="https://forms.gle/sFefwSxSCtk9N23n7">this form</a>.</div>
+            </div>
         </li>
-      </ul>
-    <ul class="posts" id="posts">
       {{- range (.Paginate $pages).Pages }}
         {{ partial "excerpt" . }}
       {{- end }}

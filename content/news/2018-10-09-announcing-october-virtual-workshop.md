@@ -2,7 +2,7 @@
 title:  "Announcing the October DHTech Virtual Workshop"
 date: 2018-10-09T10:00:00
 author: Julia Damerow
-excerpt: The next DHTech Virtual Workshop will be on October 15, 2018 at 7am MST/4pm CEST. Florian Kräutli will run the workshop. Its topic is "CIDOC-CRM by Practice."
+summary: The next DHTech Virtual Workshop will be on October 15, 2018 at 7am MST/4pm CEST. Florian Kräutli will run the workshop. Its topic is "CIDOC-CRM by Practice."
 slug: announcing-october-virtual-workshop
 
 tags:

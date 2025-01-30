@@ -2,7 +2,7 @@
 title:  "Next webinar will be announced soon"
 date: 2020-03-03T6:00:00
 author: Julia Damerow
-excerpt: The next webinar will be announced soon. Until then, check out the summary of the last webinar!
+summary: The next webinar will be announced soon. Until then, check out the summary of the last webinar!
 slug: please-hold
 ---
 

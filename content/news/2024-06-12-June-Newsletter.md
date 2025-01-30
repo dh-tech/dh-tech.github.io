@@ -11,6 +11,7 @@ featureImageAlt: Photo of old letters
 slug: 2024-june-newsletter
 tags:
     - newsletter
+summary: DH2024 Mini-conference “DH Inside Out”, Call for BoF Panelists at US-RSE’24, Code Review Call, Journal of Open Humanities Data - Special Issue, Tell us About Your Career Path, DHTech Job Board
 ---
 
 

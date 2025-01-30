@@ -6,7 +6,7 @@ date: 2024-10-07T15:00:00
 author: Julia Damerow, Cole Crawford, Rebecca Sutton Koeser
 thumbnail: /images/posts/dhrescu-hippo.png
 # featureImage: /images/posts/dhrescu-hippo.png
-
+summary: We are honored to announce that we have been awarded a $30,000 Chair’s Award from the National Endowment for the Humanities. This grant will create a pilot for a Digital Humanities Research Software Consulting Unit (DHReSCU). DhReSCU’s mission will be to aid early-stage digital humanities research software projects in developing a technical implementation plan.
 tags:
   - announcement
 ---

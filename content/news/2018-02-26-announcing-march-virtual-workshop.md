@@ -2,7 +2,7 @@
 title:  "Announcing the March DHTech Virtual Workshop"
 date: 2018-02-26T09:30:00
 author: Julia Damerow
-excerpt: The next DHTech Virtual Workshop will be on March 26, 2018 at 8am MST/5pm CET. Carsten Thiel (Georg-August-Universität Göttingen) will be talking about configuration management.
+summary: The next DHTech Virtual Workshop will be on March 26, 2018 at 8am MST/5pm CET. Carsten Thiel (Georg-August-Universität Göttingen) will be talking about configuration management.
 slug: announcing-march-virtual-workshop
 
 tags:

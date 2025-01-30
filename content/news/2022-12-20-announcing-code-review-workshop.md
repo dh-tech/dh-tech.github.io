@@ -3,7 +3,7 @@ layout: post
 title: Code Review Workshop
 date: 2022-12-20T10:00:00
 author: Julia Damerow
-excerpt: The Code Review Working Group will hold a workshop on January 18, 2023 at 11am ET/5pm CET.
+summary: The Code Review Working Group will hold a workshop on January 18, 2023 at 11am ET/5pm CET.
 slug: announcing-code-review-workshop
 
 tags:

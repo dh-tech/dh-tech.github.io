@@ -69,6 +69,31 @@
       {{- end }}
     </ul>
     {{- end }}
+
+    <h2 class="mt-4">Upcoming Events</h2>
+    <ul class="flex-column">
+      {{- $allMeetups := site.Taxonomies.tags.meetup }}
+      {{- $upcomingEvents := slice }}
+      
+      {{- range $allMeetups }}
+        {{- if .Params.meetup_date }}
+          {{- $meetupTime := .Params.meetup_date | time }}
+          {{- if gt $meetupTime time.Now }}
+            {{- $upcomingEvents = $upcomingEvents | append . }}
+          {{- end }}
+        {{- end }}
+      {{- end }}
+    
+      {{- range first 3 $upcomingEvents }}
+      <li>
+        <a href="{{ .RelPermalink }}" class="nav-link" title="{{ .Title }}">
+          {{ .Title | markdownify }} 
+          {{ if .Params.meetup_date }} ({{ time.Format "Jan 2006" .Params.meetup_date }}){{ end }}
+        </a>
+      </li>
+      {{- end }}
+    </ul>
+
     <h2 class="mt-4">{{ T "recent_posts" }}</h2>
     <ul class="flex-column">
       {{- $recent := default 8 $s.numberOfRecentPosts }}
@@ -81,19 +106,28 @@
 
     <h2 class="mt-4">Meetups</h2>
     <ul class="flex-column">
-      {{- range first 3 (site.Taxonomies.tags.Get "meetup") }}
+      {{- $allMeetups := site.Taxonomies.tags.meetup }}
+      {{- $pastMeetups := slice }}
+
+      {{- range $allMeetups }}
+        {{- if .Params.meetup_date }}
+          {{- $meetupTime := .Params.meetup_date | time }}
+          {{- if lt $meetupTime time.Now }}
+            {{- $pastMeetups = $pastMeetups | append . }}
+          {{- end }}
+        {{- end }}
+      {{- end }}
+
+      {{- range first 3 $pastMeetups }}
       <li>
         <a href="{{ .RelPermalink }}" class="nav-link" title="{{ .Title }}">
-          
-          {{ if .Params.meetup_date }}
-          {{ $meetupTime := .Params.meetup_date | time }}
-          {{ if lt time.Now $meetupTime }}<b>[Upcoming]</b>{{end}}
-          {{ end}}
-          {{ .Title | markdownify }} {{ if .Params.meetup_date }} ({{ time.Format "Jan 2006" .Params.meetup_date }}){{ end }}
+          {{ .Title | markdownify }} 
+          {{ if .Params.meetup_date }} ({{ time.Format "Jan 2006" .Params.meetup_date }}){{ end }}
         </a>
       </li>
       {{- end }}
     </ul>
+
     <p><a href='{{ ref . "/tags/meetup" }}'>Browse all meetups.</a></p>
 
     {{- $tagsLimit := (default 100 $s.numberOfTagsShown) }}

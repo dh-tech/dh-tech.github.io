@@ -72,13 +72,13 @@
 
     <h2 class="mt-4">Upcoming Events</h2>
     <ul class="flex-column">
-      {{- $allMeetups := site.Taxonomies.tags.meetup }}
+      {{- $allEvents := site.Taxonomies.tags.event }}
       {{- $upcomingEvents := slice }}
       
-      {{- range $allMeetups }}
-        {{- if .Params.meetup_date }}
-          {{- $meetupTime := .Params.meetup_date | time }}
-          {{- if gt $meetupTime time.Now }}
+      {{- range $allEvents }}
+        {{- if .Params.event_date }}
+          {{- $eventTime := .Params.event_date | time }}
+          {{- if gt $eventTime time.Now }}
             {{- $upcomingEvents = $upcomingEvents | append . }}
           {{- end }}
         {{- end }}
@@ -88,7 +88,7 @@
       <li>
         <a href="{{ .RelPermalink }}" class="nav-link" title="{{ .Title }}">
           {{ .Title | markdownify }} 
-          {{ if .Params.meetup_date }} ({{ time.Format "Jan 2006" .Params.meetup_date }}){{ end }}
+          {{ if .Params.event_date }} ({{ time.Format "Jan 2006" .Params.event_date }}){{ end }}
         </a>
       </li>
       {{- end }}
@@ -104,25 +104,25 @@
       {{- end }}
     </ul>
 
-    <h2 class="mt-4">Meetups</h2>
+    <h2 class="mt-4">Past Events</h2>
     <ul class="flex-column">
-      {{- $allMeetups := site.Taxonomies.tags.meetup }}
-      {{- $pastMeetups := slice }}
+      {{- $allEvents := site.Taxonomies.tags.event }}
+      {{- $pastEvents := slice }}
 
-      {{- range $allMeetups }}
-        {{- if .Params.meetup_date }}
-          {{- $meetupTime := .Params.meetup_date | time }}
-          {{- if lt $meetupTime time.Now }}
-            {{- $pastMeetups = $pastMeetups | append . }}
+      {{- range $allEvents }}
+        {{- if .Params.event_date }}
+          {{- $eventTime := .Params.event_date | time }}
+          {{- if lt $eventTime time.Now }}
+            {{- $pastEvents = $pastEvents | append . }}
           {{- end }}
         {{- end }}
       {{- end }}
 
-      {{- range first 3 $pastMeetups }}
+      {{- range first 3 $pastEvents }}
       <li>
         <a href="{{ .RelPermalink }}" class="nav-link" title="{{ .Title }}">
           {{ .Title | markdownify }} 
-          {{ if .Params.meetup_date }} ({{ time.Format "Jan 2006" .Params.meetup_date }}){{ end }}
+          {{ if .Params.event_date }} ({{ time.Format "Jan 2006" .Params.event_date }}){{ end }}
         </a>
       </li>
       {{- end }}

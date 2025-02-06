@@ -61,7 +61,7 @@
     {{- $featuredPosts := first $featured (where $posts "Params.featured" true)}}
     {{- with $featuredPosts }}
     <h2 class="mt-4">{{ T "featured_posts" }}</h2>
-    <ul>
+    <ul class="sidebar_list">
       {{- range . }}
       <li>
         <a href="{{ .RelPermalink }}" class="nav-link" title="{{ .Title }}">{{ .Title | markdownify }}</a>
@@ -71,7 +71,7 @@
     {{- end }}
 
     <h2 class="mt-4">Upcoming Events</h2>
-    <ul class="flex-column">
+    <ul class="flex-column" style="list-style-type: none;">
       {{- $allEvents := site.Taxonomies.tags.event }}
       {{- $upcomingEvents := slice }}
       
@@ -95,7 +95,7 @@
     </ul>
 
     <h2 class="mt-4">{{ T "recent_posts" }}</h2>
-    <ul class="flex-column">
+    <ul class="flex-column" style="list-style-type: none;">
       {{- $recent := default 8 $s.numberOfRecentPosts }}
       {{- range first $recent ($posts | complement $featuredPosts) }}
       <li>
@@ -105,7 +105,7 @@
     </ul>
 
     <h2 class="mt-4">Past Events</h2>
-    <ul class="flex-column">
+    <ul class="flex-column" style="list-style-type: none;" >
       {{- $allEvents := site.Taxonomies.tags.event }}
       {{- $pastEvents := slice }}
 

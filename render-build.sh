@@ -12,10 +12,10 @@ OS_VERSION="Linux-64bit"
 if [[ ! -f $XDG_CACHE_HOME/hugo ]]; then
   echo "...Downloading HUGO"
   mkdir -p ~/tmp
-  wget -P ~/tmp https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_${OS_VERSION}.tar.gz
+  wget -P ~/tmp https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_${OS_VERSION}.tar.gz
   cd ~/tmp
   echo "...Extracting HUGO"
-  tar -xzvf hugo_${HUGO_VERSION}_${OS_VERSION}.tar.gz
+  tar -xzvf hugo_extended_${HUGO_VERSION}_${OS_VERSION}.tar.gz
   echo "...Moving HUGO"
   mv hugo $XDG_CACHE_HOME/hugo
   cd $HOME/project/src # Make sure we return to where we were

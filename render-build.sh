@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # save as render-build.sh and make sure it's executable
 # update the version being used to match version being used in build
 hugo version # Output the OLD version

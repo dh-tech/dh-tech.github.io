@@ -39,8 +39,11 @@ menu:
     - name: bluesky
       weight: 3
       url: https://bsky.app/profile/dhtech-community.bsky.social
-    - name: rss
+    - name: mastodon
       weight: 4
+      url: https://fedihum.org/@dhtech
+    - name: rss
+      weight: 5
       url: index.xml
 
 

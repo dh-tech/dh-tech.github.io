@@ -73,7 +73,7 @@
     <h2 class="mt-4">Upcoming Events</h2>
     <ul class="event_list" style="list-style-type: none;">
       {{- $allEvents := site.Taxonomies.tags.event }}
-      <!-- {{- $upcomingEvents := slice }}
+      {{- $upcomingEvents := slice }}
       
       {{- range $allEvents }}
         {{- if .Params.event_date }}
@@ -82,9 +82,9 @@
             {{- $upcomingEvents = $upcomingEvents | append . }}
           {{- end }}
         {{- end }}
-      {{- end }} -->
+      {{- end }}
     
-      {{- range first 5 $allEvents }}
+      {{- range first 5 $upcomingEvents }}
         {{- $isMeetup := false }}
         {{- range .Params.tags }}
           {{- if eq . "meetup" }}
@@ -113,7 +113,7 @@
     <h2 class="mt-4">Past Events</h2>
     <ul class="event_list" style="list-style-type: none;" >
       {{- $allEvents := site.Taxonomies.tags.event }}
-      <!-- {{- $pastEvents := slice }}
+      {{- $pastEvents := slice }}
 
       {{- range $allEvents }}
         {{- if .Params.event_date }}
@@ -122,9 +122,9 @@
             {{- $pastEvents = $pastEvents | append . }}
           {{- end }}
         {{- end }}
-      {{- end }} -->
+      {{- end }}
 
-      {{- range first 3 $allEvents }}
+      {{- range first 3 $pastEvents }}
       <li>
         <a href="{{ .RelPermalink }}" class="nav-link" title="{{ .Title }}">
           {{ .Title | markdownify }} 

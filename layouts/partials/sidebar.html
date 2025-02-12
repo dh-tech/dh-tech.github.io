@@ -71,9 +71,9 @@
     {{- end }}
 
     <h2 class="mt-4">Upcoming Events</h2>
-    <ul class="flex-column" style="list-style-type: none;">
+    <ul class="event_list" style="list-style-type: none;">
       {{- $allEvents := site.Taxonomies.tags.event }}
-      {{- $upcomingEvents := slice }}
+      <!-- {{- $upcomingEvents := slice }}
       
       {{- range $allEvents }}
         {{- if .Params.event_date }}
@@ -82,10 +82,16 @@
             {{- $upcomingEvents = $upcomingEvents | append . }}
           {{- end }}
         {{- end }}
-      {{- end }}
+      {{- end }} -->
     
-      {{- range first 3 $upcomingEvents }}
-      <li>
+      {{- range first 5 $allEvents }}
+        {{- $isMeetup := false }}
+        {{- range .Params.tags }}
+          {{- if eq . "meetup" }}
+            {{- $isMeetup = true }}
+          {{- end }}
+        {{- end }}
+      <li {{ if $isMeetup }} class="meetup"{{ end }}>
         <a href="{{ .RelPermalink }}" class="nav-link" title="{{ .Title }}">
           {{ .Title | markdownify }} 
           {{ if .Params.event_date }} ({{ time.Format "Jan 2006" .Params.event_date }}){{ end }}
@@ -95,7 +101,7 @@
     </ul>
 
     <h2 class="mt-4">{{ T "recent_posts" }}</h2>
-    <ul class="flex-column" style="list-style-type: none;">
+    <ul class="sidebar_list" style="list-style-type: none;">
       {{- $recent := default 8 $s.numberOfRecentPosts }}
       {{- range first $recent ($posts | complement $featuredPosts) }}
       <li>
@@ -105,9 +111,9 @@
     </ul>
 
     <h2 class="mt-4">Past Events</h2>
-    <ul class="flex-column" style="list-style-type: none;" >
+    <ul class="event_list" style="list-style-type: none;" >
       {{- $allEvents := site.Taxonomies.tags.event }}
-      {{- $pastEvents := slice }}
+      <!-- {{- $pastEvents := slice }}
 
       {{- range $allEvents }}
         {{- if .Params.event_date }}
@@ -116,9 +122,9 @@
             {{- $pastEvents = $pastEvents | append . }}
           {{- end }}
         {{- end }}
-      {{- end }}
+      {{- end }} -->
 
-      {{- range first 3 $pastEvents }}
+      {{- range first 3 $allEvents }}
       <li>
         <a href="{{ .RelPermalink }}" class="nav-link" title="{{ .Title }}">
           {{ .Title | markdownify }} 

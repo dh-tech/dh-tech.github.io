@@ -1,5 +1,4 @@
 // override flex and use grid to layout title and subtitle
-
 .nav_brand
 	&.nav_item
 	display: grid
@@ -61,14 +60,14 @@ div.subscribe
 		position: relative
 		padding-left: 2rem
 
-		&::before
-			content: url("/icons/book.svg")
+		.icon
 			position: absolute
 			left: 0
 			top: 50%
 			transform: translateY(-50%)
-			width: 1rem 
-			height: 1rem
+			width: 1.25rem 
+			height: 1.25rem
+			filter: 0
 
 .event_list
 	list-style: none
@@ -76,17 +75,15 @@ div.subscribe
 
 	li 
 		position: relative
-		padding-left: 2rem
+		display: flex
+		align-items: center
 
-		&::before
-			content: url("/icons/calendar.svg")
-			position: absolute
-			left: 0
-			top: 50%
-			transform: translateY(-50%)
-			width: 1rem 
-			height: 1rem
-		&.meetup::before
+		.icon 
+			width: 1.25rem
+			height: 1.25rem
+			margin-right: 0.5rem
+
+		&.meetup .icon
 			content: url("/icons/group.svg")
 
 .half-width

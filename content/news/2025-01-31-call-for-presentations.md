@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Call for Presentations
-slug: Call for Presentations
-date: 2025-01-31
+title: Digital Humanities Tech Symposium
+slug: Digital Humanities  Tech Symposium
+date: 2025-02-19
 author: Julia Damerow
 thumbnail:
 
@@ -10,9 +10,9 @@ tags:
   - announcement
 ---
 
-### [Placeholder] at DH2025
+### Digital Humanities Tech Symposium at DH2025
 
-From July 14-18, 2025, [DH2025](https://dh2025.adho.org/) will be held at Nova University in Lisbon, Portugal. DHTech will hold a mini-conference at DH2025 themed **“[placeholder]”**. Typical DH conference presentations are focussed on the research with a slight nod to the technical details; we want to flip that format and dive more deeply into the technical aspects of the work, while still keeping it in context of the research and domain specifics. To that end, we invite submissions of interest to the people who work on the technical aspects of DH projects, such as:
+From July 14-18, 2025, [DH2025](https://dh2025.adho.org/) will be held at Nova University in Lisbon, Portugal. DHTech will hold a mini-conference at DH2025 themed **“Digital Humanities Tech Symposium”**. Typical DH conference presentations are focussed on the research with a slight nod to the technical details; we want to flip that format and dive more deeply into the technical aspects of the work, while still keeping it in context of the research and domain specifics. To that end, we invite submissions of interest to the people who work on the technical aspects of DH projects, such as:
 
 - implementation and design specifics of packages and applications
 - lessons learnt regarding the design and implementation of research software

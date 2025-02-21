@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Digital Humanities Tech Symposium
-slug: Digital Humanities  Tech Symposium
+slug: Digital Humanities Tech Symposium
 date: 2025-02-19
-author: Julia Damerow
+author: DHTech
 thumbnail:
 
 tags:
@@ -28,3 +28,5 @@ Submissions should specify the desired format:
 Submissions should be 500 to 750 words in length. Links to relevant code and packages should be provided in the submission.
 
 Submission deadline is **March 15, 2025.** Please submit using [this form](https://form.jotform.com/250346227323147). Please be aware, we may ask you to resubmit to a different platform depending on the number of submissions we receive.
+
+We are also looking for reviewers for submission to Digital Humanities Tech Symposium. If you are willing to review two to three submissions between the end of April and beginning of May (concrete dates to follow), please [sign up here](https://docs.google.com/forms/d/1mN54jSaInMy_q7JEo2fzzbj1141TPk8IRZNWhRguI4Q/edit).

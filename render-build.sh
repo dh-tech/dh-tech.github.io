@@ -29,5 +29,6 @@ $XDG_CACHE_HOME/hugo version # Output the NEW version
 if [ "${IS_PULL_REQUEST:-}" = "true" ]; then
     $XDG_CACHE_HOME/hugo --gc -e preview
 else
-    $XDG_CACHE_HOME/hugo --gc --minify -b https://dh-tech.onrender.com/
+    $XDG_CACHE_HOME/hugo --gc --minify -b $RENDER_EXTERNAL_URL
+
 fi

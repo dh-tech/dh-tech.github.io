@@ -8,6 +8,8 @@ thumbnail:
 
 tags:
   - announcement
+  - conference
+  - whatshappening
 ---
 
 ### Digital Humanities Tech Symposium at DH2025

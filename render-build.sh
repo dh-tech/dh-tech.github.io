@@ -27,7 +27,10 @@ $XDG_CACHE_HOME/hugo version # Output the NEW version
 
 # Render sets IS_PULL_REQUEST to true for PR previews.
 if [ "${IS_PULL_REQUEST:-}" = "true" ]; then
-    $XDG_CACHE_HOME/hugo --gc -e preview
+    echo "Base url:"
+    echo $RENDER_EXTERNAL_URL
+    $XDG_CACHE_HOME/hugo --gc -e preview -b $RENDER_EXTERNAL_URL
 else
     $XDG_CACHE_HOME/hugo --gc --minify -b https://dh-tech.onrender.com/
+
 fi

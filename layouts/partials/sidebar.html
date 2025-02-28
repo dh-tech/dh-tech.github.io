@@ -5,55 +5,56 @@
     {{ partial "search/widget" . }}
     {{- $introDescription := $s.introDescription }}
     {{- with .Params.introDescription }}
-      {{- $introDescription = . }}
+    {{- $introDescription = . }}
     {{- end }}
     {{- if $introDescription }}
-      {{- $author := $s.Author  }}
-      {{- $showAuthorPhoto := false }}
-      {{- $fullAuthor := reflect.IsMap $author }}
-      {{- if $fullAuthor }}
-        {{-  if $author.photo }}
-          {{- $showAuthorPhoto = true }}
-        {{- end }}
-      {{- end }}
-      {{- if $showAuthorPhoto }}
-        <div class="author_header">
-          <img src="{{ relURL $author.photo }}" alt="{{ $author.name }} photo">
-          <h2>{{  $author.name }}</h2>
-        </div>
-      {{- else }}
-        <h2>{{  if $fullAuthor }}{{ $author.name }}{{ else }}{{ $author }}{{ end }}</h2>
-      {{- end }}
-      <div class="author_bio">
-        {{ markdownify $introDescription }}
-      </div>
-      {{- if ( ne $s.introURL false ) }}
-      {{- $r := T "read_more" }}
-      <a href='{{ relLangURL (default "about/" $s.introURL) }}' class="button mt-1" role="button" title='{{ $r }}'>{{ $r }}</a>
-      {{- end }}
+    {{- $author := $s.Author }}
+    {{- $showAuthorPhoto := false }}
+    {{- $fullAuthor := reflect.IsMap $author }}
+    {{- if $fullAuthor }}
+    {{- if $author.photo }}
+    {{- $showAuthorPhoto = true }}
+    {{- end }}
+    {{- end }}
+    {{- if $showAuthorPhoto }}
+    <div class="author_header">
+      <img src="{{ relURL $author.photo }}" alt="{{ $author.name }} photo">
+      <h2>{{ $author.name }}</h2>
+    </div>
+    {{- else }}
+    <h2>{{ if $fullAuthor }}{{ $author.name }}{{ else }}{{ $author }}{{ end }}</h2>
+    {{- end }}
+    <div class="author_bio">
+      {{ markdownify $introDescription }}
+    </div>
+    {{- if ( ne $s.introURL false ) }}
+    {{- $r := T "read_more" }}
+    <a href='{{ relLangURL (default "about/" $s.introURL) }}' class="button mt-1" role="button" title='{{ $r }}'>{{ $r
+      }}</a>
+    {{- end }}
     {{- end }}
 
     {{ if .Site.Params.sidebardisclaimer }}
-      <div class="sidebardisclaimer">
-        <h2 class="mt-4">Disclaimer</h2>
-        {{ .Site.Params.disclaimerText }}
-      </div>
+    <div class="sidebardisclaimer">
+      <h2 class="mt-4">Disclaimer</h2>
+      {{ .Site.Params.disclaimerText }}
+    </div>
     {{ end }}
 
     {{- $relatedInSidebar := true }}
     {{- if eq $s.showRelatedInSidebar false }}
-      {{ $relatedInSidebar = false }}
+    {{ $relatedInSidebar = false }}
     {{- end }}
     {{ if (and ($relatedInSidebar) (isset .Params "series") ) }}
-      {{$related := where .Site.RegularPages ".Params.series" "eq" .Params.series }}
-	    <h2 class="mt-4">{{ T "series_posts" }}</h2>
-      <ul>
-        {{ range $related }}
-        <li>
-          <a href="{{ .RelPermalink }}" class="nav-link" title="{{ .Title }}">{{ .Title | markdownify }}</a>
-        </li>
-        {{ end }}
-      </ul>
+    {{$related := where .Site.RegularPages ".Params.series" "eq" .Params.series }}
+    <h2 class="mt-4">{{ T "series_posts" }}</h2>
+    <ul>
+      {{ range $related }}
+      <li>
+        <a href="{{ .RelPermalink }}" class="nav-link" title="{{ .Title }}">{{ .Title | markdownify }}</a>
+      </li>
+      {{ end }}
+    </ul>
     {{ end }}
 
     {{- $posts := where .Site.RegularPages "Type" "in" $s.mainSections }}
@@ -61,39 +62,91 @@
     {{- $featuredPosts := first $featured (where $posts "Params.featured" true)}}
     {{- with $featuredPosts }}
     <h2 class="mt-4">{{ T "featured_posts" }}</h2>
-    <ul>
+    <ul class="sidebar_list">
       {{- range . }}
       <li>
+        <img class="icon" src="/icons/book.svg" alt="Post Icon">
         <a href="{{ .RelPermalink }}" class="nav-link" title="{{ .Title }}">{{ .Title | markdownify }}</a>
       </li>
       {{- end }}
     </ul>
     {{- end }}
+
+    <h2 class="mt-4">Upcoming Events</h2>
+    <ul class="event_list" style="list-style-type: none;">
+      {{- $allEvents := site.Taxonomies.tags.event }}
+      {{- $upcomingEvents := slice }}
+
+      {{- range $allEvents }}
+      {{- if .Params.event_date }}
+      {{- $eventTime := .Params.event_date | time }}
+      {{- if gt $eventTime time.Now }}
+      {{- $upcomingEvents = $upcomingEvents | append . }}
+      {{- end }}
+      {{- end }}
+      {{- end }}
+
+      {{- range first 5 $upcomingEvents }}
+      {{- $isMeetup := false }}
+      {{- range .Params.tags }}
+      {{- if eq . "meetup" }}
+      {{- $isMeetup = true }}
+      {{- end }}
+      {{- end }}
+      <li {{ if $isMeetup }} class="meetup" {{ end }}>
+        <img class="icon" {{ if $isMeetup }} src="/icons/group.svg" alt="Meetup Icon" {{else}} src="/icons/calendar.svg"
+          alt="Event Icon" {{ end }}>
+        <a href="{{ .RelPermalink }}" class="nav-link" title="{{ .Title }}">
+          {{ .Title | markdownify }}
+          {{ if .Params.event_date }} ({{ time.Format "Jan 2006" .Params.event_date }}){{ end }}
+        </a>
+      </li>
+      {{- end }}
+    </ul>
+
     <h2 class="mt-4">{{ T "recent_posts" }}</h2>
-    <ul class="flex-column">
+    <ul class="sidebar_list" style="list-style-type: none;">
       {{- $recent := default 8 $s.numberOfRecentPosts }}
       {{- range first $recent ($posts | complement $featuredPosts) }}
       <li>
+        <img class="icon" src="/icons/book.svg" alt="Post Icon">
         <a href="{{ .RelPermalink }}" class="nav-link" title="{{ .Title }}">{{ .Title | markdownify }}</a>
       </li>
       {{- end }}
     </ul>
 
-    <h2 class="mt-4">Meetups</h2>
-    <ul class="flex-column">
-      {{- range first 3 (site.Taxonomies.tags.Get "meetup") }}
-      <li>
+    <h2 class="mt-4">Past Events</h2>
+    <ul class="event_list" style="list-style-type: none;">
+      {{- $allEvents := site.Taxonomies.tags.event }}
+      {{- $pastEvents := slice }}
+
+      {{- range $allEvents }}
+      {{- if .Params.event_date }}
+      {{- $eventTime := .Params.event_date | time }}
+      {{- if lt $eventTime time.Now }}
+      {{- $pastEvents = $pastEvents | append . }}
+      {{- end }}
+      {{- end }}
+      {{- end }}
+
+      {{- range first 3 $pastEvents }}
+      {{- $isMeetup := false }}
+      {{- range .Params.tags }}
+      {{- if eq . "meetup" }}
+      {{- $isMeetup = true }}
+      {{- end }}
+      {{- end }}
+      <li {{ if $isMeetup }} class="meetup" {{ end }}>
+        <img class="icon" {{ if $isMeetup }} src="/icons/group.svg" alt="Meetup Icon" {{else}} src="/icons/calendar.svg"
+          alt="Event Icon" {{ end }}>
         <a href="{{ .RelPermalink }}" class="nav-link" title="{{ .Title }}">
-          
-          {{ if .Params.meetup_date }}
-          {{ $meetupTime := .Params.meetup_date | time }}
-          {{ if lt time.Now $meetupTime }}<b>[Upcoming]</b>{{end}}
-          {{ end}}
-          {{ .Title | markdownify }} {{ if .Params.meetup_date }} ({{ time.Format "Jan 2006" .Params.meetup_date }}){{ end }}
+          {{ .Title | markdownify }}
+          {{ if .Params.event_date }} ({{ time.Format "Jan 2006" .Params.event_date }}){{ end }}
         </a>
       </li>
       {{- end }}
     </ul>
+
     <p><a href='{{ ref . "/tags/meetup" }}'>Browse all meetups.</a></p>
 
     {{- $tagsLimit := (default 100 $s.numberOfTagsShown) }}
@@ -105,7 +158,8 @@
         {{- $onPageTags := $.Page.Params.tags }}
         {{- $slicedTags := ($value.ByCount | first $tagsLimit) }}
         {{- range $slicedTags }}
-        <a href='{{ relLangURL $key }}/{{ (replace .Name "#" "%23") | urlize }}/' class="post_tag button button_translucent" title="{{ .Name }}">
+        <a href='{{ relLangURL $key }}/{{ (replace .Name "#" "%23") | urlize }}/'
+          class="post_tag button button_translucent" title="{{ .Name }}">
           {{ .Name }}
           <span class="button_tally">{{ .Count }}</span>
         </a>
@@ -118,16 +172,18 @@
           <div class="tags_list">
             {{- range $value.Alphabetical }}
             {{ $tagsInfo.Add "tagsInfo" (slice .Name .Count)}}
-            <a href='{{ relLangURL $key }}/{{ (replace .Name "#" "%23") | urlize }}/' class=" post_tag button button_translucent" data-position={{ .Count }} title="{{ .Name }}">
+            <a href='{{ relLangURL $key }}/{{ (replace .Name "#" "%23") | urlize }}/'
+              class=" post_tag button button_translucent" data-position={{ .Count }} title="{{ .Name }}">
               {{- .Name -}}
               <span class="button_tally">{{ .Count }}</span>
             </a>
             {{ end }}
-            <div class="tags_sort"><span title="sort alphabetically">[A~Z]</span><span title="sort by count">[0~9]</span>
+            <div class="tags_sort"><span title="sort alphabetically">[A~Z]</span><span
+                title="sort by count">[0~9]</span>
             </div>
             <span class="tags_hide"><svg class="icon">
-            <use xlink:href="#closeme"></use>
-          </svg></span>
+                <use xlink:href="#closeme"></use>
+              </svg></span>
           </div>
         </div>
         {{- end }}
@@ -139,16 +195,16 @@
     <div class="subscribe">
       <h2>Subscribe via RSS</h2>
       <ul>
-      {{/* provide an RSS link for each section */}}
-      {{- range .Site.Sections -}}
+        {{/* provide an RSS link for each section */}}
+        {{- range .Site.Sections -}}
         {{- $sectionTitle := .Title -}}
         {{- with .OutputFormats.Get "rss" -}}
-          <li><a href="{{ .RelPermalink }}">{{ $sectionTitle }}</a></li>
+        <li><a href="{{ .RelPermalink }}">{{ $sectionTitle }}</a></li>
         {{- end -}}
-      {{- end -}}
-      {{- with .Site.Home.OutputFormats.Get "rss" -}}
-      <li><a href="{{ .RelPermalink }}">All site content</a></li>
-      {{- end -}}
+        {{- end -}}
+        {{- with .Site.Home.OutputFormats.Get "rss" -}}
+        <li><a href="{{ .RelPermalink }}">All site content</a></li>
+        {{- end -}}
       </ul>
     </div>
   </section>

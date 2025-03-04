@@ -7,6 +7,7 @@ event_date: 2025-04-24T09:00:00-04:00
 author: DHTech
 thumbnail: /images/posts/green-text.jpg
 featureImage: "/images/posts/green-text.jpg"
+featureImageAlt: 'Green Text on Screen with a DHTech Sticker'
 registration: https://asu.zoom.us/meeting/register/EHJ-McYzRDCVd9kZJQr-_w
 
 tags:

@@ -14,11 +14,6 @@ summary: DH2025 - Digital Humanities Tech Symposium, DHTech RSE Survery, DHTech 
 ---
 
 
-
-### News from the DHTech Community
-
-Dear DHTech member, 
-
 It’s hard to believe but February is almost over! That means, it’s time for DHTech’s newsletter 🎉 And we have things to tell you about! Enjoy and engage ;)
 
 ### DHTech at DH2025 - Digital Humanities Tech Symposium
@@ -27,7 +22,7 @@ DHTech is organizing a mini-conference at DH2025, the Digital Humanities Tech Sy
 
 ### DHTech RSE Survey - We still want to hear from you! Go do it right now!
 
-In 2019, DHTech ran a survey to better understand the [DHTech and DH RSE communities](https://dh-tech.github.io/survey-results-2020/?query=survey). Five years later, DHTech is re-running the survey to better understand the experiences and needs of anyone doing technical work in the digital humanities! Do you write code or do coding-related work for digital humanities projects? Do you manage software engineering projects in the digital humanities? Do you develop computational methods for digital humanities research? If so and if you are over 18, **please consider** [completing the Digital Humanities Research Software Engineering survey](https://forms.gle/WhK4wyh62ruiGqXy5)! It should only take about 10 to 15 minutes of your time. We hope to present the survey results as a poster at DH2025.
+In 2019, DHTech ran a survey to better understand the [DHTech and DH RSE communities](https://dh-tech.github.io/survey-results-2020/?query=survey). Five years later, DHTech is re-running the survey to better understand the experiences and needs of anyone doing technical work in the digital humanities! Do you write code or do coding-related work for digital humanities projects? Do you manage software engineering projects in the digital humanities? Do you develop computational methods for digital humanities research? If so and if you are over 18, [**please consider** completing the Digital Humanities Research Software Engineering survey](https://forms.gle/WhK4wyh62ruiGqXy5)! It should only take about 10 to 15 minutes of your time. We hope to present the survey results as a poster at DH2025.
 
 ### DHTech is now on Mastodon (@dhtech) and Bluesky (@dhtech-community.bsky.social)!
 

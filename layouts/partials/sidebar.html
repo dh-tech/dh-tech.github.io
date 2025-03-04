@@ -86,6 +86,7 @@
       {{- end }}
       {{- end }}
 
+      {{- if gt (len $upcomingEvents) 0 }}
       {{- range first 5 $upcomingEvents }}
       {{- $isMeetup := false }}
       {{- range .Params.tags }}
@@ -102,6 +103,10 @@
         </a>
       </li>
       {{- end }}
+      {{- else }}
+      <p>There are no events scheduled at the moment..</p>
+      {{- end }}
+
     </ul>
 
     <h2 class="mt-4">{{ T "recent_posts" }}</h2>

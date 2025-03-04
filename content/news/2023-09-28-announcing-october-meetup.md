@@ -2,7 +2,7 @@
 layout: post
 title: DHTech October Meetup on Education and Training
 date: 2023-09-28T15:00:00
-meetup_date: 2023-10-05
+event_date: 2023-10-05
 author: DHTech
 thumbnail: /images/posts/meetup.jpeg
 featureImage: /images/posts/meetup.jpeg
@@ -10,6 +10,7 @@ featureImageCap: Photo by <a href="https://unsplash.com/@charlesdeluvio?utm_sour
 summary: Our October DHTech Meetup will be on **October 5, 2023, at 9am ET/3pm CET**. We will talk about how DHTech can support training and education of research software engineering work in the Digital Humanities.
 tags:
     - meetup
+    - event
 ---
 
 # DHTech October Meetup on Education and Training

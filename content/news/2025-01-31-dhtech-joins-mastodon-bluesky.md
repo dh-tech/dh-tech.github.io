@@ -17,7 +17,7 @@ codeMaxLines: 10 # Override global value for how many lines within a code block 
 codeLineNumbers: false # Override global value for showing of line numbers within code block.
 figurePositionShow: true # Override global value for showing the figure label.
 showRelatedInArticle: false # Override global value for showing related posts in this series at the end of the content.
-# meetup_date: 2024-02-15T15:00:00 # if post is an announcement of a meetup, the date and time of the meetup
+# event_date: 2024-02-15T15:00:00 # if post is an announcement of a meetup, the date and time of the meetup
 # registration: https://zoom.registartion.ink/ # if post is an announcement of a meetup or another event with registration, the link to register. It will show up on the top of the post.
 # categories:
 #   - Technology

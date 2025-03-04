@@ -6,6 +6,9 @@ date: 2025-02-28
 event_date: 2025-04-24T09:00:00-04:00
 author: DHTech
 thumbnail: /images/posts/green-text.jpg
+featureImage: "/images/posts/green-text.jpg"
+registration: https://asu.zoom.us/meeting/register/EHJ-McYzRDCVd9kZJQr-_w
+
 tags:
   - announcement
   - whatshappening

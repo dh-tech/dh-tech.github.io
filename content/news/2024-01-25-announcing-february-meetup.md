@@ -2,7 +2,7 @@
 layout: post
 title: DHTech February Meetup on Agent-Based Modeling
 date: 2024-01-25T15:00:00
-meetup_date: 2024-02-15T15:00:00
+event_date: 2024-02-15T15:00:00
 registration: https://asu.zoom.us/meeting/register/tZElduuprjsvEtFkc0xgDwpm5CVREJaBQDNT
 author: DHTech
 thumbnail: /images/posts/meetup.jpeg
@@ -10,6 +10,7 @@ featureImage: /images/posts/meetup.jpeg
 featureImageCap: Photo by <a href="https://unsplash.com/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">charlesdeluvio</a> on <a href="https://unsplash.com/photos/wn7dOzUh3Rs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 summary: Our February DHTech Meetup will be on **February 15, 2024, at 9am ET/3pm CET**. We will talk about **agent-based modeling (ABM)**.
 tags:
+    - event
     - meetup
 ---
 

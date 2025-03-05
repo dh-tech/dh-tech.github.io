@@ -18,14 +18,14 @@
   <span class="post_date">
     {{ .Date.Format (default "Jan 2, 2006" $.Site.Params.dateFormat) -}}
   </span>
-  {{ if .Params.meetup_date }}
+  {{ if .Params.event_date }}
   {{- if ($scratch.Get "writeSeparator") }}&nbsp;· {{ end }}
   <span>{{ partial "sprite" (dict "icon" "calendar") }}</span>
   <span class="post_date">
-    Meetup date: {{ time.Format "Jan 2, 2006 on 9:00 AM" .Params.meetup_date -}}
+    Event date: {{ time.Format "Jan 2, 2006 on 9:00 AM" .Params.event_date -}}
   </span>
   {{ end }}
-  {{ if and (.Params.registration) (.Params.meetup_date) }}
+  {{ if and (.Params.registration) (.Params.event_date) }}
   {{ $eventTime := .Params.event_date | time }}
   {{ if lt time.Now $eventTime }}
   <span>

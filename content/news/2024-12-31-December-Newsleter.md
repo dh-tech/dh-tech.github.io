@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DHTech February Newsletter
+title: DHTech December Newsletter
 date: 2024-12-31T10:00:00
 author: DHTech
 thumbnail: /images/posts/happyholidays.png

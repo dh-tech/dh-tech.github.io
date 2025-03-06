@@ -21,7 +21,7 @@ jobs:
     description: "The successful candidate will focus on Work Package 3, ‘Early Modern Literary Communities in the English-Speaking World’, for the interdisciplinary, ERC-funded project 'STEMMA: Systems of Transmitting Early Modern Manuscript Verse, 1475–1700. This post is ideally suited to a researcher that has worked in natural language processing, knowledge graphs, or computational linguistics, but now wishes to work more closely alongside a interdisciplinary team to address some of the more complex dimensions related to the English language."
     link: https://www.linkedin.com/posts/erin-a-mccarthy_pd3-job-description-activity-7258134207812530176-0lYY?utm_source=share&utm_medium=member_desktop
     post_date: 2024-11-01
-    closes_on: Closing date for receipt of applications is 17:00 (Irish Time) on 25 November 2024. We reserve the right to re-advertise or extend the closing date for this post.
+    closes_on: Closing date for receipt of applications is 17:00 (Irish Time) on 25 November 2025. We reserve the right to re-advertise or extend the closing date for this post.
     post_until: 2025-11-30
   - organization: Berlin Brandenburg Academy of Sciences
     country: Germany
@@ -31,4 +31,11 @@ jobs:
     post_date: 2025-01-29
     closes_on: January 31, 2025
     post_until: 2025-02-01
-
+  - organization: King's College London	
+    country: United Kingdom
+    job_title: (Senior) Research Software Engineer
+    description: "King's Digital Lab (KDL) is a Research Software Engineering (RSE) team within King's College London Faculty of Arts and Humanities. Your main responsibility is to develop high-quality code to support product specifications and requirements in collaboration with research leads and the RSE team."
+    link: https://www.kcl.ac.uk/jobs/109427-senior-research-software-engineer
+    post_date: 2025-03-04
+    closes_on: March 18, 2025
+    post_until: 2025-03-18

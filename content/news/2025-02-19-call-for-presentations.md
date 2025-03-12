@@ -4,6 +4,7 @@ title: Digital Humanities Tech Symposium
 slug: Digital Humanities Tech Symposium
 date: 2025-02-19
 author: DHTech
+featured: true
 thumbnail:
 
 tags:

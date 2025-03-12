@@ -10,7 +10,6 @@ featureImageCap: Cat "Tango" reviewing code and is not amused.
 summary: "Based on a poster at DH2022, Julia Damerow, Rebecca Sutton Koeser, Jeffrey C. Carver, and Malte Vogl have published a paper in *Digital Scholarship in the Humanities* describing the work of the Community Code Review Working Group of DHTech."
 tags:
    - WhatsHappening
-featured: true
 ---
 
 

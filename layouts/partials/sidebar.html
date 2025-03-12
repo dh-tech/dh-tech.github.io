@@ -68,6 +68,15 @@
         <img class="icon" src="/icons/star.svg" alt="Post Icon">
         <a href="{{ .RelPermalink }}" class="nav-link" title="{{ .Title }}">{{ .Title | markdownify }}</a>
       </li>
+      {{- if .Params.featuredButtonTitle}}
+      {{- if .Params.featuredButtonLink}}
+
+      <button class="button">
+        <a href="{{ .Params.featuredButtonLink}}" class="nav-link"
+          title="{{ .Params.featuredButtonTitle}}">{{.Params.featuredButtonTitle | markdownify}}</a>
+      </button>
+      {{- end}}
+      {{- end}}
       {{- end }}
     </ul>
     {{- end }}

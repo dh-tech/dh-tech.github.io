@@ -22,7 +22,7 @@ jobs:
     link: https://www.linkedin.com/posts/erin-a-mccarthy_pd3-job-description-activity-7258134207812530176-0lYY?utm_source=share&utm_medium=member_desktop
     post_date: 2024-11-01
     closes_on: Closing date for receipt of applications is 17:00 (Irish Time) on 25 November 2024. We reserve the right to re-advertise or extend the closing date for this post.
-    post_until: 2025-11-30
+    post_until: 2024-11-30
   - organization: Berlin Brandenburg Academy of Sciences
     country: Germany
     job_title: Scientist for Digital Cultural Heritage/ Digital Humanities
@@ -31,4 +31,11 @@ jobs:
     post_date: 2025-01-29
     closes_on: January 31, 2025
     post_until: 2025-02-01
-
+  - organization: King's College London	
+    country: United Kingdom
+    job_title: (Senior) Research Software Engineer
+    description: "King's Digital Lab (KDL) is a Research Software Engineering (RSE) team within King's College London Faculty of Arts and Humanities. Your main responsibility is to develop high-quality code to support product specifications and requirements in collaboration with research leads and the RSE team."
+    link: https://www.kcl.ac.uk/jobs/109427-senior-research-software-engineer
+    post_date: 2025-03-04
+    closes_on: March 18, 2025
+    post_until: 2025-03-18

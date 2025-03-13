@@ -66,17 +66,20 @@
       {{- range . }}
       <li>
         <img class="icon" src="/icons/star.svg" alt="Post Icon">
-        <a href="{{ .RelPermalink }}" class="nav-link" title="{{ .Title }}">{{ .Title | markdownify }}</a>
-      </li>
-      {{- if .Params.featuredButtonTitle}}
-      {{- if .Params.featuredButtonLink}}
+        <div class="nav-link">
+          <a href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title | markdownify }}</a>
+          {{- if .Params.featuredButtonTitle}}
+          {{- if .Params.featuredButtonLink}}
 
-      <button class="featured button">
-        <a href="{{ .Params.featuredButtonLink}}" class="nav-link"
-          title="{{ .Params.featuredButtonTitle}}">{{.Params.featuredButtonTitle | markdownify}}</a>
-      </button>
-      {{- end}}
-      {{- end}}
+          <button class="featured button">
+            <a href="{{ .Params.featuredButtonLink}}" class="nav-link"
+              title="{{ .Params.featuredButtonTitle}}">{{.Params.featuredButtonTitle | markdownify}}</a>
+          </button>
+          {{- end}}
+          {{- end}}
+
+        </div>
+      </li>
       {{- end }}
     </ul>
     {{- end }}

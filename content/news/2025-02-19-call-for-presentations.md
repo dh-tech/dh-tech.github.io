@@ -5,6 +5,8 @@ slug: Digital Humanities Tech Symposium
 date: 2025-02-19
 author: DHTech
 featured: true
+featuredButtonTitle: Submit a Talk
+featuredButtonLink: https://form.jotform.com/250346227323147
 thumbnail:
 
 tags:

@@ -1,0 +1,10 @@
+services:
+  hugo:
+    image: my-hugo-site
+    build: .
+    ports:
+      - "1313:1313"
+    volumes:
+      - .:/src
+    command: ["server", "--bind", "0.0.0.0", "--port", "1313"]
+    restart: unless-stopped 

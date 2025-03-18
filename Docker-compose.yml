@@ -1,6 +1,6 @@
 services:
   hugo:
-    image: my-hugo-site
+    image: dh-tech
     build: .
     ports:
       - "1313:1313"

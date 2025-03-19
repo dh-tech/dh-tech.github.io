@@ -1,0 +1,10 @@
+services:
+  hugo:
+    image: ghcr.io/hugomods/hugo:latest
+    ports:
+      - "1313:1313"
+    volumes:
+      - .:/src
+    working_dir: /src
+    command: ["server", "--bind", "0.0.0.0", "--port", "1313"]
+    restart: unless-stopped

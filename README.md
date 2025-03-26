@@ -32,6 +32,19 @@ To run the site locally for development:
 hugo server
 ```
 
+or run the following docker command:
+
+```sh
+docker-compose up --build
+```
+
+when you are done run the following:
+
+```sh
+docker-compose down
+```
+
+
 ### Creating a new post
 
 To create a new post on the command line, run:

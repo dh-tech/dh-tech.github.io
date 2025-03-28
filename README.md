@@ -35,10 +35,10 @@ hugo server
 or run the following docker command:
 
 ```sh
-docker-compose up --build
+docker-compose up 
 ```
 
-when you are done run the following:
+when you are done, either stop the process or run the following:
 
 ```sh
 docker-compose down

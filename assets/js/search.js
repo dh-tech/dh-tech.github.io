@@ -1,5 +1,5 @@
 function initializeSearch(index) {
-    const searchKeys = ['title', 'link', 'body', 'id', 'section', 'tags'];
+    const searchKeys = ['title', 'link', 'body', 'date', 'author', 'id', 'section', 'tags'];
 
     const searchPageElement = elem('#searchpage');
 

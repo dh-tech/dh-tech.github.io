@@ -5,7 +5,6 @@ slug: DHTech February Meetup
 date: 2025-03-28
 event_date: 2025-02-20T09:00:00-04:00
 author: DHTech
-registration: https://asu.zoom.us/meeting/register/EHJ-McYzRDCVd9kZJQr-_w
 
 tags:
   - announcement

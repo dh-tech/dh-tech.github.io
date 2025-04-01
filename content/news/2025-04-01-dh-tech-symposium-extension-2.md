@@ -19,7 +19,7 @@ tags:
 
 _Final Submission Deadline Extension and Conference Proceedings_
 
-We have exciting news to share! In collaboration with the new ACH open access conference proceedings series [Anthology of Computers and the Humanities](https://anthology.ach.org/), there is now the option to **submit a short proceedings article** about your Digital Humanities Tech Symposium presentation after the conference. 
+We have exciting news to share! In collaboration with the new ACH open access conference proceedings series [Anthology of Computers and the Humanities](https://anthology.ach.org/), there is now the option to **submit a short proceedings article** about your [Digital Humanities Tech Symposium presentation](/2025/02/19/digital-humanities-tech-symposium/) after the conference. 
 
 Here are the quick facts:
 

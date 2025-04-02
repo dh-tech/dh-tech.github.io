@@ -63,24 +63,27 @@ function initializeSearch(index) {
                     itemTitle.textContent = result.title;
                     item.appendChild(itemTitle);
 
-                    let itemAuthor = createEl('p');
-                    itemAuthor.textContent = "By: "
-                    itemAuthor.textContent += result.author;
-                    item.appendChild(itemAuthor);
+                    if (result.section != "tags") {
+                        let itemAuthor = createEl('p');
+                        itemAuthor.textContent = "By: "
+                        itemAuthor.textContent += result.author;
+                        item.appendChild(itemAuthor);
 
-                    const date = new Date(result.date);
+                        const date = new Date(result.date);
 
-                    const options = {
-                        year: 'numeric',
-                        month: 'long',
-                        day: 'numeric'
-                    };
+                        const options = {
+                            year: 'numeric',
+                            month: 'long',
+                            day: 'numeric'
+                        };
 
-                    const formattedDate = new Intl.DateTimeFormat('en-US', options).format(date);
+                        const formattedDate = new Intl.DateTimeFormat('en-US', options).format(date);
 
-                    let itemDate = createEl('p');
-                    itemDate.textContent = formattedDate;
-                    item.appendChild(itemDate);
+                        let itemDate = createEl('p');
+                        itemDate.textContent = formattedDate;
+                        item.appendChild(itemDate);
+
+                    }
 
                     let itemDescription = createEl('p');
                     // position of first search term instance

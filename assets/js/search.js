@@ -56,8 +56,8 @@ function initializeSearch(index) {
                 item.href = `${result.link}?query=${query}`;
                 item.className = 'search_result';
                 item.style.order = result.score;
+
                 if (passive) {
-                    console.log(result);
                     pushClass(item, 'passive');
                     let itemTitle = createEl('h3');
                     itemTitle.textContent = result.title;
@@ -89,6 +89,11 @@ function initializeSearch(index) {
                     item.appendChild(itemDescription);
                 } else {
                     item.textContent = result.title;
+                }
+                if (result.section == "tags") {
+                    item.className = item.className + " button_translucent";
+                    item.textContent = item.textContent + " (Tag)"
+                    console.log(item);
                 }
                 resultsFragment.appendChild(item);
             });
@@ -132,6 +137,9 @@ function initializeSearch(index) {
         const searchField = elem(searchFieldClass);
 
         if (searchField) {
+            //TODO: Either make this list dynamic or update when a new tag is added
+            let tags = ["meetup", "announcement", "whatshappening", "recording", "event", "newsletter", "conference", "adayinthelifeof", "2simple2mention", "dhippochallenge"];
+
             const searchScope = searchField.dataset.scope;
             searchField.addEventListener('input', function () {
                 const searchTerm = searchField.value.trim().toLowerCase();
@@ -142,6 +150,10 @@ function initializeSearch(index) {
                 searchField.addEventListener('search', function () {
                     const searchTerm = searchField.value.trim().toLowerCase();
                     if (searchTerm.length) {
+                        if (tags.includes(searchTerm)) {
+                            window.location.href = `/tags/${searchTerm}`;
+                            return;
+                        }
                         const scopeParameter = searchScope ? `&scope=${searchScope}` : '';
                         window.location.href = new URL(baseURL + `search/?query=${searchTerm}${scopeParameter}`).href;
                     }
@@ -216,6 +228,7 @@ function initializeSearch(index) {
             clearSearchResults();
         }
     });
+
 }
 
 function highlightSearchTerms(search, context, wrapper = 'mark', cssClass = '') {

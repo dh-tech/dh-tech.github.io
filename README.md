@@ -44,6 +44,7 @@ when you are done, either stop the process or run the following:
 docker-compose down
 ```
 
+Docker will mount your current working directory inside the container, so changes you save to any files will be picked up by Hugo.
 
 ### Creating a new post
 

@@ -1,5 +1,5 @@
 function initializeSearch(index) {
-    const searchKeys = ['title', 'link', 'body', 'date', 'author', 'id', 'section', 'tags'];
+    const searchKeys = ['title', 'link', 'summary', 'body', 'date', 'author', 'id', 'section', 'tags'];
 
     const searchPageElement = elem('#searchpage');
 
@@ -83,9 +83,9 @@ function initializeSearch(index) {
                     item.appendChild(itemDate);
 
                     let itemDescription = createEl('p');
-                    // position of first search term instance
-                    let queryInstance = result.body.indexOf(query);
-                    itemDescription.textContent = `${result.body.substring(queryInstance, queryInstance + 200)}`;
+                    console.log(result)
+
+                    itemDescription.textContent = `${result.body.substring(0, 400)}...`;
                     item.appendChild(itemDescription);
                 } else {
                     item.textContent = result.title;

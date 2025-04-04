@@ -140,8 +140,6 @@ function initializeSearch(index) {
         const searchField = elem(searchFieldClass);
 
         if (searchField) {
-            //TODO: Either make this list dynamic or update when a new tag is added
-            let tags = ["meetup", "announcement", "whatshappening", "recording", "event", "newsletter", "conference", "adayinthelifeof", "2simple2mention", "dhippochallenge"];
 
             const searchScope = searchField.dataset.scope;
             searchField.addEventListener('input', function () {
@@ -153,10 +151,6 @@ function initializeSearch(index) {
                 searchField.addEventListener('search', function () {
                     const searchTerm = searchField.value.trim().toLowerCase();
                     if (searchTerm.length) {
-                        if (tags.includes(searchTerm)) {
-                            window.location.href = `/tags/${searchTerm}`;
-                            return;
-                        }
                         const scopeParameter = searchScope ? `&scope=${searchScope}` : '';
                         window.location.href = new URL(baseURL + `search/?query=${searchTerm}${scopeParameter}`).href;
                     }

@@ -2,7 +2,7 @@
 layout: post
 title: DHTech February Meetup
 slug: DHTech February Meetup
-date: 2025-03-28
+date: 2025-02-01
 event_date: 2025-02-20T09:00:00-04:00
 author: DHTech
 

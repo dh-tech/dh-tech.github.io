@@ -63,40 +63,32 @@ function initializeSearch(index) {
                     itemTitle.textContent = result.title;
                     item.appendChild(itemTitle);
 
-                    if (result.section != "tags") {
-                        let itemAuthor = createEl('p');
-                        itemAuthor.textContent = "By: "
-                        itemAuthor.textContent += result.author;
-                        item.appendChild(itemAuthor);
+                    let itemAuthor = createEl('p');
+                    itemAuthor.textContent = "By: "
+                    itemAuthor.textContent += result.author;
+                    item.appendChild(itemAuthor);
 
-                        const date = new Date(result.date);
+                    const date = new Date(result.date);
 
-                        const options = {
-                            year: 'numeric',
-                            month: 'long',
-                            day: 'numeric'
-                        };
+                    const options = {
+                        year: 'numeric',
+                        month: 'long',
+                        day: 'numeric'
+                    };
 
-                        const formattedDate = new Intl.DateTimeFormat('en-US', options).format(date);
+                    const formattedDate = new Intl.DateTimeFormat('en-US', options).format(date);
 
-                        let itemDate = createEl('p');
-                        itemDate.textContent = formattedDate;
-                        item.appendChild(itemDate);
-
-                    }
+                    let itemDate = createEl('p');
+                    itemDate.textContent = formattedDate;
+                    item.appendChild(itemDate);
 
                     let itemDescription = createEl('p');
-                    // position of first search term instance
-                    let queryInstance = result.body.indexOf(query);
-                    itemDescription.textContent = `${result.body.substring(queryInstance, queryInstance + 200)}`;
+                    console.log(result)
+
+                    itemDescription.textContent = `${result.body.substring(0, 400)}...`;
                     item.appendChild(itemDescription);
                 } else {
                     item.textContent = result.title;
-                }
-                if (result.section == "tags") {
-                    item.className = item.className + " button_translucent";
-                    item.textContent = item.textContent + " (Tag)"
-                    console.log(item);
                 }
                 resultsFragment.appendChild(item);
             });
@@ -140,7 +132,6 @@ function initializeSearch(index) {
         const searchField = elem(searchFieldClass);
 
         if (searchField) {
-
             const searchScope = searchField.dataset.scope;
             searchField.addEventListener('input', function () {
                 const searchTerm = searchField.value.trim().toLowerCase();
@@ -225,7 +216,6 @@ function initializeSearch(index) {
             clearSearchResults();
         }
     });
-
 }
 
 function highlightSearchTerms(search, context, wrapper = 'mark', cssClass = '') {

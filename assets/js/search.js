@@ -90,6 +90,10 @@ function initializeSearch(index) {
                 } else {
                     item.textContent = result.title;
                 }
+                if (result.section == "tags") {
+                    item.className = item.className + " button_translucent";
+                    item.textContent = item.textContent + " (Tag)"
+                }
                 resultsFragment.appendChild(item);
             });
         }

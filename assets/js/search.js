@@ -1,5 +1,5 @@
 function initializeSearch(index) {
-    const searchKeys = ['title', 'link', 'summary', 'body', 'date', 'author', 'id', 'section', 'tags'];
+    const searchKeys = ['title', 'link', 'body', 'date', 'author', 'id', 'section', 'tags'];
 
     const searchPageElement = elem('#searchpage');
 
@@ -56,8 +56,8 @@ function initializeSearch(index) {
                 item.href = `${result.link}?query=${query}`;
                 item.className = 'search_result';
                 item.style.order = result.score;
+
                 if (passive) {
-                    console.log(result);
                     pushClass(item, 'passive');
                     let itemTitle = createEl('h3');
                     itemTitle.textContent = result.title;
@@ -89,6 +89,10 @@ function initializeSearch(index) {
                     item.appendChild(itemDescription);
                 } else {
                     item.textContent = result.title;
+                }
+                if (result.section == "tags") {
+                    item.className = item.className + " button_translucent";
+                    item.textContent = item.textContent + " (Tag)"
                 }
                 resultsFragment.appendChild(item);
             });

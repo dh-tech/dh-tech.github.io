@@ -66,7 +66,8 @@ function initializeSearch(index) {
                     let itemAuthor = createEl('p');
                     itemAuthor.textContent = "By: "
                     itemAuthor.textContent += result.author;
-                    item.appendChild(itemAuthor);
+                    if (result.author != null)
+                        item.appendChild(itemAuthor);
 
                     const date = new Date(result.date);
 
@@ -80,7 +81,8 @@ function initializeSearch(index) {
 
                     let itemDate = createEl('p');
                     itemDate.textContent = formattedDate;
-                    item.appendChild(itemDate);
+                    if (formattedDate != "December 31, 1969")
+                        item.appendChild(itemDate);
 
                     let itemDescription = createEl('p');
                     console.log(result)

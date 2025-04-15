@@ -1,0 +1,42 @@
+{{- range $.Site.Data.bibliography }}
+{{- if eq .itemType "journalArticle"}}
+<p class="apa-citation">
+  {{- $authors := slice -}}
+  {{- range .creators }}
+  {{- if eq .creatorType "author" }}
+  {{- $firstInitial := "" -}}
+  {{- if .firstName }}
+  {{- $firstInitial = print (substr .firstName 0 1) "." }}
+  {{- end }}
+  {{- if .lastName }}
+  {{- $name := printf "%s, %s" .lastName $firstInitial }}
+  {{- $authors = $authors | append $name }}
+  {{- end }}
+  {{- end }}
+  {{- end }}
+  {{- $authorStr := delimit $authors ", " -}}
+
+
+  {{- $year := "" -}}
+  {{- with .date }}
+  {{- $splitDate := split . "-" }}
+  {{- if gt (len $splitDate) 0 }}
+  {{- $year = index $splitDate 0 }}
+  {{- end }}
+  {{- end }}
+
+  {{- $title := .title | markdownify | plainify }}
+  {{- $journal := .publicationTitle }}
+  {{- $volume := .volume }}
+  {{- $issue := .issue }}
+  {{- $pages := .pages }}
+  {{- $doi := .DOI }}
+
+
+  {{- $citation := printf "%s (%s). <em>%s</em>. <i>%s</i>, %s(%s), %s. https://doi.org/%s" $authorStr $year $title
+  $journal $volume $issue $pages $doi }}
+
+  {{ $citation | safeHTML }}
+</p>
+{{- end}}
+{{- end }}

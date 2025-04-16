@@ -33,23 +33,6 @@ function initializeSearch(index) {
         const requiredQueryLen = minQueryLen(query);
 
         if (results.length && queryLen >= requiredQueryLen) {
-            let resultsTitle = createEl('h3');
-            resultsTitle.className = 'search_title';
-            resultsTitle.innerText = quickLinks;
-
-            let goBackButton = createEl('button');
-            goBackButton.textContent = 'Go Back';
-            goBackButton.className = goBackClass;
-            if (passive) {
-                resultsTitle.innerText = searchResultsLabel;
-            }
-            if (!searchPageElement) {
-                results = results.slice(0, 8);
-            } else {
-                resultsFragment.appendChild(goBackButton);
-                results = results.slice(0, 12);
-            }
-            resultsFragment.appendChild(resultsTitle);
 
             results.forEach(function (result) {
                 let item = createEl('a');
@@ -93,11 +76,32 @@ function initializeSearch(index) {
                     item.textContent = result.title;
                 }
                 if (result.section == "tags") {
-                    item.className = item.className + " button_translucent";
+                    if (passive)
+                        item.className = item.className + " button_translucent tag_result";
                     item.textContent = item.textContent + " (Tag)"
+                    resultsFragment.prepend(item);
+                    return;
                 }
                 resultsFragment.appendChild(item);
             });
+            let resultsTitle = createEl('h3');
+            resultsTitle.className = 'search_title';
+            resultsTitle.innerText = quickLinks;
+
+            let goBackButton = createEl('button');
+            goBackButton.textContent = 'Go Back';
+            goBackButton.className = goBackClass;
+            if (passive) {
+                resultsTitle.innerText = searchResultsLabel;
+            }
+            resultsFragment.prepend(resultsTitle);
+            if (!searchPageElement) {
+                results = results.slice(0, 8);
+            } else {
+                resultsFragment.prepend(goBackButton);
+                results = results.slice(0, 12);
+            }
+
         }
 
         if (queryLen >= requiredQueryLen) {

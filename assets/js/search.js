@@ -1,5 +1,5 @@
 function initializeSearch(index) {
-    const searchKeys = ['title', 'link', 'summary', 'body', 'date', 'author', 'id', 'section', 'tags'];
+    const searchKeys = ['title', 'link', 'body', 'date', 'author', 'id', 'section', 'tags'];
 
     const searchPageElement = elem('#searchpage');
 
@@ -17,7 +17,7 @@ function initializeSearch(index) {
     function minQueryLen(query) {
         query = query.trim();
         const queryIsFloat = parseFloat(query);
-        const minimumQueryLength = queryIsFloat ? 1 : 2;
+        const minimumQueryLength = queryIsFloat ? 1 : 1;
         return minimumQueryLength;
     }
 
@@ -33,31 +33,14 @@ function initializeSearch(index) {
         const requiredQueryLen = minQueryLen(query);
 
         if (results.length && queryLen >= requiredQueryLen) {
-            let resultsTitle = createEl('h3');
-            resultsTitle.className = 'search_title';
-            resultsTitle.innerText = quickLinks;
-
-            let goBackButton = createEl('button');
-            goBackButton.textContent = 'Go Back';
-            goBackButton.className = goBackClass;
-            if (passive) {
-                resultsTitle.innerText = searchResultsLabel;
-            }
-            if (!searchPageElement) {
-                results = results.slice(0, 8);
-            } else {
-                resultsFragment.appendChild(goBackButton);
-                results = results.slice(0, 12);
-            }
-            resultsFragment.appendChild(resultsTitle);
 
             results.forEach(function (result) {
                 let item = createEl('a');
                 item.href = `${result.link}?query=${query}`;
                 item.className = 'search_result';
                 item.style.order = result.score;
+
                 if (passive) {
-                    console.log(result);
                     pushClass(item, 'passive');
                     let itemTitle = createEl('h3');
                     itemTitle.textContent = result.title;
@@ -66,7 +49,8 @@ function initializeSearch(index) {
                     let itemAuthor = createEl('p');
                     itemAuthor.textContent = "By: "
                     itemAuthor.textContent += result.author;
-                    item.appendChild(itemAuthor);
+                    if (result.author != null)
+                        item.appendChild(itemAuthor);
 
                     const date = new Date(result.date);
 
@@ -80,7 +64,8 @@ function initializeSearch(index) {
 
                     let itemDate = createEl('p');
                     itemDate.textContent = formattedDate;
-                    item.appendChild(itemDate);
+                    if (formattedDate != "December 31, 1969")
+                        item.appendChild(itemDate);
 
                     let itemDescription = createEl('p');
                     console.log(result)
@@ -90,8 +75,33 @@ function initializeSearch(index) {
                 } else {
                     item.textContent = result.title;
                 }
+                if (result.section == "tags") {
+                    if (passive)
+                        item.className = item.className + " button_translucent tag_result";
+                    item.textContent = item.textContent + " (Tag)"
+                    resultsFragment.prepend(item);
+                    return;
+                }
                 resultsFragment.appendChild(item);
             });
+            let resultsTitle = createEl('h3');
+            resultsTitle.className = 'search_title';
+            resultsTitle.innerText = quickLinks;
+
+            let goBackButton = createEl('button');
+            goBackButton.textContent = 'Go Back';
+            goBackButton.className = goBackClass;
+            if (passive) {
+                resultsTitle.innerText = searchResultsLabel;
+            }
+            resultsFragment.prepend(resultsTitle);
+            if (!searchPageElement) {
+                results = results.slice(0, 8);
+            } else {
+                resultsFragment.prepend(goBackButton);
+                results = results.slice(0, 12);
+            }
+
         }
 
         if (queryLen >= requiredQueryLen) {

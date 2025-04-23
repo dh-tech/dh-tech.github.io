@@ -17,7 +17,7 @@ function initializeSearch(index) {
     function minQueryLen(query) {
         query = query.trim();
         const queryIsFloat = parseFloat(query);
-        const minimumQueryLength = queryIsFloat ? 1 : 2;
+        const minimumQueryLength = queryIsFloat ? 1 : 1;
         return minimumQueryLength;
     }
 

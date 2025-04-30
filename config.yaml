@@ -52,8 +52,7 @@ markup:
     renderer:
       unsafe: true   # allow raw html in content
 
-theme:
-  - "github.com/chipzoller/hugo-clarity"
+theme: ["github.com/chipzoller/hugo-clarity", "hugo-bibliography"]
 
 # clarity-specific configuration
 

@@ -2,4 +2,4 @@
 title: "Bibliography"
 ---
 
-  {{< citations >}}
+  {{< bibliography >}}

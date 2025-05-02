@@ -24,9 +24,12 @@ menu:
   - name: job board
     pageRef: /job-board
     weight: 7
+  - name: bibliography
+    pageRef: /bibliography
+    weight: 8
   - name: join us
     pageRef: /join
-    weight: 8
+    weight: 9
   social:
     # social menu links
     - name: github

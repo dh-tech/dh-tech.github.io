@@ -24,8 +24,8 @@ menu:
   - name: job board
     pageRef: /job-board
     weight: 7
-  - name: bibliography
-    pageRef: /bibliography
+  - name: publications
+    pageRef: /publications
     weight: 8
   - name: join us
     pageRef: /join

@@ -39,3 +39,16 @@ jobs:
     post_date: 2025-03-04
     closes_on: March 18, 2025
     post_until: 2025-03-18
+  - organization: The UK National Archives	
+    country: United Kingdom
+    job_title: Research Projects Data Analyst
+    description: |
+      This role will support our work on two major research and digitisation projects:
+      1. EHRI-UK (the European Holocaust Research Infrastructure).
+      2. Our project to digitise the National Farm Survey and make it accessible online. 
+      As data analyst for these projects, you will design and implement workflows to increase representation of UK archives in the EHRI portal, and to manage the quality assurance and ingest into TNA’s catalogue of metadata accompanying the newly digitised National Farm Survey records.
+    link: https://nationalarchives.wd3.myworkdayjobs.com/Careers/job/Kew/Research-Projects-Data-Analyst_JR200565
+    post_date: 2025-05-02
+    closes_on: May 26, 2025
+    post_until: 2025-05-27
+    

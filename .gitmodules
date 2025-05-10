@@ -1,0 +1,3 @@
+[submodule "themes/hugo-bibliography"]
+	path = themes/hugo-bibliography
+	url = https://github.com/dh-tech/hugo-bibliography.git

@@ -8,7 +8,7 @@ services:
     working_dir: /src
     command: >
       sh -c "
-        apk add --no-cache curl jq pandoc &&
+        apk add --no-cache curl jq &&
         ./themes/hugo-bibliography/fetch-zotero.sh &&
         hugo server --bind 0.0.0.0 --port 1313
       "

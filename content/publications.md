@@ -2,4 +2,4 @@
 title: "Publications Related to Research Software Engineering in DH"
 description:
 ---
-  {{< bibliography >}}
+  {{< bibliography itemType="journalArticle" >}}

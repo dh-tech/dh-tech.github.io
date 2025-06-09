@@ -22,7 +22,7 @@
   {{- if ($scratch.Get "writeSeparator") }}&nbsp;· {{ end }}
   <span>{{ partial "sprite" (dict "icon" "calendar") }}</span>
   <span class="post_date">
-    Event date: {{ time.Format "Jan 2, 2006 at 9:00 AM" .Params.event_date -}}
+    Event date: {{ time.Format "Mon Jan 2, 2006 at 3:04 PM MST" .Params.event_date -}}{{ if .Params.event_location }}, {{.Params.event_location}}{{- end}}
   </span>
   {{ end }}
   {{ if and (.Params.registration) (.Params.event_date) }}

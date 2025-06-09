@@ -19,6 +19,7 @@ codeLineNumbers: false # Override global value for showing of line numbers withi
 figurePositionShow: true # Override global value for showing the figure label.
 showRelatedInArticle: false # Override global value for showing related posts in this series at the end of the content.
 event_date: 2024-02-15T15:00:00 # if post is an announcement of an event/meetup, the date and time of the event
+event_location: Virtual # if a post has a location, this will be added to the event date in the header of a post (e.g. "... at 9:00 am ET in Boston, MA")
 registration: https://zoom.registartion.ink/ # if post is an announcement of a meetup or another event with registration, the link to register. It will show up on the top of the post.
 categories:
   - Technology

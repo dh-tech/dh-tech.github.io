@@ -18,7 +18,7 @@ tags:
 
 # Digital Humanities Tech Symposium at DH2025 - Agenda
 
-From July 14-18, 2025, [DH2025](https://dh2025.adho.org) will be held at Nova University in Lisbon, Portugal. DHTech will hold a mini-conference at DH2025, **the Digital Humanities Tech Symposium**. Typical DH conference presentations are focussed on the research with a slight nod to the technical details; we want to flip that format and dive more deeply into the technical aspects of the work, while still keeping it in context of the research and domain specifics.
+From July 14-18, 2025, [DH2025](https://dh2025.adho.org) will be held at NOVA University in Lisbon, Portugal. DHTech will hold a mini-conference at DH2025, **the Digital Humanities Tech Symposium**. Typical DH conference presentations are focussed on the research with a slight nod to the technical details; we want to flip that format and dive more deeply into the technical aspects of the work, while still keeping it in context of the research and domain specifics.
 
 ## Agenda - Monday, July 14th, 1:30pm to 6:30pm
 

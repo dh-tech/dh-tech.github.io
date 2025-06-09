@@ -29,7 +29,7 @@ From July 14-18, 2025, [DH2025](https://dh2025.adho.org) will be held at Nova Un
 
 <tr>
 <td width="15%">1:30-1:40pm </td>
-<td><b>DHTech Steering Committee</b>
+<td><b>DHTech Steering Committee</b><br>
 <i>Introduction</i>
 </td>
 </tr>

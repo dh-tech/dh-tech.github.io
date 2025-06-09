@@ -3,6 +3,7 @@ layout: post
 title: Digital Humanities Tech Symposium - Agenda
 slug: Digital Humanities Tech Symposium - Agenda
 date: 2025-06-04
+event_date: 2025-07-14T08:30:00-04:00
 author: DHTech
 featured: true
 thumbnail:
@@ -11,6 +12,7 @@ tags:
   - announcement
   - conference
   - whatshappening
+  - event
 ---
 
 # Digital Humanities Tech Symposium at DH2025 - Agenda

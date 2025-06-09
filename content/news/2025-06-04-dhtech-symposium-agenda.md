@@ -3,7 +3,8 @@ layout: post
 title: Digital Humanities Tech Symposium - Agenda
 slug: Digital Humanities Tech Symposium - Agenda
 date: 2025-06-04
-event_date: 2025-07-14T08:30:00-04:00
+event_date: 2025-07-14T13:30:00+01:00
+event_location: Lisbon, Portugal
 author: DHTech
 featured: true
 thumbnail:

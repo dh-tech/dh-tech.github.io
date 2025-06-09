@@ -4,7 +4,7 @@ title: Digital Humanities Tech Symposium - Final Extension and Proceedings Publi
 slug: Digital Humanities Tech Symposium - Final Extension
 date: 2025-04-01
 author: DHTech
-featured: true
+featured: false
 featuredButtonTitle: Submit a Talk
 featuredButtonLink: https://form.jotform.com/250346227323147
 thumbnail:

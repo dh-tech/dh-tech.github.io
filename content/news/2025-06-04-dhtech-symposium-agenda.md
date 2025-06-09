@@ -21,7 +21,7 @@ From July 14-18, 2025, [DH2025](https://dh2025.adho.org) will be held at Nova Un
 
 <table>
 <tr>
-<th colspan=3>Session 1 - Moderator: </th>
+<th colspan=3>Session 1 - Moderator: tbd </th>
 </tr>
 
 <tr>
@@ -37,8 +37,8 @@ From July 14-18, 2025, [DH2025](https://dh2025.adho.org) will be held at Nova Un
 <i>TEI2Zenodo</i>
 <br>
     <small>
-"<a href="https://gitlab.gwdg.de/mpilhlt/tei2zenodo">TEI2Zenodo</a> acts as a server that accepts TEI files and uploads them to the Zenodo data repository. It is meant to be part of a CI/CD pipeline, but can also be used in other ways. It goes beyond the already existing GitHub-Zenodo integration by arranging for individual files to be deposits instead of copies of whole git repositories.
-The presentation will describe the handling of DOI identifiers that are being created in the Zenodo upload process, ways of using the server besides CI/CD, and need for further development: cleaning up code and adding important further functions."
+<a href="https://gitlab.gwdg.de/mpilhlt/tei2zenodo">TEI2Zenodo</a> acts as a server that accepts TEI files and uploads them to the Zenodo data repository. It is meant to be part of a CI/CD pipeline, but can also be used in other ways. It goes beyond the already existing GitHub-Zenodo integration by arranging for individual files to be deposits instead of copies of whole git repositories.
+The presentation will describe the handling of DOI identifiers that are being created in the Zenodo upload process, ways of using the server besides CI/CD, and need for further development: cleaning up code and adding important further functions.
     </small>
 </td>
 </tr>
@@ -79,7 +79,7 @@ The presentation will describe the handling of DOI identifiers that are being cr
 
 
 <tr>
-<th colspan=3>Session 2 - Moderator: </th>
+<th colspan=3>Session 2 - Moderator: tbd</th>
 </tr>
 
 <tr>
@@ -113,7 +113,7 @@ The presentation will describe the handling of DOI identifiers that are being cr
 <table>
 
 <tr>
-<th colspan=3>Session 3 - Moderator: </th>
+<th colspan=3>Session 3 - Moderator: tbd</th>
 </tr>
 
 <tr>
@@ -121,10 +121,10 @@ The presentation will describe the handling of DOI identifiers that are being cr
 <td valign="top"><b>Rebecca Koeser</b><br>
 <i>Undate in Action</i>
     <br><small>
-    "Undate is an ambitious, in-progress effort to develop a pragmatic Python package for computation and analysis of temporal information in humanistic and cultural data, with a particular emphasis on uncertain, incomplete, or imprecise dates and with support for multiple calendars. Undate draws on and improves implementations and data modeling from digital humanities projects from multiple different institutions.
+    Undate is an ambitious, in-progress effort to develop a pragmatic Python package for computation and analysis of temporal information in humanistic and cultural data, with a particular emphasis on uncertain, incomplete, or imprecise dates and with support for multiple calendars. Undate draws on and improves implementations and data modeling from digital humanities projects from multiple different institutions.
 
 We propose a “Tool Presentation” of Undate, using an interactive code notebook to
-demonstrate current functionality and capabilities of this library. The demonstration would introduce Undate and UndateInterval objects, and show how they can be initialized directly with numbers or strings for dates with unknown digits, or by parsing dates written out in a supported calendar, and can be used for comparison and calculations, including sorting, comparing precision, determining whether one date or date interval falls within or overlaps another, and calculating durations of dates and intervals"
+demonstrate current functionality and capabilities of this library. The demonstration would introduce Undate and UndateInterval objects, and show how they can be initialized directly with numbers or strings for dates with unknown digits, or by parsing dates written out in a supported calendar, and can be used for comparison and calculations, including sorting, comparing precision, determining whether one date or date interval falls within or overlaps another, and calculating durations of dates and intervals.
     </small>
 </td>
 </tr>
@@ -170,7 +170,7 @@ demonstrate current functionality and capabilities of this library. The demonstr
 <table>
 
 <tr>
-<th colspan=3>Session 4 - Moderator: </th>
+<th colspan=3>Session 4 - Moderator: tbd </th>
 </tr>
 
 <tr>
@@ -178,11 +178,11 @@ demonstrate current functionality and capabilities of this library. The demonstr
 <td valign="top"><b>Jamie Folsom</b><br>
 <i>Extending Recogito Studio with Plugins</i>
     <br><small>
-    "Recogito Studio is a new open source platform for annotation of TEI-XML Text, IIIF images and manifests and PDFs. 
+    Recogito Studio is a new open source platform for annotation of TEI-XML Text, IIIF images and manifests and PDFs. 
 
 While the software is focused on real-time collaboration, user and document management, and import and export of documents and annotations in standard formats, some adopters have needs that go beyond those core features.
 
-This talk is an introduction to the Recogito Studio plugin framework and software development kit, which makes it easy for developers to add new functionality to the software without modifying the core codebase."
+This talk is an introduction to the Recogito Studio plugin framework and software development kit, which makes it easy for developers to add new functionality to the software without modifying the core codebase.
     </small>
 </td>
 </tr>

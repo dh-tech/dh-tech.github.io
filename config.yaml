@@ -24,9 +24,12 @@ menu:
   - name: job board
     pageRef: /job-board
     weight: 7
+  - name: literature
+    pageRef: /literature
+    weight: 8
   - name: join us
     pageRef: /join
-    weight: 8
+    weight: 9
   social:
     # social menu links
     - name: github
@@ -52,8 +55,7 @@ markup:
     renderer:
       unsafe: true   # allow raw html in content
 
-theme:
-  - "github.com/chipzoller/hugo-clarity"
+theme: ["github.com/chipzoller/hugo-clarity", "hugo-bibliography"]
 
 # clarity-specific configuration
 

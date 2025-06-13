@@ -9,6 +9,8 @@ HUGO_VERSION=0.142.0
 OS_VERSION="Linux-64bit"
 #OS_VERSION="darwin-universal"  # uncomment to test on mac osx
 
+./themes/hugo-bibliography/fetch-zotero.sh
+
 if [[ ! -f $XDG_CACHE_HOME/hugo ]]; then
   echo "...Downloading HUGO"
   mkdir -p ~/tmp

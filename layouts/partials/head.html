@@ -44,4 +44,33 @@
   {{- end }}
 {{- end }}
 
+<script src="https://cdn.jsdelivr.net/npm/moment@2.29.4/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.43/builds/moment-timezone-with-data.min.js"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll('.post_date').forEach(el => {
+      const rawDate = el.dataset.datetime;
+      if (!rawDate) return;
+
+      const userZone = moment.tz.guess();
+      const m = moment.parseZone(rawDate).tz(userZone);
+      const abbr = m.format("z");
+      
+      const text = el.innerHTML;
+      let newText = ""
+
+      for(const word of text.split(" ")){
+        if(word === "PM" || word === "AM"){
+          newText += word + " " + abbr
+        }
+        else{
+          newText += word + " "
+        }
+      }
+      el.innerHTML = newText
+    });
+  });
+</script>
+
 {{- partial "scripts/google/tag-manager" (dict "noscript" false) }}

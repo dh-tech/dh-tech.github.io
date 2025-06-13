@@ -23,6 +23,8 @@
   <span>{{ partial "sprite" (dict "icon" "calendar") }}</span>
   <span class="post_date" data-datetime="{{ .Params.event_date }}">
     Event date: {{ time.Format "Mon Jan 2, 2006 at 3:04 PM " .Params.event_date -}} 
+  </span>
+  <span>
     {{ if .Params.event_location }}, {{.Params.event_location}}{{- end}}
   </span>
   {{ end }}

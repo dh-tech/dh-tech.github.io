@@ -55,20 +55,12 @@
 
       const userZone = moment.tz.guess();
       const m = moment.parseZone(rawDate).tz(userZone);
-      const abbr = m.format("z");
-      
+      const time = m.format("ddd MMM D, YYYY [at] h:mm A z")
+    
       const text = el.innerHTML;
-      let newText = ""
+      console.log(text);
 
-      for(const word of text.split(" ")){
-        if(word === "PM" || word === "AM"){
-          newText += word + " " + abbr
-        }
-        else{
-          newText += word + " "
-        }
-      }
-      el.innerHTML = newText
+      el.innerHTML = `Event Date: ${time}`;  
     });
   });
 </script>

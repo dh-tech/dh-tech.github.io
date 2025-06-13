@@ -51,7 +51,7 @@ jobs:
       - name: Install jq for fetch script
         run: sudo apt-get update && sudo apt-get install -y jq
       - name: Run Zotero fetch script
-        run: ../../themes/hugo-bibliography/fetch-zotero.sh
+        run: ./themes/hugo-bibliography/fetch-zotero.sh
 
       - name: Build with Hugo
         env:

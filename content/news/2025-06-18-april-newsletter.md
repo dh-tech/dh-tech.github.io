@@ -3,14 +3,15 @@ layout: post
 title: DHTech April Newsletter
 date: 2025-06-18T10:00:00
 author: DHTech
-thumbnail: 
-featureImage: 
-featureImageAlt: 
+thumbnail: /images/posts/hippo-letter.png
+featureImage: /images/posts/hippo-letter.png
+featureImageAlt: A hippo holding a letter in its mouth
 slug: 2025-april-newsletter
 tags:
     - newsletter
 summary: USRSE'25 in Philadelphia, Steering Comittee Changes, DHTech RSE Survey - Last Call, DHTech at DH2025, Submit Code for Review, Tell us About Your Career Path, Become a Code Review Facilitator, DHTech Job Board 
 ---
+
 
 Subject: DHTech April, well May…, Newsletter
 

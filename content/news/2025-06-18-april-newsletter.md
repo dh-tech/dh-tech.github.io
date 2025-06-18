@@ -5,8 +5,7 @@ date: 2025-06-18T10:00:00
 author: DHTech
 thumbnail: 
 featureImage: 
-
-featureImageAlt: DH hippo with a letter to you from DH Tech
+featureImageAlt: 
 slug: 2025-april-newsletter
 tags:
     - newsletter

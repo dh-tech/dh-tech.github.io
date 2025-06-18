@@ -17,13 +17,16 @@ Subject: DHTech April, well May…, Newsletter
 ## News from the DHTech Community 
 
 
-Dear DHTech member, 
+DHTech member, 
 
 We completely missed sending out our April newsletter! Where did April go? To make up for it, we put some extra work into this one. Starting with the joke of the month!
 
 Son: Dad, how did you come up with my name?
+
 Dad: Well, son, I worked countless hours to write an AI that would tell me the absolute best name for you.
+
 Son: Wow, cool, thank you, dad!
+
 Dad: You’re welcome, Syntax Error On Line 125!
 
 So stupid, so good 😄
@@ -58,7 +61,7 @@ The survey results will be presented as a poster at DH2025. We will **close the 
 
 ### DHTech at DH2025
 
-DHTech is organizing a mini-conference at [DH2025](https://dh2025.adho.org/), **the Digital Humanities Tech Symposium!** The symposium will be held on **Monday, July 1:30 to 6pm**. The program will be posted on [our website](https://dh-tech.github.io/) soon, so keep an eye out for it and join us in Lisbon!
+DHTech is organizing a mini-conference at [DH2025](https://dh2025.adho.org/), **the Digital Humanities Tech Symposium!** The symposium will be held on **Monday, July 1:30 to 6:30pm**. The program will be posted on [our website](https://dh-tech.github.io/) soon, so keep an eye out for it and join us in Lisbon!
 
 Want to get involved in the symposium? We're looking for **session moderators** to introduce speakers and help keep sessions on time. Email the Steering Committee or get in touch on Slack if you’re interested!
 

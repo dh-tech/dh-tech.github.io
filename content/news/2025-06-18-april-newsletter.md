@@ -13,12 +13,8 @@ summary: USRSE'25 in Philadelphia, Steering Comittee Changes, DHTech RSE Survey 
 ---
 
 
-Subject: DHTech April, well May…, Newsletter
-
 ## News from the DHTech Community 
 
-
-DHTech member, 
 
 We completely missed sending out our April newsletter! Where did April go? To make up for it, we put some extra work into this one. Starting with the joke of the month!
 

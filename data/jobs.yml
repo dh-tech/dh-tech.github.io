@@ -51,4 +51,22 @@ jobs:
     post_date: 2025-05-02
     closes_on: May 26, 2025
     post_until: 2025-05-27
+  - organization: International Mozarteum Foundation Salzburg	
+    country: Austria
+    job_title: Web Developer
+    description: |
+      This position involves full‑stack web development for the Digitale Mozart‑Edition, designing and maintaining the architecture and tools for the interactive, XML‑based music editions. You'll collaborate on innovative Digital Humanities projects - primarily the Digital‑Interactive Mozart‑Edition - using technologies like PHP/JavaScript/Python, Docker, CI/CD, and XML, all within a flexible environment at International Mozarteum Foundation Salzburg.
+    link: https://dme.mozarteum.at/wp-content/uploads/2025/06/Web-Developer-2025_V2_ENG_MBpub.pdf
+    post_date: 2025-06-30
+    closes_on: 31 August 2025
+    post_until: 2025-08-31
+  - organization: International Mozarteum Foundation Salzburg	
+    country: Austria
+    job_title: Digital Humanities Expert
+    description: |
+      This position involves developing and advising on digital methods, metadata standards, and user-centered tools to enhance the sustainability, scholarly impact, and interactive access to Mozart’s digital editions and related Digital Humanities projects.
+    link: https://dme.mozarteum.at/wp-content/uploads/2025/06/DH-Expert_2025_V2_ENG_MBpub.pdf
+    post_date: 2025-06-30
+    closes_on: 31 August 2025
+    post_until: 2025-08-31
     

@@ -24,7 +24,7 @@ From July 14-18, 2025, [DH2025](https://dh2025.adho.org) will be held at NOVA Un
 
 <table>
 <tr>
-<th colspan=3>Session 1 - Moderator: tbd </th>
+<th colspan=3>Session 1 - Moderator: Robert Casties </th>
 </tr>
 
 <tr>
@@ -82,7 +82,7 @@ The presentation will describe the handling of DOI identifiers that are being cr
 
 
 <tr>
-<th colspan=3>Session 2 - Moderator: tbd</th>
+<th colspan=3>Session 2 - Moderator: Julia Damerow</th>
 </tr>
 
 <tr>
@@ -116,7 +116,7 @@ The presentation will describe the handling of DOI identifiers that are being cr
 <table>
 
 <tr>
-<th colspan=3>Session 3 - Moderator: tbd</th>
+<th colspan=3>Session 3 - Moderator: Jose Hernandez</th>
 </tr>
 
 <tr>
@@ -173,7 +173,7 @@ demonstrate current functionality and capabilities of this library. The demonstr
 <table>
 
 <tr>
-<th colspan=3>Session 4 - Moderator: tbd </th>
+<th colspan=3>Session 4 - Moderator: Jeffrey Tharsen </th>
 </tr>
 
 <tr>

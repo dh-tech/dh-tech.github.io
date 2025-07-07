@@ -6,7 +6,7 @@ author: DHTech
 slug: 2025-june-newsletter
 tags:
     - newsletter
-summary: DH2025 - Digital Humanities Tech Symposium, DHTech Bibliography, Submit Code for a Review,Tell us About Your Career Path, Become a Code Review Facilitator, DHTech Job Board
+summary: DH2025 - Digital Humanities Tech Symposium, DHTech Bibliography, Submit Code for a Review, Tell us About Your Career Path, Become a Code Review Facilitator
 ---
 
 

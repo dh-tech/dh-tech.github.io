@@ -21,7 +21,8 @@
   {{ if .Params.event_date }}
   {{- if ($scratch.Get "writeSeparator") }}&nbsp;· {{ end }}
   <span>{{ partial "sprite" (dict "icon" "calendar") }}</span>
-  <span class="post_date" data-datetime="{{ .Params.event_date }}">
+  <!-- this in-line style is to prevent a space before the comma separating time and date without effecting other parts of the post -->
+  <span style="margin-right: 0;" class="post_date" data-datetime="{{ .Params.event_date }}">
     Event date: {{ time.Format "Mon Jan 2, 2006 at 3:04 PM " .Params.event_date -}} 
   </span>
   <span>

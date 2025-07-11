@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Introducing Hugo-Bibliography" 
-date: 2025-05-23T18:45:24Z # Date of post creation.
+date: 2025-07-11T18:45:24Z
 thumbnail: 
 featureImage: 
 featureImageCap: 

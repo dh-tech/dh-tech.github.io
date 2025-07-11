@@ -16,4 +16,4 @@ Hugo-Bibliography ships with a Bash script to fetch data from Zotero groups auto
 
 Hugo-Bibliography is an open source project. Contributions are encouraged and welcome. If you would like to contribute, please raise issues or open pull request in the [Hugo-Bibliography GitHub repository](https://github.com/dh-tech/Hugo-bibliography).
 
-Hugo-Bibliography is currently being used on the DHTech website on the publications page. For more details, check out Hugo-bibliography's [github repo](https://github.com/dh-tech/Hugo-bibliography)
+Hugo-Bibliography is currently being used on the DHTech website on the publications page. For more details, check out Hugo-bibliography's [GitHub repository](https://github.com/dh-tech/Hugo-bibliography).

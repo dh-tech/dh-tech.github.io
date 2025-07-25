@@ -51,4 +51,14 @@ jobs:
     post_date: 2025-05-02
     closes_on: May 26, 2025
     post_until: 2025-05-27
+  
+  - organization: ACDH, Austrian Academy of Sciences
+    country: Vienna, Austria
+    job_title: Research Software Engineer
+    description: "(part time or full time), in the project Dictionary of Bavarian Dialects in Austria (https://www.oeaw.ac.at/acdh/wboe-project-cluster)."
+    link: https://www.oeaw.ac.at/en/oeaw-home/jobs?jh=punhkj4u2t4arvfezyj2l1asov24b0w
+    post_date: 2025-07-01
+    closes_on: available until position is filled
+    post_until: 2025-10-31  
     
+

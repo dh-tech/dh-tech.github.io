@@ -10,7 +10,7 @@ DHTech members with a common interest can form a DHTech working group. To be con
 
 The benefits of being recognized as an official working group are that the group:
 - is included on the list of working groups on this page.
-- can optionally have their own github repository and website under the DHTech GitHub organization (e.g. https://github.com/dh-tech/wg-education-training).
+- can optionally have their own GitHub repository and website under the DHTech GitHub organization.
 - can apply to use some of the money we get from ADHO as a SIG to further the work of the working group.
 
 
@@ -24,5 +24,5 @@ Guides for submitting code for review or volunteering to become a reviewer are a
 
 ## Education & Training Working Group
 
-The [Education & Training Working Group](https://dh-tech.github.io/wg-education-training/) focuses on creating a collection of educational materials in topics such as version control, documentation practices, and packaging while highlighting DH use cases. The group meets on the second Thursday of every month 9am-10pm ET/ 3 pm- 4pm CET. Please join the `#education-wg` channel on Slack or get in touch with Jose Hernandez (jah22q@fsu.edu) if you are interested in joining.
+The [Education & Training Working Group](https://dh-tech.github.io/wg-education-training/) focuses on creating a collection of educational materials in topics such as version control, documentation practices, and packaging while highlighting DH use cases. The group meets on the second Thursday of every month 9am-10pm ET/3pm-4pm CET. Please join the `#education-wg` channel on Slack or get in touch with Jose Hernandez (jah22q@fsu.edu) if you are interested in joining.
 

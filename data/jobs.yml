@@ -61,4 +61,14 @@ jobs:
     closes_on: available until position is filled
     post_until: 2025-10-31  
     
+  - organization: Lyrasis
+    country: Remote (US Organization)
+    job_title: Consulting Contract - Community Supported Technologies Interoperability Project 
+    description: Lyrasis is seeking proposals for a 9-month consulting project to develop a set of technical specifications. These specifications are for integrations that will be built (in a separate phase of the project) to enable interoperability workflows among the Community Supported Technologies that are part of its Organizational Home and/or between these applications and other, open-source applications in the cultural heritage and open-scholarship ecosystem.
+    link: https://lyrasis.org/wp-content/uploads/2025/08/Lyrasis-Interoperability-Project-RFP-2025.pdf
+    post_date: 2025-08-04
+    closes_on: 2025-08-30
+    post_until: 2025-08-30
+
+
 

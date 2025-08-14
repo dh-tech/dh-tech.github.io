@@ -89,4 +89,13 @@ jobs:
     closes_on: 31 August 2025
     post_until: 2025-08-31
 
+  - organization: Lyrasis
+    country: U.S
+    job_title: Junior Developer, ArchiveSpace
+    description: The Junior Developer will work primarily on user-facing development in the ArchivesSpace application. They will implement, test, and document features and fix bugs identified and prioritized by the ArchivesSpace community, and communicate effectively with program staff, community members, and other code contributors. This is a three-year term position with the possibility for continuation dependent on funding.
+    link: https://lyrasis.isolvedhire.com/jobs/1570217
+    post_date: 2025-08-14
+    closes_on: 13 August 2025
+    post_until: 2025-08-13
+
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: DHTech August Newsletter
-date: 2025-08-31T10:00:00
+date: 2025-09-04T10:00:00
 author: DHTech
 slug: 2025-august-newsletter
 tags:

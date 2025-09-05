@@ -24,9 +24,16 @@ menu:
   - name: job board
     pageRef: /job-board
     weight: 7
-  - name: literature
-    pageRef: /literature
+  - name: Dh-Tech Projects
+    identifier: projects
     weight: 8
+    pageRef: /literature
+  - name: Literature
+    pageRef: /literature
+    parent: projects
+  - name: Community Projects
+    parent: projects
+    pageRef: /community-projects
   - name: join us
     pageRef: /join
     weight: 9

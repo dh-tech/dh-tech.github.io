@@ -9,12 +9,17 @@ menu:
   - name: about
     pageRef: /about
     weight: 1
+  - name: read
+    weight: 2
+    identifier: read
   - name: news
     pageRef: /news/
-    weight: 2
+    parent: read
+    weight: 1
   - name: blog
     pageRef: /blog/
-    weight: 4
+    parent: read
+    weight: 2
   - name: sig
     pageRef: /SIG
     weight: 5

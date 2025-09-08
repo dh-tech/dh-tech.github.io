@@ -3,7 +3,7 @@ layout: post
 title: DHTech September Meetup
 slug: DHTech September Meetup
 date: 2025-09-05
-event_date: 2025-09-05T12:00:00-04:00
+event_date: 2025-09-11T12:00:00-04:00
 author: DHTech
 registration: https://asu.zoom.us/meeting/register/xE0TTnFfSfqp6XtxzYjwNA
 

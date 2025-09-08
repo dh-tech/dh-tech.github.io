@@ -24,7 +24,7 @@ menu:
   - name: job board
     pageRef: /job-board
     weight: 7
-  - name: Dh-Tech Projects
+  - name: DHTech Projects
     identifier: projects
     weight: 8
     pageRef: /literature

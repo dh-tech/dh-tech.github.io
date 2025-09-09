@@ -27,7 +27,7 @@ DHTech is a community of people doing technical work in the digital humanities. 
 
 ## Former Steering Committee
 
-* [Itay Zandbank](https://www.linkedin.com/in/zambaq/) (2021-2022)
+* [Itay Zandbank](https://www.linkedin.com/in/zambaq/) (2021-2022) <br/>
   CEO, The Research Software Company
 * [Cole Crawford](https://digitalhumanities.fas.harvard.edu/person/cole-crawford/) (2023-2024)<br/>
   Senior Software Engineer, Arts and Humanities Research Computing, Harvard University

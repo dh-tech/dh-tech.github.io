@@ -8,12 +8,11 @@ aliases:
 
 DHTech is a community of people doing technical work in the digital humanities. Since 2021, we are a [Special Interest Group (SIG)](https://adho.org/sigs/) of the [Alliance of Digital Humanities Organizations (ADHO)](https://adho.org/).
 
+
 ## Steering Committee
 
 * [Robert Casties](https://www.mpiwg-berlin.mpg.de/users/casties) (2021-2024)<br/>
   Research Scholar, Research-IT, Max Planck Institute for the History of Science
-* [Cole Crawford](https://digitalhumanities.fas.harvard.edu/person/cole-crawford/) (2023-2024)<br/>
-  Senior Software Engineer, Arts and Humanities Research Computing, Harvard University
 * [Julia Damerow](https://diging.asu.edu/people/index.html) (2021-2025)<br/>
   Lead Scientific Software Engineer, Digital Innovation Group and School of Complex Adaptive Systems, Arizona State University
 * [Jose Angel Hernandez]() (2024-2025)<br/>
@@ -28,9 +27,10 @@ DHTech is a community of people doing technical work in the digital humanities. 
 
 ## Former Steering Committee
 
-* [Itay Zandbank](https://www.linkedin.com/in/zambaq/) (2021-2022)
+* [Itay Zandbank](https://www.linkedin.com/in/zambaq/) (2021-2022) <br/>
   CEO, The Research Software Company
-
+* [Cole Crawford](https://digitalhumanities.fas.harvard.edu/person/cole-crawford/) (2023-2024)<br/>
+  Senior Software Engineer, Arts and Humanities Research Computing, Harvard University
 
 ## Repository Maintainers
 

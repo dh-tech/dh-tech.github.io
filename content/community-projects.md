@@ -7,11 +7,13 @@ Welcome to the creative core of DHTech! The DHTech community thrives on collabor
 
 ## [Hugo-Bibliography](https://github.com/dh-tech/hugo-bibliography)
 
-Hugo Bibliography is an open-source Hugo plugin designed to help you fetch and format bibliography data to include into your Hugo site. It comes with a series of shortcodes, scripts to fetch bibliographic data, and built-in features to format your bibliography
+Hugo Bibliography is an open-source Hugo plugin designed to help you fetch and format bibliography data to include into your Hugo site. It comes with a series of shortcodes, scripts to fetch bibliographic data, and built-in features to format your bibliography.
 
 **Core Maintainers:**
 
 - [Tatsat Jha](https://github.com/tatsatjha)
+
+&nbsp;
 
 ## [Undate](https://github.com/dh-tech/undate-python)
 
@@ -20,6 +22,8 @@ Undate is a python library for working with uncertain or partially known dates. 
 **Core Maintainers:**
 
 - [Rebecca Sutton Koeser](https://github.com/rlskoeser)
+
+&nbsp;
 
 ## [Awesome-Digital-Humanities](https://dh-tech.github.io/awesome-digital-humanities/)
 

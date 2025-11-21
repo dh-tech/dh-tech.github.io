@@ -1,9 +1,12 @@
 ---
 layout: post
 title: DHTech November Newsletter
-date: 2025-09-04T10:00:00
+date: 2025-11-18T10:00:00
+thumbnail: /images/posts/meercat-newsletter.jpg
 author: DHTech
 slug: 2025-november-newsletter
+featureImage: /images/posts/meercat-newsletter.jpg
+feaatureImageAlt: A meercat saying "Wait this is the last newsletter of 2025? I didn't emotionally prepare for this!"
 tags:
     - newsletter
 summary: Digital Humanities Tech Symposium 2025 Proceedings, Nominate yourself for the DHTech Steering Committee, Technical track at DH2026, DHTech Posters at DH2025 and USRSE’25, Digital Humanities Tech Symposium at DH2026
@@ -50,7 +53,7 @@ The DHTech SIG is once again planning a “Tech Symposium” to be held at next 
 
 ### Upcoming Deadline
 
-**Submit Code For Review!**December 31**  A description of the process and what it takes to have your code reviewed can be found [on the code review website](https://dhcodereview.github.io/).
+**Submit Code For Review!** The next submission deadline for code review requests is coming up on **December 31**  A description of the process and what it takes to have your code reviewed can be found [on the code review website](https://dhcodereview.github.io/).
 
 ### Get Involved!
 

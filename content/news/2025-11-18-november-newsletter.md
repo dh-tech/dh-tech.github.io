@@ -43,9 +43,9 @@ Submission deadline for DH2026 is **December 8, 2025**, 11:59 PM KST. You can fi
 DHTech presented posters at two conferences this year: [DH2025](https://dh2025.adho.org/) and [USRSE’25](https://us-rse.org/usrse25/). Our poster [“Surveying the Digital Humanities Research Software Engineering Landscape”](https://zenodo.org/records/15863899) presented the results of the DHTech survey we ran earlier this year. Fun fact: the “typical” DH developer works in a small team of no more than three people, is (at least in part) self-taught, and programs in Python. Who would have thought? 😉 Our second poster, [“Community Code Review in the Digital Humanities,”](https://zenodo.org/records/17315401) presented the efforts of the DHTech Code Review Working Group. It described the community code review process overseen by the group and provided an overview of its impact, current challenges, and future work. Both posters are available on Zenodo.
 
 
-Damerow, J., Koeser, R., & Crawford, C. (2025). Surveying the Digital Humanities Research Software Engineering Landscape. Digital Humanities Conference 2025 (DH2025), Lisbon, Portugal. Zenodo. [https://doi.org/10.5281/zenodo.15863899](https://doi.org/10.5281/zenodo.15863899)
+- Damerow, J., Koeser, R., & Crawford, C. (2025). Surveying the Digital Humanities Research Software Engineering Landscape. Digital Humanities Conference 2025 (DH2025), Lisbon, Portugal. Zenodo. [https://doi.org/10.5281/zenodo.15863899](https://doi.org/10.5281/zenodo.15863899)
 
-Damerow, J., Koeser, R., Vogl, M., & Carver, J. (2025). Community Code Review in the Digital Humanities. US Research Software Engineering Conference 2025 (USRSE'25), Philadelphia, PA. Zenodo. [https://doi.org/10.5281/zenodo.17315401](https://doi.org/10.5281/zenodo.17315401)
+- Damerow, J., Koeser, R., Vogl, M., & Carver, J. (2025). Community Code Review in the Digital Humanities. US Research Software Engineering Conference 2025 (USRSE'25), Philadelphia, PA. Zenodo. [https://doi.org/10.5281/zenodo.17315401](https://doi.org/10.5281/zenodo.17315401)
 
 ### Digital Humanities Tech Symposium at DH2026: Call for Organizers and Participants
 
@@ -63,11 +63,11 @@ The DHTech SIG is once again planning a “Tech Symposium” to be held at next 
 
 ### Latest Blog Posts
 
-Let’s take a moment to celebrate ourselves! by Julia Damerow
+- [Let’s take a moment to celebrate ourselves!](https://dh-tech.github.io/blog/2025/10/01/lets-take-a-moment-to-celebrate-ourselves/) by Julia Damerow
 
-DHTech Steering Committee Nominations 2025 by DHTech Steering Committee
+- [DHTech Steering Committee Nominations 2025](https://dh-tech.github.io/2025-sc-nominations/) by DHTech Steering Committee
 
-The Digital Humanities Tech Symposium Proceedings are Published! by DHTech
+- [The Digital Humanities Tech Symposium Proceedings are Published!](https://dh-tech.github.io/2025/11/03/2025-dhtech-symposium-proceedings/) by DHTech
 
 ### DHTech Job Board
 

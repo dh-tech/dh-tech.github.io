@@ -98,4 +98,12 @@ jobs:
     closes_on: 27 August 2025
     post_until: 2025-08-27
 
+  - organization: Princeton University
+    country: U.S
+    job_title: Lead Research Software Engineer
+    description: The Lead Research Software Engineer in Princeton’s Department of Research Computing provides technical leadership for a team of engineers to develop high-quality software solutions for AI and computational research across multiple disciplines. The role involves collaborating with faculty and researchers to implement advanced machine learning techniques while promoting best practices in software engineering and reproducible science.
+    link: https://main-princeton.icims.com/jobs/21397/lead-research-software-engineer/job?mode=view
+    post_date: 2026-01-06
+    closes_on: 31 March 2026
+    post_until: 2026-03-31
 

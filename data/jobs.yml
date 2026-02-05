@@ -106,4 +106,12 @@ jobs:
     post_date: 2026-01-06
     closes_on: 31 March 2026
     post_until: 2026-03-31
+  - organization: Austrian Centre for Digital Humanities (ACDH), Austrian Academy of Sciences
+    country: Austria
+    job_title: Research Data Manager (F/M/X)
+    description: You will join an internationally networked team, pursuing research at the intersection between information and communication technology and humanities studies. You will contribute to the team’s core task of curating, managing, preserving and publishing research data, both on the conceptual and the practical level - by curating resources submitted for long-term preservation in the institute’s trusted and certified repository ARCHE, by providing support prior to submission, and by actively and collaboratively shaping workflows and best practices. This area of work is embedded within infrastructural initiatives on national and European level, such as CLARIAH-AT, CLARIN, DARIAH and EOSC. Collaboration and coordination with various national and international activities in accordance with Open Science and FAIR principles are an integral part of the position. 
+    link: https://www.oeaw.ac.at/acdh/institute/open-positions
+    post_date: 2026-02-05
+    closes_on: February 28, 2026
+    post_until: 2026-02-28
 

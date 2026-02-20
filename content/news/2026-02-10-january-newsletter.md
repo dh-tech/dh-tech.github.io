@@ -28,7 +28,7 @@ Because he couldn’t float.
 With AI coding agents and chatting computers the landscape of software development as a profession in DH is shifting. How does this shift reflect in the perspective for students, how are professionals adjusting their day to day business? How do we balance the potential loss of quality in research software with the benefit of making software development more accessible? In our February meetup we invite perspectives from the academic and for-profit sector with diverse levels of seniority to reflect on new challenges and old problems for research software development in the age of AI. 
 
 
-When? **February 26 at 10am ET/3pm CET** ([find your local time](https://www.timeanddate.com/worldclock/converter.html?iso=20260226T150000&p1=tz_pt&p2=tz_ct&p3=tz_et&p4=tz_cet&p5=tz_mt)).
+When? **February 26 at 10am ET/4pm CET** ([find your local time](https://www.timeanddate.com/worldclock/converter.html?iso=20260226T150000&p1=tz_pt&p2=tz_ct&p3=tz_et&p4=tz_cet&p5=tz_mt)).
 
 Where? On Zoom ([please register](https://asu.zoom.us/meeting/register/35ChIJI2RfmaHYYbVhscPw))
 
@@ -47,7 +47,7 @@ David Ragnar Nelson serves as Digital Scholarship Programmer in the Center for D
 ### ACH Request for Feedback 
 
 
-ACH is inviting feedback for ADHO’s ad-hoc peer review committee. If you have thoughts on ADHO’s peer review process and would like to share them, please respond using their Google form. This is also a chance to share some thoughts on the impact a chosen peer review model can have on technical submissions that include code. 
+ACH is inviting feedback for ADHO’s ad-hoc peer review committee. If you have thoughts on ADHO’s peer review process and would like to share them, please respond using their [Google form](https://docs.google.com/forms/d/e/1FAIpQLSenuRddja9ESvZosapLMu9ZMz0HTLfE5EkZeQ5fze1jTqDBjg/viewform). This is also a chance to share some thoughts on the impact a chosen peer review model can have on technical submissions that include code. 
 
 
 

@@ -123,7 +123,7 @@ jobs:
     post_date: 2026-02-26
     closes_on: 26 March 2026
     post_until: 2026-03-26
- - organization: Princeton University
+  - organization: Princeton University
     country: United States
     job_title: Research Software Engineer Summer Fellow
     description: "A 10-week remote summer fellowship. The fellow will help with developing new language models for error correction of ancient Greek to support philologists on the Princeton Logion Project"

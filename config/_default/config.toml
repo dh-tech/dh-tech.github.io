@@ -2,5 +2,14 @@ DefaultContentLanguage = "en"
 # [languages]
 # config/_default/languages.toml
 
+[outputFormats]
+  [outputFormats.markdown]
+    name = "markdown"
+    baseName = "index"
+    mediaType = "text/markdown"
+    isPlainText = true
+
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+  page = ["HTML", "MARKDOWN"]

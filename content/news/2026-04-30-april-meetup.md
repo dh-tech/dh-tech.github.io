@@ -2,7 +2,7 @@
 layout: post
 title: DHTech April Meetup
 slug: DHTech April Meetup 2026
-date: 2026-03-31
+date: 2026-03-31T11:00:00
 event_date: 2026-04-30T10:00:00-04:00
 thumbnail:
 

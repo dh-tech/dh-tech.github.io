@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DHTech January Newsletter
+title: DHTech March Newsletter
 date: 2026-03-31T10:00:00
 thumbnail: 
 author: DHTech

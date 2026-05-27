@@ -19,6 +19,8 @@ DHTech is a community of people doing technical work in the digital humanities. 
   Florida State University
 * [Rebecca Sutton Koeser](https://cdh.princeton.edu/people/rebecca-sutton-koeser/) (2021-2025)<br/>
   Lead Research Software Engineer, Center for Digital Humanities, Princeton
+* [David Ragnar Nelson](https://github.com/drnelson6) (2026)<br/>
+  Digital Scholarship Programmer, Center for Digital Scholarship, American Philosophical Society
 * [Jeffrey R. Tharsen](http://www.tharsen.net/) (2021-2025)<br/>
   Associate Director of Technology and Lecturer in Digital Studies, University of Chicago
 * [Malte Vogl](https://www.mpiwg-berlin.mpg.de/users/mvogl) (2021-2024)<br/>

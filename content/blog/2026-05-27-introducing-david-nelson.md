@@ -2,7 +2,6 @@
 layout: post
 title: "New Steering Committee Member: David Nelson" # Title of the blog post.
 date: 2026-05-27T11:04:13-04:00 # Date of post creation.
-description: "Article description." # Description used for search engine.
 summary: "Get to know our newest Steering Committee member, David Ragnar Nelson, and learn about his path to a career as a Digital Humanities Research Software Engineer." 
 author: David Ragnar Nelson
 tags:

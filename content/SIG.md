@@ -11,17 +11,19 @@ DHTech is a community of people doing technical work in the digital humanities. 
 
 ## Steering Committee
 
-* [Robert Casties](https://www.mpiwg-berlin.mpg.de/users/casties) (2021-2024)<br/>
+* [Robert Casties](https://www.mpiwg-berlin.mpg.de/users/casties) (2021-2026)<br/>
   Research Scholar, Research-IT, Max Planck Institute for the History of Science
-* [Julia Damerow](https://diging.asu.edu/people/index.html) (2021-2025)<br/>
+* [Julia Damerow](https://diging.asu.edu/people/index.html) (2021-2027)<br/>
   Lead Scientific Software Engineer, Digital Innovation Group and School of Complex Adaptive Systems, Arizona State University
-* [Jose Angel Hernandez]() (2024-2025)<br/>
+* [Jose Angel Hernandez]() (2024-2027)<br/>
   Florida State University
-* [Rebecca Sutton Koeser](https://cdh.princeton.edu/people/rebecca-sutton-koeser/) (2021-2025)<br/>
+* [Rebecca Sutton Koeser](https://cdh.princeton.edu/people/rebecca-sutton-koeser/) (2021-2027)<br/>
   Lead Research Software Engineer, Center for Digital Humanities, Princeton
-* [Jeffrey R. Tharsen](http://www.tharsen.net/) (2021-2025)<br/>
+* [David Ragnar Nelson](https://github.com/drnelson6) (2026-2027)<br/>
+  Digital Scholarship Programmer, Center for Digital Scholarship, American Philosophical Society
+* [Jeffrey R. Tharsen](http://www.tharsen.net/) (2021-2027)<br/>
   Associate Director of Technology and Lecturer in Digital Studies, University of Chicago
-* [Malte Vogl](https://www.mpiwg-berlin.mpg.de/users/mvogl) (2021-2024)<br/>
+* [Malte Vogl](https://www.gea.mpg.de/person/128334/7836) (2021-2026)<br/>
   Research Software Engineer, ModelSEN project, Max Planck Institute of Geoanthropology
 
 

@@ -1,0 +1,24 @@
+---
+layout: post
+title: "New Steering Committee Member: David Nelson" # Title of the blog post.
+date: 2026-05-27T11:04:13-04:00 # Date of post creation.
+summary: "Get to know our newest Steering Committee member, David Ragnar Nelson, and learn about his path to a career as a Digital Humanities Research Software Engineer." 
+author: David Ragnar Nelson
+tags:
+  - WhatsHappening
+  - CareerStories
+---
+
+Hello, DHTech community! My name is David Ragnar Nelson and I am the newest member of the DHTech Steering Committee. I currently serve as Digital Scholarship Programmer at the American Philosophical Society, an independent research library and archive in Philadelphia. While I work in an archival setting, my primary responsibities concern maintaining and advancing our portfolio of digital humanities projects. For this reason, I am particularly excited to work with DHTech as it gives me the opportunity to bridge the gap between DH work in galleries, libraries, archives, and museums (GLAM) and the rest of the field.
+
+My day-to-day work consists primarmily of software development, though I also help out developing content and data for our projects when time allows and necessity requires. In terms of technical interests, I work primarily on web development in Django and static site generators (Hugo and Jekyll). I also work on data visualization, network analysis, and machine learning methods for extraction of data from archival sources, such as Automatic Speech Recognition and Automatic Text Recognition. I am part of a team of two developers, with occasional code contributions from other staff and external partners.
+
+I also wanted to take this opportunity to provide some information on my background and career development, as ending up in a technical role is certainly not where I thought I would be as a young graduate student. I received my Bachelor's degree in Germanics and Compartive Literature from the University of Washington and set out to embark on a fairly "traditional" academic career path. I began work towards a PhD in Germanic Languages and Literatures at the University of Pennsylvania and selected a very traditional dissertation topic without any digital methods. 
+
+As I began to do archival research to write my dissertation, I realized two things: first, I was much more interested in working directly with the sources than a traditional academic path would allow, and second, technical methods were not only really cool but were urgently useful for these materials. When my university offered a weekend-long workshop on Python for Humanists, I jumped at the opportunity to pick up some new skills. I was hooked and helped start a Python for Humanists working group where some colleagues and I could informally pick up technical skills on the side.
+
+But how to leverage this into a career? As my dissertation did not use technical methods, I had to develop a side project. Fortunately, I was able to join an ongoing project at the Kislak Center for Special Collections on [Francis Daniel Pastorius's "Bee-Hive" manuscript](https://kislakcenter.github.io/digital-beehive/). The project sought to create a digital representation of complex manuscript annotations and was a perfect career entry for me. As the primary web developer, I built a web interface using Jekyll and managed complex data representations with a series of Python scripts. Looking back on this project, I was definitely flying by the seat of my pants, but it gave me the necessary skills to start my career. Getting the chance to work directly with the center's main developer Doug Emery introduced me to formal principles of software engineering that allowed me to grow into the developer I am today.
+
+I finished my dissertation in May of 2020, which was not a joyous time to be on the job market. It took me some time, but eventually a job opened at the American Philosophical Society for a Digital Projects Specialist. My previous work in doing DH in a special collections setting made me a natural candidate and I was hired. One of the nice things about getting your career start at a smaller institution is that you can have lots of room to shape how you want both the institution's projects to advance and how your own career to develop. As the only full-time DH staff member at the start, I was able to help shape projects to develop the skills and expertise I needed. My role has changed a lot since I was hired, moving from more of a project support role to the institution's primary developer.
+
+I look forward to serving on the Steering Committee! If you'd like to know more about my work, please feel free to get in touch on Slack.

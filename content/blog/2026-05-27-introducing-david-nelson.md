@@ -6,6 +6,7 @@ summary: "Get to know our newest Steering Committee member, David Ragnar Nelson,
 author: David Ragnar Nelson
 tags:
   - WhatsHappening
+  - CareerStories
 ---
 
 Hello, DHTech community! My name is David Ragnar Nelson and I am the newest member of the DHTech Steering Committee. I currently serve as Digital Scholarship Programmer at the American Philosophical Society, an independent research library and archive in Philadelphia. While I work in an archival setting, my primary responsibities concern maintaining and advancing our portfolio of digital humanities projects. For this reason, I am particularly excited to work with DHTech as it gives me the opportunity to bridge the gap between DH work in galleries, libraries, archives, and museums (GLAM) and the rest of the field.

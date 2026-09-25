@@ -131,6 +131,12 @@ jobs:
     post_date: 2026-03-06
     closes_on: 31 March 2026
     post_until: 2026-04-01
-
-
+  - organization: King's College London
+    country: United Kingdom
+    job_title: Senior Research Software Engineer
+    description: A software engineering role within King's Digital Lab, responsible for working together with researchers to design, build and maintain systems, infrastructure, tools and processes for a diverse range of high-quality digital scholarship in Arts & Humanities
+    link:  https://www.kcl.ac.uk/jobs/158445-senior-research-software-engineer
+    post_date: 2026-09-25
+    closes_on: 4 October 2026
+    post_until: 2026-10-04
 

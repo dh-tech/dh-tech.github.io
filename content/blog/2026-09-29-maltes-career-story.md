@@ -9,7 +9,7 @@ tags:
   - CareerStories
 ---
 
-Hello Community, I am Malte Vogl and have been part of the steering committee since its beginning. Colleagues have told me I have made a “career” in DH, but thinking back about my personal development in the field of DH it never felt like a straight forward path. In hindsight the different parts form a coherent picture, but each individual change was driven more by curiostiy than strategic planning. 
+Hello Community, I am Malte Vogl and have been part of the steering committee since its beginning. Colleagues have told me I have made a “career” in DH, but thinking back about my personal development in the field of DH it never felt like a straight forward path. In hindsight the different parts form a coherent picture, but each individual change was driven more by curiosity than strategic planning. 
 
 My most recent stage of this path is a position at the DH branch of the Berlin-Brandenburg Academy of Sciences and Humanities, which has a quite unique name: [The Electronic Life of the Academy](https://www.bbaw.de/en/bbaw-digital/telota). My academic background is however quite different actually. I studied Physics and did my PhD in quantum transport quite a while ago. What brought me to DH was a job advert and luck. In 2016 DH was still young and the idea of a research software engineer for DH was hardly heard of. A joint research project from the [Max Planck Institute for the History of Science](https://www.mpiwg-berlin.mpg.de) and the Humboldt University Berlin was looking for a general research software developer in the context of a cluster of excellency program. I applied and got the position, which is how my long time adventure with DH started.
 

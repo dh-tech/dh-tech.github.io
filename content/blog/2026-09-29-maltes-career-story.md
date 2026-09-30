@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Maltes Career Story" # Title of the blog post.
+title: "Malte's Career Story" # Title of the blog post.
 date: 2026-09-29T15:37:59+02:00 # Date of post creation.
 summary: "When does a chain of job decisions become a career? Malte Vogl, a long-time Steering Committee member, reflects about his way from Physics to Digital Humanities and the curious interplay of slow science and fast tech." 
 author: Malte Vogl

@@ -38,6 +38,9 @@ menu:
   - name: Community Projects
     parent: projects
     pageRef: /community-projects
+  - name: Zenodo
+    url: https://zenodo.org/communities/dhtech/records
+    parent: projects
   - name: join us
     pageRef: /join
     weight: 9

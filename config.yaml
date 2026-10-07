@@ -38,8 +38,8 @@ menu:
   - name: Community Projects
     parent: projects
     pageRef: /community-projects
-  - name: Zenodo
-    url: https://zenodo.org/communities/dhtech/records
+  - name: DHTech on Zenodo
+    url: 
     parent: projects
   - name: join us
     pageRef: /join
@@ -93,4 +93,4 @@ params:
 
 security:
   allowContent:
-    - '.*'
+    - '.html'

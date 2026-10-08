@@ -38,6 +38,9 @@ menu:
   - name: Community Projects
     parent: projects
     pageRef: /community-projects
+  - name: Zenodo
+    url: https://zenodo.org/communities/dh-tech/
+    parent: projects
   - name: join us
     pageRef: /join
     weight: 9
@@ -87,3 +90,7 @@ params:
   showShare: false
   ga_analytics: G-P55LD1R62C
   groupId: 5010351 
+
+security:
+  allowContent:
+    - '.*'

@@ -1,0 +1,13 @@
+{{ $data := .Inner | transform.Unmarshal }}
+
+<div class="community-project">
+<h2><a href="{{ .Get "url" }}">{{ .Get "title" }}</a></h2>
+<p>{{ .Get "description" }}</p>
+<strong>Core Maintainers:</strong>
+    <ul>
+    {{ range $data.maintainers }}
+    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+    {{ end }}
+    </ul>
+</div>
+

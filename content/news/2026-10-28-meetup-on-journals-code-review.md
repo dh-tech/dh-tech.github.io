@@ -3,7 +3,7 @@ title: "Code Review and Sustainability in the Digital Humanities Publication Lan
 date: 2026-10-28T16:12:09-04:00 
 categories:
   - Technology
-summary: "On May 28, 2026, DHTech convened a meetup on how some degree of code review can be integrated into the digital humanit. The lively discussion provided examples of practical workflows with low bars for entry that could be used as part of journal publications or conferences. While a full code review may often be impractical, simpler forms of verification help create community, increase code quality, and promote reproducibility."
+summary: "On June 4, 2026, DHTech convened a meetup on how some degree of code review can be integrated into the digital humanit. The lively discussion provided examples of practical workflows with low bars for entry that could be used as part of journal publications or conferences. While a full code review may often be impractical, simpler forms of verification help create community, increase code quality, and promote reproducibility."
 tags:
   - meetup
   - event

@@ -39,7 +39,7 @@ menu:
     parent: projects
     pageRef: /community-projects
   - name: Zenodo
-    url: https://zenodo.org/communities/dh-tech/
+    url: https://zenodo.org/communities/dhtech/
     parent: projects
   - name: join us
     pageRef: /join

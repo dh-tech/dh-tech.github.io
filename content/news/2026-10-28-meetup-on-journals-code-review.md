@@ -4,10 +4,13 @@ date: 2026-10-28T16:12:09-04:00
 categories:
   - Technology
 summary: "On June 4, 2026, DHTech convened a meetup on how some degree of code review can be integrated into the digital humanit. The lively discussion provided examples of practical workflows with low bars for entry that could be used as part of journal publications or conferences. While a full code review may often be impractical, simpler forms of verification help create community, increase code quality, and promote reproducibility."
+thumbnail: images/posts/code-bookshelf
 tags:
   - meetup
   - event
 ---
+
+![Code in front of a bookshelf by Gemini.::quarter-width](/images/posts/code-bookshelf.jpeg)
 
 Raising the visibility of code published alongside a research paper remains an ongoing challenge. While many papers using computational methods rely upon code to come to their findings, the code and underlying data are not always published. And when published, they are not always subject to the same rigor and review as the paper itself.
 

@@ -9,7 +9,7 @@ The site is implemented with [Hugo](https://gohugo.io/) and uses the [Hugo Clari
 To have a page show up in the "featured posts" in the sidebar, simply
 add `featured: true` to the page metadata.
 
-## Setup instructions
+## Hugo Setup instructions
 
 ### Hugo setup
 
@@ -27,21 +27,35 @@ This should result in output something like this:
 
 The Clarity theme is currently installed as a [Hugo module](https://gohugo.io/hugo-modules/use-modules/) instead of a git submodule. Installing modules requires the Go language to be installed; we may instead want to use `hugo mod vendor` to write and check-in all modules into a local `_vendor` directory so that installing Go locally is not required for contributing to the site.
 
+Update the git submodules:
+
+```sh
+git submodule update --init --recursive 
+```
+
 To run the site locally for development:
 ```sh
 hugo server
 ```
 
-or run the following docker command:
+## Docker instructions
+
+You can also run the site locally using Docker.
 
 ```sh
-docker-compose up 
+docker compose up 
+```
+
+If you have a cached version of hugo and would like to run the site using a newer version, you can run:
+
+```sh
+docker compose pull
 ```
 
 when you are done, either stop the process or run the following:
 
 ```sh
-docker-compose down
+docker compose down
 ```
 
 Docker will mount your current working directory inside the container, so changes you save to any files will be picked up by Hugo.

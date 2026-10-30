@@ -5,6 +5,7 @@ categories:
   - Technology
 summary: "On June 4, 2026, DHTech convened a meetup on how some degree of code review can be integrated into the digital humanit. The lively discussion provided examples of practical workflows with low bars for entry that could be used as part of journal publications or conferences. While a full code review may often be impractical, simpler forms of verification help create community, increase code quality, and promote reproducibility."
 thumbnail: images/posts/code-bookshelf.jpeg
+author: David Nelson
 tags:
   - meetup
   - event

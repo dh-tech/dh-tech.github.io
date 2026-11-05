@@ -84,7 +84,7 @@ Static files such as images, slides, PDFs should be added to the top-level `stat
 
 ### PDF generation
 
-PDF generation requires [just][https://github.com/casey/just], [Pandoc](https://pandoc.org/), and a LaTeX
+PDF generation requires [just](https://github.com/casey/just), [Pandoc](https://pandoc.org/), and a LaTeX
 installation with the Eisvogel template's packages. Posts containing SVG images also require `rsvg-convert`
 (`brew install librsvg` on macOS).
 Build the site with `hugo` first, then run:
@@ -98,6 +98,62 @@ the source post in `content/blog/`. The `tools/pdf-links.lua` filter resolves re
 against the post URL on `https://dh-tech.github.io` and uses that production URL in
 the publication credit, even for local Hugo builds. Images remain local; external
 URLs and in-document anchors are unchanged.
+
+#### How Markdown becomes a PDF
+
+PDFs are generated from Hugo's Markdown output, not directly from the source post:
+
+1. `hugo` builds both HTML and Markdown for pages, as configured in
+   [`config/_default/config.toml`](config/_default/config.toml).
+2. [`layouts/_default/single.md`](layouts/_default/single.md) creates
+   `public/<post-url>/index.md`. It includes YAML metadata (title, author, URL,
+   dates, and optional description, keywords, tags, and DOI), adds the feature
+   image if configured, and renders the post content and shortcodes as Markdown.
+3. The `pdf` recipe in [`.justfile`](.justfile) uses `hugo list all` to locate
+   the matching blog post and its built Markdown. Pandoc converts that Markdown
+   to PDF through LaTeX, using the custom template and link filter. Images are
+   resolved from `static/`, code uses Pygments highlighting, and implicit figures
+   are disabled so standalone images do not automatically become captioned figures.
+4. The resulting PDF is saved beside the source Markdown with the same filename
+   and a `.pdf` extension.
+
+Run these commands from the repository root. Rebuild with `hugo` after changing
+content or Markdown layouts; `just pdf` does not rebuild the site automatically.
+
+The Markdown-specific [`figure` shortcode template](layouts/shortcodes/figure.md)
+converts Hugo figure shortcodes to Markdown images for PDF generation. It uses
+`alt` as the image text, prefixes root-relative image paths with `.` so they can
+be resolved locally, and maps a `class` containing `small` to Pandoc's
+`{width=35%}` image attribute. Other figure options, including captions, are not
+currently included in this Markdown output.
+
+TODO: Preserve figure captions in PDF output so image context is not lost;
+consider italic text below images without introducing numbered figures.
+
+#### Custom PDF template
+
+[`tools/eisvogel-dhtech-2.latex`](tools/eisvogel-dhtech-2.latex) is the repository's
+customized [Eisvogel](https://github.com/Wandmalfarbe/pandoc-latex-template) Pandoc
+LaTeX template. The recipe uses this checked-in file explicitly; installing or
+updating a global Eisvogel template will not change the generated PDFs.
+
+The DHTech customizations include:
+
+- A linked DHTech logo in the upper-right page margin.
+- Running headers with the linked post title, optional linked DOI, and DHTech link;
+  footers with author, date, and page number.
+- The article title followed by the author and human-readable publication date.
+- An “Originally published at” credit linking to the production post URL.
+- PDF title metadata with a `DHTech` suffix.
+
+Edit this template to change PDF typography, branding, headers, footers, or the
+publication credit. Its `$variable$` and `$if(variable)$` expressions use Pandoc
+template syntax, not Hugo syntax. Post metadata comes from the Markdown layout;
+the recipe additionally supplies `logo`, and the Lua filter normalizes `url` to
+the production site. Add new metadata fields to the Markdown layout if the PDF
+template needs them; source front matter is not passed through automatically.
+
+#### Logo and SVG images
 
 SVG article images are converted by Pandoc,
 without LaTeX shell escape or Inkscape. The header uses the preconverted grayscale vector

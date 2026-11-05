@@ -30,10 +30,11 @@ The Clarity theme is currently installed as a [Hugo module](https://gohugo.io/hu
 Update the git submodules:
 
 ```sh
-git submodule update --init --recursive 
+git submodule update --init --recursive
 ```
 
 To run the site locally for development:
+
 ```sh
 hugo server
 ```
@@ -43,7 +44,7 @@ hugo server
 You can also run the site locally using Docker.
 
 ```sh
-docker compose up 
+docker compose up
 ```
 
 If you have a cached version of hugo and would like to run the site using a newer version, you can run:
@@ -60,17 +61,18 @@ docker compose down
 
 Docker will mount your current working directory inside the container, so changes you save to any files will be picked up by Hugo.
 
-### Creating a new post
+## Creating a new post
 
 To create a new post on the command line, run:
 
 ```sh
-hugo new -k post content/blog/YYYY-MM-DD-short-title.md 
+hugo new -k post content/blog/YYYY-MM-DD-short-title.md
 ```
 
 To auto-fill in YYYY-MM-DD for the current date, you can use
+
 ```sh
-hugo new -k post content/blog/`date +'%Y-%m-%d`-short-title.md 
+hugo new -k post content/blog/`date +'%Y-%m-%d`-short-title.md
 ```
 
 The `short-title` or "slug" portion will be used for the URL, unless overridden
@@ -78,11 +80,9 @@ in page parameters. In general, slugs should be lowercase and use dashes (kebab 
 
 News and announcements should be created under `content/news` and blog posts should be created under `content/blog`.
 
-Static files such as images, slides, PDFs should be added to the top-level `static/` folder;  post images are generally under `static/images/posts`. 
+Static files such as images, slides, PDFs should be added to the top-level `static/` folder; post images are generally under `static/images/posts`.
 
-### Blog post PDFs & DOIs
-
-Blog posts have support for DOI and PDF generation. For now, this is largely a manual process.
+### PDF generation
 
 PDF generation requires [just][https://github.com/casey/just], [Pandoc](https://pandoc.org/), and a LaTeX
 installation with the Eisvogel template's packages. Posts containing SVG images also require `rsvg-convert`
@@ -112,3 +112,19 @@ gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.5 -dBATCH -dNOPAUSE \
 
 Grayscale conversion requires Ghostscript (`brew install ghostscript` on macOS).
 The intermediate `dhtech-logo-color.pdf` can be removed after conversion.
+
+## DOIs
+
+Publishing blog posts as PDFs with DOIs is a manual process for now.
+
+First, [create a new record for submission to the DHTech Zenodo community](https://zenodo.org/uploads/new?community=dhtech). Reserve a DOI and fill in title, author, and link to the post on the DHTech site; save the record as a draft. Add the reserved DOI to the post metadata in this format:
+
+```yaml
+doi: 10.1/foo.abc123
+```
+
+Then build the site and generate the PDF as described above; the DOI will be included in the header of the PDF.
+
+Review the PDF for any problems, then upload it to Zenodo and publish the record. If the author has an account on Zenodo, share it with them so they have access to edit if needed. Publish the record so the DOI will resolve, then publish an update to the site with the DOI included.
+
+If desired, PDFs can be added to version control and linked in the post parameters.

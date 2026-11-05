@@ -558,17 +558,13 @@ $endif$
 $if(keywords)$
   pdfkeywords={$for(keywords)$$keywords$$sep$, $endfor$},
 $endif$
-$if(colorlinks)$
+$if(boxlinks)$
+$else$
   colorlinks=true,
   linkcolor={$if(linkcolor)$$linkcolor$$else$default-linkcolor$endif$},
   filecolor={$if(filecolor)$$filecolor$$else$default-filecolor$endif$},
   citecolor={$if(citecolor)$$citecolor$$else$default-citecolor$endif$},
   urlcolor={$if(urlcolor)$$urlcolor$$else$default-urlcolor$endif$},
-$else$
-$if(boxlinks)$
-$else$
-  hidelinks,
-$endif$
 $endif$
   breaklinks=true,
   pdfcreator={LaTeX via pandoc with the Eisvogel template}}
@@ -998,8 +994,8 @@ $if(toc-title)$
 \renewcommand*\contentsname{$toc-title$}
 $endif$
 {
-$if(colorlinks)$
-\hypersetup{linkcolor=$if(toccolor)$$toccolor$$else$$endif$}
+$if(toccolor)$
+\hypersetup{linkcolor=$toccolor$}
 $endif$
 
 \begin{center}

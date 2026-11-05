@@ -94,7 +94,12 @@ just pdf new-logo
 ```
 
 Use a unique slug or portion of the source filename (full name not required). The PDF is written next to
-the source post in `content/blog/`. SVG article images are converted by Pandoc,
+the source post in `content/blog/`. The `tools/pdf-links.lua` filter resolves relative links
+against the post URL on `https://dh-tech.github.io` and uses that production URL in
+the publication credit, even for local Hugo builds. Images remain local; external
+URLs and in-document anchors are unchanged.
+
+SVG article images are converted by Pandoc,
 without LaTeX shell escape or Inkscape. The header uses the preconverted grayscale vector
 logo in `static/logos/dhtech-logo.pdf`; if the SVG logo changes, regenerate it:
 

@@ -87,12 +87,16 @@ $endif$
 
 $if(logo)$
 \usepackage{graphicx}
-\usepackage{transparent}
-% Zero reported height/depth keeps a larger logo from enlarging the header.
-\newcommand{\dhtechheaderlogo}{%
-  \raisebox{-0.2\height}[0pt][0pt]{%
-    {\transparent{$if(logo-opacity)$$logo-opacity$$else$0.6$endif$}%
-    \includegraphics[height=$if(logo-height)$$logo-height$$else$12mm$endif$]{$logo$}}}%
+\usepackage{eso-pic}
+% Place branding in the page margin, without affecting header dimensions.
+\AddToShipoutPictureFG{%
+  \AtPageUpperLeft{%
+    \put(\LenToUnit{\paperwidth-6mm},\LenToUnit{-6mm}){%
+      \makebox[0pt][r]{\raisebox{-\height}{%
+        \href{https://dh-tech.github.io/}{%
+          \includegraphics[height=$if(logo-height)$$logo-height$$else$24mm$endif$]{$logo$}}}}%
+    }%
+  }%
 }
 $endif$
 
@@ -862,7 +866,7 @@ $else$
   \clearpairofpagestyles
   \ihead*{$if(header-left)$$header-left$$else$\parbox[t]{0.6\textwidth}{\href{$url$}{$title$}}$endif$}
   \chead*{$if(header-center)$$header-center$$else$$endif$}
-  \ohead*{$if(header-right)$$header-right$$else$$if(doi)$\href{https://doi.org/$doi$}{doi:$doi$} | $endif$\href{https://dh-tech.github.io/}{DHTech$if(logo)$\enspace\dhtechheaderlogo$endif$}$endif$}
+  \ohead*{$if(header-right)$$header-right$$else$$if(doi)$\href{https://doi.org/$doi$}{doi:$doi$} | $endif$\href{https://dh-tech.github.io/}{DHTech}$endif$}
   \ifoot*{$if(footer-left)$$footer-left$$else$$for(author)$$author$$sep$, $endfor$$endif$}
   \cfoot*{$if(footer-center)$$footer-center$$else$$date$$endif$}
   \ofoot*{$if(footer-right)$$footer-right$$else$\thepage$endif$}
@@ -1004,7 +1008,7 @@ $endif$
       \small{Reviewed by: $for(reviewer)$$reviewer$$sep$, $endfor$}\\
       \small{DOI: $doi$}
    \end{center}
-   
+
 \setcounter{tocdepth}{$toc-depth$}
 \tableofcontents
 $if(toc-own-page)$

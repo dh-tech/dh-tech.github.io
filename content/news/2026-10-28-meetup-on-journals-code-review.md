@@ -1,0 +1,31 @@
+---
+title: "Code Review and Sustainability in the Digital Humanities Publication Landscape" 
+date: 2026-10-28T16:12:09-04:00 
+categories:
+  - Technology
+summary: "On June 4, 2026, DHTech convened a meetup on how some degree of code review can be integrated into the digital humanit. The lively discussion provided examples of practical workflows with low bars for entry that could be used as part of journal publications or conferences. While a full code review may often be impractical, simpler forms of verification help create community, increase code quality, and promote reproducibility."
+thumbnail: images/posts/code-bookshelf.jpeg
+author: David Nelson
+tags:
+  - meetup
+  - event
+---
+
+![Code in front of a bookshelf by Gemini.::quarter-width](/images/posts/code-bookshelf.jpeg)
+
+Raising the visibility of code published alongside a research paper remains an ongoing challenge. While many papers using computational methods rely upon code to come to their findings, the code and underlying data are not always published. And when published, they are not always subject to the same rigor and review as the paper itself.
+
+This June, DHTech held a meetup to start a conversation on code review and sustainability in DH publications. We heard from two speakers, who provided differing approaches to integrating some form of code review and incentive for publishing code into the publication process.
+
+First up, we had Daniel Nüst. Nüst is not himself a humanist but has led the initiative CODECHECK, an effort to introduce code verification to scientific publications. Not a formal code review, [CODECHECK](https://codecheck.org.uk/) runs as a form of reproducibility audit. Authors are paired with peer auditors who install and execute the code behind the publication. The auditors communicate the results from their attempt to run the code but do not fix errors or examine the code at length. If the code executes successfully, the author is granted a certificate which attests that the code could be independently reproduced.
+
+Nüst said that CODECHECK had numerous advantages as a workflow. As the bar to entry is quite low, it takes fairly minimal resources to implement. Researchers do not need extensive knowledge of code review or social coding practices to participate—they only have to be able to install and run code. Because the bar to entry is low, CODECHECK can be integrated into a conference as a full day workshop. Here, participants are organized in groups and work together to reproduce a paper. And since codecheckers do not need to fix the code, it encourages communication between author and audience. The codecheckers provide honest feedback, giving the author the chance to learn and reproduce their results. Since the bar to entry is low, Nüst said CODECHECK was also a great way to integrate graduate students and early career researchers into the review process. Nüst reports that in some scientific communities, running CODECHECK workshops is now a regular part of their conference and publication workflow.
+
+Next, we heard from Christoph Schöch. Schöch is co-editor of the [Journal of Computational Literary Studies (JCLS)](https://jcls.io/) and reported on his experience with their mandatory code review process. JCLS is a diamond open access journal and is committed to increasing access to the code and data that underlies the papers it publishes by requiring that code accompany the paper. It offers two forms of code review: a basic and an extended code review. The basic review is, in Schöch’s own words, quite simple and requires verifying that the code repository exists, has a README, provides instructions for executing the code, and is reasonably organized. Notably, running the code is not a requirement. The extended code review requires verification of data availability, extensive examination of the documentation and algorithms, as well as verification that the code as provided will reproduce the results in the paper. Schöch reports that the vast majority of papers opt for the basic code review. Nonetheless, this has broadly increased the number of papers available with code. 
+
+Of particular interest were Schöch’s comments on working with authors whose data could not be released (e.g. due to copyright restrictions). JCLS works with authors to try to provide some representation of the data—say, for instance, extracted results like the outcome of Named Entity Recognition or other extracted features—that allows for reproducibility of the results without publishing the full text. These efforts are a reminder that both code and data are important to reproducibility and that we can work creatively to increase access to both.
+
+After learning about these two approaches, our conversation turned to how we might integrate this into other digital humanities conferences or venues. For JCLS and the accompanying Annual Conference of Computational Literary Studies, Schöch reports that code review has served to increase code and data availability but adds more length and review to an already lengthy review process. One person suggested that CODECHECK could perhaps be a lower effort alternative that could be offered as a workshop ahead of either the annual ADHO conference or at a more specialized conference such as Computational Humanities Research. Schöch was of the opinion that it would be difficult to integrate something like this into the ADHO conference. Too many papers do not include code at all, and the number of disciplines and methodologies represented would make it challenging. He thought CHR would be a better option, as most of the papers already have code. But even there, the scale of organizing something could be daunting. But others commented that even some sort of optional form of code audit could still be a useful step toward increasing code quality and availability.
+
+DHTech remains very interested in integrating code verification into the conference and publication workflow, so we expect this will be the first of many conversations on this topic. 
+

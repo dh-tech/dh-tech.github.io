@@ -4,7 +4,6 @@ title: "Report on a conference session – DH2023, Graz" # Title of the blog pos
 date: 2023-08-29T13:57:24Z # Date of post creation.
 tags:
 - WhatsHappening
-thumbnail: /images/posts/endingprinciples.png
 thumbnail: /images/posts/DH2023.png
 featureImage: /images/posts/DH2023.png
 featureImageCap: <a href="https://dh2023.adho.org/">DH2023 University of Graz</a>

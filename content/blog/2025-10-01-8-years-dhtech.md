@@ -4,25 +4,26 @@ title: Let’s take a moment to celebrate ourselves!
 date: 2025-10-01T12:00:00
 author: Julia Damerow
 tags:
-- WhatsHappening
+  - WhatsHappening
 thumbnail: /logos/dhtech-logo.svg
-featureImage: 
+featureImage:
 featureImageAlt: photo of a crowd in an auditorium with many people raising their hands
 featureImageCap: Photo by <a href="https://unsplash.com/@theunsteady5?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Edwin Andrade</a> on <a href="https://unsplash.com/photos/4V1dC_eoCwg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 summary: DHTech turned eight this year! Time for a personal reflection of the last eight years, what we have accomplished, and where we want to go. Thank you to everyone who has helped shape DHTech over the years, has participated in events, or simply just read along!
+doi: 10.5281/zenodo.23989614
 ---
 
-{{< figure src="/logos/dhtech-logo.svg" title="" class="float_right small">}}
+{{< figure src="/logos/dhtech-logo.svg" title="" class="float_right small" >}}
 
 # It's been eight years!
 
-It’s 2017 at the DH conference in Montreal. At a [workshop](https://dh2017.adho.org/program-2/workshops/) “to connect different tools and services in order to build a tool infrastructure for historical research” organized by me, Dirk Wintergrün, and Robert Casties, a couple of the attendees decide that it would be worthwhile to try to connect more frequently in order to exchange ideas and experiences. We start out simple: a GitHub organization, a Slack workspace, and a mailing list. But that’s all that it takes. DHTech is born. Now, 8 years later, a short retrospective seems in order to reflect on how far we have come since then and where else we want to go. 
+It’s 2017 at the DH conference in Montreal. At a [workshop](https://dh2017.adho.org/program-2/workshops/) “to connect different tools and services in order to build a tool infrastructure for historical research” organized by me, Dirk Wintergrün, and Robert Casties, a couple of the attendees decide that it would be worthwhile to try to connect more frequently in order to exchange ideas and experiences. We start out simple: a GitHub organization, a Slack workspace, and a mailing list. But that’s all that it takes. DHTech is born. Now, 8 years later, a short retrospective seems in order to reflect on how far we have come since then and where else we want to go.
 
-Many people have contributed to and supported DHTech over the years. Some have left the digital humanities space or even academia since then, others needed to focus on other aspects of their professional life. There is the [DHTech Steering Committee](https://dh-tech.github.io/SIG/) that was started when DHTech became a ADHO Special Interest Group in 2021. And while some of the Steering Committee members have rotated off the committee due to other responsibilities requiring their attention, new ones have joined us with new ideas. We are eternally grateful for all of the contributions, big and small, that all these people have made. DHTech would not be what it is without them. 
+Many people have contributed to and supported DHTech over the years. Some have left the digital humanities space or even academia since then, others needed to focus on other aspects of their professional life. There is the [DHTech Steering Committee](https://dh-tech.github.io/SIG/) that was started when DHTech became a ADHO Special Interest Group in 2021. And while some of the Steering Committee members have rotated off the committee due to other responsibilities requiring their attention, new ones have joined us with new ideas. We are eternally grateful for all of the contributions, big and small, that all these people have made. DHTech would not be what it is without them.
 
 # So what are we doing?
 
-At the time of writing this blog post, the DHTech general Slack channel has 385 members. Posts on our blog on the [DHTech website](https://dh-tech.github.io/) date back to 2017, when we announced the [first virtual meetup](https://dh-tech.github.io/2017/12/14/announcing-the-first-virtual-workshop/) we ever held! It was a meetup on CI/CD with GitHub Actions, Travis-CI, and Jenkins. Since then we have held 20 more virtual meetups with topics ranging from project presentations, framework introductions, specific technologies, and more community focused subjects such as training and education or code review. These virtual get-togethers were supplemented by in-person events at conferences. We have held several workshops at the annual DH conference (such as [“How can you trust your code?”](https://dh-tech.github.io/dh2023-workshop) at DH2023) and more recently we have organized two mini-conferences at [DH2024](https://dh-tech.github.io/blog/2024/06/14/dh-inside-out-dh2024-program/) and [DH2025](https://dh-tech.github.io/2025/06/04/digital-humanities-tech-symposium-agenda/). 
+At the time of writing this blog post, the DHTech general Slack channel has 385 members. Posts on our blog on the [DHTech website](https://dh-tech.github.io/) date back to 2017, when we announced the [first virtual meetup](https://dh-tech.github.io/2017/12/14/announcing-the-first-virtual-workshop/) we ever held! It was a meetup on CI/CD with GitHub Actions, Travis-CI, and Jenkins. Since then we have held 20 more virtual meetups with topics ranging from project presentations, framework introductions, specific technologies, and more community focused subjects such as training and education or code review. These virtual get-togethers were supplemented by in-person events at conferences. We have held several workshops at the annual DH conference (such as [“How can you trust your code?”](https://dh-tech.github.io/dh2023-workshop) at DH2023) and more recently we have organized two mini-conferences at [DH2024](https://dh-tech.github.io/blog/2024/06/14/dh-inside-out-dh2024-program/) and [DH2025](https://dh-tech.github.io/2025/06/04/digital-humanities-tech-symposium-agenda/).
 
 But DHTech not only brings people together, it also advocates for the individuals that do technical work in DH projects. One of our first achievements was the “[DH RSE Workshop White Paper](https://dh-tech.github.io/dhrse-whitepaper/)” that was written at the DH conference in 2019. Furthermore, we have run two community surveys—one in [2020](https://dh-tech.github.io/survey-results-2020/), and more recently a follow up survey in 2025. The results of the 2025 survey were presented as [a poster](https://doi.org/10.5281/zenodo.15863899) at DH2025. Multiple papers have been published by DHTech members as a follow up to a workshop or as an outcome of a DHTech activity such as:
 
@@ -53,4 +54,3 @@ Whatever you think will work for you! Just lurking on Slack? Go for it! Joining 
 # Final Thoughts
 
 DHTech is a great community with many amazing people. I’ve seen it grow from just a handful of excited individuals to over 300 members. I’ve met great colleagues, made some friends, worked on exciting projects and initiatives, and I think we need DHTech now more than ever. Join us if you haven’t yet, stay put if you have, and keep pushing with us if you have some energy to spare!
-

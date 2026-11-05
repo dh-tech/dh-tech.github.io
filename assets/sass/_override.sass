@@ -1,7 +1,11 @@
 // // override flex and use grid to layout title and subtitle
-// .nav_item 
-// 	display: grid 
+// .nav_item
+// 	display: grid
 // 	grid-template-areas: "logo title" "logo subtitle"
 // 	// grid-template-areas: "logo title" "logo subtitle"
 
 
+// disable default dark-mode inversion of footer icon (not appropriate for dhtech logo)
+@media (prefers-color-scheme: dark)
+    footer .icon
+        filter: invert(0) !important

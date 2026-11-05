@@ -80,3 +80,30 @@ News and announcements should be created under `content/news` and blog posts sho
 
 Static files such as images, slides, PDFs should be added to the top-level `static/` folder;  post images are generally under `static/images/posts`. 
 
+### Blog post PDFs & DOIs
+
+Blog posts have support for DOI and PDF generation. For now, this is largely a manual process.
+
+PDF generation requires [just][https://github.com/casey/just], [Pandoc](https://pandoc.org/), and a LaTeX
+installation with the Eisvogel template's packages. Posts containing SVG images also require `rsvg-convert`
+(`brew install librsvg` on macOS).
+Build the site with `hugo` first, then run:
+
+```sh
+just pdf new-logo
+```
+
+Use a unique slug or portion of the source filename (full name not required). The PDF is written next to
+the source post in `content/blog/`. SVG article images are converted by Pandoc,
+without LaTeX shell escape or Inkscape. The header uses the preconverted grayscale vector
+logo in `static/logos/dhtech-logo.pdf`; if the SVG logo changes, regenerate it:
+
+```sh
+rsvg-convert --format=pdf --output=static/logos/dhtech-logo-color.pdf static/logos/dhtech-logo.svg
+gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.5 -dBATCH -dNOPAUSE \
+  -sColorConversionStrategy=Gray -dProcessColorModel=/DeviceGray \
+  -sOutputFile=static/logos/dhtech-logo.pdf static/logos/dhtech-logo-color.pdf
+```
+
+Grayscale conversion requires Ghostscript (`brew install ghostscript` on macOS).
+The intermediate `dhtech-logo-color.pdf` can be removed after conversion.

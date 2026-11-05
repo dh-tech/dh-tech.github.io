@@ -4,6 +4,17 @@ This is the website for DHTech.
 
 The site is implemented with [Hugo](https://gohugo.io/) and uses the [Hugo Clarity theme](https://github.com/chipzoller/hugo-clarity).
 
+## License
+
+Original code in this repository is licensed under the [Apache License 2.0](LICENSE).
+Unless otherwise noted, website content is licensed under the
+[Creative Commons Attribution 4.0 International license (CC-BY 4.0)](LICENSES/CC-BY-4.0.txt).
+When reusing content, credit the named author(s), or DHTech if no author is named,
+link to the original content and the license, and indicate any changes.
+
+Third-party code and materials, including themes and vendored dependencies, retain
+their respective licenses.
+
 ## Content management instructions
 
 To have a page show up in the "featured posts" in the sidebar, simply
@@ -79,4 +90,3 @@ in page parameters. In general, slugs should be lowercase and use dashes (kebab 
 News and announcements should be created under `content/news` and blog posts should be created under `content/blog`.
 
 Static files such as images, slides, PDFs should be added to the top-level `static/` folder;  post images are generally under `static/images/posts`. 
-

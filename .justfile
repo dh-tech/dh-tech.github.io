@@ -1,4 +1,4 @@
-# create pdf from blog post by short id, e.g.
+# create pdf from blog post by slug or any portion of filename; e.g.,
 # 	just pdf dhtech-on-django
 pdf post:
     #!/usr/bin/env bash
@@ -16,6 +16,7 @@ pdf post:
     output_path="${source_path%".md"}.pdf" 
     echo "Creating PDF from ${path}"
     # run pandoc to generate the pdf
-    pandoc ${path} -o ${output_path} --template tools/eisvogel-dhtech-2.latex --resource-path=static/ 
+    pandoc "${path}" -o "${output_path}" --template tools/eisvogel-dhtech-2.latex \
+        --resource-path=static/ --highlight-style pygments \
+        -f markdown-implicit_figures --metadata logo=static/logos/dhtech-logo.pdf
     echo "Output is in ${output_path}"    
-

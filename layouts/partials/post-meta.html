@@ -2,7 +2,7 @@
 {{- $showShare := ne (.Param "showshare") false }}
 {{- $showDate := ne (.Param "showdate") false }}
 {{- $showReadTime := ne (.Param "showreadtime") false }}
-{{- $showPostMeta := or ($showShare) ($showDate) ($showReadTime) (isset .Params "tags") }}
+{{- $showPostMeta := or ($showShare) ($showDate) ($showReadTime) (isset .Params "tags") .Params.doi .Params.pdf }}
 {{- $scratch := newScratch }}
 {{- $scratch.Set "writeSeparator" false }}
 {{- if $showPostMeta }}
@@ -23,7 +23,7 @@
   <span>{{ partial "sprite" (dict "icon" "calendar") }}</span>
   <!-- this in-line style is to prevent a space before the comma separating time and date without effecting other parts of the post -->
   <span style="margin-right: 0;" class="post_date" data-datetime="{{ .Params.event_date }}">
-    Event date: {{ time.Format "Mon Jan 2, 2006 at 3:04 PM " .Params.event_date -}} 
+    Event date: {{ time.Format "Mon Jan 2, 2006 at 3:04 PM " .Params.event_date -}}
   </span>
   <span>
     {{ if .Params.event_location }}, {{.Params.event_location}}{{- end}}
@@ -34,7 +34,7 @@
   {{ if lt time.Now $eventTime }}
   <span>
     {{- if ($scratch.Get "writeSeparator") }}&nbsp;· {{ end }}
-    <a class="post_tag button " href="{{.Params.registration}}">Register</a>
+    <a class="post_tag button" href="{{.Params.registration}}">Register</a>
     {{end}}
     {{ end }}
     {{- $scratch.Set "writeSeparator" true }}
@@ -42,6 +42,17 @@
   {{- end }}
   {{- if $showReadTime }}
   <span class="post_time">{{ if ($scratch.Get "writeSeparator") }} · {{ end }}{{ T "reading_time" . }}</span>
+  {{- $scratch.Set "writeSeparator" true }}
+  {{- end }}
+  {{- with .Params.doi }}
+  {{- $doi := replaceRE `(?i)^https?://(dx\.)?doi\.org/` "" . }}
+  {{- if ($scratch.Get "writeSeparator") }}&nbsp;· {{ end }}
+  <span class="doi"><a href="https://doi.org/{{ $doi }}">doi:{{ $doi }}</a></span>
+  {{- $scratch.Set "writeSeparator" true }}
+  {{- end }}
+  {{- with .Params.pdf }}
+  {{- if ($scratch.Get "writeSeparator") }}&nbsp;· {{ end }}
+  <span class="pdf"><a href="{{ . | absURL }}" type="application/pdf" rel="alternate">PDF</a></span>
   {{- $scratch.Set "writeSeparator" true }}
   {{- end }}
   {{/* custom: old dh-tech presentation pages have slides and recording links */}}

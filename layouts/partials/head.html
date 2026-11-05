@@ -21,6 +21,16 @@
 {{- partial "opengraph" . }}
 {{- partialCached "favicon" . }}
 <link rel="canonical" href="{{ .Permalink }}">
+{{- with .Params.doi }}
+  {{- $doi := replaceRE `(?i)^https?://(dx\.)?doi\.org/` "" . }}
+<link rel="cite-as" href="https://doi.org/{{ $doi }}">
+<meta name="DC.identifier" content="https://doi.org/{{ $doi }}">
+<meta name="citation_doi" content="{{ $doi }}">
+{{- end }}
+{{- with .Params.pdf }}
+<link rel="alternate" type="application/pdf" href="{{ . | absURL }}" title="PDF version">
+<meta name="citation_pdf_url" content="{{ . | absURL }}">
+{{- end }}
 {{ range .AlternativeOutputFormats -}}
   {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 {{ end -}}

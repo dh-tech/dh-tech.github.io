@@ -83,7 +83,7 @@ permalinks:
   blog: /blog/:year/:month/:day/:slug/
 
 params:
-  logo: "logos/logo.png"
+  logo: "logos/dhtech-logo.svg"
   subtitle: "An ADHO Special Interest Group"
   mobileNavigation: right
   showReadTime: false

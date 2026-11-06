@@ -19,5 +19,6 @@ pdf post:
     pandoc "${path}" -o "${output_path}" --template tools/eisvogel-dhtech-2.latex \
         --resource-path=static/ --highlight-style pygments \
         --lua-filter=tools/pdf-links.lua \
-        -f markdown-implicit_figures --metadata logo=static/logos/dhtech-logo.pdf
+        -f markdown-implicit_figures --metadata logo=static/logos/dhtech-logo.pdf \
+        --metadata site-url="${base_url%/}/"
     echo "Output is in ${output_path}"    

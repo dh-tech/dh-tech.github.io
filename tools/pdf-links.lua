@@ -1,5 +1,4 @@
 -- Resolve website links without changing local image paths used by Pandoc.
-local site = 'https://dh-tech.adho.org'
 
 local function normalize(path)
   local parts = {}
@@ -18,6 +17,10 @@ local function normalize(path)
 end
 
 function Pandoc(doc)
+  local site = pandoc.utils.stringify(doc.meta['site-url'] or ''):gsub('/+$', '')
+  if site == '' then
+    error('PDF link resolution requires site-url metadata from Hugo config')
+  end
   local page = pandoc.utils.stringify(doc.meta.url or '')
   if page == '' then
     error('PDF link resolution requires the post URL in metadata')

@@ -93,7 +93,7 @@ $if(logo)$
   \AtPageUpperLeft{%
     \put(\LenToUnit{\paperwidth-6mm},\LenToUnit{-6mm}){%
       \makebox[0pt][r]{\raisebox{-\height}{%
-        \href{https://dh-tech.github.io/}{%
+        \href{$site-url$}{%
           \includegraphics[height=$if(logo-height)$$logo-height$$else$24mm$endif$]{$logo$}}}}%
     }%
   }%
@@ -862,7 +862,7 @@ $else$
   \clearpairofpagestyles
   \ihead*{$if(header-left)$$header-left$$else$\parbox[t]{0.6\textwidth}{\href{$url$}{$title$}}$endif$}
   \chead*{$if(header-center)$$header-center$$else$$endif$}
-  \ohead*{$if(header-right)$$header-right$$else$$if(doi)$\href{https://doi.org/$doi$}{doi:$doi$} | $endif$\href{https://dh-tech.github.io/}{DHTech}$endif$}
+  \ohead*{$if(header-right)$$header-right$$else$$if(doi)$\href{https://doi.org/$doi$}{doi:$doi$} | $endif$\href{$site-url$}{DHTech}$endif$}
   \ifoot*{$if(footer-left)$$footer-left$$else$$for(author)$$author$$sep$, $endfor$$endif$}
   \cfoot*{$if(footer-center)$$footer-center$$else$$date$$endif$}
   \ofoot*{$if(footer-right)$$footer-right$$else$\thepage$endif$}

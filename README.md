@@ -120,7 +120,7 @@ just pdf new-logo
 
 Use a unique slug or portion of the source filename (full name not required). The PDF is written next to
 the source post in `content/blog/`. The `tools/pdf-links.lua` filter resolves relative links
-against the post URL on `https://dh-tech.adho.org` and uses that production URL in
+against the post URL using `baseURL` from `config.yaml` and uses that configured URL in
 the publication credit, even for local Hugo builds. Images remain local; external
 URLs and in-document anchors are unchanged.
 
@@ -174,8 +174,10 @@ The DHTech customizations include:
 Edit this template to change PDF typography, branding, headers, footers, or the
 publication credit. Its `$variable$` and `$if(variable)$` expressions use Pandoc
 template syntax, not Hugo syntax. Post metadata comes from the Markdown layout;
-the recipe additionally supplies `logo`, and the Lua filter normalizes `url` to
-the production site. Add new metadata fields to the Markdown layout if the PDF
+the recipe additionally supplies `logo` and `site-url` (from `hugo config`). The
+template uses `site-url` for the logo and DHTech header links, and the Lua filter
+normalizes `url` to that configured site, even when built Markdown uses localhost.
+Add new metadata fields to the Markdown layout if the PDF
 template needs them; source front matter is not passed through automatically.
 
 #### Logo and SVG images

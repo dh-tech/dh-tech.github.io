@@ -39,6 +39,31 @@ To run the site locally for development:
 hugo server
 ```
 
+## Site search
+
+Search runs in the browser using the Clarity theme's Fuse.js integration; no
+external search service is required. Local customizations are in
+[`assets/js/search.js`](assets/js/search.js).
+
+- [`content/search.md`](content/search.md) enables the `/search/` results page.
+- [`layouts/_default/index.json`](layouts/_default/index.json) builds the search
+  index from site pages (excluding the search page), including titles, body text,
+  authors, dates, sections, and tags.
+- [`layouts/partials/func/getDefaultLanguage.html`](layouts/partials/func/getDefaultLanguage.html)
+  fixes the theme's language comparison (`en` versus `en-us`), keeping the
+  single-language search index at `/index.json` rather than `/en/index.json`.
+- [`config/_default/config.toml`](config/_default/config.toml) enables JSON output
+  for the home page, producing `/index.json`. Rebuild Hugo to update the index.
+- `baseURL` in [`config.yaml`](config.yaml) must use HTTPS in production so the
+  browser can fetch the index without mixed-content blocking.
+
+To check search locally, run `hugo server`, enter a known post title in the search
+box, then open `/search/?query=django` and change the query. Results should update
+on the page. Optional `&scope=blog` or `&scope=news` restricts results to a section.
+If search fails, check the browser console and confirm `/index.json` loads as JSON.
+Queries are literal text (not regular expressions); the current matching threshold
+disables fuzzy typo matching.
+
 ## Docker instructions
 
 You can also run the site locally using Docker.

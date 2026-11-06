@@ -163,7 +163,7 @@ PDFs are generated from Hugo's Markdown output, not directly from the source pos
    [`config/_default/config.toml`](config/_default/config.toml).
 2. [`layouts/_default/single.md`](layouts/_default/single.md) creates
    `public/<post-url>/index.md`. It includes YAML metadata (title, author, URL,
-   dates, and optional description, keywords, tags, and DOI), adds the feature
+    dates, language, and optional subject, description, keywords, tags, and DOI), adds the feature
    image if configured, and renders the post content and shortcodes as Markdown.
 3. The `pdf` recipe in [`.justfile`](.justfile) uses `hugo list all` to locate
    the matching blog post and its built Markdown. Pandoc converts that Markdown
@@ -201,6 +201,9 @@ The DHTech customizations include:
 - The article title followed by the author and human-readable publication date.
 - An “Originally published at” credit linking to the production post URL.
 - PDF title metadata with a `DHTech` suffix.
+- PDF author and language metadata, plus subject from the post description or
+  summary. Keywords use explicit front matter `keywords` only; site tags are not
+  included as PDF keywords.
 
 Edit this template to change PDF typography, branding, headers, footers, or the
 publication credit. Its `$variable$` and `$if(variable)$` expressions use Pandoc

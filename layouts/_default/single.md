@@ -2,6 +2,10 @@
 title: {{ .Title }}
 author: "{{ .Params.Author }}"
 url: "{{ .Permalink }}"
+lang: {{ .Language.LanguageCode | default .Language.Lang | jsonify }}
+{{- with (or .Description .Params.summary) }}
+subject: {{ . | plainify | jsonify }}
+{{- end }}
 {{- with .Description }}
 description: {{ . }}
 {{- end }}
@@ -10,7 +14,7 @@ date: {{ .Format "2006-01-02" }}
 readable_date: {{ .Format "January 2, 2006" }}
 {{- end }}
 {{- with .Params.keywords }}
-keywords: {{ delimit . ", " }}
+keywords: {{ . | jsonify }}
 {{- end }}
 {{- with .Params.tags }}
 tags: {{ delimit . ", " }}

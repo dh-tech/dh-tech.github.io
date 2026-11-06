@@ -5,6 +5,7 @@ date: 2025-10-01T12:00:00
 author: Julia Damerow
 tags:
   - WhatsHappening
+  - WorthReading
 thumbnail: /logos/dhtech-logo.svg
 featureImage:
 featureImageAlt: photo of a crowd in an auditorium with many people raising their hands

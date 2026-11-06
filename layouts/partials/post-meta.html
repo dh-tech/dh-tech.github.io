@@ -2,7 +2,7 @@
 {{- $showShare := ne (.Param "showshare") false }}
 {{- $showDate := ne (.Param "showdate") false }}
 {{- $showReadTime := ne (.Param "showreadtime") false }}
-{{- $showPostMeta := or ($showShare) ($showDate) ($showReadTime) (isset .Params "tags") .Params.doi .Params.pdf }}
+{{- $showPostMeta := or ($showShare) ($showDate) ($showReadTime) (isset .Params "tags") .Params.doi }}
 {{- $scratch := newScratch }}
 {{- $scratch.Set "writeSeparator" false }}
 {{- if $showPostMeta }}
@@ -48,11 +48,6 @@
   {{- $doi := replaceRE `(?i)^https?://(dx\.)?doi\.org/` "" . }}
   {{- if ($scratch.Get "writeSeparator") }}&nbsp;·&nbsp;{{ end }}
   <span class="doi"><a href="https://doi.org/{{ $doi }}">doi:{{ $doi }}</a></span>
-  {{- $scratch.Set "writeSeparator" true }}
-  {{- end }}
-  {{- with .Params.pdf }}
-  {{- if ($scratch.Get "writeSeparator") }}&nbsp;· {{ end }}
-  <span class="pdf"><a href="{{ . | absURL }}" type="application/pdf" rel="alternate">PDF</a></span>
   {{- $scratch.Set "writeSeparator" true }}
   {{- end }}
   {{/* custom: old dh-tech presentation pages have slides and recording links */}}

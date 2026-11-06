@@ -211,6 +211,9 @@ The intermediate `dhtech-logo-color.pdf` can be removed after conversion.
 
 Publishing blog posts as PDFs with DOIs is a manual process for now.
 
+Post metadata displays the DOI link, which provides access to the PDF on Zenodo;
+there is no separate PDF link in the post metadata.
+
 First, [create a new record for submission to the DHTech Zenodo community](https://zenodo.org/uploads/new?community=dhtech). Reserve a DOI and fill in title, author, and link to the post on the DHTech site; save the record as a draft. Add the reserved DOI to the post metadata in this format:
 
 ```yaml

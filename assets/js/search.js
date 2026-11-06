@@ -36,7 +36,9 @@ function initializeSearch(index) {
 
             results.forEach(function (result) {
                 let item = createEl('a');
-                item.href = `${result.link}?query=${query}`;
+                const resultURL = new URL(result.link, window.location.href);
+                resultURL.searchParams.set('query', query);
+                item.href = resultURL.href;
                 item.className = 'search_result';
                 item.style.order = result.score;
 
@@ -68,7 +70,6 @@ function initializeSearch(index) {
                         item.appendChild(itemDate);
 
                     let itemDescription = createEl('p');
-                    console.log(result)
 
                     itemDescription.textContent = `${result.body.substring(0, 400)}...`;
                     item.appendChild(itemDescription);
@@ -152,8 +153,10 @@ function initializeSearch(index) {
                 searchField.addEventListener('search', function () {
                     const searchTerm = searchField.value.trim().toLowerCase();
                     if (searchTerm.length) {
-                        const scopeParameter = searchScope ? `&scope=${searchScope}` : '';
-                        window.location.href = new URL(baseURL + `search/?query=${searchTerm}${scopeParameter}`).href;
+                        const searchURL = new URL('search/', baseURL);
+                        searchURL.searchParams.set('query', searchTerm);
+                        if (searchScope) searchURL.searchParams.set('scope', searchScope);
+                        window.location.href = searchURL.href;
                     }
                 });
             }
@@ -172,8 +175,7 @@ function initializeSearch(index) {
             if (searchField) {
                 searchField.addEventListener('input', function () {
                     const searchTerm = searchField.value.trim().toLowerCase();
-                    search(searchTerm, true);
-                    wrapText(searchTerm, main);
+                    search(searchTerm, searchScope, true);
                 });
             }
         }
@@ -233,7 +235,8 @@ function highlightSearchTerms(search, context, wrapper = 'mark', cssClass = '') 
     if (query) {
 
         let container = elem(context);
-        let reg = new RegExp("(" + search + ")", "gi");
+        const escapedSearch = search.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        let reg = new RegExp("(" + escapedSearch + ")", "gi");
 
         function searchInNode(parentNode, search) {
             forEach(parentNode, function (node) {

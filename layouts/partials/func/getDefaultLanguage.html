@@ -1,0 +1,6 @@
+{{/* Use Hugo's language identifier (en), not its regional code (en-us). */}}
+{{- $defaultLanguage := site.Language.Lang -}}
+{{- if hugo.IsMultilingual -}}
+  {{- $defaultLanguage = hugo.Sites.Default.Language.Lang -}}
+{{- end -}}
+{{- return $defaultLanguage -}}

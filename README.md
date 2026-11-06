@@ -4,6 +4,17 @@ This is the website for DHTech.
 
 The site is implemented with [Hugo](https://gohugo.io/) and uses the [Hugo Clarity theme](https://github.com/chipzoller/hugo-clarity).
 
+## License
+
+Original code in this repository is licensed under the [Apache License 2.0](LICENSE).
+Unless otherwise noted, website content is licensed under the
+[Creative Commons Attribution 4.0 International license (CC-BY 4.0)](LICENSES/CC-BY-4.0.txt).
+When reusing content, credit the named author(s), or DHTech if no author is named,
+link to the original content and the license, and indicate any changes.
+
+Third-party code and materials, including themes and vendored dependencies, retain
+their respective licenses.
+
 ## Content management instructions
 
 To have a page show up in the "featured posts" in the sidebar, simply
@@ -209,5 +220,3 @@ doi: 10.1/foo.abc123
 Then build the site and generate the PDF as described above; the DOI will be included in the header of the PDF.
 
 Review the PDF for any problems, then upload it to Zenodo and publish the record. If the author has an account on Zenodo, share it with them so they have access to edit if needed. Publish the record so the DOI will resolve, then publish an update to the site with the DOI included.
-
-If desired, PDFs can be added to version control and linked in the post parameters.

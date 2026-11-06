@@ -118,20 +118,15 @@ News and announcements should be created under `content/news` and blog posts sho
 
 Static files such as images, slides, PDFs should be added to the top-level `static/` folder; post images are generally under `static/images/posts`.
 
-### Embedded content with a PDF fallback
+### Embed content with static fallback for PDF
 
 Use the `iframe` shortcode for interactive embeds that need a static PDF fallback:
 
-```go-html-template
-{{< iframe src="https://observablehq.com/embed/66f0eb49ce488619@239?cell=*" title="Generating gears for DHTech in Observable" image="/images/posts/dhtech-observable-gears.png" url="https://observablehq.com/@rlskoeser/d3-gears-for-dhtech" >}}
-```
-
 Required parameters:
 
-- `src`: URL to embed in the website's iframe.
-- `title`: accessible iframe title and fallback image alt text.
-- `image`: static screenshot or exported image for the PDF. Store it under
-  `static/` and use a root-relative path without the `static` prefix.
+- `src`: URL to embed in the iframe.
+- `title`: accessible title; alt text for the fallback image
+- `image`: static screenshot or exported image for the PDF. Store it under `static/` and use a root-relative path without the `static` prefix.
 - `url`: link to the full interactive content, included below the PDF image.
 
 Optional `height` sets the iframe height in pixels (default: `575`). The iframe
@@ -140,8 +135,8 @@ uses the full available width, capped at `75vh` in height.
 The [HTML template](layouts/shortcodes/iframe.html) renders only the iframe;
 the [Markdown template](layouts/shortcodes/iframe.md) renders only the image and
 link for PDF generation. Keep the shortcode in its own paragraph so the Markdown
-layout preserves its output. The screenshot is a manually maintained snapshot;
-update it when the embedded content changes.
+layout preserves its output. The static version should be added manually, e.g. screenshot of the interactive content.
+Update it if the embedded content changes.
 
 ### PDF generation
 

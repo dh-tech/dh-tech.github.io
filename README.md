@@ -214,6 +214,9 @@ the local CC-BY SVG. Regenerate it if the SVG changes:
 rsvg-convert --format=pdf --output=static/images/cc-by.pdf static/images/cc-by.svg
 ```
 
+If posts need to be published under a different license, it will need to be set in post metadata and the template will need to be revised
+to support it. The current template assumes all content is licensed under CC-BY 4.0.
+
 ## DOIs
 
 Publishing blog posts as PDFs with DOIs is a manual process for now.

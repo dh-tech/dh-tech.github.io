@@ -5,7 +5,7 @@
 
 hugo version # Output the OLD version
 
-HUGO_VERSION=0.142.0
+HUGO_VERSION=0.159.1
 OS_VERSION="Linux-64bit"
 #OS_VERSION="darwin-universal"  # uncomment to test on mac osx
 

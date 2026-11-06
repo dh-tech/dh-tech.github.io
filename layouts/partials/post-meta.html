@@ -46,7 +46,7 @@
   {{- end }}
   {{- with .Params.doi }}
   {{- $doi := replaceRE `(?i)^https?://(dx\.)?doi\.org/` "" . }}
-  {{- if ($scratch.Get "writeSeparator") }}&nbsp;· {{ end }}
+  {{- if ($scratch.Get "writeSeparator") }}&nbsp;·&nbsp;{{ end }}
   <span class="doi"><a href="https://doi.org/{{ $doi }}">doi:{{ $doi }}</a></span>
   {{- $scratch.Set "writeSeparator" true }}
   {{- end }}

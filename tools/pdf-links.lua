@@ -1,5 +1,5 @@
 -- Resolve website links without changing local image paths used by Pandoc.
-local site = 'https://dh-tech.github.io'
+local site = 'https://dh-tech.adho.org'
 
 local function normalize(path)
   local parts = {}

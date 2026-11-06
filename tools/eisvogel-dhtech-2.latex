@@ -84,6 +84,8 @@ $else$
 \usepackage[margin=2.5cm,includehead=true,includefoot=true,centering,$for(geometry)$$geometry$$sep$,$endfor$]{geometry}
 $endif$
 \usepackage{amsmath,amssymb}
+% The footer CC-BY mark is included even when the article has no images.
+\usepackage{graphicx}
 
 $if(logo)$
 \usepackage{graphicx}
@@ -864,7 +866,9 @@ $else$
   \chead*{$if(header-center)$$header-center$$else$$endif$}
   \ohead*{$if(header-right)$$header-right$$else$$if(doi)$\href{https://doi.org/$doi$}{doi:$doi$} | $endif$\href{$site-url$}{DHTech}$endif$}
   \ifoot*{$if(footer-left)$$footer-left$$else$$for(author)$$author$$sep$, $endfor$$endif$}
-  \cfoot*{$if(footer-center)$$footer-center$$else$$date$$endif$}
+  \cfoot*{$if(footer-center)$$footer-center$$else$$date$\enspace|\enspace
+    \href{https://creativecommons.org/licenses/by/4.0/}{%
+    \raisebox{-0.15em}{\includegraphics[height=1em]{static/images/cc-by.pdf}}}$endif$}
   \ofoot*{$if(footer-right)$$footer-right$$else$\thepage$endif$}
   \addtokomafont{pageheadfoot}{\upshape}
 }

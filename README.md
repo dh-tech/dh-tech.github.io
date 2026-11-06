@@ -177,7 +177,7 @@ The DHTech customizations include:
 
 - A linked DHTech logo in the upper-right page margin.
 - Running headers with the linked post title, optional linked DOI, and DHTech link;
-  footers with author, date, and page number.
+  footers with author, date, linked CC-BY 4.0 license mark, and page number.
 - The article title followed by the author and human-readable publication date.
 - An “Originally published at” credit linking to the production post URL.
 - PDF title metadata with a `DHTech` suffix.
@@ -206,6 +206,13 @@ gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.5 -dBATCH -dNOPAUSE \
 
 Grayscale conversion requires Ghostscript (`brew install ghostscript` on macOS).
 The intermediate `dhtech-logo-color.pdf` can be removed after conversion.
+
+The footer license mark uses `static/images/cc-by.pdf`, a vector conversion of
+the local CC-BY SVG. Regenerate it if the SVG changes:
+
+```sh
+rsvg-convert --format=pdf --output=static/images/cc-by.pdf static/images/cc-by.svg
+```
 
 ## DOIs
 

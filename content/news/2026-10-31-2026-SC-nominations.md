@@ -20,5 +20,5 @@ DHTech has been an ADHO Special Interest Group since 2021. The group is led by a
 
 To help potential candidates understand what serving on the Steering Committee involves, we’ve written [a blog post](https://dh-tech.github.io/2025-sc-nominations/) outlining the key responsibilities and typical activities of the role. If you have time, energy, and enthusiasm for strengthening the DHTech community, we encourage you to nominate yourself and help us steer the DHTech ship forward! 
 
-**To submit your nomination, please fill out [this form](https://forms.gle/oRWAcHyQU5jFyim49) by November 30, 2025.**
+**To submit your nomination, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSeSI1UHwNrWw-jRIC6eIqf_9QrmMkBUPoIelh6N0ix8nABr3g/viewform?usp=dialog) by November 30, 2025.**
 

@@ -1,0 +1,14 @@
+{{- $s := .Site.Params }}
+{{- $c := default .Site.Title .Site.Copyright  }}
+{{- if or .Params.enableMathNotation $s.enableMathNotation }}
+  {{ partialCached "math" . }}
+{{- end }}
+{{- $iconsDir := default "icons/" .Site.Params.iconsDir }}
+{{- $defaultFooterLogo := printf "%s%s" $iconsDir "apple-touch-icon.png"}}
+<footer class="footer">
+  <div class="footer_inner wrap pale">
+    <img src='{{ absURL (default $defaultFooterLogo $s.footerLogo) }}' class="icon icon_2 transparent" alt="{{ $c }}">
+    <p>{{ T "copyright" | markdownify }}{{ with $s.since }}&nbsp;{{ . }}-{{ end }}&nbsp;<span class="year"></span>&nbsp;{{ upper $c }}. Unless otherwise noted, content is licensed under <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0 <img src="https://licensebuttons.net/l/by/4.0/80x15.png" alt="Creative Commons Attribution 4.0 International" width="80" height="15" style="display: inline-block; vertical-align: middle;"></a>.</p>
+    {{- partialCached "top" .}}
+  </div>
+</footer>

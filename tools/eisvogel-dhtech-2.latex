@@ -865,10 +865,12 @@ $else$
   \ihead*{$if(header-left)$$header-left$$else$\parbox[t]{0.6\textwidth}{\href{$url$}{$title$}}$endif$}
   \chead*{$if(header-center)$$header-center$$else$$endif$}
   \ohead*{$if(header-right)$$header-right$$else$$if(doi)$\href{https://doi.org/$doi$}{doi:$doi$} | $endif$\href{$site-url$}{DHTech}$endif$}
-  \ifoot*{$if(footer-left)$$footer-left$$else$$for(author)$$author$$sep$, $endfor$$endif$}
-  \cfoot*{$if(footer-center)$$footer-center$$else$$date$\enspace|\enspace
-    \href{https://creativecommons.org/licenses/by/4.0/}{%
-    \raisebox{-0.15em}{\includegraphics[height=1em]{static/images/cc-by.pdf}}}$endif$}
+  \ifoot*{$if(footer-left)$$footer-left$$else${\footnotesize
+    $for(author)$$author$$sep$, $endfor$ \vspace{-0.4em}
+    \newline$date$ \href{https://creativecommons.org/licenses/by/4.0/}{%
+      \raisebox{-0.15em}{\includegraphics[height=1em]{static/images/cc-by.pdf}}}
+  }$endif$}
+  \cfoot*{$if(footer-center)$$footer-center$$else$$endif$}
   \ofoot*{$if(footer-right)$$footer-right$$else$\thepage$endif$}
   \addtokomafont{pageheadfoot}{\upshape}
 }

@@ -1,5 +1,6 @@
 ---
 title: "CODECHECK workshop at CHR2027!" 
+date: 2026-11-18T16:12:09-04:00 
 categories:
   - Technology
 thumbnail: 
@@ -23,14 +24,14 @@ We particularly welcome graduate students and early career researchers; as the C
 
 Preliminary workshop schedule (subject to change):
 
-30min: Introductions of Codecheck, DHTech Code Review, JCLS, and CHR approaches 
-30min: Lightning talks of projects to be code checked (~6 papers)
-5 minutes: Brief background; Language/technologies; What to be checked
-    Break 10 min
-50min: Code Checking in groups
-Break up into teams of 4 
-30min: Groups report back findings to plenum including collective note taking for write up
-30min: Wrap up discussion
+- 30min: Introductions of Codecheck, DHTech Code Review, JCLS, and CHR approaches 
+- 30min: Lightning talks of projects to be code checked (~6 papers)
+- 5 minutes: Brief background; Language/technologies; What to be checked
+    - Break 10 min
+- 50min: Code Checking in groups
+    - Break up into teams of 4 
+- 30min: Groups report back findings to plenum including collective note taking for write up
+- 30min: Wrap up discussion
 
 
 To participate, please select this workshop when you [register for CHR2027](https://2027.computational-humanities-research.org/registration/).
@@ -39,13 +40,17 @@ To nominate a paper to be checked, please fill out [this form]. Note that we wil
 
 
 Workshop Organizers
-Rebecca Sutton Koeser (rkoeser@princeton.edu) 
+
+**Rebecca Sutton Koeser (rkoeser@princeton.edu)**
+
 Rebecca is the Lead Research Software Engineer at Center for Digital Humanities at Princeton University and a member of the DHTech Steering Committee and DHTech Code Review working group. She is also an Associate Editor for Computational Humanities Research journal, where she has worked with Lauren Tilton to establish the Software Paper as a new genre for the field and is currently co-editing a themed issue on Reproducibility and Replicability with Miguel Escobar Varela. 
 
-Malte Vogl (vogl@gea.mpg.de)
+**Malte Vogl (vogl@gea.mpg.de)**
+
 Malte is a Senior Researcher at the Berlin-Brandenburg Academy of Sciences and affiliated with the Max Planck Institute of Geoanthropology. He is a founding member of DHTech and has run several workshops on both the theoretical and practical side of code quality and reproducibility.
 
-Miguel Escobar Varela (m.escobar@nus.edu.sg)
+**Miguel Escobar Varela (m.escobar@nus.edu.sg)**
+
 Associate Professor of English, Linguistics and Theatre Studies and Deputy Director of the Centre for Computational Social Science and Humanities, National University of Singapore. An Associate Editor for Computational Humanities Research journal and co-editing a themed issue on Reproducibility and Replicability with Rebecca Koeser.
 
 Workshop Presenters and Facilitators (preliminary)

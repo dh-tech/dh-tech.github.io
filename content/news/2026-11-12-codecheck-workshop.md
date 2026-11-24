@@ -49,7 +49,7 @@ Rebecca is the Lead Research Software Engineer at Center for Digital Humanities 
 
 Malte is a Senior Researcher at the Berlin-Brandenburg Academy of Sciences and affiliated with the Max Planck Institute of Geoanthropology. He is a founding member of DHTech and has run several workshops on both the theoretical and practical side of code quality and reproducibility.
 
-**Miguel Escobar Varela (m.escobar@nus.edu.sg)**
+**Miguel Escobar Varela**
 
 Associate Professor of English, Linguistics and Theatre Studies and Deputy Director of the Centre for Computational Social Science and Humanities, National University of Singapore. An Associate Editor for Computational Humanities Research journal and co-editing a themed issue on Reproducibility and Replicability with Rebecca Koeser.
 

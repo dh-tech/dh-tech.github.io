@@ -1,6 +1,6 @@
 ---
 title: "CODECHECK workshop at CHR2027" 
-date: 2026-11-18T16:12:09-04:00 
+date: 2026-11-24T16:12:09-04:00 
 categories:
   - Technology
 thumbnail: 

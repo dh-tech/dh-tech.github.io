@@ -55,7 +55,6 @@ Associate Professor of English, Linguistics and Theatre Studies and Deputy Direc
 
 ### Workshop Presenters and Facilitators 
 
-_(preliminary)_
-CODECHECK co-PI Stephen J. Eglen, Professor of Computational Neuroscience, University of Cambridge
-Jacob Murel, Research Software Engineer, Princeton University
+- CODECHECK co-PI Stephen J. Eglen, Professor of Computational Neuroscience, University of Cambridge
+- Jacob Murel, Research Software Engineer, Princeton University
 

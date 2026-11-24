@@ -22,7 +22,9 @@ Participants will be expected to bring a laptop with admin rights so they can in
 
 We particularly welcome graduate students and early career researchers; as the CODE CHECKS guidelines note, “codechecks are an excellent opportunity to involve early career researchers (ECRs) or research software engineers (RSEs) in peer review.” 
 
-Preliminary workshop schedule (subject to change):
+## Workshop schedule 
+
+*(preliminary, subject to change)*
 
 - 30min: Introductions of Codecheck, DHTech Code Review, JCLS, and CHR approaches 
 - 30min: Lightning talks of projects to be code checked (~6 papers)

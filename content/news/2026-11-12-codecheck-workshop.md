@@ -36,7 +36,7 @@ We particularly welcome graduate students and early career researchers; as the C
 
 To participate, please select this workshop when you [register for CHR2027](https://2027.computational-humanities-research.org/registration/).
 
-To nominate a paper to be checked, please fill out [this form](https://forms.gle/6EB7mHuqRLzNKkKj7). Note that we will give priority to papers of authors who are able to attend the workshop, since this makes it much more likely that the code checks will be completed during the workshop.
+To suggest a paper to be checked, please fill out [our paper nomination form](https://forms.gle/6EB7mHuqRLzNKkKj7). Note that we will give priority to papers of authors who are able to attend the workshop, since this makes it much more likely that the code checks will be completed during the workshop.
 
 
 ## Workshop Organizers

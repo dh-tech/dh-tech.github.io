@@ -1,5 +1,5 @@
 ---
-title: "CODECHECK workshop at CHR2027!" 
+title: "CODECHECK workshop at CHR2027" 
 date: 2026-11-18T16:12:09-04:00 
 categories:
   - Technology

@@ -24,8 +24,6 @@ We particularly welcome graduate students and early career researchers; as the C
 
 ## Workshop schedule 
 
-*(preliminary, subject to change)*
-
 - 30min: Introductions of Codecheck, DHTech Code Review, JCLS, and CHR pproaches 
 - 30min: Lightning talks of projects to be code checked (~6 papers)
 - 5 minutes: Brief background; Language/technologies; What to be checked

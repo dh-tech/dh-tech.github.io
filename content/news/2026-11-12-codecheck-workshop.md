@@ -41,7 +41,7 @@ To nominate a paper to be checked, please fill out [this form]. Note that we wil
 
 Workshop Organizers
 
-**Rebecca Sutton Koeser (rkoeser@princeton.edu)**
+**Rebecca Sutton Koeser**
 
 Rebecca is the Lead Research Software Engineer at Center for Digital Humanities at Princeton University and a member of the DHTech Steering Committee and DHTech Code Review working group. She is also an Associate Editor for Computational Humanities Research journal, where she has worked with Lauren Tilton to establish the Software Paper as a new genre for the field and is currently co-editing a themed issue on Reproducibility and Replicability with Miguel Escobar Varela. 
 

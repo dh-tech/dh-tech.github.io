@@ -41,7 +41,7 @@ To participate, please select this workshop when you [register for CHR2027](http
 To nominate a paper to be checked, please fill out [this form]. Note that we will give priority to papers of authors who are able to attend the workshop, since this makes it much more likely that the code checks will be completed during the workshop.
 
 
-Workshop Organizers
+## Workshop Organizers
 
 **Rebecca Sutton Koeser**
 

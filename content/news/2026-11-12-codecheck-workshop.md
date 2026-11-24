@@ -47,7 +47,7 @@ To nominate a paper to be checked, please fill out [this form]. Note that we wil
 
 Rebecca is the Lead Research Software Engineer at Center for Digital Humanities at Princeton University and a member of the DHTech Steering Committee and DHTech Code Review working group. She is also an Associate Editor for Computational Humanities Research journal, where she has worked with Lauren Tilton to establish the Software Paper as a new genre for the field and is currently co-editing a themed issue on Reproducibility and Replicability with Miguel Escobar Varela. 
 
-**Malte Vogl (vogl@gea.mpg.de)**
+**Malte Vogl**
 
 Malte is a Senior Researcher at the Berlin-Brandenburg Academy of Sciences and affiliated with the Max Planck Institute of Geoanthropology. He is a founding member of DHTech and has run several workshops on both the theoretical and practical side of code quality and reproducibility.
 

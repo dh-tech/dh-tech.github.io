@@ -55,7 +55,9 @@ Malte is a Senior Researcher at the Berlin-Brandenburg Academy of Sciences and a
 
 Associate Professor of English, Linguistics and Theatre Studies and Deputy Director of the Centre for Computational Social Science and Humanities, National University of Singapore. An Associate Editor for Computational Humanities Research journal and co-editing a themed issue on Reproducibility and Replicability with Rebecca Koeser.
 
-Workshop Presenters and Facilitators (preliminary)
+### Workshop Presenters and Facilitators 
+
+_(preliminary)_
 A CODECHECK project team member (TBD)
 Jacob Murel, Research Software Engineer, Princeton University
 
